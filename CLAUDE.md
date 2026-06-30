@@ -34,7 +34,7 @@ Keep STATUS.md short and current — it is the single source of truth for "where
 - STATUS.md       current snapshot (read this second)
 - DECISIONS.md    append-only decision log
 - ROADMAP.md      July 2026 -> April 2027 plan
-- literature/     references, notes, positioning note
+- literature/     references.bib (Zotero auto-export, cite from here), references.md, notes
 - benchmark/      task suite + harness
 - experiments/    runs, results, analysis
 - writing/        thesis drafts
@@ -44,3 +44,6 @@ Keep STATUS.md short and current — it is the single source of truth for "where
 
 ## Style
 Concise, plain, down to earth. No filler.
+
+## References
+Cite using keys from `literature/references.bib`, e.g. `cemri2025why`, `zhu2025multiagentbench`. That file is auto-exported from Zotero (Better BibTeX, "Keep updated") — edit references in Zotero, not by hand.

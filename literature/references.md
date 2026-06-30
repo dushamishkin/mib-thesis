@@ -1,3 +1,4 @@
+> Index only. The citable source of truth is references.bib (auto-exported from Zotero).
 # References (working set)
 Mirror in Zotero; this is the quick index. Mark each: [to-read] / [read] / [cited].
 
