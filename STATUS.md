@@ -1,8 +1,10 @@
 # STATUS — single source of truth
-_Last updated: 2026-06-28_
+_Last updated: 2026-09-21_
 
 ## Phase
-Setup / pre-July. Proposal submitted. Starting literature review.
+Literature review and scope refinement. Original topic remains the agreed baseline;
+the proposed refinement below has not been approved by the supervisor.
+User reports the project proposal is due at the end of October 2026.
 
 ## Done
 - Topic: Option A (verification-aware multi-agent business-analytics benchmark).
@@ -10,10 +12,18 @@ Setup / pre-July. Proposal submitted. Starting literature review.
 - Design reframed to intervention ladder (V0/V1/V2/C1/V2+C1) after supervisor feedback.
 - Project infrastructure set up (this repo).
 
-## Next (July — light month)
-- Literature review across 4 areas (see ROADMAP.md).
-- Deliverable: annotated bibliography + 1-page positioning note -> send to supervisor.
-- Run the MAST annotator on a few sample traces to learn it.
+## Review findings (September)
+- AgenticData, DataCross and recent MAS memory work weaken broad priority claims.
+- Recommended refinement: retain verification and structured context, test their
+  separate/joint effects on document-defined business rules with controlled variants.
+- Shared context was already in the original intervention ladder; MAS remains central.
+- No experiments or novelty claims have been validated by a pilot yet.
+
+## Next
+- Discuss the refinement with the supervisor before changing the agreed title.
+- Build 10–15 base pilot tasks with checked rules and executable reference answers.
+- Specify independent verification, common source access and budget-matched controls.
+- Update the old roadmap and formal proposal after scope agreement.
 
 ## Open questions
 - Confirm April 2027 deadline with supervisor.

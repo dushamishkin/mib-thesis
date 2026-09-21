@@ -1,5 +1,11 @@
 # Decisions log (append-only, newest first)
 
+- 2026-09-21 — User confirms MAS must remain central because of supervisor interest;
+  project proposal deadline is end October 2026. Literature review suggests retaining
+  the original verification/context comparison and testing document-defined rules.
+  This is a recommendation pending user/supervisor scope agreement, not an approved
+  topic change. Remove unsupported broad "first benchmark" claims in the next draft.
+
 - 2026-06-28 — Infrastructure: git repo in this folder + private GitHub; Markdown files as
   continuous memory; Zotero for references; Overleaf (LaTeX) for writing later; Claude Code
   subagents for lit-review / experiments / writing.
