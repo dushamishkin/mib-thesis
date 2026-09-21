@@ -1,34 +1,28 @@
-# STATUS — single source of truth
+# STATUS — current snapshot
 _Last updated: 2026-09-21_
 
 ## Phase
-Literature review and scope refinement. Original topic remains the agreed baseline;
-the proposed refinement below has not been approved by the supervisor.
-User reports the project proposal is due at the end of October 2026.
+Author-approved scope refinement; supervisor agreement pending. Original title retained.
+Project proposal due end October 2026; April 2027 completion is provisional.
 
 ## Done
-- Topic: Option A (verification-aware multi-agent business-analytics benchmark).
-- Supervisor secured: Prof. Liu Jialu. Proposal submitted.
-- Design reframed to intervention ladder (V0/V1/V2/C1/V2+C1) after supervisor feedback.
-- Project infrastructure set up (this repo).
-
-## Review findings (September)
-- AgenticData, DataCross and recent MAS memory work weaken broad priority claims.
-- Recommended refinement: retain verification and structured context, test their
-  separate/joint effects on document-defined business rules with controlled variants.
-- Shared context was already in the original intervention ladder; MAS remains central.
-- No experiments or novelty claims have been validated by a pilot yet.
+- Re-read the filled original proposal and project decision history.
+- Reviewed closest analytics, MAS coordination and memory studies.
+- Author accepted a controlled study of executable verification and context alignment on document-defined business rules.
+- Updated design, literature positioning, roadmap and project guidance.
+- Prepared supervisor email draft; not sent.
 
 ## Next
-- Discuss the refinement with the supervisor before changing the agreed title.
-- Build 10–15 base pilot tasks with checked rules and executable reference answers.
-- Specify independent verification, common source access and budget-matched controls.
-- Update the old roadmap and formal proposal after scope agreement.
+1. Review/send the supervisor email and record feedback.
+2. Audit public candidate data and create 10–15 base pilot tasks with checked rule variants.
+3. Implement fixed-team V0/V2/C1/V2+C1, strong single-agent and budget controls.
+4. Run pilot, freeze scope and hypotheses, and prepare the formal October proposal.
+
+## Evidence and limits
+No benchmark implementation, pilot runs or measured findings yet. Empirical novelty remains a candidate supported by targeted review, not an exhaustive priority claim. Original DOCX/PDF proposals are historical; current design is proposal/research-design.md.
 
 ## Open questions
-- Confirm April 2027 deadline with supervisor.
-- Which datasets make the first benchmark cut (BIRD vs InfiAgent-DABench vs others).
-- Checkpoint cadence with supervisor (monthly vs milestone-based).
-
-## Blocked
-- Nothing.
+- Supervisor agreement on refinement and whether the title needs changing.
+- Formal proposal requirements and exact October submission date.
+- Final submission date, model/API budget and dataset licensing/suitability.
+- Checkpoint cadence with supervisor.

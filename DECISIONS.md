@@ -1,5 +1,14 @@
 # Decisions log (append-only, newest first)
 
+- 2026-09-21 — Author accepted the refined scope: preserve the original title and MAS
+  business-analytics focus; estimate separate/joint effects of V2 and C1 using
+  document-defined rules and controlled consistent/conflicting variants. Primary
+  conditions are V0/V2/C1/V2+C1; V1 and broader topology/access experiments are
+  optional. Supervisor agreement remains pending. Update active project documents,
+  preserve historical proposals, and prepare an email draft (not sent). The main
+  experiment follows the end-October proposal rather than preceding it.
+
+
 - 2026-09-21 — User confirms MAS must remain central because of supervisor interest;
   project proposal deadline is end October 2026. Literature review suggests retaining
   the original verification/context comparison and testing document-defined rules.

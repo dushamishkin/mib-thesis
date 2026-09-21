@@ -1,16 +1,24 @@
-# Roadmap — July 2026 -> April 2027
+# Roadmap — September 2026 to April 2027
 
-Literature work is front-loaded and kept running, so the design isn't blind.
+Updated 21 September 2026. Replaces the previous July-based schedule. Milestones are plans, not completed work. End-October proposal submission is confirmed by the author; April 2027 completion remains provisional.
 
-- Jul (light): lit review across 4 areas (multi-agent systems & failures; verification /
-  self-correction; text-to-SQL & data-analysis benchmarks; LLM-as-judge). Deliverable:
-  annotated bib + 1-page positioning note. Set up repo; run MAST annotator on samples.
-- Aug: finalize benchmark scope + task suite + milestones; build single-/multi-agent baseline.
-- Sep: implement intervention ladder; pilot.
-- Oct: full experiments across complexity + models; collect traces.
-- Nov: MAST failure annotation + validation; analysis.
-- Dec: buffer + mid-point supervisor review; start drafting Related Work + Intro.
-- Jan: finalize results/figures; release benchmark + code.
-- Feb: full draft.
-- Mar: revisions + defence prep.
-- Apr: submission + defence.
+| Period | Work | Reviewable output / decision |
+|---|---|---|
+| 21–30 September | Discuss scope refinement; audit closest literature and candidate public datasets | Supervisor feedback, contribution statement, candidate-data checklist |
+| 1–10 October | Create 10–15 base tasks with consistent/conflicting rule variants; independently check reference computations; implement minimal fixed-team harness | Audited pilot suite and working controls |
+| 11–20 October | Pilot verification/context conditions; inspect errors, model variability and actual costs | Feasibility results and frozen main-study scope; choose task/model/run counts |
+| 21–31 October | Finalize literature review, questions, methodology and expected contribution; incorporate supervisor feedback | Submit project proposal by the official end-October deadline |
+| November | Expand and audit task suite; complete controls and diagnostic checks; separate development/test cases | Frozen test suite and prespecified analysis plan |
+| December | Main experiments and trace collection; begin methods/related-work chapters | Reproducible runs, cost records and initial analysis |
+| January 2027 | Validate failure annotation; run only targeted robustness checks; finalize statistics | Tables, figures, documented null/positive findings and draft practitioner guidance |
+| February | Write complete thesis and review with supervisor | Full draft |
+| March | Revise, prepare reproducibility release and defence materials | Revised thesis and presentation |
+| April (provisional) | Final revisions, submission and defence according to confirmed university dates | Final thesis |
+
+## Scope and feasibility gates
+
+- Before pilot: public-data permissions, correct labels and source applicability must be auditable. Hidden gold stays outside agent/verifier access.
+- After pilot: narrow dataset/model/task count if costs are excessive. Preserve the core 2×2 comparison before adding V1, other topologies, modalities or distributed-access conditions.
+- Pilot is for feasibility and measurement validity, not selecting only tasks where our preferred method wins. A robust null result remains valid.
+- No full experiment campaign is required before the October proposal.
+- No employer data, human-subject study or production deployment is needed.

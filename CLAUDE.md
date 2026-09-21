@@ -1,49 +1,48 @@
 # MIB Thesis — Project Guide
 
-Read this first, every session. Then read STATUS.md for current state.
+Read this first, then STATUS.md at the start of each session.
 
-## What this is
-Master's (MIB, Antai / SJTU) thesis by Mikhail Dushkin. Supervisor: Prof. Liu Jialu (刘佳璐).
-Topic: a verification-aware benchmark for multi-agent LLM systems in business analytics.
+## Project and current authority
 
-## Core idea
-Multi-agent LLM systems often don't beat single agents (MAST, arXiv:2503.13657). We build a
-public-data benchmark of business-analytics tasks (which have checkable, executable ground-truth
-answers), measure when multi-agent beats single, diagnose failures with the MAST taxonomy, and
-test an intervention ladder:
-- V0  no verification
-- V1  shallow self-check (a critic agent re-reads)
-- V2  grounded executable verification (re-run the SQL / recompute the metric)
-- C1  structured shared context (for inter-agent misalignment)
-- V2+C1  combined
-Why analytics: answers are executable, so the grounded multi-level verification the MAST authors
-say is missing/needed is actually feasible here. The data is the oracle.
+Master's thesis by Mikhail Dushkin, MIB, Antai / SJTU. Supervisor: Prof. Liu Jialu (刘佳璐).
+Retained title: When Analysts Become Agents: A Verification-Aware Benchmark for Multi-Agent LLM Systems in Business Analytics.
 
-## Hard constraints
-- Public data + code only. No human subjects. No proprietary/employer data. Keep employer IP out.
-- Deadline target: ~April 2027 (confirm with supervisor).
+The author accepted the refined scope on 2026-09-21. Supervisor agreement is pending. Do not describe the revision as approved by the supervisor or the October proposal as already submitted.
 
-## Working protocol (this is the continuous memory)
-1. Start: read CLAUDE.md + STATUS.md.
-2. Do the task.
-3. End: update STATUS.md (what changed, what's next). Log real decisions in DECISIONS.md with a date.
-4. Commit: git add -A && git commit -m "...".
-Keep STATUS.md short and current — it is the single source of truth for "where are we".
+## Core question
 
-## Layout
-- STATUS.md       current snapshot (read this second)
-- DECISIONS.md    append-only decision log
-- ROADMAP.md      July 2026 -> April 2027 plan
-- literature/     references.bib (Zotero auto-export, cite from here), references.md, notes
-- benchmark/      task suite + harness
-- experiments/    runs, results, analysis
-- writing/        thesis drafts
-- proposal/       submitted proposal (docx/pdf)
-- meetings/       supervisor notes
-- .claude/agents/ task-specific subagents (lit-review, experiments, writing)
+When do independent executable verification and shared business-context alignment improve multi-agent business analytics, separately and jointly, under consistent and conflicting document-defined rules?
 
-## Style
-Concise, plain, down to earth. No filler.
+MAS remains the central object. Use a fixed team initially. Keep a strong single-agent control. Public tables plus documentation define the task; tables alone do not determine semantic correctness.
 
-## References
-Cite using keys from `literature/references.bib`, e.g. `cemri2025why`, `zhu2025multiagentbench`. That file is auto-exported from Zotero (Better BibTeX, "Keep updated") — edit references in Zotero, not by hand.
+Primary factorial conditions preserve the original labels:
+- V0: baseline MAS with ordinary execution but no additional verification/context intervention.
+- V2: independent executable verification.
+- C1: structured shared business context and explicit reconciliation.
+- V2+C1: both interventions.
+V1 (text-only critic) is an optional secondary comparator, subject to pilot budget. Do not silently rename V2 as V1.
+
+See proposal/research-design.md for interventions, controls and evaluation. Shared-context schema is populated by agents, never with hidden gold answers. Re-running identical code is not independent verification. MAST labels describe traces; causal conclusions require controlled comparisons.
+
+## Constraints
+
+- Public data and code only; no proprietary/employer data and no human-subject study.
+- No automatic superiority assumption for MAS or combined interventions.
+- Do not claim the first business-analytics MAS benchmark or a new universal memory protocol.
+- No formal protocol guarantees, live Confluence integration, broad topology search or multimodal parsing in the initial scope.
+- End-October 2026 project proposal deadline; final submission around April 2027 is unconfirmed.
+
+## Workflow
+
+1. Read this guide and STATUS.md.
+2. Do the task, preserving unrelated user edits.
+3. Update STATUS.md and append dated decisions to DECISIONS.md; distinguish author decisions, recommendations and supervisor approval.
+4. Commit only reviewed task files. Never blanket-stage pre-existing changes.
+
+## Layout and references
+
+proposal/research-design.md is the current working design. Earlier DOCX/PDF files are historical, not current instructions. ROADMAP.md contains the revised schedule. meetings/ contains correspondence drafts and meeting records; a draft is not a sent message.
+
+literature/references.bib is Zotero Better BibTeX auto-exported: do not edit it manually. Record newly reviewed sources and stable URLs in references.md until they are imported into Zotero. Do not label skimmed or abstract-only papers as fully read. Use existing citation keys where available; never invent keys.
+
+Style: concise, plain language. Report limitations and null results honestly.
