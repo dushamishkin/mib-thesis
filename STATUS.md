@@ -13,7 +13,7 @@ Project proposal due end October 2026; April 2027 completion is provisional.
 - Reviewed closest analytics, MAS coordination and memory studies.
 - Author accepted a controlled study of executable verification and context alignment on document-defined business rules.
 - Updated design, literature positioning, roadmap and project guidance.
-- Updated supervisor email draft to request approval of the new title; not sent.
+- Revised supervisor email to explain the new coordination-focused topic, concrete document/table example, continuity with verification, and roadmap; not sent.
 
 ## Next
 1. Review/send the supervisor email and record feedback.
