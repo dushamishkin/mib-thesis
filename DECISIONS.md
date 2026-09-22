@@ -1,5 +1,7 @@
 # Decisions log (append-only, newest first)
 
+- 2026-09-22 — Author selected the proposed title “Coordinating Distributed Business Knowledge in Multi-Agent Analytics: A Controlled Study of Shared Memory and Conflict Resolution”. This supersedes the 21 September preference to retain the original title. Supervisor approval is pending; the email draft now explicitly requests agreement to the title/focus adjustment. The V0/V2/C1/V2+C1 design is unchanged.
+
 - 2026-09-21 — Author accepted the refined scope: preserve the original title and MAS
   business-analytics focus; estimate separate/joint effects of V2 and C1 using
   document-defined rules and controlled consistent/conflicting variants. Primary

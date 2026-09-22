@@ -1,12 +1,12 @@
 # MIB Thesis
 
-**When Analysts Become Agents: A Verification-Aware Benchmark for Multi-Agent LLM Systems in Business Analytics**
+**Coordinating Distributed Business Knowledge in Multi-Agent Analytics: A Controlled Study of Shared Memory and Conflict Resolution**
 
 Mikhail Dushkin · SJTU Antai MIB · Supervisor: Prof. Liu Jialu (刘佳璐)
 
 The thesis studies when independent executable verification and shared business-context alignment improve the reliability of multi-agent analytics, separately and jointly. Tasks combine public structured data with documents defining metrics, applicability periods and exceptions.
 
-The scope refinement was accepted by the author on 21 September 2026 and is **pending supervisor agreement**. The original title is retained. No pilot or empirical findings exist yet.
+The scope refinement was accepted by the author on 21 September 2026 and is **pending supervisor agreement**. The proposed title was selected by the author on 22 September 2026; approval of the title change is pending. No pilot or empirical findings exist yet.
 
 ## Start here
 

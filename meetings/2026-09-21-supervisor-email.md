@@ -1,12 +1,16 @@
 # Email draft — scope refinement and roadmap
 
-Status: draft, not sent. Recipient: Prof. Liu Jialu. No email address has been assumed.
+Status: draft, updated 22 September 2026, not sent. Recipient: Prof. Liu Jialu. No email address has been assumed.
 
-Subject: Thesis scope refinement and proposed roadmap for the October proposal
+Subject: Proposed thesis title and scope refinement — October proposal
 
 Dear Professor Liu,
 
-Following our earlier discussion and a further literature review, I would like to propose a refinement of my thesis, “When Analysts Become Agents: A Verification-Aware Benchmark for Multi-Agent LLM Systems in Business Analytics.” I suggest retaining the current title and the focus on multi-agent systems, while making the research question more specific.
+Following our earlier discussion and a further literature review, I would like to propose a refinement of my thesis, “When Analysts Become Agents: A Verification-Aware Benchmark for Multi-Agent LLM Systems in Business Analytics.” The study would continue to focus on multi-agent systems in business analytics, with a more specific emphasis on how agents share and reconcile business knowledge.
+
+To reflect this focus, I would like to propose the following title:
+
+“Coordinating Distributed Business Knowledge in Multi-Agent Analytics: A Controlled Study of Shared Memory and Conflict Resolution”
 
 The original plan compared verification and structured shared context, including their combination. This remains the core of the study and follows your observation that verification alone may be insufficient. The refinement is to evaluate these mechanisms on analytics tasks where structured data must be interpreted using business rules in documents—for example, metric definitions, applicability periods and product-specific exceptions.
 
@@ -27,7 +31,7 @@ My proposed roadmap is:
 
 The pilot would test the design rather than assume that the combined intervention will perform best. I believe this refinement preserves the original direction while making the contribution more precise and useful for evaluating business-analytics MAS.
 
-Would you consider this a suitable refinement of the agreed topic? I would also appreciate your advice on retaining the title and on the proposed timeline.
+Would you be comfortable with this adjustment to the title and focus of the thesis? The study would retain the original verification and shared-context comparison, while examining it in a more specific business setting. I would also appreciate your feedback on the proposed roadmap.
 
 Best regards,
 Mikhail Dushkin

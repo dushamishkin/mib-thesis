@@ -5,9 +5,10 @@ Read this first, then STATUS.md at the start of each session.
 ## Project and current authority
 
 Master's thesis by Mikhail Dushkin, MIB, Antai / SJTU. Supervisor: Prof. Liu Jialu (刘佳璐).
-Retained title: When Analysts Become Agents: A Verification-Aware Benchmark for Multi-Agent LLM Systems in Business Analytics.
+Proposed title: Coordinating Distributed Business Knowledge in Multi-Agent Analytics: A Controlled Study of Shared Memory and Conflict Resolution.
+Previously agreed title: When Analysts Become Agents: A Verification-Aware Benchmark for Multi-Agent LLM Systems in Business Analytics.
 
-The author accepted the refined scope on 2026-09-21. Supervisor agreement is pending. Do not describe the revision as approved by the supervisor or the October proposal as already submitted.
+The author accepted the refined scope on 2026-09-21. The author selected the new title on 2026-09-22. Supervisor agreement on the refinement and title change is pending. Do not describe the revision as approved by the supervisor or the October proposal as already submitted.
 
 ## Core question
 

@@ -1,10 +1,13 @@
 # Current research design
 
-21 September 2026 — accepted by Mikhail Dushkin; pending Prof. Liu Jialu's agreement.
+Scope accepted on 21 September 2026; title selected on 22 September 2026 by Mikhail Dushkin. Supervisor agreement remains pending.
 
-## Retained title
+## Proposed title
 
-When Analysts Become Agents: A Verification-Aware Benchmark for Multi-Agent LLM Systems in Business Analytics.
+Coordinating Distributed Business Knowledge in Multi-Agent Analytics: A Controlled Study of Shared Memory and Conflict Resolution.
+
+Previously agreed title: When Analysts Become Agents: A Verification-Aware Benchmark for Multi-Agent LLM Systems in Business Analytics.
+The proposed title emphasizes coordination through shared context and conflict resolution. Executable verification remains part of the controlled design; this title decision does not introduce a new universal memory architecture or change the experimental conditions.
 
 ## Objective and continuity
 

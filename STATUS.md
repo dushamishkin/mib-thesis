@@ -1,8 +1,11 @@
 # STATUS — current snapshot
-_Last updated: 2026-09-21_
+_Last updated: 2026-09-22_
+
+## Proposed title
+Coordinating Distributed Business Knowledge in Multi-Agent Analytics: A Controlled Study of Shared Memory and Conflict Resolution
 
 ## Phase
-Author-approved scope refinement; supervisor agreement pending. Original title retained.
+Author-approved scope refinement; supervisor agreement pending. New title selected by the author on 22 September; title change pending supervisor approval.
 Project proposal due end October 2026; April 2027 completion is provisional.
 
 ## Done
@@ -10,7 +13,7 @@ Project proposal due end October 2026; April 2027 completion is provisional.
 - Reviewed closest analytics, MAS coordination and memory studies.
 - Author accepted a controlled study of executable verification and context alignment on document-defined business rules.
 - Updated design, literature positioning, roadmap and project guidance.
-- Prepared supervisor email draft; not sent.
+- Updated supervisor email draft to request approval of the new title; not sent.
 
 ## Next
 1. Review/send the supervisor email and record feedback.
@@ -22,7 +25,7 @@ Project proposal due end October 2026; April 2027 completion is provisional.
 No benchmark implementation, pilot runs or measured findings yet. Empirical novelty remains a candidate supported by targeted review, not an exhaustive priority claim. Original DOCX/PDF proposals are historical; current design is proposal/research-design.md.
 
 ## Open questions
-- Supervisor agreement on refinement and whether the title needs changing.
+- Supervisor agreement on refinement and the proposed new title.
 - Formal proposal requirements and exact October submission date.
 - Final submission date, model/API budget and dataset licensing/suitability.
 - Checkpoint cadence with supervisor.

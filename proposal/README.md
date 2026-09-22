@@ -1,6 +1,6 @@
 # Proposal versions
 
-- **Current working design:** [research-design.md](research-design.md), author-approved refinement dated 21 September 2026; supervisor agreement pending.
+- **Current working design:** [research-design.md](research-design.md), scope accepted on 21 September and new title selected on 22 September 2026; supervisor agreement pending.
 - **Historical files:** proposal_OptionA_filled.docx and Mikhail_Dushkin_proposal.pdf reflect earlier formulations. proposal.docx is the earlier template. Preserve these for traceability; do not treat their priority claims or July-based schedule as current.
 - **Upcoming formal submission:** project proposal due end October 2026. The current Markdown design is not a completed university-format proposal. Formatting, length and exact deadline requirements remain to be confirmed.
 

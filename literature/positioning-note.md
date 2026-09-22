@@ -1,10 +1,10 @@
-# Literature positioning — 21 September 2026
+# Literature positioning — 22 September 2026
 
-Author-approved direction; supervisor agreement pending. Targeted review, not an exhaustive systematic review. No experimental findings yet.
+Author-approved direction and proposed title; supervisor agreement pending. Targeted review, not an exhaustive systematic review. No experimental findings yet.
 
 ## Position
 
-Study the separate and joint effects of independent executable verification (V2) and shared business-context alignment (C1) in a fixed analytics MAS under consistent and conflicting document-defined rules. This refines the original intervention ladder and keeps the original title and domain. The contribution sought is controlled empirical evidence and a reusable paired evaluation suite, rather than a new universal memory system.
+Study the separate and joint effects of independent executable verification (V2) and shared business-context alignment (C1) in a fixed analytics MAS under consistent and conflicting document-defined rules. This refines the original intervention ladder and keeps the original MAS/business-analytics domain. The contribution sought is controlled empirical evidence and a reusable paired evaluation suite, rather than a new universal memory system.
 
 ## Closest work and the boundary of our claim
 
