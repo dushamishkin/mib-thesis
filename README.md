@@ -21,7 +21,7 @@ The supervisor approved the revised title, scope and roadmap according to the au
 |---|---|
 | [ROADMAP.md](ROADMAP.md) / [DECISIONS.md](DECISIONS.md) | Schedule and decision history |
 | [literature/references.md](literature/references.md) | Reading index and metadata audit |
-| [literature/references.bib](literature/references.bib) | Portable project bibliography |
+| [literature/references.bib](literature/references.bib) | Generated Zotero bibliography; do not edit manually |
 | [literature/positioning-note.md](literature/positioning-note.md) | Contribution boundaries |
 | [benchmark/README.md](benchmark/README.md) | Data audit and task construction |
 | [experiments/README.md](experiments/README.md) | Run and reproducibility requirements |

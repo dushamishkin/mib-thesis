@@ -63,10 +63,12 @@ See proposal/research-design.md for interventions, controls and evaluation. Shar
   is not permission to delete it just to obtain a clean status.
 
 ## Literature and research integrity
-`literature/references.bib` is the versioned project bibliography, maintained from verified
-primary metadata; it is no longer an unattended Zotero auto-export target. Keep existing keys
-stable. Import/merge into Zotero separately, disable any old overwrite export, and reconcile by
-DOI/arXiv ID before intentional re-export. Never claim Zotero was synced unless confirmed.
+Zotero's `MIB Thesis` collection is the bibliography source of truth.
+`literature/references.bib` is a generated, version-controlled Better BibTeX export;
+never edit it manually. Edit metadata in Zotero, reconcile by DOI/arXiv ID before adding
+records, preserve pinned project citation keys, and review the automatic export diff.
+Keep updated must target this checkout and omit attachment paths. See WORKFLOW.md for
+configuration and recovery. Never claim Zotero was synced unless confirmed.
 `literature/references.md` records reading scope and metadata audit status. Metadata verification
 is not full-paper reading. Pin the version supporting a scientific claim; check newer versions
 before claiming a gap. Mark unverified records and do not invent authors, dates, keys or findings.

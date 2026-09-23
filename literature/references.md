@@ -1,16 +1,40 @@
 # Reference index and metadata audit
 
 Updated 23 September 2026. All 29 indexed works have corresponding entries in
-[references.bib](references.bib); titles, authors, first arXiv year, identifier and available
-version were retrieved from primary arXiv pages. These are arXiv-edition citations, not a
-claim that every final venue/publication status has been checked. Existing two keys are
-preserved; additional deterministic `arxiv…` keys are defined in the BibTeX file.
+[references.bib](references.bib). The earlier primary-arXiv audit covered titles, authors,
+first arXiv year, identifiers and observed versions; it did not verify all final venues.
+All 29 project citation keys were preserved during the Zotero reconciliation.
 
-## Ownership and limitations
-The BibTeX is now a portable project bibliography, not an automatic Zotero export target.
-Local attachment paths were removed. Zotero Desktop/API was unavailable during this audit:
-no Zotero import or synchronization has occurred. Disable the previous auto-export on the
-author's machine, then import/merge the project BibTeX by identifier and preserve keys.
+## Ownership and synchronization
+Zotero's **My Library / MIB Thesis** collection (`W5I5MZBH`) is the source of truth.
+[references.bib](references.bib) is its generated Better BibTeX export: **do not edit it
+manually**. Configuration, ongoing edits and recovery are in [WORKFLOW.md](../WORKFLOW.md).
+Zotero Desktop 10.0.4 and local API v3 were tested successfully on 23 September 2026.
+Keep updated is enabled for the current checkout; the former-path export is disabled.
+The export contains no attachment paths. Settings persisted after closing and reopening Zotero;
+the Desktop collection still contained 29 items and the local API responded successfully.
+
+Reconciliation: the collection initially held two works; 18 existing library items were
+added to it, and nine absent works were imported from the project BibTeX. DOI/arXiv matching
+identified seven reused items; 13 others lacked identifiers and were matched by title and
+authors before adding the arXiv identifiers. Two pre-existing duplicate records outside the
+collection were left untouched. No existing items were deleted and no collection was replaced.
+The resulting collection has 29 distinct indexed arXiv IDs. Project keys are pinned in the
+native Citation Key field; 18 former library keys are retained as `ids` aliases.
+Titles/authors were reconciled to the audited project metadata. Existing venue/type/date
+fields were retained: exported conference editions and their publication years are **not**
+a fresh verification of final publication metadata. The arXiv links and reading table below
+remain the scope of the prior audit. Review venue details before submission.
+
+Live test: temporarily prefixed the `tex.note` field of item `PKZCLZLT` with
+`MIB_AUTOSYNC_TEST_20260923`. The exported note changed automatically (with BibTeX-escaped
+underscores), without a manual export. Restoring the original note triggered another automatic
+export and recovered the exact original file hash. The marker is absent from the final file.
+
+- Before and restored SHA-256: `a175b1a77e4467ec1d5b589837f3d226d30ffbfd8fd7391f26d1269e06c83af8`.
+- Changed SHA-256: `56f32c115d3a67f7b3215dea33e05fc2643b3432c5eedab6694291d64dd610e4`.
+
+This verifies local Zotero-to-file synchronization, not zotero.org cloud synchronization.
 
 Metadata verification does not mean full-paper reading. Earlier selected-section reviews
 are preserved below; experiments have not been reproduced. A missing reviewed version is
