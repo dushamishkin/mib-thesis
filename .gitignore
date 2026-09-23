@@ -1,11 +1,25 @@
+# Local environments and credentials
 .DS_Store
-__pycache__/
-*.pyc
 .venv/
 venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
 node_modules/
+# Reproducible bulk inputs/outputs; commit manifests instead
+/data/
+/artifacts/
+/runs/
+/.scratch/
+*.ckpt
+# Temporary transfers and editor/build output
+*.patch
+*.swp
+*.tmp
 *.aux
 *.log
 *.out
-data/
-*.ckpt
+*.toc
+*.synctex.gz

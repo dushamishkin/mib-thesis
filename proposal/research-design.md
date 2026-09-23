@@ -1,13 +1,13 @@
 # Current research design
 
-Scope accepted on 21 September 2026; title selected on 22 September 2026 by Mikhail Dushkin. Supervisor agreement remains pending.
+Revised title, scope and roadmap approved by the supervisor, as reported by Mikhail Dushkin on 23 September 2026. Detailed hypotheses and implementation remain subject to pilot validation.
 
-## Proposed title
+## Approved title
 
 Coordinating Distributed Business Knowledge in Multi-Agent Analytics: A Controlled Study of Shared Memory and Conflict Resolution.
 
 Previously agreed title: When Analysts Become Agents: A Verification-Aware Benchmark for Multi-Agent LLM Systems in Business Analytics.
-The proposed title emphasizes coordination through shared context and conflict resolution. Executable verification remains part of the controlled design; this title decision does not introduce a new universal memory architecture or change the experimental conditions.
+The approved title emphasizes coordination through shared context and conflict resolution. Executable verification remains part of the controlled design; this title decision does not introduce a new universal memory architecture or change the experimental conditions.
 
 ## Objective and continuity
 

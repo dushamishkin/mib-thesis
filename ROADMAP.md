@@ -1,10 +1,10 @@
 # Roadmap — September 2026 to April 2027
 
-Updated 21 September 2026. Replaces the previous July-based schedule. Milestones are plans, not completed work. End-October proposal submission is confirmed by the author; April 2027 completion remains provisional.
+Updated 23 September 2026. Supervisor approved the roadmap according to the author; exact institutional dates still require confirmation. Replaces the previous July-based schedule. Milestones are plans, not completed work. End-October proposal submission is confirmed by the author; April 2027 completion remains provisional.
 
 | Period | Work | Reviewable output / decision |
 |---|---|---|
-| 21–30 September | Discuss scope refinement; audit closest literature and candidate public datasets | Supervisor feedback, contribution statement, candidate-data checklist |
+| 21–30 September | Scope/title approved; prepare repository and audit closest literature and candidate public datasets | Approval record, clean working repository, contribution statement and candidate-data checklist |
 | 1–10 October | Create 10–15 base tasks with consistent/conflicting rule variants; independently check reference computations; implement minimal fixed-team harness | Audited pilot suite and working controls |
 | 11–20 October | Pilot verification/context conditions; inspect errors, model variability and actual costs | Feasibility results and frozen main-study scope; choose task/model/run counts |
 | 21–31 October | Finalize literature review, questions, methodology and expected contribution; incorporate supervisor feedback | Submit project proposal by the official end-October deadline |

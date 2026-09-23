@@ -1,31 +1,41 @@
-# STATUS — current snapshot
-_Last updated: 2026-09-22_
+# Current status
+Updated: 23 September 2026.
 
-## Proposed title
-Coordinating Distributed Business Knowledge in Multi-Agent Analytics: A Controlled Study of Shared Memory and Conflict Resolution
+## Authority and phase
+Supervisor approved the revised title, scope and roadmap, as reported by the author on
+23 September. See [approval record](meetings/2026-09-23-supervisor-approval.md).
+Phase: repository preparation, then candidate-data audit. End-October 2026 proposal deadline;
+April 2027 completion remains provisional. Formal requirements are still pending.
 
-## Phase
-Author-approved scope refinement; supervisor agreement pending. New title selected by the author on 22 September; title change pending supervisor approval.
-Project proposal due end October 2026; April 2027 completion is provisional.
+## Completed
+- Updated research design, positioning and roadmap for the approved direction.
+- Added shared agent instructions, session handoff workflow and repository hygiene checks.
+- Audited the bibliography against primary metadata; see literature/references.md for coverage,
+  newer-version follow-ups and any unresolved checks. Zotero Desktop is unavailable here;
+  no claim of synchronization with the author's Zotero library is made.
+- Isolated historical proposals and retained the original university template.
+- Offline hygiene/link/BibTeX checks pass for 29 indexed records; original archived PDF
+  parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
-## Done
-- Re-read the filled original proposal and project decision history.
-- Reviewed closest analytics, MAS coordination and memory studies.
-- Author accepted a controlled study of executable verification and context alignment on document-defined business rules.
-- Updated design, literature positioning, roadmap and project guidance.
-- Revised supervisor email to explain the new coordination-focused topic, concrete document/table example, continuity with verification, and roadmap; not sent.
+## Next task — candidate-data audit
+Audit DABstep first, LongDA second. Record primary dataset/code URLs, licenses, accessible
+splits and labels, table/document structure, derivative-use restrictions and feasibility of
+10–15 paired tasks in benchmark/README.md. Inspect real examples before selecting data.
+Do not start the main experiment or assume that candidate datasets are usable.
+Acceptance: an evidence-backed dataset choice and a small pilot task specification with
+independently checkable answers, without exposing gold to agents.
 
-## Next
-1. Review/send the supervisor email and record feedback.
-2. Audit public candidate data and create 10–15 base pilot tasks with checked rule variants.
-3. Implement fixed-team V0/V2/C1/V2+C1, strong single-agent and budget controls.
-4. Run pilot, freeze scope and hypotheses, and prepare the formal October proposal.
+## Before pilot implementation
+- Recheck updated versions of closest work identified in literature/references.md.
+- Confirm formal proposal requirements/date, model/API budget and data suitability.
+- Specify the fixed team, V2 independence, C1 schema, caps, scoring and task-level analysis.
 
-## Evidence and limits
-No benchmark implementation, pilot runs or measured findings yet. Empirical novelty remains a candidate supported by targeted review, not an exhaustive priority claim. Original DOCX/PDF proposals are historical; current design is proposal/research-design.md.
+## Evidence and blockers
+No harness, pilot runs, measured findings or frozen test suite yet. Scientific novelty is a
+candidate supported by a targeted review, not a global priority claim. Remote publication
+must be verified at handoff; local commits are not automatically visible to other sessions.
 
-## Open questions
-- Supervisor agreement on refinement and the proposed new title.
-- Formal proposal requirements and exact October submission date.
-- Final submission date, model/API budget and dataset licensing/suitability.
-- Checkpoint cadence with supervisor.
+## Session handoff
+Read AGENTS.md → this file → proposal/research-design.md → relevant task files.
+Use `git log -1` and `git status --short --branch` for the actual revision and workspace state;
+use WORKFLOW.md's handoff format. Do not embed a self-referential commit SHA here.

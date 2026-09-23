@@ -1,5 +1,17 @@
 # Decisions log (append-only, newest first)
 
+- 2026-09-23 — Author reports supervisor approval of the revised title, scope and roadmap.
+  This supersedes pending-approval status in earlier entries; implementation/hypothesis freeze
+  still follows the pilot. Record provenance in meetings/2026-09-23-supervisor-approval.md.
+- 2026-09-23 — At the author's request, make repository cleanliness and portable context
+  permanent: AGENTS.md is the common instruction source, STATUS.md the current handoff,
+  WORKFLOW.md the operating procedure. Preserve meaningful history, not temporary duplicates.
+  Use separate task chats and Git branches/worktrees as needed; chat memory is not canonical.
+- 2026-09-23 — Bibliography maintenance changes from unattended Zotero export to a verified,
+  version-controlled project BibTeX. Preserve existing citation keys, remove local attachment
+  paths and import/merge into Zotero separately. Zotero is unavailable in this environment;
+  author must disable the old auto-export before it can overwrite the curated file.
+
 - 2026-09-22 — Author selected the proposed title “Coordinating Distributed Business Knowledge in Multi-Agent Analytics: A Controlled Study of Shared Memory and Conflict Resolution”. This supersedes the 21 September preference to retain the original title. Supervisor approval is pending; the email draft now explicitly requests agreement to the title/focus adjustment. The V0/V2/C1/V2+C1 design is unchanged.
 
 - 2026-09-21 — Author accepted the refined scope: preserve the original title and MAS

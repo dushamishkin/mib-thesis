@@ -1,6 +1,8 @@
 # Email draft — revised topic, title and roadmap
 
-Status: revised 22 September 2026; draft, not sent. Recipient: Prof. Liu Jialu.
+Status: historical draft revised 22 September 2026; exact sent wording is not verified.
+The author reported supervisor approval on 23 September; see [approval record](2026-09-23-supervisor-approval.md).
+A shorter version was prepared in chat; this file preserves the earlier detailed rationale. Recipient: Prof. Liu Jialu.
 
 Subject: Proposed thesis topic refinement and roadmap
 

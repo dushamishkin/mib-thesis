@@ -1,6 +1,13 @@
-# Literature positioning — 22 September 2026
+# Literature positioning — 23 September 2026
 
-Author-approved direction and proposed title; supervisor agreement pending. Targeted review, not an exhaustive systematic review. No experimental findings yet.
+Supervisor-approved direction and title (author report, 23 September 2026). Targeted review, not an exhaustive systematic review. No experimental findings yet.
+
+## Freshness caveat — 23 September audit
+
+Primary metadata now identifies newer versions of AgenticData (v2), LongDA (v2), AMA (v4),
+Silo-Bench (v2) and MemTX (v2). The comparisons below summarize the earlier inspected material;
+they are not newly validated against every latest version. Recheck these before freezing
+novelty claims. See [reference audit](references.md) for exact reading depth and version gaps.
 
 ## Position
 
