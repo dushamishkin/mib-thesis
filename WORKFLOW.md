@@ -76,10 +76,36 @@ by cloning alone; each environment must configure them. Review both staged and w
 changes if partially staging files. The checks do not replace scientific review.
 
 ## Bibliography ownership
-The project BibTeX is portable and version-controlled. Metadata checks and reading depth are
-separate. The old automatic Zotero export must not overwrite it. On the author's machine,
-disable that export, import/merge references.bib by DOI/arXiv ID, preserve citation keys, then
-review any deliberate export diff. No local Zotero file attachment paths belong in Git.
+Zotero → Better BibTeX → `literature/references.bib` → reviewed Git commit.
+Zotero's **My Library / MIB Thesis** collection (`W5I5MZBH`) is the source of truth.
+The BibTeX is generated: never edit it manually, including in remote/cloud checkouts.
+Request metadata corrections in Zotero when Desktop is unavailable; do not import the
+whole generated file back into the library.
+
+On the author's machine, export the collection as **Better BibTeX**, select **Keep updated**,
+and target `literature/references.bib` in the active checkout. Automatic export is **On Change**
+with a five-second delay. Export notes and attachment files are off; Better BibTeX's
+**Fields to omit from export** includes `file` (a global export preference). DOI and URL are
+both included. The obsolete export to the former project directory is disabled, retained
+for recovery. These local settings are not installed by cloning this repository.
+
+Before adding a paper, search the collection and the entire library by DOI/arXiv ID.
+If identifiers are absent, inspect title and authors before importing. Add an existing item
+to the collection rather than duplicating it. Pin the project citation key in Zotero's
+Citation Key field; legacy keys retained in `tex.ids`/exported `ids` are provenance aliases
+and are not guaranteed to resolve in classic BibTeX citation commands.
+
+Make changes in Zotero, wait for automatic export, review its diff, run the repository
+checks and commit the generated file with related index updates. Keep reading scope in
+literature/references.md. Do not infer full-paper reading or verified venue metadata from
+successful synchronization. See that index for the migration audit and live-change test.
+
+Keep one authoritative export destination: do not enable auto-export into concurrent
+worktrees. If the checkout moves, re-register Keep updated at the new location and disable
+the old destination. Before switching branches or restoring an older generated file, pause
+the export; reconcile changes in Zotero and resume afterward. Resolve bibliography conflicts
+in Zotero and regenerate, rather than hand-merging the generated file. Automatic export
+requires Zotero Desktop to be running; it does not push Git or prove zotero.org cloud sync.
 
 ## Official tool reference
 Codex instruction discovery: https://learn.chatgpt.com/docs/agent-configuration/agents-md

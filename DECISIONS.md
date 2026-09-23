@@ -1,5 +1,11 @@
 # Decisions log (append-only, newest first)
 
+- 2026-09-23 — At the author's explicit request, Zotero's MIB Thesis collection becomes
+  the bibliography source of truth; references.bib is a generated Better BibTeX Keep updated
+  export and must not be edited manually. This supersedes today's earlier manual-BibTeX
+  decision. Reuse existing library items before importing missing works; retain project keys
+  and old-key aliases. Configuration and verification are in WORKFLOW.md and literature/references.md.
+
 - 2026-09-23 — Author reports supervisor approval of the revised title, scope and roadmap.
   This supersedes pending-approval status in earlier entries; implementation/hypothesis freeze
   still follows the pilot. Record provenance in meetings/2026-09-23-supervisor-approval.md.

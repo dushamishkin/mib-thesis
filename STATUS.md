@@ -11,8 +11,11 @@ April 2027 completion remains provisional. Formal requirements are still pending
 - Updated research design, positioning and roadmap for the approved direction.
 - Added shared agent instructions, session handoff workflow and repository hygiene checks.
 - Audited the bibliography against primary metadata; see literature/references.md for coverage,
-  newer-version follow-ups and any unresolved checks. Zotero Desktop is unavailable here;
-  no claim of synchronization with the author's Zotero library is made.
+  newer-version follow-ups and any unresolved checks.
+- Configured Zotero as the bibliography source of truth: 29 collection records, 18 reused
+  library items and nine imports; all project keys preserved. Better BibTeX Keep updated
+  exports without attachment paths. A real note change and restoration both auto-exported;
+  checksums and metadata limitations are in literature/references.md. Old-path export disabled.
 - Isolated historical proposals and retained the original university template.
 - Offline hygiene/link/BibTeX checks pass for 29 indexed records; original archived PDF
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
