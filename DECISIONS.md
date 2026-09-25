@@ -1,5 +1,9 @@
 # Decisions log (append-only, newest first)
 
+- 2026-09-25 — Author requires work against the latest repository. Make synchronization
+  mandatory before each task and after handoffs, retry sandbox-blocked fetches through the
+  approval mechanism, and report unresolved freshness blockers. Procedure: WORKFLOW.md.
+
 - 2026-09-23 — At the author's explicit request, Zotero's MIB Thesis collection becomes
   the bibliography source of truth; references.bib is a generated Better BibTeX Keep updated
   export and must not be edited manually. This supersedes today's earlier manual-BibTeX

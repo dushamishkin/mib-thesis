@@ -29,6 +29,17 @@ If a session cannot read GitHub/local files, give it a snapshot with the branch 
 then reconcile its output into the repository before starting dependent work.
 
 ## Start a session
+Repository freshness is required before each new task and when resuming after a handoff.
+Run `git fetch --prune` before reading project context. If sandbox permissions block Git
+metadata writes, retry through the available approval mechanism; do not silently skip fetch.
+For a clean master checkout, run `git merge --ff-only origin/master`. For an existing task
+branch, inspect both its upstream and origin/master and reconcile relevant incoming changes
+without discarding local work. Re-read any changed instructions and status after updating.
+If synchronization remains blocked, report the actual error and revision; do not claim the
+checkout is current or begin work that depends on unseen updates. Fetch again before
+publication or handoff to detect concurrent remote changes. Never reset, force-push, or
+automatically stash user changes to satisfy freshness.
+
 For a clean local checkout, fetch and fast-forward its intended branch. If it diverges or
 contains uncommitted work, inspect and preserve that work before merging. Start a task branch
 from the current master. Open the repository root in Codex/your editor. Codex discovers

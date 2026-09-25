@@ -35,7 +35,8 @@ See proposal/research-design.md for interventions, controls and evaluation. Shar
 
 
 ## Session and handoff protocol
-1. Inspect `git status --short --branch` and recent commits. Fetch if network access is available.
+1. Before each task, inspect `git status --short --branch` and recent commits, then synchronize
+   using WORKFLOW.md's freshness procedure before relying on repository context.
    Do not overwrite unrelated changes or automatically reset/rebase divergent history.
 2. Read STATUS.md for the active task, blockers and next action; read DECISIONS.md for rationale.
    Report the branch and starting commit when handing work between environments.
