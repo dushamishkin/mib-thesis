@@ -1,5 +1,5 @@
 # Current status
-Updated: 23 September 2026.
+Updated: 25 September 2026.
 
 ## Authority and phase
 Supervisor approved the revised title, scope and roadmap, as reported by the author on
@@ -8,6 +8,8 @@ Phase: repository preparation, then candidate-data audit. End-October 2026 propo
 April 2027 completion remains provisional. Formal requirements are still pending.
 
 ## Completed
+- Synchronized incoming Zotero workflow changes and made repository freshness mandatory
+  before each task; see WORKFLOW.md. Repository and whitespace checks pass.
 - Updated research design, positioning and roadmap for the approved direction.
 - Added shared agent instructions, session handoff workflow and repository hygiene checks.
 - Audited the bibliography against primary metadata; see literature/references.md for coverage,
