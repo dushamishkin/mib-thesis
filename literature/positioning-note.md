@@ -2,12 +2,12 @@
 
 Supervisor-approved direction and title (author report, 23 September 2026). Targeted review, not an exhaustive systematic review. No experimental findings yet.
 
-## Freshness caveat — 23 September audit
+## Freshness caveat — updated 25 September
 
-Primary metadata now identifies newer versions of AgenticData (v2), LongDA (v2), AMA (v4),
-Silo-Bench (v2) and MemTX (v2). The comparisons below summarize the earlier inspected material;
-they are not newly validated against every latest version. Recheck these before freezing
-novelty claims. See [reference audit](references.md) for exact reading depth and version gaps.
+The [benchmark audit](../benchmark/README.md) updates selected comparisons using AgenticData
+v2 and LongDA v2 and adds newer benchmark precedents. In particular, LiveSQLBench already
+includes business-rule drift; that cannot be claimed as a general gap. AMA v4, Silo-Bench
+v2 and MemTX v2 remain follow-ups. See [reference audit](references.md) for reading depth.
 
 ## Position
 
@@ -18,7 +18,7 @@ Study the separate and joint effects of independent executable verification (V2)
 | Work | Existing contribution | Implication for our study |
 |---|---|---|
 | MAST, Cemri et al. (2025) | Failure taxonomy and interventions; distinguishes misalignment and verification | Reuse for descriptive diagnosis; intervention contrasts carry causal evidence |
-| AgenticData, Sun et al. (2025) | MAS analytics, manuals, memory and plan validation | Closest competitor; cannot claim that combination as new. Reviewed v1 does not isolate our two intervention effects under controlled rule conflicts |
+| AgenticData, Sun et al. (2025; v2 inspected) | MAS analytics, memory and semantic validation; component ablations across five datasets | Closest competitor; combination and ablations are prior art. Inspected sections do not establish our fixed-table rule-conflict factorial; this is not an exhaustive absence claim |
 | DataCross (2026) | Heterogeneous cross-modal analytical benchmark and agent framework | Adding documents/modalities is not sufficient novelty |
 | LongDA (2026) | Documentation-intensive data analysis | Authors explicitly note fixed-year snapshots, untested documentation drift and final-number-focused evaluation |
 | AMA, Huang et al. (2026) | Multi-agent memory construction, retrieval, judging and refreshing | Conflict-aware shared memory is prior art; evaluated mainly on conversational-memory tasks |

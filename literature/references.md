@@ -42,10 +42,14 @@ explicitly unknown. Before the formal proposal, pin versions supporting substant
 and check final publication metadata where relevant.
 
 ## Priority follow-up
-AgenticData v2, LongDA v2, AMA v4, Silo-Bench v2 and MemTX v2 need comparison with the
-previously inspected material before relying on current novelty/gap claims. In particular,
-the previous AgenticData-v1 ablation observation is not a verified statement about v2.
-Supervisor approval does not resolve this literature-validation step.
+The [25 September benchmark audit](../benchmark/README.md) inspected AgenticData v2
+methods/evaluation/ablation sections and LongDA v2 construction/evaluation/limitations,
+and identified additional relevant benchmarks, including LiveSQLBench and AgenticDataBench.
+That report is the canonical home for source comparisons and reading limits. New works
+have primary URLs there but have not been added to Zotero or the versioned bibliography.
+AMA v4, Silo-Bench v2 and MemTX v2 still need comparison with previously inspected material.
+No paper's model experiments were reproduced. Supervisor approval does not resolve the
+remaining literature-validation work.
 
 | Citation key | Primary source | Latest observed | Previous reading scope | Follow-up |
 |---|---|---|---|---|
@@ -68,9 +72,9 @@ Supervisor approval does not resolve this literature-validation step.
 | `arxiv210900122` | [FinQA: A Dataset of Numerical Reasoning over Financial Data](https://arxiv.org/abs/2109.00122) | v3 | — — To read; metadata only | Metadata only; not newly read |
 | `arxiv210507624` | [TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance](https://arxiv.org/abs/2105.07624) | v2 | — — To read; metadata only | Metadata only; not newly read |
 | `arxiv230605685` | [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) | v4 | — — To read; metadata only | Metadata only; not newly read |
-| `arxiv250805002` | [AgenticData: An Agentic Data Analytics System for Heterogeneous Data](https://arxiv.org/abs/2508.05002) | v2 | v1 — Architecture, manual-grounded validation and experiments | Review latest before relying on gap claim |
+| `arxiv250805002` | [AgenticData: An Agentic Data Analytics System for Heterogeneous Data](https://arxiv.org/abs/2508.05002) | v2 | v2 — Selected methods, evaluation and ablation sections, 25 September | See benchmark audit; no replication or exhaustive novelty finding |
 | `arxiv260121403` | [DataCross: A Unified Benchmark and Agent Framework for Cross-Modal Heterogeneous Data Analysis](https://arxiv.org/abs/2601.21403) | v1 | v1 — Construction, framework and evaluation | Prior reading scope only; not re-read today |
-| `arxiv260102598` | [LongDA: Benchmarking LLM Agents for Long-Document Data Analysis](https://arxiv.org/abs/2601.02598) | v2 | not recorded — Construction and limitations; earlier review did not pin version | Review latest before relying on gap claim |
+| `arxiv260102598` | [LongDA: Benchmarking LLM Agents for Long-Document Data Analysis](https://arxiv.org/abs/2601.02598) | v2 | v2 — Construction, evaluation, limitations and selected release files, 25 September | HERD reference checks only; no agent replication |
 | `arxiv260120352` | [AMA: Adaptive Memory via Multi-Agent Collaboration](https://arxiv.org/abs/2601.20352) | v4 | v1 — Methods, datasets, ablations and limitations | Review latest before relying on gap claim |
 | `arxiv260301045` | [Silo-Bench: A Scalable Environment for Evaluating Distributed Coordination in Multi-Agent LLM Systems](https://arxiv.org/abs/2603.01045) | v2 | v1 — Task scope, failures and limitations | Review latest before relying on gap claim |
 | `arxiv260624535` | [Governed Shared Memory for Multi-Agent LLM Systems](https://arxiv.org/abs/2606.24535) | v1 | v1 — Architecture, measurement scope and limitations | Prior reading scope only; not re-read today |

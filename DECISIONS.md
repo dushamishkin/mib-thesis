@@ -1,5 +1,13 @@
 # Decisions log (append-only, newest first)
 
+- 2026-09-25 — At the author's request for a broad data/benchmark investigation, the
+  research audit recommends a specified DABstep derivative for the core pilot,
+  AgenticDataBench finance as the strongest alternative, and LongDA HERD for transfer.
+  This is an evidence-backed assistant recommendation, not author/supervisor dataset
+  approval or a frozen experiment. Rationale and remaining gates: benchmark/README.md.
+  Preserve public-source terms, separate gold from agent access, and do not reuse broad
+  numeric tolerances that accept wrong rule applicability.
+
 - 2026-09-25 — Author requires work against the latest repository. Make synchronization
   mandatory before each task and after handoffs, retry sandbox-blocked fetches through the
   approval mechanism, and report unresolved freshness blockers. Procedure: WORKFLOW.md.

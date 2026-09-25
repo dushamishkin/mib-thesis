@@ -1,0 +1,549 @@
+{
+  "audit_date": "2026-09-25",
+  "scope": "Researcher-only audit inputs, including public gold. Never mount this collection in an evaluated agent runtime. Paths are relative to the audit download root.",
+  "versions": [
+    {
+      "kind": "github",
+      "repository": "AgenticDataBench/AgenticDataBench",
+      "revision": "d110b63ff70dfc775fb7eabe8caaaed28c3868d6"
+    },
+    {
+      "kind": "github",
+      "repository": "HKUSTDial/DataSpace",
+      "revision": "6491caa4c70cc06cacb6103ba73cefb00746abfe"
+    },
+    {
+      "kind": "github",
+      "repository": "InfiAgent/InfiAgent",
+      "revision": "3d6c4a70198e0a41fadf539f5b43c88b8c1a2d9c"
+    },
+    {
+      "kind": "github",
+      "repository": "LiqiangJing/DSBench",
+      "revision": "ba786096137a5108af11c016ad3f09cdb97beefd"
+    },
+    {
+      "kind": "github",
+      "repository": "NExTplusplus/TAT-QA",
+      "revision": "870accc41953dcde885aabeb963d94aabdc0fbc3"
+    },
+    {
+      "kind": "github",
+      "repository": "Yiyang-Ian-Li/LongDA",
+      "revision": "02cbd7929efc6594a053f2c10480a89ceb56662c"
+    },
+    {
+      "kind": "github",
+      "repository": "bird-bench/livesqlbench",
+      "revision": "e15cd221267e06fabfaf6a3d4a69308280ce9a7c"
+    },
+    {
+      "kind": "github",
+      "repository": "czyssrs/FinQA",
+      "revision": "0f16e2867befa6840783e58be38c9efb9229d742"
+    },
+    {
+      "kind": "github",
+      "repository": "erphq/business-bench",
+      "revision": "bd5f9dec89a44406f3144c63716c460d19982a34"
+    },
+    {
+      "kind": "github",
+      "repository": "xlang-ai/Spider2",
+      "revision": "cafb867313aab4e674652054198f383cf4018943"
+    },
+    {
+      "kind": "github",
+      "repository": "yiyihum/DA-Code",
+      "revision": "b211daf51fdc9b52d5087c9df28ac50191bcabed"
+    },
+    {
+      "kind": "huggingface_dataset",
+      "repository": "HKUSTDial/DataSpace",
+      "revision": "96be19257d7aa251dbce4771d46a26fc36f6dc52"
+    },
+    {
+      "kind": "huggingface_dataset",
+      "repository": "birdsql/livesqlbench-base-lite",
+      "revision": "507d7d98f477b9d6a990628ea021bd2501cfd6e2"
+    },
+    {
+      "kind": "huggingface_dataset",
+      "repository": "birdsql/livesqlbench-large-v1",
+      "revision": "a418e108d5cbb4cf9b783a928eff5e924ad2460d"
+    },
+    {
+      "kind": "huggingface_dataset",
+      "repository": "shawnzzzh/AgenticDataBench",
+      "revision": "3b0ac3fde63fd615de92bf70c1dd93b73f92d92f"
+    },
+    {
+      "kind": "huggingface_dataset",
+      "repository": "adyen/DABstep",
+      "revision": "7ea3b597f6e3093ee6463276a1d1de19ada58c67"
+    },
+    {
+      "kind": "huggingface_dataset",
+      "repository": "Yiyang-Ian-Li/LongDA",
+      "revision": "1365b6ab65bba290c83c7bcbb2c9bcb70a79ddd4"
+    }
+  ],
+  "files": [
+    {
+      "path": "dabstep/LICENSE",
+      "url": "https://huggingface.co/datasets/adyen/DABstep/resolve/7ea3b597f6e3093ee6463276a1d1de19ada58c67/LICENSE",
+      "bytes": 321,
+      "sha256": "f8a83b510da6dfffb2fab959cb8a48f05dec344e76338cff7cd5da36b50eec22"
+    },
+    {
+      "path": "dabstep/README.md",
+      "url": "https://huggingface.co/datasets/adyen/DABstep/resolve/7ea3b597f6e3093ee6463276a1d1de19ada58c67/README.md",
+      "bytes": 1306,
+      "sha256": "f690b8e6951014f6f9fbe0a9dca52e92517b64ffbd624d2aa3bec728c22d6e53"
+    },
+    {
+      "path": "dabstep/data/context/acquirer_countries.csv",
+      "url": "https://huggingface.co/datasets/adyen/DABstep/resolve/7ea3b597f6e3093ee6463276a1d1de19ada58c67/data/context/acquirer_countries.csv",
+      "bytes": 194,
+      "sha256": "6744cf1962e4b5086342821e627f4557c32f06c3c58e8b0ff3b449dcc634f37f"
+    },
+    {
+      "path": "dabstep/data/context/fees.json",
+      "url": "https://huggingface.co/datasets/adyen/DABstep/resolve/7ea3b597f6e3093ee6463276a1d1de19ada58c67/data/context/fees.json",
+      "bytes": 531118,
+      "sha256": "9a833666ae9be5a8e756dd1fe076c72e7c502d64161315ffa8fee9e5bf2599dc"
+    },
+    {
+      "path": "dabstep/data/context/manual.md",
+      "url": "https://huggingface.co/datasets/adyen/DABstep/resolve/7ea3b597f6e3093ee6463276a1d1de19ada58c67/data/context/manual.md",
+      "bytes": 22127,
+      "sha256": "bb7f4ca6fdc759af1f480702b3a3b12e17e9293b0d38a1dbfbbc8ffc1e572d2c"
+    },
+    {
+      "path": "dabstep/data/context/merchant_category_codes.csv",
+      "url": "https://huggingface.co/datasets/adyen/DABstep/resolve/7ea3b597f6e3093ee6463276a1d1de19ada58c67/data/context/merchant_category_codes.csv",
+      "bytes": 26611,
+      "sha256": "83247d79f5ddcdd180e02f184b644f4912731942a2fc58d91f2a06b911d04b41"
+    },
+    {
+      "path": "dabstep/data/context/merchant_data.json",
+      "url": "https://huggingface.co/datasets/adyen/DABstep/resolve/7ea3b597f6e3093ee6463276a1d1de19ada58c67/data/context/merchant_data.json",
+      "bytes": 6857,
+      "sha256": "f158e834de27ee8407e99d9c32da690357981d2770958fd302a9bb79ced83581"
+    },
+    {
+      "path": "dabstep/data/context/payments-readme.md",
+      "url": "https://huggingface.co/datasets/adyen/DABstep/resolve/7ea3b597f6e3093ee6463276a1d1de19ada58c67/data/context/payments-readme.md",
+      "bytes": 1719,
+      "sha256": "8754b92d0b3127856ff72266ea482995d2a1f6a34d0a12732f7c26f527f2c4a5"
+    },
+    {
+      "path": "dabstep/data/context/payments.csv",
+      "url": "https://huggingface.co/datasets/adyen/DABstep/resolve/7ea3b597f6e3093ee6463276a1d1de19ada58c67/data/context/payments.csv",
+      "bytes": 23581339,
+      "sha256": "5fbb26210a45427d7a6560cfab3a362a08e4067f27cd03695f211a51c47ffc25"
+    },
+    {
+      "path": "dabstep/data/tasks/all.jsonl",
+      "url": "https://huggingface.co/datasets/adyen/DABstep/resolve/7ea3b597f6e3093ee6463276a1d1de19ada58c67/data/tasks/all.jsonl",
+      "bytes": 188609,
+      "sha256": "d776385abe09ff89ed3263bd47c90fa0f060680c0d2ef04a83485fa4b6f2512c"
+    },
+    {
+      "path": "dabstep/data/tasks/dev.jsonl",
+      "url": "https://huggingface.co/datasets/adyen/DABstep/resolve/7ea3b597f6e3093ee6463276a1d1de19ada58c67/data/tasks/dev.jsonl",
+      "bytes": 6330,
+      "sha256": "c1da755a6fe9cb538fc84719f51e1db0bff0190a1d6905767ac18c755e66a07b"
+    },
+    {
+      "path": "hf/HKUSTDial/DataSpace/LICENSE",
+      "url": "https://huggingface.co/datasets/HKUSTDial/DataSpace/resolve/96be19257d7aa251dbce4771d46a26fc36f6dc52/LICENSE",
+      "bytes": 1065,
+      "sha256": "db67a76fbae02b3443f636260be422774c6ded0b7e73ce764bf625b6cf11f45e"
+    },
+    {
+      "path": "hf/HKUSTDial/DataSpace/README.md",
+      "url": "https://huggingface.co/datasets/HKUSTDial/DataSpace/resolve/96be19257d7aa251dbce4771d46a26fc36f6dc52/README.md",
+      "bytes": 5329,
+      "sha256": "8bb2959cea1f43aaf8e4ee422d80ce4dc980009f5bc59061afa30eb52ec65e7a"
+    },
+    {
+      "path": "hf/HKUSTDial/DataSpace/data/public_reference_tasks.json",
+      "url": "https://huggingface.co/datasets/HKUSTDial/DataSpace/resolve/96be19257d7aa251dbce4771d46a26fc36f6dc52/data/public_reference_tasks.json",
+      "bytes": 1169,
+      "sha256": "5d1bfd2928ae99bc4d271feebfc747ca1a8805f6913c2dc682d60bc32855d41b"
+    },
+    {
+      "path": "hf/HKUSTDial/DataSpace/data/tasks.jsonl",
+      "url": "https://huggingface.co/datasets/HKUSTDial/DataSpace/resolve/96be19257d7aa251dbce4771d46a26fc36f6dc52/data/tasks.jsonl",
+      "bytes": 455975,
+      "sha256": "2afa196004c19e4b0e04f1689762f6a224beecfe6f3b02f99c7e3e1d09fa1474"
+    },
+    {
+      "path": "hf/birdsql/livesqlbench-base-lite/README.md",
+      "url": "https://huggingface.co/datasets/birdsql/livesqlbench-base-lite/resolve/507d7d98f477b9d6a990628ea021bd2501cfd6e2/README.md",
+      "bytes": 8290,
+      "sha256": "09e4f3fc7f4e69440cc326a762b09972dd9948852cb1106ad42b0e4fcf7bd55a"
+    },
+    {
+      "path": "hf/birdsql/livesqlbench-base-lite/credit/credit_kb.jsonl",
+      "url": "https://huggingface.co/datasets/birdsql/livesqlbench-base-lite/resolve/507d7d98f477b9d6a990628ea021bd2501cfd6e2/credit/credit_kb.jsonl",
+      "bytes": 19867,
+      "sha256": "82344a5a9d963493eb83a2ea86bdcfec86acb1fa30e2e96e4c9e81a0e3a51afe"
+    },
+    {
+      "path": "hf/birdsql/livesqlbench-base-lite/credit/credit_schema.txt",
+      "url": "https://huggingface.co/datasets/birdsql/livesqlbench-base-lite/resolve/507d7d98f477b9d6a990628ea021bd2501cfd6e2/credit/credit_schema.txt",
+      "bytes": 13721,
+      "sha256": "1bac81365ec226c5d8d88468f904e2da18a07d85a40dc5d3878ae139165c3fa9"
+    },
+    {
+      "path": "hf/birdsql/livesqlbench-base-lite/livesqlbench_data.jsonl",
+      "url": "https://huggingface.co/datasets/birdsql/livesqlbench-base-lite/resolve/507d7d98f477b9d6a990628ea021bd2501cfd6e2/livesqlbench_data.jsonl",
+      "bytes": 177458,
+      "sha256": "f2b2cd4402450f3bde1961e8f92f24100cc2ac6e908ef9a80b996d265c3a7884"
+    },
+    {
+      "path": "hf/birdsql/livesqlbench-large-v1/README.md",
+      "url": "https://huggingface.co/datasets/birdsql/livesqlbench-large-v1/resolve/a418e108d5cbb4cf9b783a928eff5e924ad2460d/README.md",
+      "bytes": 10537,
+      "sha256": "c0645edbe66554e3df366b3536719f683aa9e0ac991409a74d4ba56f984355f0"
+    },
+    {
+      "path": "hf/birdsql/livesqlbench-large-v1/cross_border_large/cross_border_large_kb.jsonl",
+      "url": "https://huggingface.co/datasets/birdsql/livesqlbench-large-v1/resolve/a418e108d5cbb4cf9b783a928eff5e924ad2460d/cross_border_large/cross_border_large_kb.jsonl",
+      "bytes": 23481,
+      "sha256": "2251a54243eb4d76517957c6d7bf114e14741ce5881d4a75000da85f65c97113"
+    },
+    {
+      "path": "hf/birdsql/livesqlbench-large-v1/livesqlbench_large_v1_data.jsonl",
+      "url": "https://huggingface.co/datasets/birdsql/livesqlbench-large-v1/resolve/a418e108d5cbb4cf9b783a928eff5e924ad2460d/livesqlbench_large_v1_data.jsonl",
+      "bytes": 450997,
+      "sha256": "f0e12218cb46f5b6e019908740a0b3303a1f8d1136c661545ad6dd1b4b5444f6"
+    },
+    {
+      "path": "hf/shawnzzzh/AgenticDataBench/README.md",
+      "url": "https://huggingface.co/datasets/shawnzzzh/AgenticDataBench/resolve/3b0ac3fde63fd615de92bf70c1dd93b73f92d92f/README.md",
+      "bytes": 2082,
+      "sha256": "dc8d37f302563e21297dba16b31a3c8b8c164c2f61dd78a7fd91a7c6cbd278e3"
+    },
+    {
+      "path": "hf/shawnzzzh/AgenticDataBench/datasets/financial/dataset_insurance_business.md",
+      "url": "https://huggingface.co/datasets/shawnzzzh/AgenticDataBench/resolve/3b0ac3fde63fd615de92bf70c1dd93b73f92d92f/datasets/financial/dataset_insurance_business.md",
+      "bytes": 12410,
+      "sha256": "164b0556ebee9b25ff446aa0f4d53ae46d8be0eafabe68a2cd45e08bd51aa300"
+    },
+    {
+      "path": "hf/shawnzzzh/AgenticDataBench/datasets/financial/dataset_pub_fin_data.md",
+      "url": "https://huggingface.co/datasets/shawnzzzh/AgenticDataBench/resolve/3b0ac3fde63fd615de92bf70c1dd93b73f92d92f/datasets/financial/dataset_pub_fin_data.md",
+      "bytes": 11054,
+      "sha256": "76b3bb06975f47908db321a0b9773cd7b8e050a972da5395d0d21c0b0762cd02"
+    },
+    {
+      "path": "hf/shawnzzzh/AgenticDataBench/datasets/financial/dataset_pub_fund.md",
+      "url": "https://huggingface.co/datasets/shawnzzzh/AgenticDataBench/resolve/3b0ac3fde63fd615de92bf70c1dd93b73f92d92f/datasets/financial/dataset_pub_fund.md",
+      "bytes": 7948,
+      "sha256": "d99df858ade85620795c5ded7f55eae2b7b78ce7fa933d8c3f9d7da0a6a362a4"
+    },
+    {
+      "path": "hf/shawnzzzh/AgenticDataBench/datasets/financial/pub_fin_data.sqlite",
+      "url": "https://huggingface.co/datasets/shawnzzzh/AgenticDataBench/resolve/3b0ac3fde63fd615de92bf70c1dd93b73f92d92f/datasets/financial/pub_fin_data.sqlite",
+      "bytes": 1556480,
+      "sha256": "b520d8dbddec658db9e630d7209e5fda593938cfba3bc293e39cfac8f2b54201"
+    },
+    {
+      "path": "longda/HERD/data/herd2023.csv",
+      "url": "https://huggingface.co/datasets/Yiyang-Ian-Li/LongDA/resolve/1365b6ab65bba290c83c7bcbb2c9bcb70a79ddd4/HERD/data/herd2023.csv",
+      "bytes": 48160663,
+      "sha256": "65d2e540abbb7717cbcb919b5b2c243db857f7653a01e4da8ccb5cc866ce96a5"
+    },
+    {
+      "path": "longda/HERD/data/short2023.csv",
+      "url": "https://huggingface.co/datasets/Yiyang-Ian-Li/LongDA/resolve/1365b6ab65bba290c83c7bcbb2c9bcb70a79ddd4/HERD/data/short2023.csv",
+      "bytes": 1112589,
+      "sha256": "fd49474d84a21c768dbe0174018cc18d61aeda9443b2a57fc86552005d37da1f"
+    },
+    {
+      "path": "longda/HERD/docs/fy-2023-herd-dug-text-file-format.pdf",
+      "url": "https://huggingface.co/datasets/Yiyang-Ian-Li/LongDA/resolve/1365b6ab65bba290c83c7bcbb2c9bcb70a79ddd4/HERD/docs/fy-2023-herd-dug-text-file-format.pdf",
+      "bytes": 404499,
+      "sha256": "07d2b0c8e8896e5ad3adc071b4a205ae3e63d3707ac10c7bedcddd14b3bb2094"
+    },
+    {
+      "path": "longda/README.md",
+      "url": "https://huggingface.co/datasets/Yiyang-Ian-Li/LongDA/resolve/1365b6ab65bba290c83c7bcbb2c9bcb70a79ddd4/README.md",
+      "bytes": 5876,
+      "sha256": "3691027d5802399a581dec6357f40ff8f1cac56b42386bfbbf37d05c904dd571"
+    },
+    {
+      "path": "longda/benchmark.csv",
+      "url": "https://huggingface.co/datasets/Yiyang-Ian-Li/LongDA/resolve/1365b6ab65bba290c83c7bcbb2c9bcb70a79ddd4/benchmark.csv",
+      "bytes": 107297,
+      "sha256": "2226ad018c7eed4879c5e050023f54537acdbea446d0ce01a93372f4f29e813c"
+    },
+    {
+      "path": "papers/2506.23719v1.html",
+      "url": "https://arxiv.org/html/2506.23719v1",
+      "bytes": 210133,
+      "sha256": "31f437428ce8fb0f57141c7e3bc9bd79fb48ea616e088ce5f56c9198cb8c63de"
+    },
+    {
+      "path": "papers/2508.05002v2.html",
+      "url": "https://arxiv.org/html/2508.05002v2",
+      "bytes": 253470,
+      "sha256": "b446b68938cdc35188357d661466a4932c9a6dbcc0692977a2d18f6468f946a9"
+    },
+    {
+      "path": "papers/2601.02598v2.html",
+      "url": "https://arxiv.org/html/2601.02598v2",
+      "bytes": 552799,
+      "sha256": "bf188926e437c525ca94caf587d40fbe7dc265c49f4771519d435d763298a134"
+    },
+    {
+      "path": "papers/2601.21403v1.html",
+      "url": "https://arxiv.org/html/2601.21403v1",
+      "bytes": 670997,
+      "sha256": "dc0dc348e8d84336a0b0336aa2eb053f51fd6f15789fdee3b3baf0f00580b8bc"
+    },
+    {
+      "path": "papers/2605.09698v1.html",
+      "url": "https://arxiv.org/html/2605.09698v1",
+      "bytes": 1381308,
+      "sha256": "f6d17cd4449fb5d77e4993ad004d0d509c1c44e9059d14fcc481019e6b0513ed"
+    },
+    {
+      "path": "papers/2607.01647v1.html",
+      "url": "https://arxiv.org/html/2607.01647v1",
+      "bytes": 320213,
+      "sha256": "2ebd6ca24db83af147c55023e16f914adb61fa45b948311f7b955efc66a9511a"
+    },
+    {
+      "path": "papers/2608.03451v1.html",
+      "url": "https://arxiv.org/html/2608.03451v1",
+      "bytes": 991253,
+      "sha256": "3249e97e7343338a64de034df09b75f57b41bbd8bb9b8f21780a7c781a5251c7"
+    },
+    {
+      "path": "repos/AgenticDataBench/AgenticDataBench/LICENSE",
+      "url": "https://raw.githubusercontent.com/AgenticDataBench/AgenticDataBench/d110b63ff70dfc775fb7eabe8caaaed28c3868d6/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "repos/AgenticDataBench/AgenticDataBench/README.md",
+      "url": "https://raw.githubusercontent.com/AgenticDataBench/AgenticDataBench/d110b63ff70dfc775fb7eabe8caaaed28c3868d6/README.md",
+      "bytes": 4491,
+      "sha256": "f8e5fcea05620b40d593833fdc3306d1778eea1e99967ba6e6965cc53410c047"
+    },
+    {
+      "path": "repos/AgenticDataBench/AgenticDataBench/testbed/evaluate.py",
+      "url": "https://raw.githubusercontent.com/AgenticDataBench/AgenticDataBench/d110b63ff70dfc775fb7eabe8caaaed28c3868d6/testbed/evaluate.py",
+      "bytes": 2636,
+      "sha256": "7ccf29d3f7a1c0b9e26c5b3afee4ff70f2f55743527ce9b0411d17fd4d5cd2a0"
+    },
+    {
+      "path": "repos/AgenticDataBench/AgenticDataBench/testbed/gold/financial_236/result.csv",
+      "url": "https://raw.githubusercontent.com/AgenticDataBench/AgenticDataBench/d110b63ff70dfc775fb7eabe8caaaed28c3868d6/testbed/gold/financial_236/result.csv",
+      "bytes": 41,
+      "sha256": "825876c0b4fc8e47306dffb0ab15ad2a896f5dfedd368ec4ac6e6e7ec9be4b32"
+    },
+    {
+      "path": "repos/AgenticDataBench/AgenticDataBench/testbed/tasks/dev.jsonl",
+      "url": "https://raw.githubusercontent.com/AgenticDataBench/AgenticDataBench/d110b63ff70dfc775fb7eabe8caaaed28c3868d6/testbed/tasks/dev.jsonl",
+      "bytes": 660892,
+      "sha256": "1e1a6ba11322ff239927cf46c0acabcd8a81bc83371167deb1192c4d9ae844aa"
+    },
+    {
+      "path": "repos/HKUSTDial/DataSpace/LICENSE",
+      "url": "https://raw.githubusercontent.com/HKUSTDial/DataSpace/6491caa4c70cc06cacb6103ba73cefb00746abfe/LICENSE",
+      "bytes": 1074,
+      "sha256": "fb073ba3a631d11c29b5ae5d52f1bf97428214535990ab99383e483fd4e0fde0"
+    },
+    {
+      "path": "repos/HKUSTDial/DataSpace/README.md",
+      "url": "https://raw.githubusercontent.com/HKUSTDial/DataSpace/6491caa4c70cc06cacb6103ba73cefb00746abfe/README.md",
+      "bytes": 6319,
+      "sha256": "ec3058bf36169fbc676a1264b6dd1ddb3acd1a7aaf703d18de8b42e26b9cc596"
+    },
+    {
+      "path": "repos/HKUSTDial/DataSpace/evaluation/README.md",
+      "url": "https://raw.githubusercontent.com/HKUSTDial/DataSpace/6491caa4c70cc06cacb6103ba73cefb00746abfe/evaluation/README.md",
+      "bytes": 2721,
+      "sha256": "11f049764d946dd9f0e358b6ad1ba6036f382480cc64adbccf226e6219684cd3"
+    },
+    {
+      "path": "repos/HKUSTDial/DataSpace/evaluation/evaluate.py",
+      "url": "https://raw.githubusercontent.com/HKUSTDial/DataSpace/6491caa4c70cc06cacb6103ba73cefb00746abfe/evaluation/evaluate.py",
+      "bytes": 26933,
+      "sha256": "9eeb1edcc72d963610f497ebf98287887659f52656092ada0a55290a066bfbc8"
+    },
+    {
+      "path": "repos/InfiAgent/InfiAgent/LICENSE",
+      "url": "https://raw.githubusercontent.com/InfiAgent/InfiAgent/3d6c4a70198e0a41fadf539f5b43c88b8c1a2d9c/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "repos/InfiAgent/InfiAgent/README.md",
+      "url": "https://raw.githubusercontent.com/InfiAgent/InfiAgent/3d6c4a70198e0a41fadf539f5b43c88b8c1a2d9c/README.md",
+      "bytes": 6891,
+      "sha256": "0ca9d31dd81bf0c2bcf12fbece3452729b882be403fc97829d3a0f7a5212cc49"
+    },
+    {
+      "path": "repos/LiqiangJing/DSBench/LICENSE",
+      "url": "https://raw.githubusercontent.com/LiqiangJing/DSBench/ba786096137a5108af11c016ad3f09cdb97beefd/LICENSE",
+      "bytes": 1218,
+      "sha256": "612efca1b12383f7fc0f18d378153ce3ffd6ed3570d112fb4c69e0bea34d4719"
+    },
+    {
+      "path": "repos/LiqiangJing/DSBench/README.md",
+      "url": "https://raw.githubusercontent.com/LiqiangJing/DSBench/ba786096137a5108af11c016ad3f09cdb97beefd/README.md",
+      "bytes": 3909,
+      "sha256": "da3cbf56031e92c7adbf361c0f046526b254a47b6d38bb900f85f778ed57ef56"
+    },
+    {
+      "path": "repos/LiqiangJing/DSBench/data_analysis/readme.md",
+      "url": "https://raw.githubusercontent.com/LiqiangJing/DSBench/ba786096137a5108af11c016ad3f09cdb97beefd/data_analysis/readme.md",
+      "bytes": 2058,
+      "sha256": "0b0a7b6c0b702507fe1fcf1fa82804a23f0db1cd30a56fcd5d32c70df16a4cbb"
+    },
+    {
+      "path": "repos/NExTplusplus/TAT-QA/LICENSE",
+      "url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/LICENSE",
+      "bytes": 1068,
+      "sha256": "46e27ffbc49c3fd44a9595c2213f8a5f4319a81b53238e49ce1eec39e7e25662"
+    },
+    {
+      "path": "repos/NExTplusplus/TAT-QA/README.md",
+      "url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/README.md",
+      "bytes": 4689,
+      "sha256": "85c398173d771a2531abea5b81f3696914296642da2af78c2c34545715c14d5f"
+    },
+    {
+      "path": "repos/Yiyang-Ian-Li/LongDA/LICENSE",
+      "url": "https://raw.githubusercontent.com/Yiyang-Ian-Li/LongDA/02cbd7929efc6594a053f2c10480a89ceb56662c/LICENSE",
+      "bytes": 1082,
+      "sha256": "1cb12d143dadcc56a572c590b16ef722344698ba089e63c05faaa7e405a45a74"
+    },
+    {
+      "path": "repos/Yiyang-Ian-Li/LongDA/README.md",
+      "url": "https://raw.githubusercontent.com/Yiyang-Ian-Li/LongDA/02cbd7929efc6594a053f2c10480a89ceb56662c/README.md",
+      "bytes": 5708,
+      "sha256": "eb236eea351fba1fcb137138271dfa9c43892d737db28582d437ae14b95db031"
+    },
+    {
+      "path": "repos/Yiyang-Ian-Li/LongDA/main.py",
+      "url": "https://raw.githubusercontent.com/Yiyang-Ian-Li/LongDA/02cbd7929efc6594a053f2c10480a89ceb56662c/main.py",
+      "bytes": 12693,
+      "sha256": "9794d6b4cdf3416bd9528520af199b44522a5e042fc6b17f747deb839d2c1bae"
+    },
+    {
+      "path": "repos/Yiyang-Ian-Li/LongDA/metric.py",
+      "url": "https://raw.githubusercontent.com/Yiyang-Ian-Li/LongDA/02cbd7929efc6594a053f2c10480a89ceb56662c/metric.py",
+      "bytes": 9390,
+      "sha256": "c6bf1afd770d409b97acb7d21a1c0fcb12e128562ecc3263e1e79547bdce1aac"
+    },
+    {
+      "path": "repos/bird-bench/livesqlbench/LICENSE",
+      "url": "https://raw.githubusercontent.com/bird-bench/livesqlbench/e15cd221267e06fabfaf6a3d4a69308280ce9a7c/LICENSE",
+      "bytes": 1065,
+      "sha256": "fc8aef2000733079c37d42876179d928ae1634dbe088b81bf54e0f14c68aa1a3"
+    },
+    {
+      "path": "repos/bird-bench/livesqlbench/README.md",
+      "url": "https://raw.githubusercontent.com/bird-bench/livesqlbench/e15cd221267e06fabfaf6a3d4a69308280ce9a7c/README.md",
+      "bytes": 21736,
+      "sha256": "234cb5dd3987d11ede98e1a63caac92b38efb09ccff11a8a7b31bf5f49ddf68e"
+    },
+    {
+      "path": "repos/czyssrs/FinQA/LICENSE",
+      "url": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/LICENSE",
+      "bytes": 1067,
+      "sha256": "92c0e67bd762c15c07ba60de09558338315a8ebf99aac4f51f487179809ac087"
+    },
+    {
+      "path": "repos/czyssrs/FinQA/README.md",
+      "url": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/README.md",
+      "bytes": 6518,
+      "sha256": "eb86779cfed6f0a253913761d8e4fabe032a29d9fcf2944e56c23bf007064605"
+    },
+    {
+      "path": "repos/erphq/business-bench/LICENSE",
+      "url": "https://raw.githubusercontent.com/erphq/business-bench/bd5f9dec89a44406f3144c63716c460d19982a34/LICENSE",
+      "bytes": 1084,
+      "sha256": "53ed9759a667e7ee5d083161a4c6e271379cf27c550ff04fe8b8f56b039cd447"
+    },
+    {
+      "path": "repos/erphq/business-bench/README.md",
+      "url": "https://raw.githubusercontent.com/erphq/business-bench/bd5f9dec89a44406f3144c63716c460d19982a34/README.md",
+      "bytes": 10472,
+      "sha256": "149fed9bf26ae1876481a6fff50892ae131596b55ada79223416fa774f59de30"
+    },
+    {
+      "path": "repos/erphq/business-bench/docs/validation.md",
+      "url": "https://raw.githubusercontent.com/erphq/business-bench/bd5f9dec89a44406f3144c63716c460d19982a34/docs/validation.md",
+      "bytes": 2861,
+      "sha256": "9c744a40228e3ffa0a84f0d0cc4eb4a0b3b48c30f9f9d0beee5836f2eee1a83c"
+    },
+    {
+      "path": "repos/erphq/business-bench/tasks/desk/bank-reconciliation/check.py",
+      "url": "https://raw.githubusercontent.com/erphq/business-bench/bd5f9dec89a44406f3144c63716c460d19982a34/tasks/desk/bank-reconciliation/check.py",
+      "bytes": 4531,
+      "sha256": "0897aa09693f05b44705c569f0dd8b552fe4c02407484202b92d42a6eec6b074"
+    },
+    {
+      "path": "repos/erphq/business-bench/tasks/desk/bank-reconciliation/check_totals.py",
+      "url": "https://raw.githubusercontent.com/erphq/business-bench/bd5f9dec89a44406f3144c63716c460d19982a34/tasks/desk/bank-reconciliation/check_totals.py",
+      "bytes": 2322,
+      "sha256": "111a07f108573aa5c87b78cb431c3cda5c7bdecc4bb58416b43529716a3eb93d"
+    },
+    {
+      "path": "repos/erphq/business-bench/tasks/desk/bank-reconciliation/gen.py",
+      "url": "https://raw.githubusercontent.com/erphq/business-bench/bd5f9dec89a44406f3144c63716c460d19982a34/tasks/desk/bank-reconciliation/gen.py",
+      "bytes": 25213,
+      "sha256": "f953f5548c6a5b0c0f25ecd9c6c5396420df471480ab1864af9f166c9398f199"
+    },
+    {
+      "path": "repos/erphq/business-bench/tasks/desk/bank-reconciliation/task.yaml",
+      "url": "https://raw.githubusercontent.com/erphq/business-bench/bd5f9dec89a44406f3144c63716c460d19982a34/tasks/desk/bank-reconciliation/task.yaml",
+      "bytes": 2524,
+      "sha256": "9cfb7de9d07594d5e006496404ea4889cfe36d3aeb7677478ba3bb1228199bd6"
+    },
+    {
+      "path": "repos/erphq/business-bench/tasks/desk/bank-reconciliation/workspace/email_from_dean.txt",
+      "url": "https://raw.githubusercontent.com/erphq/business-bench/bd5f9dec89a44406f3144c63716c460d19982a34/tasks/desk/bank-reconciliation/workspace/email_from_dean.txt",
+      "bytes": 925,
+      "sha256": "51524f3ad7259b1eefc9316c33193e059ba9975e504db2aebef6abea295aa67e"
+    },
+    {
+      "path": "repos/erphq/business-bench/tasks/desk/bank-reconciliation/workspace/harbor_trust_checking_2026-08.csv",
+      "url": "https://raw.githubusercontent.com/erphq/business-bench/bd5f9dec89a44406f3144c63716c460d19982a34/tasks/desk/bank-reconciliation/workspace/harbor_trust_checking_2026-08.csv",
+      "bytes": 2485,
+      "sha256": "94ba43f32789266a3f65dd45e50980aae28c6fc295a2d71af4af89e9fe7bcadf"
+    },
+    {
+      "path": "repos/xlang-ai/Spider2/LICENSE",
+      "url": "https://raw.githubusercontent.com/xlang-ai/Spider2/cafb867313aab4e674652054198f383cf4018943/LICENSE",
+      "bytes": 1065,
+      "sha256": "fc8aef2000733079c37d42876179d928ae1634dbe088b81bf54e0f14c68aa1a3"
+    },
+    {
+      "path": "repos/xlang-ai/Spider2/README.md",
+      "url": "https://raw.githubusercontent.com/xlang-ai/Spider2/cafb867313aab4e674652054198f383cf4018943/README.md",
+      "bytes": 11262,
+      "sha256": "fb431e69c4988ed651621abd7aafe4709a11ce185189cd604eaab87752c570cb"
+    },
+    {
+      "path": "repos/yiyihum/DA-Code/LICENSE",
+      "url": "https://raw.githubusercontent.com/yiyihum/DA-Code/b211daf51fdc9b52d5087c9df28ac50191bcabed/LICENSE",
+      "bytes": 1067,
+      "sha256": "7b141bb4da87b3021141169b23f842f84c0ed313be30d035f18b00bede93f69f"
+    },
+    {
+      "path": "repos/yiyihum/DA-Code/README.md",
+      "url": "https://raw.githubusercontent.com/yiyihum/DA-Code/b211daf51fdc9b52d5087c9df28ac50191bcabed/README.md",
+      "bytes": 3762,
+      "sha256": "764b232039a23b3e5fd1c15d5989de71be53b325d482a01f1ca3d458d3006134"
+    }
+  ]
+}
