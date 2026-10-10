@@ -136,6 +136,40 @@ paper comparison or whether an equivalent V2×C1 experiment has been performed.
 the appropriate paper citation or cite the release documentation with access date;
 do not invent author lists or BibTeX keys. No new Zotero record was created in this task.
 
+## Current-version follow-ups inspected 10 October
+
+### AMA current-version follow-up
+
+[Huang et al., AMA v4](https://arxiv.org/html/2601.20352v4); arXiv submission history
+checked 10 October confirms v4 as the latest listed version. Selected Sections 3.3–4:
+the Judge filters retrieved memory for relevance and conflicts and triggers refreshing.
+The evaluation uses conversational-memory benchmarks and several model backbones.
+**Use:** acknowledge existing multi-agent conflict-aware memory. **Boundary:** this is
+not evidence for our independent analytical recomputation or rule-conflict factorial.
+The selected review does not establish all changes from v1 or reproduce the experiments.
+
+### MemTX current-version follow-up
+
+[Li et al., MemTX v2](https://arxiv.org/html/2607.23929v2); latest version in the
+checked arXiv history. Selected repair limits and Sections 4–5: transactional belief
+commit/repair is evaluated with a deterministic grader, common tools/runner and
+downstream mock refund episodes. **Use:** provenance repair, controlled comparison and
+harm-sensitive evaluation are prior art. **Boundary:** repair covers recorded provenance,
+not environment replay; the outcome setting differs from analytical reporting. This is
+selected-section reading, not a complete v1–v2 diff or an independent implementation audit.
+
+### Silo-Bench current-version follow-up
+
+[Zhang et al., Silo-Bench v2](https://arxiv.org/html/2603.01045v2); latest version in
+the checked arXiv history. Selected Sections 3 and 5 describe algorithmic distributed
+tasks and failures of integration despite information transfer. **Use:** strengthens the
+case for testing coordination rather than assuming it succeeds. **Boundary:** it does
+not establish effects of our analytics interventions or team necessity on our tasks.
+No complete version diff or model-result replication was conducted.
+
+These follow-ups inform the [design comparison](positioning-note.md), which separates
+existing contributions from proposed empirical questions and unresolved equivalence.
+
 ## What remains before the gap can be frozen
 
 The next pass should compare the closest studies on independent checking, shared

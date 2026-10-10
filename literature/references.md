@@ -66,7 +66,9 @@ methods/evaluation/ablation sections and LongDA v2 construction/evaluation/limit
 and identified additional relevant benchmarks, including LiveSQLBench and AgenticDataBench.
 That report is the canonical home for source comparisons and reading limits. New works
 have primary URLs there but have not been added to Zotero or the versioned bibliography.
-AMA v4, Silo-Bench v2 and MemTX v2 still need comparison with previously inspected material.
+On 10 October, current arXiv histories and selected AMA v4, Silo-Bench v2 and MemTX v2
+methods/evaluation/limits were inspected; see reading-brief.md. Full version diffs,
+implementation equivalence and final publication metadata remain follow-ups.
 No paper's model experiments were reproduced. Supervisor approval does not resolve the
 remaining literature-validation work.
 
@@ -94,10 +96,10 @@ remaining literature-validation work.
 | `arxiv250805002` | [AgenticData: An Agentic Data Analytics System for Heterogeneous Data](https://arxiv.org/abs/2508.05002) | v2 | v2 — Selected methods, evaluation and ablation sections, 25 September | See benchmark audit; no replication or exhaustive novelty finding |
 | `arxiv260121403` | [DataCross: A Unified Benchmark and Agent Framework for Cross-Modal Heterogeneous Data Analysis](https://arxiv.org/abs/2601.21403) | v1 | v1 — Construction, framework and evaluation | Prior reading scope only; not re-read today |
 | `arxiv260102598` | [LongDA: Benchmarking LLM Agents for Long-Document Data Analysis](https://arxiv.org/abs/2601.02598) | v2 | v2 — Construction, evaluation, limitations and selected release files, 25 September | HERD reference checks only; no agent replication |
-| `arxiv260120352` | [AMA: Adaptive Memory via Multi-Agent Collaboration](https://arxiv.org/abs/2601.20352) | v4 | v1 — Methods, datasets, ablations and limitations | Review latest before relying on gap claim |
-| `arxiv260301045` | [Silo-Bench: A Scalable Environment for Evaluating Distributed Coordination in Multi-Agent LLM Systems](https://arxiv.org/abs/2603.01045) | v2 | v1 — Task scope, failures and limitations | Review latest before relying on gap claim |
+| `arxiv260120352` | [AMA: Adaptive Memory via Multi-Agent Collaboration](https://arxiv.org/abs/2601.20352) | v4 | v1 previously; v4 — Selected Judge/conflict and evaluation passages, 10 October | See reading brief; complete version comparison remains open |
+| `arxiv260301045` | [Silo-Bench: A Scalable Environment for Evaluating Distributed Coordination in Multi-Agent LLM Systems](https://arxiv.org/abs/2603.01045) | v2 | v1 previously; v2 — Selected task construction and integration-failure discussion, 10 October | See reading brief; no experiment replication |
 | `arxiv260624535` | [Governed Shared Memory for Multi-Agent LLM Systems](https://arxiv.org/abs/2606.24535) | v1 | v1 — Architecture, measurement scope and limitations | Prior reading scope only; not re-read today |
 | `arxiv260506527` | [STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?](https://arxiv.org/abs/2605.06527) | v1 | v1 — Task definition and limitations | Prior reading scope only; not re-read today |
-| `arxiv260723929` | [MemTX: Transactional Belief Commit for Stateful Agent Memory](https://arxiv.org/abs/2607.23929) | v2 | v1 — Protocol, experiments and repair limitations | Review latest before relying on gap claim |
+| `arxiv260723929` | [MemTX: Transactional Belief Commit for Stateful Agent Memory](https://arxiv.org/abs/2607.23929) | v2 | v1 previously; v2 — Selected repair limits, grading/controls and experiments, 10 October | See reading brief; complete version/implementation comparison remains open |
 | `arxiv250623719` | [DABstep: Data Agent Benchmark for Multi-step Reasoning](https://arxiv.org/abs/2506.23719) | v1 | v1 — Task structure and limitations | Prior reading scope only; not re-read today |
 | `arxiv180908887` | [Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task](https://arxiv.org/abs/1809.08887) | v5 | — — To read; metadata only | Metadata only; not newly read |

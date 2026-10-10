@@ -13,7 +13,7 @@ a stronger verifier than solver in the primary factorial or weaken the single-ag
 baseline. Model selection is conditional on calibration showing useful task performance,
 not favourable treatment effects. A one-model study limits model-level generalisation.
 
-Candidate: [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna),
+Initial comparison candidate: [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna),
 documented function calling/structured outputs and Standard short-context prices of
 USD 0.10 per million input tokens and USD 0.50 per million output tokens.
 Optional stronger-model check: [GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol),
@@ -63,6 +63,41 @@ Implement a local cumulative spending guard before any paid run: reserve the wor
 allowed next call, bound aggregate tokens/turns/retries, stop before the agreed total
 and record interrupted/failed runs. A dashboard warning alone is insufficient. This
 guard is proposed; no harness or guard has been implemented yet.
+
+### China-based Qwen option
+
+Author requests a cheaper Chinese option and notes the thesis is being written in
+China. Prefer evaluating **qwen3.7-flash-2026-07-15 through Alibaba Cloud Model Studio,
+Beijing**, before choosing a primary provider. This is a candidate, not an approved
+model or paid launch. Its [official model page](https://help.aliyun.com/zh/model-studio/qwen3-7-flash)
+documents the dated snapshot, function calling and structured output support.
+This API model should not be confused with a downloadable open-weight Qwen release.
+
+The [official Chinese pricing table](https://help.aliyun.com/zh/model-studio/model-pricing)
+was checked 10 October 2026. Standard Beijing prices per million tokens:
+
+| Candidate and per-request input tier | Input CNY | Output CNY |
+|---|---|---|
+| qwen3.7-flash-2026-07-15, at most 32K | 0.2 | 0.8 |
+| Same model, above 32K and at most 256K | 0.6 | 2.4 |
+| qwen-flash-2025-07-28, at most 128K | 0.15 | 1.5 |
+
+For aggregate 100K input/20K billable output per complete run, Qwen3.7-Flash costs
+CNY 0.036 when all calls stay in the first tier, or CNY 0.108 if all tokens use the
+second tier: CNY 18.144 or 54.432 for the illustrative 504-run pilot. The older
+Qwen-Flash would cost CNY 0.045/run or 22.68 for the same workload in its first tier.
+Do not assume the smallest input price yields the cheapest overall run.
+These estimates exclude tax/other services and do not assume promotional quotas,
+caching or batch discounts. Thinking output is billable; tiers apply per request,
+not to aggregate run input. International-region prices differ. We have not tested
+account activation, payment, endpoint access or these models on our tasks.
+
+Before paid calibration, agree a ceiling in CNY, confirm the actual account/region,
+freeze thinking mode and version, and compare code/tool competence on a small
+development sample without using treatment wins as the selection criterion. Keep
+one base model across conditions and controls. Local open-weight inference is an
+alternative only if suitable existing hardware and serving stability are confirmed;
+no GPU rental or hardware purchase is recommended now. Main-study costs remain open.
 
 Each retained run needs a manifest recording code commit, task/source versions and checksums,
 model/provider/version, prompts, condition, caps, seeds where supported, repeats, timestamp,

@@ -2,12 +2,14 @@
 
 Supervisor-approved direction and title (author report, 23 September 2026). Targeted review, not an exhaustive systematic review. No experimental findings yet.
 
-## Freshness caveat — updated 25 September
+## Freshness caveat — updated 10 October
 
 The [benchmark audit](../benchmark/README.md) updates selected comparisons using AgenticData
 v2 and LongDA v2 and adds newer benchmark precedents. In particular, LiveSQLBench already
-includes business-rule drift; that cannot be claimed as a general gap. AMA v4, Silo-Bench
-v2 and MemTX v2 remain follow-ups. See [reference audit](references.md) for reading depth.
+includes business-rule drift; that cannot be claimed as a general gap. Selected current
+AMA v4, Silo-Bench v2 and MemTX v2 passages were inspected on 10 October; complete
+version/implementation comparisons remain open. See [reference audit](references.md)
+for reading depth.
 
 ## Position
 
@@ -30,6 +32,44 @@ Study the separate and joint effects of independent executable verification (V2)
 Links and reading scope are in references.md. Several sources are preprints. Absence of the exact experiment in this inspected set is not proof of global priority. Differences in benchmark scores across papers do not establish architectural superiority.
 
 ## Candidate contribution
+
+### Design comparison and novelty risk checked 10 October
+
+Author explicitly flags the risk of a scientifically empty recombination. The current
+assessment is **an incremental empirical contribution is plausible, but novelty is
+not established**. Using analytics data, adding verification to memory, measuring cost,
+or introducing document conflict cannot individually carry a novelty claim.
+
+AgenticData v2 Sections 5–7.5 already address validation, feedback memory, component
+ablations, complex rule interpretation and costs. AMA v4 Sections 3.3–4 address
+conflict detection/refresh in memory and conversational-memory evaluation. MemTX v2
+Sections 3.5 and 4–5 address provenance repair, deterministic grading, matched runners,
+controls and downstream harm. Silo-Bench v2 Sections 3 and 5 address distributed
+computation and failures despite communication. LongDA and LiveSQLBench already make
+documentary analytics and rule changes established evaluation topics. Source summaries
+and selected reading limits: [reading brief](reading-brief.md).
+
+| Identification question | Closest inspected precedent | Proposed study's target and remaining evidence gap |
+|---|---|---|
+| Do validation and memory help? | AgenticData component ablations | This broad question is already studied; our protocol must distinguish independent recomputation from plan validation and task-local rule reconciliation from feedback memory |
+| Do conflicts and stale knowledge matter? | AMA conflict filtering; MemTX repair | Conflict handling is prior art; our analytical rule-applicability setting needs controlled evidence, not a priority claim |
+| Do agents correctly use information they receive? | Silo-Bench communication/reasoning analysis | Existing coordination failures motivate the study but are not our discovery; test the specified analytics interventions |
+| Does documentary inconsistency change which checking mechanism is useful? | Document-dependent analytics plus memory/validation precedents | Estimate prespecified effects and moderation on unchanged tables; the exact comparison is not established by the passages inspected so far |
+| Is combined checking complementary rather than simply extra work? | Prior combinations, ablations and cost evaluation | Test an explicit interaction with resource controls and uncertainty; a combined win or cost report alone adds little |
+| Is a team worth using instead of a single agent? | Existing MAS comparisons and coordination limits | Use a strong executable single-agent control under comparable caps; report a team loss honestly |
+
+The useful knowledge sought is a boundary condition: whether computational checking
+still releases wrong answers when the governing rule is misidentified; whether explicit
+rule reconciliation reduces that risk or spreads a shared mistake; whether the joint
+effect exceeds its component effects at an acceptable measured cost. These are proposed
+questions, not discovered mechanisms. Observable traces alone cannot establish mediation.
+
+Write the proposal as a controlled study seeking this evidence, without a first-of-kind
+claim. If a close paper already answers the same question with equivalent controls,
+present it to the author and consider a transparent replication/extension or a narrower
+boundary condition. Do not silently redesign the approved topic. A different dataset
+or exact combination of labels is not sufficient. The bounded search and selected
+sections cannot establish global absence; code/protocol comparison remains incomplete.
 
 Estimate when computational checking and semantic alignment help individually and jointly, with matched task variants and resource controls. Distinguish failed retrieval, incorrect rule applicability, lost inter-agent information and computational errors through observable traces and diagnostic conditions. A context intervention that spreads a shared mistake or a combined intervention that is not cost-effective are legitimate possible findings.
 

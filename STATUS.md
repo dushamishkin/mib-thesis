@@ -10,6 +10,17 @@ Institutional notice and current forms saved in requirements/; see requirements/
 Supervisor approval is required before upload. Proposal defense is 22 October.
 
 ## Completed
+- Wrote the first English literature/significance narrative in
+  proposal/literature-review-draft.md, with version-pinned evidence links in appearance
+  order and explicit MAS, intervention and novelty limits. This is Section 1 prose,
+  not the complete proposal: final Zotero reference reconciliation, remaining fields
+  and DOCX assembly/rendering are still pending.
+- Began the agreed proposal work with a transparent design-level novelty comparison in
+  literature/positioning-note.md and current-version selected-section follow-ups for
+  AMA/Silo-Bench/MemTX in the reading brief. Novelty remains an incremental empirical
+  candidate, not established priority. Added official Beijing Qwen prices and pilot
+  cost scenarios; no paid runs or account-access tests. PR #3 is merged; drafting branch
+  starts from its merge, codex/proposal-draft.
 - Addressed author's outline feedback: strengthened the empirical MAS-versus-single-agent
   rationale, added accessible definitions and proposed descriptive condition names with
   preserved IDs. literature/reading-brief.md presents five key sources with links,
@@ -40,12 +51,13 @@ Supervisor approval is required before upload. Proposal defense is 22 October.
 - Offline hygiene/link/BibTeX checks pass for 29 indexed records; original archived PDF
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
-## Next task — outline discussion then supervisor-ready proposal
-The author now requests outline discussion before full drafting. Read
-proposal/proposal-outline.md for the proposed structure and literature workflow;
+## Next task — literature and methods narrative then supervisor-ready proposal
+The author accepts the remaining outline discussion and asks to begin. Read
+proposal/proposal-outline.md for the structure and literature workflow;
 proposal/defense-brief.md retains the research explanation and final acceptance criteria.
-Next, discuss the key-source briefs and proposed terminology with the author, complete
-the closest-work comparison and verify the core literature claims, then assemble the
+Next, review the Section 1 prose and draft the English methods and remaining fields
+using the transparent reading brief and bounded design comparison; verify citations
+and bring consequential positioning changes to the author. Then assemble the
 complete proposal using the current form, approved design and existing benchmark audit.
 Target author dispatch to the supervisor by 11 October evening,
 requesting feedback by 13 October; freeze on 14 October and submit by 15 October.

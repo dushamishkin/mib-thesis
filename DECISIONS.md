@@ -1,5 +1,12 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-10 — Author accepts the remaining outline discussion and asks to begin work,
+  while requesting cheaper Chinese models (Qwen) and reiterating the risk of weak novelty.
+  Begin with a transparent closest-work comparison and China-region pricing check before
+  drafting the literature/methods narrative. Qwen3.7-Flash Beijing is a provisional
+  calibration candidate; no model/budget or paid runs approved. Existing branch was
+  merged as PR #3; drafting continues on codex/proposal-draft from that merge.
+
 - 2026-10-10 — Author requires transparent review of key literature: primary links,
   summaries and reasons for inclusion, rather than silent assistant positioning
   decisions. Author also flags MAS necessity, unexplained intervention terms, opaque
