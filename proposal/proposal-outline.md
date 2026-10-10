@@ -68,6 +68,10 @@ within each subsection. Do not turn the review into one paragraph per paper.
 - Position MAST as a descriptive failure taxonomy and motivation for trace diagnosis.
   Its annotations do not establish causal mechanisms in this study.
 - State why the fixed team and strong single-agent control are necessary.
+- Make team necessity an empirical question: explain the proposed division of work,
+  communication costs and correlated mistakes. A better single-agent result is a
+  boundary condition, not permission to discard tasks or weaken that control. Use
+  the argument and definitions in [research-design.md](research-design.md).
 
 ### 1.3 Verification, feedback and their semantic limits
 
@@ -154,6 +158,8 @@ variants. Connect each issue to a solution in the methods field.
 ### 3.1 Experimental logic and conditions
 
 Present V0/V2/C1/V2+C1 in a 2×2 table. All systems retain ordinary executable tools.
+Lead with the reader-facing names in the design's mapping table and define both
+interventions before abbreviating them. Preserve canonical IDs for traceability.
 Cross the four conditions with consistent/conflicting document variants while holding
 tables fixed. Hold core team roles, topology, base model and source access constant.
 Specify the final role workflow before runs; avoid inventing an approved team size.
@@ -241,6 +247,8 @@ transfer, component ablations and additional access/topology studies.
 
 No paid campaign is authorised. Model/budget, exact caps, team workflow, repetitions
 and main-study size remain decisions to settle before running experiments.
+Use the provisional low-cost model and bounded cost scenarios in
+[experiments](../experiments/README.md); distinguish recommended limits from approved spending.
 
 ## 4. Novelties of the proposed topic
 
@@ -287,6 +295,11 @@ support a focused proposal; this is a provisional writing target, not a citation
 1. Build a researcher-side claim/evidence matrix: proposed claim, paper/version,
    supporting section, limitation, and intended proposal subsection. Every important
    novelty claim requires methods/evaluation inspection, not abstract-only evidence.
+   Present each key source to the author with a primary link, plain-language summary,
+   inspected sections, reason for inclusion, limits and unresolved follow-ups. Start
+   with the [reading brief](../literature/reading-brief.md). Clearly separate the paper's
+   findings from our interpretation; consequential positioning changes are discussed
+   with the author rather than silently adopted.
 2. First inspect MAST, AgenticData, DABstep, LongDA and LiveSQLBench. Check current
    primary-source versions and metadata. Then address AMA/Silo-Bench/MemTX follow-ups
    only insofar as the proposal depends on their claims. Use selected older framework

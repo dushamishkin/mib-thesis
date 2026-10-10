@@ -15,6 +15,40 @@ Estimate the separate and joint effects of independent executable verification a
 
 The original proposal already included V2, C1 and their combination. The revision removes broad priority claims and narrows the empirical question. See ../literature/positioning-note.md for the closest work.
 
+## Why study a team rather than assume one is necessary
+
+The motivation is a testable division of work: identifying applicable documentary rules,
+writing calculations and checking evidence can be assigned to different agents. Separate
+attempts may reveal inconsistencies, but communication overhead and correlated errors
+can offset that benefit. Existing analytics MAS make the question relevant; they do not
+prove that a team is necessary for our tasks. A single agent may perform all these steps.
+
+The strong single-agent control must be allowed to plan, inspect the same sources,
+execute code, revisit evidence and self-check within comparable total resource caps.
+It must not be deliberately weakened to justify MAS. Task admission follows semantic
+validity before treatment results. If the single agent performs better or achieves
+similar reliability at lower cost, the study should report that boundary condition.
+Within-team intervention effects remain informative, but cannot justify recommending
+MAS over a better single-agent alternative. A null result requires adequate measurement
+and uncertainty reporting; a weak or underpowered design is not rescued by calling it null.
+
+## Plain-language definitions for the proposal and defense
+
+**Independent calculation check (executable verification):** a separate checking attempt
+uses the question and source documents to construct and execute its own calculation,
+then compares it with the team's result. Initially it cannot see the solver's code or
+numeric answer. Different implementations can still share the same wrong interpretation;
+independence here is a protocol property, not a correctness guarantee.
+
+**Shared rule reconciliation (business-context alignment):** agents populate one explicit
+task-local record of the metric, period, population, units, exclusions and supporting
+sources. They resolve inconsistent entries using available evidence or record ambiguity.
+The intervention does not supply the correct rule; ordinary source reading remains
+available in every condition. Agreement on an incorrect rule remains an error.
+
+Define both terms before introducing abbreviations. Proposed reader-facing names below
+are aliases; canonical condition IDs and the optional V1 comparator remain unchanged.
+
 ## Research questions and hypotheses
 
 - RQ1: How do consistent versus conflicting-but-resolvable document-defined rules affect MAS correctness and false acceptance of wrong answers? A strong single-agent control contextualizes any coordination cost.
@@ -27,12 +61,12 @@ Candidate hypotheses, to be frozen before the main study: verification improves 
 
 Hold team roles, topology, base model and source corpus fixed. Cross verification absent/present with context alignment absent/present:
 
-| Condition | Extra executable verification | Shared-context intervention |
-|---|---|---|
-| V0 | No | No |
-| V2 | Yes | No |
-| C1 | No | Yes |
-| V2+C1 | Yes | Yes |
+| Reader-facing condition | Canonical ID | Extra executable verification | Shared-context intervention |
+|---|---|---|---|
+| Baseline team | V0 | No | No |
+| Independent calculation check | V2 | Yes | No |
+| Shared rule reconciliation | C1 | No | Yes |
+| Combined checks | V2+C1 | Yes | Yes |
 
 All conditions can execute SQL/Python to solve tasks. V0 does not disable ordinary execution feedback. V1, the original text-only critic, is optional secondary work.
 

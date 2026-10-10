@@ -1,5 +1,14 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-10 — Author requires transparent review of key literature: primary links,
+  summaries and reasons for inclusion, rather than silent assistant positioning
+  decisions. Author also flags MAS necessity, unexplained intervention terms, opaque
+  condition names and student-budget constraints. Strengthen the single-agent rationale
+  and plain-language definitions; propose descriptive display names with unchanged
+  canonical IDs. Add key-source reading briefs and a sourced low-cost model/cost plan.
+  Display names and model ceilings are assistant proposals, not author/supervisor
+  approvals or authorisation for paid experiments. Novelty remains unconfirmed.
+
 - 2026-10-10 — Author requests a detailed outline and literature-review plan before
   full proposal drafting, and explicitly authorizes remote push. Prepare the outline
   against the current university form; use Consensus for bounded discovery followed

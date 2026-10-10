@@ -43,6 +43,11 @@ and check final publication metadata where relevant.
 
 ## Priority follow-up
 
+Author requests transparent key-source summaries and inclusion rationales, 10 October:
+see [reading-brief.md](reading-brief.md) for primary links, selected sections, uses,
+limits and outstanding checks. Present consequential gap/comparator choices for author
+discussion; do not silently convert a preliminary review into a frozen novelty claim.
+
 10 October proposal planning check: Consensus discovery returned AgenticData and its
 record was fetched. The record retains the older title and three-benchmark abstract;
 [primary v2](https://arxiv.org/html/2508.05002v2) has the revised title

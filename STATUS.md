@@ -10,6 +10,11 @@ Institutional notice and current forms saved in requirements/; see requirements/
 Supervisor approval is required before upload. Proposal defense is 22 October.
 
 ## Completed
+- Addressed author's outline feedback: strengthened the empirical MAS-versus-single-agent
+  rationale, added accessible definitions and proposed descriptive condition names with
+  preserved IDs. literature/reading-brief.md presents five key sources with links,
+  summaries, uses, reading limits and follow-ups. experiments/README.md records current
+  official model prices and conditional student-budget scenarios; no paid calls made.
 - Prepared proposal/proposal-outline.md at the author's request: detailed English
   structure for the current form's six substantive fields, word budgets, focused
   literature workflow and unresolved personal/admin fields. Form text/fields inspected;
@@ -39,7 +44,8 @@ Supervisor approval is required before upload. Proposal defense is 22 October.
 The author now requests outline discussion before full drafting. Read
 proposal/proposal-outline.md for the proposed structure and literature workflow;
 proposal/defense-brief.md retains the research explanation and final acceptance criteria.
-Next, address outline feedback, verify the core literature claims, then assemble the
+Next, discuss the key-source briefs and proposed terminology with the author, complete
+the closest-work comparison and verify the core literature claims, then assemble the
 complete proposal using the current form, approved design and existing benchmark audit.
 Target author dispatch to the supervisor by 11 October evening,
 requesting feedback by 13 October; freeze on 14 October and submit by 15 October.
