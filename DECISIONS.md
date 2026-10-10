@@ -1,5 +1,11 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-10 — Author agrees to the research explanation and proposal-first daily plan
+  discussed in chat, and will open a new chat for execution. Preserve the agreed
+  reasoning and concrete drafting acceptance criteria in proposal/defense-brief.md.
+  This is author agreement to the working plan, not new supervisor approval or
+  authorization to email, submit, or run paid experiments.
+
 - 2026-10-10 — Author supplied five institutional requirement/template files. Preserve
   unchanged originals and checksums in requirements/; its README distinguishes source
   requirements from assistant actions and template placeholders. Cohort notice requires

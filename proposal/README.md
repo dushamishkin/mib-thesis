@@ -1,5 +1,7 @@
 # Proposal documents
 
+- [defense-brief.md](defense-brief.md): agreed research explanation and 10 October drafting handoff.
+
 - [research-design.md](research-design.md): current supervisor-approved direction; detailed
   hypotheses and implementation will be finalized after the pilot.
 - [Current proposal form](../requirements/thesis-proposal-template.docx): supplied 10 October.

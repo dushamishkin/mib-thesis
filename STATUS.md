@@ -30,6 +30,8 @@ Supervisor approval is required before upload. Proposal defense is 22 October.
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
 ## Next task — supervisor-ready proposal
+The author agreed to start drafting in a new chat. Read proposal/defense-brief.md for
+the agreed explanation, today's work blocks and handoff acceptance criteria.
 Assemble a complete proposal using the institutional template, approved research design,
 and benchmark audit. Target author dispatch to the supervisor by 11 October evening,
 requesting feedback by 13 October; freeze on 14 October and submit by 15 October.
