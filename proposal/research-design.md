@@ -15,6 +15,39 @@ Estimate the separate and joint effects of independent executable verification a
 
 The original proposal already included V2, C1 and their combination. The revision removes broad priority claims and narrows the empirical question. See ../literature/positioning-note.md for the closest work.
 
+## Author's practical motivation — clarified 10 October 2026
+
+The author reports encountering this problem in banking analytics work. Tables have
+schemas, team/product organisation and column descriptions, but this structural
+metadata does not reliably specify the business meaning required for a query.
+Relevant context is distributed across knowledge-base pages and communication threads.
+In the author's experience, supplying more context alone can leave contradictory,
+missing or unclear definitions unresolved. Even organised documentation can leave
+uncertainty about which relationships, joins, filters or aggregation rules implement
+the intended business question. This is an author-reported motivation, not a measured
+workplace finding, a universal claim about retrieval, or evidence of research novelty.
+
+The analytical distinction is between knowing how tables are represented and knowing
+which operations express the requested business meaning. The study targets the latter
+within an executable analytical workflow. A wrong join, population filter or metric
+definition can produce valid code and plausible numbers. Structured shared context is
+a proposed way to make interpretations and their evidence explicit; independent checking
+is a proposed way to challenge an analytical solution. Neither creates missing business
+knowledge or establishes that multiple agents are necessary.
+
+For task construction, distinguish evidence that is present but dispersed, contradictory
+but resolvable, and insufficient to determine a unique answer. The core matched study
+retains consistent versus resolvable-conflict variants with equivalent accessible
+evidence. Truly missing governing rules cannot have a uniquely correct numerical answer
+imposed from researcher-only knowledge; clarification/ambiguity cases require a separate
+protocol and remain optional. Join/filter examples motivate task suitability checks,
+not a silently approved new task family or experimental dimension.
+
+Workplace experience motivates public-data experiments. Employer tables, internal
+documents and messages are not study inputs, and the initial study will not establish
+production-bank effectiveness. Broader source discovery and undocumented institutional
+knowledge remain outside what the core comparison can establish.
+
 ## Why study a team rather than assume one is necessary
 
 The motivation is a testable division of work: identifying applicable documentary rules,

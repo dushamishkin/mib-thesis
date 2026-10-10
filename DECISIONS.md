@@ -1,5 +1,12 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-10 — Author clarifies the workplace motivation: structured tables and even
+  organised knowledge sources do not ensure correct business-semantic interpretation
+  of relationships, filters and analytical rules. Record this as author-reported
+  motivation, not workplace evidence or established novelty. Clarify available versus
+  genuinely missing semantic evidence; preserve the approved factorial and public-data
+  scope. Potential join/filter task refinements are not yet approved/frozen additions.
+
 - 2026-10-10 — Author accepts the remaining outline discussion and asks to begin work,
   while requesting cheaper Chinese models (Qwen) and reiterating the risk of weak novelty.
   Begin with a transparent closest-work comparison and China-region pricing check before

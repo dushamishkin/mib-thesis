@@ -10,6 +10,15 @@ The scientific specification remains [research-design.md](research-design.md).
 
 ## Business analytics requires both calculation and interpretation
 
+The practical motivation comes from the author's experience in banking analytics:
+tables may have schemas and column descriptions while the knowledge needed to construct
+a business-correct query remains distributed across documentation. The author reports
+that additional context can still contain conflicting or unclear definitions, and
+that even organised documentation may leave the appropriate relationships and filters
+uncertain. This experience motivates the research question; it is not a measured
+workplace result or evidence that additional context is generally ineffective. The
+proposed experiments use public sources rather than internal bank material.
+
 Business analytics often appears to be a calculation problem: select records, apply a
 formula and report a number. In practice, the calculation is governed by definitions
 distributed across tables and documents. A report may depend on which reporting period
@@ -18,6 +27,14 @@ and whether a percentage is calculated from transaction counts or monetary amoun
 Code can execute successfully while implementing a rule that does not apply to the
 requested report. Reliable analytical assistance therefore requires both computational
 correctness and an interpretation supported by the governing documentation.
+
+This distinction also concerns joins and aggregation grain. A technically valid join
+can count the same business entity several times, while a plausible filter can omit
+records that the intended definition includes. These are illustrative risks, not
+reported workplace cases. The proposed procedures can organise and check available
+evidence; they cannot guarantee recovery of a governing rule absent from the sources.
+The core experiment therefore requires sufficient accessible evidence to determine
+the answer, including in its resolvable-conflict variants.
 
 Consider an illustrative fraud-rate report. One document defines the rate as the
 number of fraudulent transactions divided by the number of eligible transactions.

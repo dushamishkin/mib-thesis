@@ -10,6 +10,10 @@ Institutional notice and current forms saved in requirements/; see requirements/
 Supervisor approval is required before upload. Proposal defense is 22 October.
 
 ## Completed
+- Captured the author's banking-workplace motivation in proposal/research-design.md
+  and reflected it in the Section 1 prose: schema/context access does not itself ensure
+  correct business-semantic interpretation. Distinguished available/resolvable evidence
+  from genuinely missing rules; retained the approved conditions and public-data scope.
 - Wrote the first English literature/significance narrative in
   proposal/literature-review-draft.md, with version-pinned evidence links in appearance
   order and explicit MAS, intervention and novelty limits. This is Section 1 prose,
@@ -57,7 +61,9 @@ proposal/proposal-outline.md for the structure and literature workflow;
 proposal/defense-brief.md retains the research explanation and final acceptance criteria.
 Next, review the Section 1 prose and draft the English methods and remaining fields
 using the transparent reading brief and bounded design comparison; verify citations
-and bring consequential positioning changes to the author. Then assemble the
+and bring consequential positioning changes to the author. Ensure task examples assess
+business-rule application rather than only explicit source-priority following; any
+new task family requires semantic/reference admission. Then assemble the
 complete proposal using the current form, approved design and existing benchmark audit.
 Target author dispatch to the supervisor by 11 October evening,
 requesting feedback by 13 October; freeze on 14 October and submit by 15 October.
