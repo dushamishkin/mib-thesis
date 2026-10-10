@@ -1,5 +1,12 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-10 — Author supplied five institutional requirement/template files. Preserve
+  unchanged originals and checksums in requirements/; its README distinguishes source
+  requirements from assistant actions and template placeholders. Cohort notice requires
+  supervisor approval before submission, proposal defense 22 October, midterm upload
+  by 20 December, final thesis/plagiarism files by 14 April 2027 and defense mid-to-late
+  May. These replace earlier provisional dates; receipt does not mean approval or upload.
+
 - 2026-10-10 — Author confirms the proposal deadline is 15 October 2026 and requires
   one opportunity for supervisor feedback before submission. This supersedes the
   end-October scheduling assumption. Assistant recommends dispatch by 11 October,

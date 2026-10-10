@@ -6,7 +6,8 @@ Supervisor approved the revised title, scope and roadmap, as reported by the aut
 23 September. See [approval record](meetings/2026-09-23-supervisor-approval.md).
 Phase: proposal preparation takes priority. Author confirms submission on 15 October 2026
 and wants one supervisor review beforehand. See ROADMAP.md for the proposed daily plan.
-April 2027 completion remains provisional. Formal submission requirements are still pending.
+Institutional notice and current forms saved in requirements/; see requirements/README.md.
+Supervisor approval is required before upload. Proposal defense is 22 October.
 
 ## Completed
 - Broad benchmark audit: 18 families screened and six leading releases inspected;
@@ -32,7 +33,8 @@ April 2027 completion remains provisional. Formal submission requirements are st
 Assemble a complete proposal using the institutional template, approved research design,
 and benchmark audit. Target author dispatch to the supervisor by 11 October evening,
 requesting feedback by 13 October; freeze on 14 October and submit by 15 October.
-Confirm required format/length, submission channel and exact deadline/timezone.
+Use requirements/thesis-proposal-template.docx and its section requirements. Obtain
+supervisor approval before upload; confirm cutoff/timezone and physical delivery details.
 Keep feasibility calculations distinct from agent results: no model experiments have run.
 Pilot implementation resumes after submission; see ROADMAP.md and benchmark/pilot-spec.md.
 

@@ -68,4 +68,4 @@ Practical contribution: acceptance tests and guidance on allocating checking eff
 
 Main risks: incorrect gold rules, weak baselines, extra-compute confounding, ceiling/floor effects, dependence between task variants and synthetic realism. Address these before scaling. Executable verification exists in software engineering; analytics is chosen for business relevance and auditable computations, not exclusivity. Data alone is not the oracle: the evaluator combines data, specification and applicable rules.
 
-No employer/proprietary data, human-subject study, live Confluence integration, broad topology search or formal universal-memory guarantees. April 2027 remains a provisional completion target. See ../ROADMAP.md for milestones.
+No employer/proprietary data, human-subject study, live Confluence integration, broad topology search or formal universal-memory guarantees. See ../requirements/README.md for institutional requirements and ../ROADMAP.md for milestones.
