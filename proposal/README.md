@@ -8,7 +8,8 @@
   [archive/Mikhail_Dushkin_proposal.pdf](archive/Mikhail_Dushkin_proposal.pdf): historical
   formulations, retained unchanged for traceability. Their older claims/schedule are not current.
 
-The formal project proposal is due at the end of October 2026. The Markdown research design
-is not a completed university-format submission. Length, format and exact deadline remain open.
+The submission deadline and supervisor-review plan are in [ROADMAP.md](../ROADMAP.md).
+The Markdown research design is not a completed university-format submission.
+Length, format, submission channel and exact cutoff time remain open.
 The historical record of an earlier proposal discussion/submission does not mean the October
 proposal has already been submitted.

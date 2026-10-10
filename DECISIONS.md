@@ -1,5 +1,12 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-10 — Author confirms the proposal deadline is 15 October 2026 and requires
+  one opportunity for supervisor feedback before submission. This supersedes the
+  end-October scheduling assumption. Assistant recommends dispatch by 11 October,
+  requested comments by 13 October, and finalization on 14 October (ROADMAP.md).
+  Prioritize proposal writing over completing the pilot; do not imply experiments
+  have run. No email has been sent and supervisor availability is unconfirmed.
+
 - 2026-09-25 — At the author's request for a broad data/benchmark investigation, the
   research audit recommends a specified DABstep derivative for the core pilot,
   AgenticDataBench finance as the strongest alternative, and LongDA HERD for transfer.

@@ -1,11 +1,12 @@
 # Current status
-Updated: 25 September 2026.
+Updated: 10 October 2026.
 
 ## Authority and phase
 Supervisor approved the revised title, scope and roadmap, as reported by the author on
 23 September. See [approval record](meetings/2026-09-23-supervisor-approval.md).
-Phase: candidate-data audit delivered; pilot task construction next. End-October 2026 proposal deadline;
-April 2027 completion remains provisional. Formal requirements are still pending.
+Phase: proposal preparation takes priority. Author confirms submission on 15 October 2026
+and wants one supervisor review beforehand. See ROADMAP.md for the proposed daily plan.
+April 2027 completion remains provisional. Formal submission requirements are still pending.
 
 ## Completed
 - Broad benchmark audit: 18 families screened and six leading releases inspected;
@@ -27,17 +28,18 @@ April 2027 completion remains provisional. Formal requirements are still pending
 - Offline hygiene/link/BibTeX checks pass for 29 indexed records; original archived PDF
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
-## Next task — pilot task construction
-Implement the development suite specified in benchmark/pilot-spec.md. Resolve each task's
-document authority and rule semantics, compute references independently, and obtain the
-author's semantic/gold review. Keep runtime inputs separate from audit notes and public gold.
-Acceptance: 12 fully specified base tasks with paired documents, checked reference outputs,
-family IDs, frozen tolerances and verified source manifests. No model campaign yet.
+## Next task — supervisor-ready proposal
+Assemble a complete proposal using the institutional template, approved research design,
+and benchmark audit. Target author dispatch to the supervisor by 11 October evening,
+requesting feedback by 13 October; freeze on 14 October and submit by 15 October.
+Confirm required format/length, submission channel and exact deadline/timezone.
+Keep feasibility calculations distinct from agent results: no model experiments have run.
+Pilot implementation resumes after submission; see ROADMAP.md and benchmark/pilot-spec.md.
 
 ## Before pilot runs
 - Complete remaining literature follow-ups in literature/references.md; AgenticData v2
   and LongDA v2 selected sections were inspected during this audit, not fully replicated.
-- Confirm formal proposal requirements/date, model/API budget and data suitability.
+- Confirm model/API budget and data suitability.
 - Specify the fixed team, V2 independence, C1 schema, caps, scoring and task-level analysis.
 
 ## Evidence and blockers
