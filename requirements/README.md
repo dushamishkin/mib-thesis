@@ -14,7 +14,11 @@ cohort, General and Civil Aviation tracks. It supersedes earlier schedule assump
 - [Thesis formatting](thesis-formatting-guidelines.doc): supplied guidelines internally dated April 2019; retained as received, not a newly issued 2026 policy.
 - [Midterm form](midterm-exam-template.docx): progress-report template.
 
-Office files were read through text/XML extraction; their layout was not re-rendered or modified.
+The current proposal form was subsequently rendered and visually inspected on
+10 October (six pages); the original is unchanged. The authored
+[proposal draft](../proposal/thesis-proposal-draft.docx) was checked separately;
+[review notes](../proposal/proposal-review-notes.md) record its verification and open fields.
+The other Office sources were read through text/XML extraction, without re-rendering or modification.
 The older proposal form in proposal/templates is superseded for new drafting; retained
 as an earlier supplied template. Do not combine its fields with the current form blindly.
 

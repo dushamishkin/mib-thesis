@@ -1,5 +1,16 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-10 — Author asks to continue proposal writing and supplies personal/programme
+  details and supervisor email. Assemble the complete six-section English draft in
+  the current institutional template, consolidate the standalone Section 1 draft,
+  and prepare unresolved-field and unsent-email notes. The assistant proposes bounded
+  operational details for review: four fixed roles, initially withheld independent
+  checking in both V2 conditions, one revision round, structured single-agent work,
+  extra-compute review and a percentage-point interaction. These implement the existing
+  design provisionally; no new scope approval, experiment freeze or paid run is implied.
+  Preserve template controls/instructions and separate document approval from the
+  previously reported approval of title, scope and roadmap.
+
 - 2026-10-10 — Author clarifies the workplace motivation: structured tables and even
   organised knowledge sources do not ensure correct business-semantic interpretation
   of relationships, filters and analytical rules. Record this as author-reported

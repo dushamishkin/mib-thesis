@@ -132,6 +132,21 @@ C1: agents populate a shared specification of metric definition, period, scope, 
 
 Controls: strong single agent, comparable resource caps and measured consumption, extra-compute MAS control, and document-grounded validation inspired by AgenticData where feasible. Label adapted implementations accurately. On a diagnostic subset supply relevant passages to all systems to separate retrieval failure from interpretation/coordination. Distributed source access is an optional diagnostic extension, not another mandatory full factorial dimension.
 
+### Draft operational specifications — 10 October 2026
+
+For the complete proposal, the assistant proposes four fixed roles: source analyst,
+computational analyst, reviewer and coordinator. In V2 and V2+C1 the reviewer first
+receives only the question and the same permitted corpus, withholding solver code,
+answer, messages and the C1 record until it logs an initial independent interpretation,
+evidence and calculation. Later comparison permits a proposed single revision round.
+C1 also records relationships/aggregation grain where relevant. The single-agent
+control explicitly plans, specifies rules, computes and self-reviews; extra-compute
+MAS extends ordinary exposed-solution review without the blinded attempt or C1 schema.
+These are proposed procedures for development validation, not frozen parameters or
+new supervisor approval. Their effects do not isolate pure cognitive mechanisms.
+The full supervisor-facing explanation is in [proposal-draft.md](proposal-draft.md),
+Section 3; exact prompts, routes and allowances remain to be frozen before evaluation.
+
 ## Data and tasks
 
 Use public tables with documentation specifying business rules. The [candidate-data audit](../benchmark/README.md) records the current source recommendation, inspected releases, reuse conditions and unresolved gates. The audit recommendation does not freeze dataset selection or task specifications. Our altered tasks are a derivative suite, not official benchmark results.
@@ -144,7 +159,13 @@ Compute reference answers independently and manually audit rule applicability an
 
 Primary outcomes: end-to-end task correctness and incorrect answers accepted as final. Report failures/timeouts, coverage, unnecessary refusals, rule applicability, computational checks, citation support, tokens, latency and cost. Numeric tolerances and multi-value answer matching are specified per task before evaluation.
 
-Use paired task-level contrasts. Repeated runs quantify stochastic variability; confidence intervals must cluster by base task, including its document variants. Freeze the interaction scale, such as percentage-point success differences. The combined condition beating either individual condition does not itself prove synergy. Model families and run counts depend on pilot cost and variance.
+Use paired task-level contrasts. Repeated runs quantify stochastic variability; confidence intervals must cluster by base task, including its document variants, and acknowledge dependence within families. The proposal specifies the percentage-point success interaction I = p(V2+C1) - p(V2) - p(C1) + p(V0); confirm this in the frozen analysis plan. The combined condition beating either individual condition does not itself prove synergy. Model families and run counts depend on pilot cost and variance.
+
+Incorrect final acceptance is measured across all assigned attempts, with a separate
+conditional error rate among answered attempts and coverage. Distinguish rule
+correctness from calculation correctness under the chosen rule. These outcomes do
+not assume a separate production approval gate. Main-study sample size follows
+valid measurement, variance/precision and budget, not favourable treatment effects.
 
 MAST is a descriptive taxonomy with a manually audited trace subset. Use visible messages, shared records, tool calls and code to support diagnoses. Do not infer hidden reasoning or causal attribution from label frequencies alone. Controlled interventions support causal claims only within the specified experimental setting.
 

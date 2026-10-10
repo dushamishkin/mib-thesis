@@ -16,11 +16,14 @@ Supervisor approval is required before upload. Proposal defense is 22 October.
   from genuinely missing rules; retained the approved conditions and public-data scope.
   Added the author's trade-finance utilisation illustration, with active-limit and
   umbrella semantics explicitly unresolved; no new experiment task was admitted.
-- Wrote the first English literature/significance narrative in
-  proposal/literature-review-draft.md, with version-pinned evidence links in appearance
-  order and explicit MAS, intervention and novelty limits. This is Section 1 prose,
-  not the complete proposal: final Zotero reference reconciliation, remaining fields
-  and DOCX assembly/rendering are still pending.
+- Completed all six English proposal sections in proposal/proposal-draft.md and
+  proposal/thesis-proposal-draft.docx; consolidated the earlier standalone Section 1
+  draft. The 18-page DOCX was rendered and every page visually checked; template
+  geometry, institutional instructions, declaration and nine controls retained.
+  Section 1 exceeds 1,000 words and all nine cited primary URLs were checked.
+  proposal/proposal-review-notes.md records remaining fields, source-reading limits,
+  checksums and proposed operational details. Unsent supervisor email prepared in
+  proposal/supervisor-email-draft.md. No agent results or document approval claimed.
 - Began the agreed proposal work with a transparent design-level novelty comparison in
   literature/positioning-note.md and current-version selected-section follow-ups for
   AMA/Silo-Bench/MemTX in the reading brief. Novelty remains an incremental empirical
@@ -35,7 +38,7 @@ Supervisor approval is required before upload. Proposal defense is 22 October.
 - Prepared proposal/proposal-outline.md at the author's request: detailed English
   structure for the current form's six substantive fields, word budgets, focused
   literature workflow and unresolved personal/admin fields. Form text/fields inspected;
-  no completed proposal DOCX rendered yet. Consensus discovery and fetched AgenticData
+  subsequently implemented in the full draft above. Consensus discovery and fetched AgenticData
   metadata checked against primary v2; remaining citation checks are explicit.
   Offline repository and whitespace checks pass for the outline changes.
 - Broad benchmark audit: 18 families screened and six leading releases inspected;
@@ -57,28 +60,24 @@ Supervisor approval is required before upload. Proposal defense is 22 October.
 - Offline hygiene/link/BibTeX checks pass for 29 indexed records; original archived PDF
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
-## Next task — literature and methods narrative then supervisor-ready proposal
-The author accepts the remaining outline discussion and asks to begin. Read
-proposal/proposal-outline.md for the structure and literature workflow;
-proposal/defense-brief.md retains the research explanation and final acceptance criteria.
-Next, review the Section 1 prose and draft the English methods and remaining fields
-using the transparent reading brief and bounded design comparison; verify citations
-and bring consequential positioning changes to the author. Ensure task examples assess
-business-rule application rather than only explicit source-priority following; any
-new task family requires semantic/reference admission. Then assemble the
-complete proposal using the current form, approved design and existing benchmark audit.
-Target author dispatch to the supervisor by 11 October evening,
-requesting feedback by 13 October; freeze on 14 October and submit by 15 October.
-Use requirements/thesis-proposal-template.docx and its section requirements. Obtain
-supervisor approval before upload; confirm cutoff/timezone and physical delivery details.
-Keep feasibility calculations distinct from agent results: no model experiments have run.
+## Next task — author review and supervisor dispatch
+Review the complete draft, especially Sections 1, 3 and 4, for intended motivation,
+procedure and contribution. Confirm the remaining personal/admin fields using
+proposal/proposal-review-notes.md. Resolve AgenticData's version-specific title in
+Zotero, retaining the pinned key and reviewing its automatic export; direct references
+are checked, but no new export or cloud sync is claimed in this drafting task.
+Author dispatch target: 11 October evening; request comments by 13 October, revise
+and freeze on 14 October, obtain supervisor approval before submission on 15 October.
+Use the prepared unsent email; do not treat September title/scope approval as approval
+of this document. Confirm cutoff/timezone and physical delivery with Teaching Office.
 Pilot implementation resumes after submission; see ROADMAP.md and benchmark/pilot-spec.md.
 
 ## Before pilot runs
 - Complete remaining literature follow-ups in literature/references.md; AgenticData v2
   and LongDA v2 selected sections were inspected during this audit, not fully replicated.
 - Confirm model/API budget and data suitability.
-- Specify the fixed team, V2 independence, C1 schema, caps, scoring and task-level analysis.
+- Validate and freeze the draft fixed team, V2 timing, C1 schema, controls, caps, scoring
+  and task/family-level analysis; proposed details are now in proposal/research-design.md.
 
 ## Evidence and blockers
 No harness, pilot agent runs, intervention findings or frozen test suite yet. Data-source

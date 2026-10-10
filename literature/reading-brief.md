@@ -172,6 +172,19 @@ existing contributions from proposed empirical questions and unresolved equivale
 
 ## What remains before the gap can be frozen
 
+### Proposal citation check — 10 October
+
+The complete [proposal](../proposal/proposal-draft.md) uses seven papers from this
+brief plus LiveSQLBench release documentation and official
+[Qwen3.7-Flash documentation](https://help.aliyun.com/zh/model-studio/qwen3-7-flash).
+The latter advertises function calling and structured outputs: it supports model
+calibration feasibility, not performance on our tasks or a scientific novelty claim.
+All nine primary reference URLs and the cited paper versions were checked again
+for the final draft. The proposed 12–18-reference outline target was not a quota;
+uncited framework/general background records were not added just to increase the count.
+Remaining metadata reconciliation and reading limits are explicit in the
+[review notes](../proposal/proposal-review-notes.md).
+
 The next pass should compare the closest studies on independent checking, shared
 context, conflict manipulation, equal information/resources, interaction analysis and
 semantic acceptance. Unknown entries remain unknown. Prioritise AgenticData and the

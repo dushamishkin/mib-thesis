@@ -2,7 +2,10 @@
 
 Prepared 10 October 2026 at the author's request to discuss the outline before drafting
 the full proposal. This is a proposed writing structure, not a completed submission or
-new supervisor approval. The scientific authority remains [research-design.md](research-design.md);
+new supervisor approval. A complete [English draft](proposal-draft.md) and
+[visually checked DOCX](thesis-proposal-draft.docx) now implement this structure;
+[review notes](proposal-review-notes.md) supersede the unresolved-field list below.
+The scientific authority remains [research-design.md](research-design.md);
 requirements and dates remain in [requirements](../requirements/README.md) and
 [ROADMAP.md](../ROADMAP.md). Use the current supplied institutional DOCX without
 changing the order of its six substantive report fields.
@@ -346,4 +349,4 @@ DOCX. Verify source claims and references; retain no empty substantive field; re
 and inspect every page; resolve layout defects; report remaining personal/admin fields;
 prepare the supervisor email draft. Target author dispatch on 11 October, approval
 before submission on 15 October, and defense on 22 October, as recorded in the roadmap.
-This outline itself has not produced or visually verified a completed proposal DOCX.
+The outline was the planning artifact; the linked complete draft is now the review deliverable.
