@@ -1,13 +1,31 @@
 # Current status
-Updated: 25 September 2026.
+Updated: 10 October 2026.
 
 ## Authority and phase
 Supervisor approved the revised title, scope and roadmap, as reported by the author on
 23 September. See [approval record](meetings/2026-09-23-supervisor-approval.md).
-Phase: repository preparation, then candidate-data audit. End-October 2026 proposal deadline;
-April 2027 completion remains provisional. Formal requirements are still pending.
+Phase: proposal preparation takes priority. Author confirms submission on 15 October 2026
+and wants one supervisor review beforehand. See ROADMAP.md for the proposed daily plan.
+Institutional notice and current forms saved in requirements/; see requirements/README.md.
+Supervisor approval is required before upload. Proposal defense is 22 October.
 
 ## Completed
+- Addressed author's outline feedback: strengthened the empirical MAS-versus-single-agent
+  rationale, added accessible definitions and proposed descriptive condition names with
+  preserved IDs. literature/reading-brief.md presents five key sources with links,
+  summaries, uses, reading limits and follow-ups. experiments/README.md records current
+  official model prices and conditional student-budget scenarios; no paid calls made.
+- Prepared proposal/proposal-outline.md at the author's request: detailed English
+  structure for the current form's six substantive fields, word budgets, focused
+  literature workflow and unresolved personal/admin fields. Form text/fields inspected;
+  no completed proposal DOCX rendered yet. Consensus discovery and fetched AgenticData
+  metadata checked against primary v2; remaining citation checks are explicit.
+  Offline repository and whitespace checks pass for the outline changes.
+- Broad benchmark audit: 18 families screened and six leading releases inspected;
+  76 source files pinned/checksummed. Selected DABstep, LongDA HERD and AgenticDataBench
+  calculations reproduced with separate Python/SQL implementations against public gold.
+  Recommendation, limitations and 12-base-task draft: benchmark/README.md.
+  These are offline feasibility checks, not experimental agent results or a full gold audit.
 - Synchronized incoming Zotero workflow changes and made repository freshness mandatory
   before each task; see WORKFLOW.md. Repository and whitespace checks pass.
 - Updated research design, positioning and roadmap for the approved direction.
@@ -22,22 +40,31 @@ April 2027 completion remains provisional. Formal requirements are still pending
 - Offline hygiene/link/BibTeX checks pass for 29 indexed records; original archived PDF
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
-## Next task — candidate-data audit
-Audit DABstep first, LongDA second. Record primary dataset/code URLs, licenses, accessible
-splits and labels, table/document structure, derivative-use restrictions and feasibility of
-10–15 paired tasks in benchmark/README.md. Inspect real examples before selecting data.
-Do not start the main experiment or assume that candidate datasets are usable.
-Acceptance: an evidence-backed dataset choice and a small pilot task specification with
-independently checkable answers, without exposing gold to agents.
+## Next task — outline discussion then supervisor-ready proposal
+The author now requests outline discussion before full drafting. Read
+proposal/proposal-outline.md for the proposed structure and literature workflow;
+proposal/defense-brief.md retains the research explanation and final acceptance criteria.
+Next, discuss the key-source briefs and proposed terminology with the author, complete
+the closest-work comparison and verify the core literature claims, then assemble the
+complete proposal using the current form, approved design and existing benchmark audit.
+Target author dispatch to the supervisor by 11 October evening,
+requesting feedback by 13 October; freeze on 14 October and submit by 15 October.
+Use requirements/thesis-proposal-template.docx and its section requirements. Obtain
+supervisor approval before upload; confirm cutoff/timezone and physical delivery details.
+Keep feasibility calculations distinct from agent results: no model experiments have run.
+Pilot implementation resumes after submission; see ROADMAP.md and benchmark/pilot-spec.md.
 
-## Before pilot implementation
-- Recheck updated versions of closest work identified in literature/references.md.
-- Confirm formal proposal requirements/date, model/API budget and data suitability.
+## Before pilot runs
+- Complete remaining literature follow-ups in literature/references.md; AgenticData v2
+  and LongDA v2 selected sections were inspected during this audit, not fully replicated.
+- Confirm model/API budget and data suitability.
 - Specify the fixed team, V2 independence, C1 schema, caps, scoring and task-level analysis.
 
 ## Evidence and blockers
-No harness, pilot runs, measured findings or frozen test suite yet. Scientific novelty is a
-candidate supported by a targeted review, not a global priority claim. Remote publication
+No harness, pilot agent runs, intervention findings or frozen test suite yet. Data-source
+recommendation is not final task admission: DABstep rule ambiguities, alternative-source
+reuse/provenance and independent human gold review remain explicit gates in the audit.
+Scientific novelty is a candidate supported by a targeted review, not a global priority claim. Remote publication
 must be verified at handoff; local commits are not automatically visible to other sessions.
 
 ## Session handoff

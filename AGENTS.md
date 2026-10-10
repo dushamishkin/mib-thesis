@@ -31,7 +31,7 @@ See proposal/research-design.md for interventions, controls and evaluation. Shar
 - No automatic superiority assumption for MAS or combined interventions.
 - Do not claim the first business-analytics MAS benchmark or a new universal memory protocol.
 - No formal protocol guarantees, live Confluence integration, broad topology search or multimodal parsing in the initial scope.
-- End-October 2026 project proposal deadline; final submission around April 2027 is unconfirmed.
+- Proposal deadline: see ROADMAP.md (updated by the author); institutional dates and forms are indexed in requirements/README.md.
 
 
 ## Session and handoff protocol

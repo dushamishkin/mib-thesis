@@ -1,0 +1,111 @@
+{
+  "audit_date": "2026-09-25",
+  "verified_source_files": 76,
+  "scope": "Offline feasibility checks, not model experiments or human gold audit.",
+  "dabstep": {
+    "default_tasks": 450,
+    "default_levels": {
+      "hard": 378,
+      "easy": 72
+    },
+    "default_nonempty_answers": 0,
+    "dev_tasks": 10,
+    "dev_levels": {
+      "easy": 3,
+      "hard": 7
+    },
+    "dev_nonempty_answers": 10,
+    "payment_rows": 138236,
+    "payment_columns": 21,
+    "merchants": {
+      "Belles_cookbook_store": 13848,
+      "Crossfit_Hanna": 55139,
+      "Golfclub_Baron_Friso": 27748,
+      "Martinis_Fine_Steakhouse": 13805,
+      "Rafa_AI": 27696
+    },
+    "fee_rows": 1000,
+    "empty_list_counts": {
+      "account_type": 720,
+      "merchant_category_code": 127,
+      "aci": 112
+    },
+    "reference_1273": {
+      "matched_fee_rows": 144,
+      "sum_fixed_eur": "10.25",
+      "sum_rate": 7049,
+      "decimal_answer": "0.120132",
+      "sqlite_answer": "0.120132",
+      "public_gold": "0.120132",
+      "wrong_null_exclusion_answer": "0.117667"
+    }
+  },
+  "longda": {
+    "queries": 505,
+    "survey_counts": {
+      "ASFIN": 17,
+      "ASPEP": 17,
+      "ASPP": 11,
+      "ATUS": 38,
+      "CPS-ASEC": 76,
+      "GSS": 19,
+      "HERD": 18,
+      "NHANES": 99,
+      "NHIS": 29,
+      "NSCG": 26,
+      "NSDUH": 18,
+      "NSFG": 29,
+      "NTEWS": 30,
+      "RHFS": 14,
+      "SDR": 39,
+      "SSERF": 16,
+      "STC": 9
+    },
+    "herd_files": {
+      "herd2023.csv": {
+        "rows": 258843,
+        "institutions": 664,
+        "federal_thousand_usd": "59603993",
+        "total_thousand_usd": "108681008"
+      },
+      "short2023.csv": {
+        "rows": 6851,
+        "institutions": 250,
+        "federal_thousand_usd": "74942",
+        "total_thousand_usd": "160140"
+      }
+    },
+    "herd_total_million_usd": "108841.148",
+    "herd_all_federal_million_usd": "59678.935",
+    "herd_standard_federal_million_usd": "59603.993",
+    "herd_q1_public_gold": "108841",
+    "herd_q3_public_gold": "59604",
+    "wrong_population_passes_upstream_tolerance": true
+  },
+  "agenticdatabench": {
+    "public_tasks": 246,
+    "financial_tasks": 24,
+    "financial_236": {
+      "matched_companies": 5,
+      "roe_percent": "4.49",
+      "roa_percent": "2.6",
+      "sql_python_and_public_gold_agree": true
+    },
+    "income_statement_source_coverage": [
+      1563,
+      0
+    ]
+  },
+  "dataspace": {
+    "tasks": 410,
+    "public_references": 60,
+    "workspaces_without_pdf_or_video": 21,
+    "public_references_without_pdf_or_video": [
+      "task_44",
+      "task_87",
+      "task_127",
+      "task_329",
+      "task_409"
+    ]
+  }
+}

@@ -1,5 +1,48 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-10 — Author requires transparent review of key literature: primary links,
+  summaries and reasons for inclusion, rather than silent assistant positioning
+  decisions. Author also flags MAS necessity, unexplained intervention terms, opaque
+  condition names and student-budget constraints. Strengthen the single-agent rationale
+  and plain-language definitions; propose descriptive display names with unchanged
+  canonical IDs. Add key-source reading briefs and a sourced low-cost model/cost plan.
+  Display names and model ceilings are assistant proposals, not author/supervisor
+  approvals or authorisation for paid experiments. Novelty remains unconfirmed.
+
+- 2026-10-10 — Author requests a detailed outline and literature-review plan before
+  full proposal drafting, and explicitly authorizes remote push. Prepare the outline
+  against the current university form; use Consensus for bounded discovery followed
+  by primary-source checks. This changes today's sequencing, not the approved design,
+  and does not mean the outline is approved or the full DOCX has been delivered.
+
+- 2026-10-10 — Author agrees to the research explanation and proposal-first daily plan
+  discussed in chat, and will open a new chat for execution. Preserve the agreed
+  reasoning and concrete drafting acceptance criteria in proposal/defense-brief.md.
+  This is author agreement to the working plan, not new supervisor approval or
+  authorization to email, submit, or run paid experiments.
+
+- 2026-10-10 — Author supplied five institutional requirement/template files. Preserve
+  unchanged originals and checksums in requirements/; its README distinguishes source
+  requirements from assistant actions and template placeholders. Cohort notice requires
+  supervisor approval before submission, proposal defense 22 October, midterm upload
+  by 20 December, final thesis/plagiarism files by 14 April 2027 and defense mid-to-late
+  May. These replace earlier provisional dates; receipt does not mean approval or upload.
+
+- 2026-10-10 — Author confirms the proposal deadline is 15 October 2026 and requires
+  one opportunity for supervisor feedback before submission. This supersedes the
+  end-October scheduling assumption. Assistant recommends dispatch by 11 October,
+  requested comments by 13 October, and finalization on 14 October (ROADMAP.md).
+  Prioritize proposal writing over completing the pilot; do not imply experiments
+  have run. No email has been sent and supervisor availability is unconfirmed.
+
+- 2026-09-25 — At the author's request for a broad data/benchmark investigation, the
+  research audit recommends a specified DABstep derivative for the core pilot,
+  AgenticDataBench finance as the strongest alternative, and LongDA HERD for transfer.
+  This is an evidence-backed assistant recommendation, not author/supervisor dataset
+  approval or a frozen experiment. Rationale and remaining gates: benchmark/README.md.
+  Preserve public-source terms, separate gold from agent access, and do not reuse broad
+  numeric tolerances that accept wrong rule applicability.
+
 - 2026-09-25 — Author requires work against the latest repository. Make synchronization
   mandatory before each task and after handoffs, retry sandbox-blocked fetches through the
   approval mechanism, and report unresolved freshness blockers. Procedure: WORKFLOW.md.
