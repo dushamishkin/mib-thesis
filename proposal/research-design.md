@@ -48,6 +48,29 @@ documents and messages are not study inputs, and the initial study will not esta
 production-bank effectiveness. Broader source discovery and undocumented institutional
 knowledge remain outside what the core comparison can establish.
 
+### Author-provided illustration: trade-finance limit utilisation
+
+The author describes a request to calculate total utilisation of trade-finance limits.
+A naive approach subtracts the unused balance from the total limit amount at the
+reporting date. The author identifies two interpretation requirements: determine which
+limits are active using the applicable validity information, and account for umbrella
+agreements linking a parent company to other companies. The exact validity predicate,
+hierarchy/accounting treatment and utilisation definition were not supplied. Expiry
+alone is the author's tentative interpretation of active status, not a verified policy.
+
+This example motivates explicitly establishing the reporting date, eligible limit set,
+meaning of balance fields, and relationship between umbrella and company-level records
+before computation. Whether records represent independent capacity or allocations of
+shared capacity must be evidenced; adding every row could double count if they represent
+the same capacity. No particular aggregation or allocation formula is asserted here.
+Distinguish utilised amount from a utilisation ratio before choosing a denominator.
+
+This is an author-reported illustration without internal records, figures or policy
+documents. It is not a bank case study, verified calculation, or admitted experiment
+task. A public or clearly labelled synthetic analogue would need complete agent-visible
+semantics and independently audited references before admission; the current pilot
+specification and core factorial are unchanged.
+
 ## Why study a team rather than assume one is necessary
 
 The motivation is a testable division of work: identifying applicable documentary rules,

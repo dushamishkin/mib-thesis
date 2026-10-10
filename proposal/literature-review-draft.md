@@ -31,7 +31,14 @@ correctness and an interpretation supported by the governing documentation.
 This distinction also concerns joins and aggregation grain. A technically valid join
 can count the same business entity several times, while a plausible filter can omit
 records that the intended definition includes. These are illustrative risks, not
-reported workplace cases. The proposed procedures can organise and check available
+reported workplace cases. A further author-provided illustration concerns trade-finance
+limit utilisation: subtracting unused balances from total capacity requires a justified
+active-limit definition at the reporting date and a documented treatment of umbrella
+and company-level limits. Where records share underlying capacity, a simple row sum
+could count it more than once. The exact workplace rules and calculation are not
+established by this illustration. It motivates checking population and hierarchy
+semantics before execution; it is not an experiment result or a bank case study.
+The proposed procedures can organise and check available
 evidence; they cannot guarantee recovery of a governing rule absent from the sources.
 The core experiment therefore requires sufficient accessible evidence to determine
 the answer, including in its resolvable-conflict variants.

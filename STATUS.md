@@ -14,6 +14,8 @@ Supervisor approval is required before upload. Proposal defense is 22 October.
   and reflected it in the Section 1 prose: schema/context access does not itself ensure
   correct business-semantic interpretation. Distinguished available/resolvable evidence
   from genuinely missing rules; retained the approved conditions and public-data scope.
+  Added the author's trade-finance utilisation illustration, with active-limit and
+  umbrella semantics explicitly unresolved; no new experiment task was admitted.
 - Wrote the first English literature/significance narrative in
   proposal/literature-review-draft.md, with version-pinned evidence links in appearance
   order and explicit MAS, intervention and novelty limits. This is Section 1 prose,
