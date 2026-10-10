@@ -38,5 +38,5 @@ python3 scripts/check_repo.py
 git diff --check
 ```
 
-The formal project proposal is due at the end of October 2026; final completion around
-April 2027 remains provisional. Start with the candidate-data audit in STATUS.md.
+Current institutional deadlines and the supervisor-review plan are in [ROADMAP.md](ROADMAP.md)
+and [requirements](requirements/README.md). Start with the active task in [STATUS.md](STATUS.md).

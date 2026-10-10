@@ -1,5 +1,11 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-10 — Author requests a detailed outline and literature-review plan before
+  full proposal drafting, and explicitly authorizes remote push. Prepare the outline
+  against the current university form; use Consensus for bounded discovery followed
+  by primary-source checks. This changes today's sequencing, not the approved design,
+  and does not mean the outline is approved or the full DOCX has been delivered.
+
 - 2026-10-10 — Author agrees to the research explanation and proposal-first daily plan
   discussed in chat, and will open a new chat for execution. Preserve the agreed
   reasoning and concrete drafting acceptance criteria in proposal/defense-brief.md.

@@ -1,5 +1,7 @@
 # Proposal documents
 
+- [proposal-outline.md](proposal-outline.md): detailed English outline mapped to the current
+  form, with a focused literature-review plan; discussion draft, not the full proposal.
 - [defense-brief.md](defense-brief.md): agreed research explanation and 10 October drafting handoff.
 
 - [research-design.md](research-design.md): current supervisor-approved direction; detailed

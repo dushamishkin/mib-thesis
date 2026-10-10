@@ -10,6 +10,12 @@ Institutional notice and current forms saved in requirements/; see requirements/
 Supervisor approval is required before upload. Proposal defense is 22 October.
 
 ## Completed
+- Prepared proposal/proposal-outline.md at the author's request: detailed English
+  structure for the current form's six substantive fields, word budgets, focused
+  literature workflow and unresolved personal/admin fields. Form text/fields inspected;
+  no completed proposal DOCX rendered yet. Consensus discovery and fetched AgenticData
+  metadata checked against primary v2; remaining citation checks are explicit.
+  Offline repository and whitespace checks pass for the outline changes.
 - Broad benchmark audit: 18 families screened and six leading releases inspected;
   76 source files pinned/checksummed. Selected DABstep, LongDA HERD and AgenticDataBench
   calculations reproduced with separate Python/SQL implementations against public gold.
@@ -29,11 +35,13 @@ Supervisor approval is required before upload. Proposal defense is 22 October.
 - Offline hygiene/link/BibTeX checks pass for 29 indexed records; original archived PDF
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
-## Next task — supervisor-ready proposal
-The author agreed to start drafting in a new chat. Read proposal/defense-brief.md for
-the agreed explanation, today's work blocks and handoff acceptance criteria.
-Assemble a complete proposal using the institutional template, approved research design,
-and benchmark audit. Target author dispatch to the supervisor by 11 October evening,
+## Next task — outline discussion then supervisor-ready proposal
+The author now requests outline discussion before full drafting. Read
+proposal/proposal-outline.md for the proposed structure and literature workflow;
+proposal/defense-brief.md retains the research explanation and final acceptance criteria.
+Next, address outline feedback, verify the core literature claims, then assemble the
+complete proposal using the current form, approved design and existing benchmark audit.
+Target author dispatch to the supervisor by 11 October evening,
 requesting feedback by 13 October; freeze on 14 October and submit by 15 October.
 Use requirements/thesis-proposal-template.docx and its section requirements. Obtain
 supervisor approval before upload; confirm cutoff/timezone and physical delivery details.

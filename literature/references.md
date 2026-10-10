@@ -1,6 +1,6 @@
 # Reference index and metadata audit
 
-Updated 23 September 2026. All 29 indexed works have corresponding entries in
+Updated 10 October 2026; bibliography reconciliation was on 23 September. All 29 indexed works have corresponding entries in
 [references.bib](references.bib). The earlier primary-arXiv audit covered titles, authors,
 first arXiv year, identifiers and observed versions; it did not verify all final venues.
 All 29 project citation keys were preserved during the Zotero reconciliation.
@@ -42,6 +42,20 @@ explicitly unknown. Before the formal proposal, pin versions supporting substant
 and check final publication metadata where relevant.
 
 ## Priority follow-up
+
+10 October proposal planning check: Consensus discovery returned AgenticData and its
+record was fetched. The record retains the older title and three-benchmark abstract;
+[primary v2](https://arxiv.org/html/2508.05002v2) has the revised title
+“AgenticData: A Multi-Agent based Data Analytics System for Heterogeneous Data”, five
+benchmarks and component ablations in Section 7.3. The v2 title/metadata should be
+reconciled in Zotero before citation in the proposal; references.bib was not manually
+changed. This is a selected-section check, not full-paper reading or live Zotero sync.
+Also checked MAST v3 verification discussion/Appendix H, LongDA v2 Section 6 and the
+[LiveSQLBench author README](https://github.com/bird-bench/livesqlbench) business-rule
+drift description. These checks support bounded positioning, not global novelty.
+The focused review procedure and section mapping are in
+[proposal-outline.md](../proposal/proposal-outline.md).
+
 The [25 September benchmark audit](../benchmark/README.md) inspected AgenticData v2
 methods/evaluation/ablation sections and LongDA v2 construction/evaluation/limitations,
 and identified additional relevant benchmarks, including LiveSQLBench and AgenticDataBench.
