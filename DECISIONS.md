@@ -1,5 +1,15 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-11 — Author accepts revised title/objectives/RQs/working hypotheses but
+  requests a current DABstep leaders audit before baseline selection; considers
+  main-agent/subagent MAS and revisiting MAS if evidence warrants. Audit finds six
+  validated entries above AgenticData on hard accuracy, mixed/unknown topologies and
+  preparation/code limits. MAST includes hierarchy. FinHelm is an auditable candidate
+  with close negative dev evidence. No baseline/topology selected. Preserve the two
+  problems, four combinations and equally prepared strong single-agent control.
+  Evidence: literature/dabstep-systems.md. No score reproduced, paid run or renewed
+  supervisor approval; proposal artifacts unchanged.
+
 - 2026-10-11 — Author approves the bounded failure-guided architecture as the basis
   for the revised proposal and prefers AgenticData as the single experimental system,
   conditional on accessible code/reproducibility. Targeted artifact search does not

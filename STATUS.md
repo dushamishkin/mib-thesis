@@ -5,13 +5,21 @@ Updated: 11 October 2026.
 Supervisor approved the revised title, scope and roadmap, as reported by the author on
 23 September. See [approval record](meetings/2026-09-23-supervisor-approval.md).
 Phase: author approves the bounded failure-guided architecture on 11 October.
-Preserve proposal text/DOCX while agreeing revised wording and concrete implementation.
+Author also accepts revised title/objectives/RQs/working hypotheses. Preserve proposal
+text/DOCX until the baseline and concrete implementation are specified.
 The domain is data/business analytics generally; banking experience is an illustration.
 The September approval remains a historical record, not approval of a revised direction.
 Institutional dates remain in ROADMAP.md and requirements/README.md. No dispatch or
 submission has occurred; the prior dispatch plan is subject to this author review.
 
 ## Completed
+- Audited DABstep leaderboard metadata, six validated leaders above AgenticData and
+  linked unvalidated alternatives. Read author descriptions and selected NVIDIA,
+  FinHelm/FeeEngine code; no execution/score reproduction. Recorded mixed topologies,
+  missing winning assets, preparation/test-information limits and reported negative
+  verifier evidence in literature/dabstep-systems.md. Checked MAST hierarchy and
+  selected current scaling/strong-single-agent papers. Hierarchy/FinHelm are candidates,
+  not selected baseline/repairs. Proposal artifacts unchanged.
 - Fixed the author-approved architecture and conditional AgenticData preference.
   Proposed revised title/objectives/RQ1–RQ4/H1–H3 and reconciled AGENTS.md. Official
   code remains unconfirmed; anonymous artifact returns `not_connected`. OpenDsStar
@@ -21,8 +29,9 @@ submission has occurred; the prior dispatch plan is subject to this author revie
   a feasible focus with isolated/joint comparisons. Proposed a diagnosis-to-selection
   research architecture in proposal/research-design.md: one mechanism per problem,
   common-candidate review measurement, memory leakage controls and bounded trace coding
-  alongside the expanded native benchmark programme. No repair or revised questions
-  selected/approved; proposal prose and DOCX unchanged. No agent experiment conducted.
+  alongside the expanded native benchmark programme. Repairs remain unselected;
+  revised questions subsequently accepted as recorded above. Proposal prose and DOCX
+  unchanged. No agent experiment conducted.
 - Completed a bounded broader selected-section pass spanning long-context use,
   irrelevant-context robustness, Self-RAG, CoVe, ReasoningBank and Debate or Vote.
   literature/problem-mechanisms.md now separates technical stages, checker targets,
@@ -102,10 +111,12 @@ submission has occurred; the prior dispatch plan is subject to this author revie
 
 ## Next task — literature-grounded research agreement
 The author approves the bounded architecture in proposal/research-design.md.
-Resolve AgenticData code/specification access or inspect a fallback's actual
-source/context/review/memory interfaces and offline feasibility. Build the bounded
-solutions matrix, select one repair per problem, and agree the proposed revised
-title/RQs/hypotheses. An entire AgenticData reconstruction is not the default fallback.
+Inspect FinHelm/OpenDsStar candidates for offline feasibility, task/asset leakage,
+trace completeness and fairness; AgenticData access remains unconfirmed. Use the
+system audit and source cards to complete the mechanism matrix and choose repairs.
+Title/RQs/working hypotheses are author-accepted; operational definitions follow
+selection. Compact hierarchy is recommended, not selected. Rebuilding all AgenticData
+is not the default fallback.
 Resolve exact-release/access/scoring gates for the expanded benchmark targets; do not
 substitute new Wikipedia/Real-Bank data and call it a paper replication.
 Diagnose natural errors separately from injected verifier stress cases; agree a worked

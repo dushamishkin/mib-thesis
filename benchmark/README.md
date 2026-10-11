@@ -1,5 +1,9 @@
 # Data and benchmark selection
 
+The 11 October [DABstep system audit](../literature/dabstep-systems.md) records current
+leader scores, validation status, architecture/preparation distinctions and source-code
+limits. Leaderboard ranking alone is not a controlled SAS/MAS comparison.
+
 Audit date: 25 September 2026; author selection clarified 11 October.
 Read with the [working design](../proposal/research-design.md). No frozen experiment
 or new supervisor approval is implied.

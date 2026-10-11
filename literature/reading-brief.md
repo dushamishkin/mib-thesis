@@ -1,5 +1,9 @@
 # Key source reading brief
 
+Current DABstep leaders, code inspection, hierarchy/MAST rationale and relevant
+negative evidence are in [dabstep-systems.md](dabstep-systems.md). This supersedes
+inferring architecture or reproduction from a submission name/score alone.
+
 ## Baseline artifact search — 11 October 2026
 
 Author prefers improving AgenticData within one system. Bounded implementation search,

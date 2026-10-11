@@ -6,6 +6,12 @@ first arXiv year, identifiers and observed versions; it did not verify all final
 All 29 project citation keys were preserved during the Zotero reconciliation.
 
 ## Ownership and synchronization
+Further 11 October discovery: Scaling Agent Systems arXiv:2512.08296v3 (latest history,
+definitions, selected results/limits) and Strong Single Agent Baseline arXiv:2601.12307v1
+(history, abstract, definitions, selected methods). Not full replications or Zotero
+imports. Public system descriptions and pinned code-inspection scope are recorded in
+[dabstep-systems.md](dabstep-systems.md); no new experimental scores claimed.
+
 Broader 11 October discovery reading: Lost in the Middle (TACL 2024,
 DOI 10.1162/tacl_a_00638), irrelevant-context study (ICML 2023, PMLR 202:31210–31227),
 Self-RAG (ICLR 2024 proceedings), CoVe (ACL Findings 2024,

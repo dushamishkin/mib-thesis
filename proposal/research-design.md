@@ -1,8 +1,9 @@
 # Current research design
 
 The September title/scope approval is historical. On 11 October 2026 the author approves
-the failure-guided architecture below for the revised proposal. Revised title, RQs,
-hypotheses, implementation and repairs remain to be agreed/frozen. No renewed supervisor
+the failure-guided architecture below for the revised proposal. The author also accepts
+the title, objectives, RQs and working hypotheses in the subsequent discussion.
+Implementation/repairs and operational hypotheses remain to be selected/frozen. No renewed supervisor
 approval or experimental findings are claimed.
 
 ## Approved title
@@ -38,7 +39,7 @@ do not attempt to implement a repair for every mapped failure.
 
 ### Proposed revised title and objectives
 
-Working title for author/supervisor review: **Improving Evidence Use and Semantic
+Author-accepted working title for the next supervisor review: **Improving Evidence Use and Semantic
 Verification in Multi-Agent Business Analytics: A Failure-Guided Controlled Study.**
 Do not name AgenticData in the title until its use is feasible. Evidence use includes
 retrieval, interpretation, handoff and application; experience reuse remains a candidate.
@@ -122,6 +123,33 @@ the actual operation once it is selected. No previously suggested shared specifi
 blinded check, runtime gate or counterexample method is selected by this architecture.
 
 ### Long-term memory and diagnostic separation
+
+#### Hierarchical MAS candidate and strong-control rationale
+
+The author raises high current DABstep scores and asks whether a main-agent/subagent
+hierarchy should replace the earlier team candidate. The [system audit](../literature/dabstep-systems.md)
+finds mixed/unknown topologies and distinct preparation/review stages. Scores are not
+a controlled agent-count comparison. A compact hierarchy is recommended, not selected:
+distinct child contexts with delegated reasoning/action and message transfer can
+constitute MAS. A deterministic tool or a renamed single-context role is insufficient
+by itself. MAST includes hierarchy; communication labels require actual interactions.
+Log actual delegation/check activation and freeze policy; no topology search is added.
+
+FinHelm merits baseline inspection: MIT source includes memory/subagents/checks;
+its author's small dev comparison reports no mean accuracy gain from added checking,
+with resource overhead. This is negative prior evidence, not our replication.
+NVIDIA's inspected demo has empty distilled inference assets, so public code alone
+does not confirm reproduction of its winning configuration. AgenticData remains an
+intellectual precedent but is no longer the only implementation candidate.
+
+Equalize preparation and runtime access. Compare the hierarchy's four repair combinations
+against a strong single agent with the same model/tools/frozen assets and self-checking
+allowance. Where feasible, simulate the same role procedure in one context. Do not
+attribute additional compute, curated rules or labelled preparation to communication.
+Report construction/reflection/maintenance cost and amortization separately. Conditional
+mechanism benefits, not a presumed global leaderboard victory, justify the study.
+
+#### Memory scope and reviewer measurement
 
 Experience reuse remains a candidate within problem 1. A bounded first study could
 adapt retrieval or applicability of an existing memory bank, rather than construct
