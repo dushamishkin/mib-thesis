@@ -6,6 +6,15 @@ first arXiv year, identifiers and observed versions; it did not verify all final
 All 29 project citation keys were preserved during the Zotero reconciliation.
 
 ## Ownership and synchronization
+Focused 11 October follow-up: selected MAST Appendix A/N examples, Silo-Bench v2
+Section 5, DS-STAR v4 methods/appendices, AgenticData v2 memory boundaries and AMA v4
+methods were inspected; see [reading brief](reading-brief.md) for claim-level scope.
+Two additional discovery works were read in selected sections: TS-SQL (EMNLP 2025
+Findings, DOI 10.18653/v1/2025.findings-emnlp.156; methods, error analysis and limitations)
+and When Does Verification Pay Off? (arXiv:2512.02304v2; similarity analysis and
+limitations). They are not entries in the 29-record export; Zotero duplicate checks,
+metadata reconciliation and import remain pending. No bibliography edit or sync claimed.
+
 Zotero's **My Library / MIB Thesis** collection (`W5I5MZBH`) is the source of truth.
 [references.bib](references.bib) is its generated Better BibTeX export: **do not edit it
 manually**. Configuration, ongoing edits and recovery are in [WORKFLOW.md](../WORKFLOW.md).

@@ -1,5 +1,14 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-11 — Author selects evidence/experience underuse and erroneous acceptance
+  of business interpretations for deeper literature analysis. Defer verification cost
+  as the main problem but retain it in evaluation. Assistant's focused reading supports
+  general integration/checking failures and residual SQL semantic errors; the specific
+  analytics-MAS business-rule failure remains to reproduce. Evidence-linked shared
+  rules and independent source-based checks are refinement candidates for discussion,
+  not approved interventions, novelty claims or a frozen experiment. Preserve the
+  proposal artifacts; reading evidence and follow-ups live in literature/reading-brief.md.
+
 - 2026-10-11 — Author reopens the research framing and explicitly asks to preserve the
   completed proposal document unchanged. Prioritise understanding existing analytics
   MAS, diagnosing a concrete weakness and agreeing a bounded improvement/evaluation

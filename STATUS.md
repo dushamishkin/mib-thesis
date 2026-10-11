@@ -12,6 +12,13 @@ Institutional dates remain in ROADMAP.md and requirements/README.md. No dispatch
 submission has occurred; the prior dispatch plan is subject to this author review.
 
 ## Completed
+- Deepened the two author-selected problems in literature/reading-brief.md: separated
+  retrieval, handoff, application and experience transfer; inspected selected MAST,
+  Silo-Bench, DS-STAR, AgenticData, AMA, verifier-study and TS-SQL passages. Recorded
+  direct evidence, transfer limits, existing solutions and candidate source-based
+  interventions. TS-SQL's gold-dependent preparation and fallible tests require an
+  explicit adaptation audit. New sources are discovery records, not Zotero imports.
+  No experiment or proposal change; verification cost retained as secondary criterion.
 - Prepared a selected-section limitations comparison of AgenticData, DS-STAR,
   DataCrossAgent and DataSeer in literature/reading-brief.md on 11 October.
   Distinguished explicit author limitations, reported boundaries, evaluation coverage
@@ -69,11 +76,11 @@ submission has occurred; the prior dispatch plan is subject to this author revie
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
 ## Next task — literature-grounded research agreement
-Review the source-grounded limitations comparison in literature/reading-brief.md with
-the author. Choose which candidate deserves deeper architecture/code analysis:
-checking cost, erroneous acceptance, or evidence retrieval/transfer/reuse. Check the
-selected system's implementation availability and closest extensions before selecting
-a bounded improvement. The current V0/V2/C1/V2+C1 design is a
+Review the focused evidence-use/verification follow-up in literature/reading-brief.md
+with the author. Audit one analytics baseline's implementation and the closest SQL
+verification methods before agreeing a bounded source-to-rule-to-check extension.
+Diagnose natural errors separately from injected verifier stress cases; agree a worked
+task and what evidence would refute the proposed mechanism. The V0/V2/C1/V2+C1 design is a
 working candidate under reconsideration, not the compulsory outcome of this review.
 Distinguish literature diagnosis from failures reproduced in our own system; no agent
 experiments have run. Define a worked task, baseline, change, resource control and

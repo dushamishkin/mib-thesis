@@ -15,6 +15,134 @@ Before changing the central gap or excluding a close comparator, present the evi
 and rationale for discussion. Routine factual verification and drafting can continue.
 Do not infer absence of a method from an abstract or a short search result.
 
+## Focused follow-up: evidence use and erroneous verification — 11 October 2026
+
+Author prioritises these two problems; checking cost remains a secondary criterion.
+The following is selected-section reading, not replication or a systematic review.
+No change to the proposal, approved title or frozen experimental parameters is implied.
+
+### Evidence ledger and closest methods
+
+- **MAST v3:** [paper](https://arxiv.org/html/2503.13657v3), taxonomy Appendix A,
+  selected failure examples N.9/N.11 and intervention discussion. FM-2.4 information
+  withholding, FM-2.5 ignored input, and FM-3.3 incorrect verification describe observed
+  MAS failures. Useful vocabulary for trace coding; these are not measured prevalence
+  estimates for document-defined business rules. Trace classification alone does not
+  identify an effective repair or support causal claims.
+- **Silo-Bench v2:** [paper](https://arxiv.org/html/2603.01045v2), Sections 3 and 5.1–5.3.
+  Its Communication-Reasoning Gap includes wrong answers after logs confirm receipt of
+  all data. Useful for separating information delivery from successful integration.
+  Tasks are distributed algorithmic calculations, not business-rule interpretation;
+  verification-like behaviours in logs are not equivalent to formal verifier decisions.
+- **DS-STAR v4:** [paper](https://arxiv.org/html/2509.21825v4), verifier/router methods,
+  evaluation and selected Appendix A/L.4 passages. KramaBench accuracy rises from
+  44.69 to 52.55 with oracle relevant-data access, diagnosing a retrieval boundary.
+  The verifier already sees query, plan, code and execution output. Useful analytics
+  comparator; neither result establishes its rate of approving wrong business rules.
+  Verifier-removal comparisons also change planning, limiting pure causal attribution.
+- **AgenticData v2:** [paper](https://arxiv.org/html/2508.05002v2), Sections 5–7,
+  especially 7.3. Long-term memory gives little benefit across diverse Spider databases.
+  Useful warning about task-dependent experience transfer, not proof that memory is
+  generally ineffective or that incorrect business rules persist. Semantic validation,
+  feedback routing and retrieved knowledge already exist in this system.
+- **AMA v4:** [paper](https://arxiv.org/html/2601.20352v4), Sections 3–4.
+  Fact/episode memory, source indices, retrieval judgement and conflict updates are
+  already prior art. Default conflict updating favours latest state; business rules
+  may instead require scope, effective-date and authority checks. That extension is
+  our inference, not a measured AMA failure. Conversational memory evaluation does
+  not directly test correctness of business calculations.
+- **When Does Verification Pay Off? v2:**
+  [paper](https://arxiv.org/html/2512.02304v2), Sections 5.3–5.4 and limitations.
+  Solver–verifier solution similarity is associated with more acceptance of incorrect
+  solutions across tested model pairs. Useful false-positive/false-negative methodology
+  and motivation to examine shared errors. This is not a causal test of showing a
+  reviewer the analyst's plan, nor a business-analytics MAS study. Latest v2 history
+  checked; acceptance is an ICLR 2026 workshop, not the main conference.
+- **TS-SQL:** [proceedings](https://aclanthology.org/2025.findings-emnlp.156/),
+  DOI 10.18653/v1/2025.findings-emnlp.156; Sections 3, 4.3.2, 4.4.3 and Limitations.
+  Collaborative test-data/code generation and execution feedback already address SQL
+  semantic errors. Sampled misleading corrections include wrong tests and ambiguous
+  deduplication requirements despite correct tests. Test accuracy limits performance.
+  Useful closest comparator and a warning that executable tests are fallible.
+  Test-data preparation uses gold SQL: audit this dependency before reusing the method
+  in a verifier that must have no evaluator access. These cases do not establish
+  false-acceptance prevalence for business-document rules in AgenticData/DS-STAR.
+
+### Diagnosis before choosing a contribution
+
+Separate four mechanisms: a relevant source is not retrieved; its finding is lost in
+handoff/compression; the available finding is applied incorrectly; or an old episode
+is reused outside its scope. Do not treat all four as a single memory failure.
+Cross-session learning would expand the existing task-local design and is not proposed
+as the initial implementation. Our narrow candidate is evidence use within one task.
+
+The literature supports integration failures, incorrect verification and residual SQL
+semantic errors. The specific claim that an analytics MAS accepts a wrong interpretation
+of available business-document rules remains a hypothesis to reproduce. Available
+evidence does not justify a new universal memory protocol or priority claim.
+
+### Proposed bounded extension for author review
+
+Study the chain **source passage → applicable rule → analytical operation → check**.
+The contribution candidate is controlled evidence about this chain, not the invention
+of agent memory, executable tests or independent checking. Two proposed interventions:
+
+1. **Evidence-linked shared rules (C1 candidate):** agents populate metric, population,
+   period, units, aggregation grain, join relationships, exceptions, source passage and
+   applicability. Resolve conflicts from permitted evidence or mark ambiguity. This
+   empty structure is never populated with evaluator answers. Its structure and
+   reconciliation remain a bundle unless separately ablated.
+2. **Independent source-based checking (V2 candidate):** the reviewer first derives
+   requirements and an executable check from the question and the same permitted
+   corpus, without analyst code/answer/messages or the C1 record. Log this attempt,
+   then compare interpretations and calculations with the analyst. Construct boundary
+   fixtures where appropriate, linking each expected behaviour to a source rule.
+   Merely rerunning SQL is insufficient. Independent attempts and tests can still
+   share errors; blinding has not been established as a remedy by the cited studies.
+
+This is a refinement candidate within the existing V0/V2/C1/V2+C1 labels, not approval
+to freeze the old factorial or adopt two large new systems. Baseline ordinary review
+must already have code/results and equal source access. Retain a strong single-agent
+and extra-compute control; no superiority or positive interaction is assumed.
+
+Illustrative synthetic retail task, not an admitted experiment: documentation explicitly
+defines net revenue as sales minus partial refunds recognised in the same quarter.
+One qualifying sale of 100 and qualifying partial refund of 30 implies 70. Excluding
+the entire refunded order gives 0. A reviewer repeating the analyst's interpretation
+could agree; a source-derived partial-refund fixture could expose the discrepancy.
+This is a proposed mechanism demonstration, not an observed agent trace.
+
+### Concrete evaluation proposal, before any paid run
+
+First audit one baseline's available code, source access, review prompts and feedback
+routes. Use a small manually audited diagnostic set before choosing a full campaign.
+Two distinct evaluations are needed:
+
+- **Natural failures:** run the baseline on held-out, resolvable public-document tasks;
+  inspect visible retrieval, messages, rule records, code and review decisions to locate
+  where evidence ceased to constrain the answer. Do not infer private reasoning.
+- **Verifier stress test:** submit correct candidates and controlled wrong-rule mutations
+  (missing exception, wrong date scope, duplicate-producing join, wrong unit). Measure
+  acceptance of wrong candidates and rejection of correct ones. This diagnoses checking;
+  artificial errors cannot estimate the natural prevalence of those errors.
+
+A diagnostic arm can provide the same relevant passages to every condition, separating
+retrieval from downstream use. This is an oracle-context diagnostic, not a production
+advantage for C1/V2. Keep evaluator references hidden, audit fixture expectations against
+documents, include correct alternative queries, and distinguish unresolvable ambiguity
+from answerable conflicts. Freeze treatment prompts/resource controls on development
+tasks before held-out evaluation. Report task-level uncertainty and costs including
+failed checks, revisions and timeouts; cost is retained but not the main question.
+
+### Reading and implementation follow-ups
+
+TS-SQL and When Does Verification Pay Off? remain discovery records pending Zotero
+identifier reconciliation/import and generated-export review. SQLDriller
+(DOI 10.1145/3725271) and G²SQL (DOI 10.1016/j.eswa.2026.131276) are close-method
+leads with metadata/abstract-level inspection only; full methods/code must be read
+before asserting absence of source-aware or independent verification. The provisional
+extension above is therefore not a completed novelty determination.
+
 ## Analytics-system limitations pass — 11 October 2026
 
 Author requested limitations before selecting a research improvement. The proposal
