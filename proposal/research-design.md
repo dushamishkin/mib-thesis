@@ -15,6 +15,112 @@ Estimate the separate and joint effects of independent executable verification a
 
 The original proposal already included V2, C1 and their combination. The revision removes broad priority claims and narrows the empirical question. See ../literature/positioning-note.md for the closest work.
 
+## Research architecture under author discussion — 11 October 2026
+
+The author accepts the detailed two-problem map and requests a bounded study grounded
+in existing solutions, with separate and combined intervention comparisons. This is
+acceptance of the diagnostic direction, not of a particular repair, new title or
+frozen protocol. The completed proposal prose and DOCX remain unchanged. Earlier
+operational specifications below remain candidates under reconsideration.
+
+**Proposed objective:** identify where existing analytics MAS fail to use applicable
+evidence/experience and where their reviewers fail to reject incorrect business
+interpretations; select and evaluate one feasible mechanism in each problem group.
+Use the entire [problem map](../literature/problem-mechanisms.md) for diagnosis, but
+do not attempt to implement a repair for every mapped failure.
+
+### Proposed research questions
+
+- Diagnostic RQ: which observable information-use and review failures recur in the
+  chosen baseline, and which are addressed or left open by existing solutions?
+- Intervention RQ: how does each selected repair affect its targeted mechanism and
+  end-to-end quality relative to the same baseline under comparable resources?
+- Joint-effect RQ: what changes when both repairs are enabled, including additive
+  interaction, remaining failures, transfer and resource cost?
+
+These questions refine the earlier candidate questions; they do not predetermine
+that a problem will recur, a repair will help, or a team will beat a single agent.
+Consistent/conflicting-rule probes remain a possible diagnostic, not an additional
+mandatory factorial across every benchmark.
+
+### Sequence and scope gates
+
+1. Operationalise the accepted map as a trace coding guide. For each code define
+   required observable evidence, examples, counterexamples and an unknown category.
+   Record failure location, object checked and semantic dimension separately rather
+   than treating their cross-product as new MAST categories. Eligible population,
+   reporting period, denominator, units, joins/grain and exceptions are diagnostic
+   dimensions when a task actually requires them. Do not invent a denominator for
+   an amount-only question. Audit repeatability and ambiguous cases; report whether
+   coding was independently checked rather than assuming inter-rater validation.
+2. Compare existing solutions using a mechanism matrix: addressed failure, operation,
+   input/evidence, success-label or test-oracle source, demonstrated setting, residual
+   failure, public implementation and adaptation cost. Link primary source cards;
+   distinguish authors' evidence from our proposed analytics transfer.
+3. Inspect and reproduce one accessible analytics MAS baseline. Diagnose development
+   traces with the guide, including correct runs. Relevant-passage controls distinguish
+   retrieval from downstream use. Natural traces and deliberately constructed review
+   stress cases remain separate evidence. No paid run without model/budget agreement.
+4. Select one information/experience mechanism and one review mechanism using declared
+   criteria: observable and recurring on development tasks, semantically consequential,
+   supported by a relevant existing method, implementable with available resources,
+   and testable without hidden gold. Record alternatives and selection rationale.
+   Do not select tasks or mechanisms for favourable held-out treatment results. If
+   diagnosis does not support a problem, revise the scope explicitly rather than force
+   an intervention. Selection must precede held-out evaluation.
+5. Freeze the two implementations, resource controls, prompts, data splits, scorers
+   and analysis. Run the four combinations on the same tasks: baseline, first repair,
+   second repair, both. Keep strong single-agent and extra-compute controls; do not
+   multiply all diagnostic probes and all models across every benchmark.
+
+The existing V0/C1/V2/V2+C1 IDs apply only if the selected implementations retain their
+defined intervention families. A different memory or review mechanism requires an
+explicit agreed revision, not silent relabelling. Reader-facing names should describe
+the actual operation once it is selected. No previously suggested shared specification,
+blinded check, runtime gate or counterexample method is selected by this architecture.
+
+### Long-term memory and diagnostic separation
+
+Experience reuse remains a candidate within problem 1. A bounded first study could
+adapt retrieval or applicability of an existing memory bank, rather than construct
+a universal memory system. Build experience only from permitted development material;
+freeze and reset the bank per evaluation run and declare memory/source access in every
+condition. Holding that bank fixed studies reuse, not online learning. Accumulating
+test-run experience would require a separate sequential protocol controlling order,
+feedback and dependence. It is not silently included in the four-condition experiment.
+
+For review quality, assess all checker variants on the same development/held-out
+candidate pools, including correct and incorrect interpretations. Candidate pools
+must be fixed independently of the treatment comparison, and reference labels stay
+evaluator-only. Measure omitted required checks separately from wrong judgements
+about checks that were attempted, with unknown cases retained. Record acceptance of
+wrong candidates, rejection of correct candidates, coverage and downstream correction.
+This diagnostic complements end-to-end benchmark accuracy; it does not replace it.
+
+### Evaluation and contribution boundaries
+
+Use the [benchmark programme](../benchmark/README.md): DABstep, QueryProof's WRB and
+the AgenticData comparison sets, subject to exact-release/access/scoring gates. Apply
+the selected variants to admitted original tasks using each benchmark's native metric.
+Concentrate detailed trace coding and mechanism probes on a bounded diagnostic sample;
+do not require exhaustive annotation on every benchmark or claim one universal score.
+Set campaign size, models and repetitions after feasibility/budget assessment. An
+unavailable release remains an explicit comparison limitation, not a substitute dataset.
+
+Keep paired task comparisons and task/family dependence in the analysis. Estimate
+isolated effects and the combined effect; specify interaction on the additive success
+scale, with uncertainty. A combined win is not itself interaction. Costs, tokens,
+latency, failures and coverage remain secondary outcomes, not a discarded concern.
+
+Candidate contributions are an auditable analytics-specific operational refinement
+of MAST, an evidence-based selection/adaptation of existing methods, and controlled
+evidence of separate/joint effects and limits. The classification needs demonstrable
+diagnostic usefulness beyond renaming errors. Neither scientific novelty nor empirical
+benefit is established by accepting the map; compare closest prior work before claiming
+either. Integrate diagnosis and solution review in the literature chapter, coding and
+selection in methods, and effect/transfer analysis in results rather than allocating
+a separate experiment or thesis chapter to every failure mechanism.
+
 ## Author's practical motivation — clarified 10 October 2026
 
 The author reports encountering this problem in banking analytics work. Tables have

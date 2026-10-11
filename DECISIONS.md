@@ -1,5 +1,16 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-11 — Author accepts the detailed two-problem diagnostic map, including
+  semantic dimensions, experience reuse, reviewer check targets and the distinction
+  between missing checks and wrong judgements. Requests comparison of existing
+  solutions, feasible focus, and separate/joint quality measurement. Assistant proposes
+  broad diagnosis followed by one selected mechanism per problem, a four-condition
+  comparison and a common-candidate reviewer diagnostic. Architecture is recorded in
+  proposal/research-design.md; implementations and revised questions remain proposed,
+  not author/supervisor-approved or frozen. Long-term memory remains a candidate with
+  explicit reuse versus online-learning boundaries. Preserve proposal prose/DOCX;
+  no experiment, paid run or superiority/novelty claim follows from this discussion.
+
 - 2026-10-11 — Author keeps rejecting the proposed improvement mechanisms and requests
   deeper cross-domain literature and a detailed technical explanation to support his
   own reasoning. Diagnose before choosing any intervention; two problems remain separate

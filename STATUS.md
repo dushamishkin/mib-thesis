@@ -12,6 +12,12 @@ Institutional dates remain in ROADMAP.md and requirements/README.md. No dispatch
 submission has occurred; the prior dispatch plan is subject to this author review.
 
 ## Completed
+- Recorded the author's acceptance of the detailed diagnostic map and request for
+  a feasible focus with isolated/joint comparisons. Proposed a diagnosis-to-selection
+  research architecture in proposal/research-design.md: one mechanism per problem,
+  common-candidate review measurement, memory leakage controls and bounded trace coding
+  alongside the expanded native benchmark programme. No repair or revised questions
+  selected/approved; proposal prose and DOCX unchanged. No agent experiment conducted.
 - Completed a bounded broader selected-section pass spanning long-context use,
   irrelevant-context robustness, Self-RAG, CoVe, ReasoningBank and Debate or Vote.
   literature/problem-mechanisms.md now separates technical stages, checker targets,
@@ -90,8 +96,9 @@ submission has occurred; the prior dispatch plan is subject to this author revie
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
 ## Next task — literature-grounded research agreement
-Review literature/problem-mechanisms.md with the author before selecting an improvement.
-Use the linked cross-domain source cards to compare competing explanations, then inspect
+The author accepts literature/problem-mechanisms.md as the diagnostic direction.
+Review the proposed bounded architecture in proposal/research-design.md. Build the
+existing-solutions mechanism matrix from the linked source cards, then inspect
 a reproducible analytics baseline's actual source/context/review/memory interfaces.
 Resolve exact-release/access/scoring gates for the expanded benchmark targets; do not
 substitute new Wikipedia/Real-Bank data and call it a paper replication.
