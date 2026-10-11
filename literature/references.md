@@ -6,6 +6,14 @@ first arXiv year, identifiers and observed versions; it did not verify all final
 All 29 project citation keys were preserved during the Zotero reconciliation.
 
 ## Ownership and synchronization
+Broader 11 October discovery reading: Lost in the Middle (TACL 2024,
+DOI 10.1162/tacl_a_00638), irrelevant-context study (ICML 2023, PMLR 202:31210–31227),
+Self-RAG (ICLR 2024 proceedings), CoVe (ACL Findings 2024,
+DOI 10.18653/v1/2024.findings-acl.212), ReasoningBank (arXiv:2509.25140v2;
+latest history checked), and Debate or Vote (NeurIPS 2025 proceedings).
+Methods/selected experiments and relevant limits inspected, not full replications.
+Reading scope is in reading-brief.md; none imported into Zotero or the generated export.
+
 Further 11 October reading: AgentSpec arXiv:2503.18666v3 (runtime methods, generated-rule
 errors, limitations), SQLDriller DOI 10.1145/3725271 (Sections 3–5 and author README),
 QueryProof arXiv:2608.09254v1 (methods/limitations), AgentDebug arXiv:2509.25370v1

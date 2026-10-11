@@ -1,5 +1,14 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-11 — Author keeps rejecting the proposed improvement mechanisms and requests
+  deeper cross-domain literature and a detailed technical explanation to support his
+  own reasoning. Diagnose before choosing any intervention; two problems remain separate
+  under MAST. Author extends evaluation targets to QueryProof's benchmark and those in
+  AgenticData, alongside DABstep. Record target/access distinctions in benchmark/README.md;
+  no paid campaign, universal score, frozen suite or new supervisor approval is implied.
+  Source cards are in literature/reading-brief.md and the technical worksheet in
+  literature/problem-mechanisms.md. Preserve proposal prose and DOCX unchanged.
+
 - 2026-10-11 — Author requires two separate problems, classified using MAST, within
   one research task; rejects treating them as one problem and asks for stronger
   literature-based mechanisms than shared specifications/blinded checking alone.

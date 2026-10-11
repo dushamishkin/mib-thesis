@@ -5,6 +5,31 @@ Read with the [working design](../proposal/research-design.md). No frozen experi
 or new supervisor approval is implied.
 
 **Author choice: DABstep is the main benchmark for comparative task quality.**
+Author extends the evaluation targets on 11 October to QueryProof's
+WarehouseReliabilityBench and AgenticData's evaluation sets. This is a requested
+comparative programme, not authorisation for paid runs or evidence that every exact
+paper dataset is already available. The inventory below is the bounded follow-up;
+the 18-family audit was not repeated.
+
+| Target | Source and role | Current admission/reproduction gate |
+|---|---|---|
+| DABstep | Core original-task comparison; protocol below | Pin release/scorer and baseline, agree campaign budget |
+| WarehouseReliabilityBench (WRB v0.2.0) | [QueryProof paper](https://arxiv.org/html/2608.09254v1) and [author repository](https://github.com/k-w-lee/query_proof); answer, clarify, abstain/refuse tasks and schema drift | README/release presence inspected, not data/harness execution; freeze metrics and isolate semantic inputs from evaluator-only gold |
+| DABench | AgenticData's structured-analysis comparator, distinct from DABstep | Previous broad audit exists; pin exact subset/protocol used in the paper rather than equating all DABench releases |
+| Spider-2.0-Lite | AgenticData's enterprise SQL comparator | Pin source/task subset and infrastructure; verify access and comparable resource requirements before admission |
+| Real-Bank | AgenticData's masked bank evaluation | Paper-linked anonymous release did not open in this tool; public availability/terms and exact tasks not verified; no employer/private substitute |
+| Wikipedia | AgenticData's own sampled pages/questions | General Wikipedia availability does not reproduce the authors' exact page/query sample; verify that release first |
+
+AgenticData v2 Section 7.1 lists three benchmarks and two datasets. AgenticDataBench,
+the separately audited newer benchmark below, is not automatically the same as the
+paper's Real-Bank/Wikipedia subsets. For WRB, inspect the authors' disclosed test-exposure
+and comparison limits; no clean-test claim may be inherited from published figures.
+Report each benchmark's original metric separately, including coverage and appropriate
+non-answer behaviour on WRB. Do not average unlike scores into a universal accuracy.
+Published runs are reference context; our baseline/adaptation contrast needs matched
+information and model resources. Transfer targets do not require repeating every
+diagnostic ablation on every corpus. Exact subset sizes/protocol remain to agree.
+
 This supersedes the recommendation to make a derivative the only core evaluation.
 Preserve two distinct tracks:
 

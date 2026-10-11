@@ -12,6 +12,13 @@ Institutional dates remain in ROADMAP.md and requirements/README.md. No dispatch
 submission has occurred; the prior dispatch plan is subject to this author review.
 
 ## Completed
+- Completed a bounded broader selected-section pass spanning long-context use,
+  irrelevant-context robustness, Self-RAG, CoVe, ReasoningBank and Debate or Vote.
+  literature/problem-mechanisms.md now separates technical stages, checker targets,
+  diagnostic contrasts and evidence required for the two MAST problem groups.
+  No improvement selected. Expanded benchmark targets to WRB and AgenticData's five
+  sets in benchmark/README.md, with exact-release/access gates. New works remain
+  discovery records; no Zotero import, implementation execution or proposal change.
 - Recorded the author's DABstep selection with separate unmodified comparison and
   diagnostic tracks in benchmark/README.md. Preserved two distinct problems and
   evidence-based MAST mappings in literature/reading-brief.md. Inspected selected
@@ -83,9 +90,11 @@ submission has occurred; the prior dispatch plan is subject to this author revie
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
 ## Next task — literature-grounded research agreement
-Review the author-corrected two-problem MAST mapping and stronger-method follow-up in
-literature/reading-brief.md. Audit a reproducible DABstep analytics baseline, counterexample
-verification and rule-enforcement implementations before agreeing a bounded adaptation.
+Review literature/problem-mechanisms.md with the author before selecting an improvement.
+Use the linked cross-domain source cards to compare competing explanations, then inspect
+a reproducible analytics baseline's actual source/context/review/memory interfaces.
+Resolve exact-release/access/scoring gates for the expanded benchmark targets; do not
+substitute new Wikipedia/Real-Bank data and call it a paper replication.
 Diagnose natural errors separately from injected verifier stress cases; agree a worked
 task and what evidence would refute the proposed mechanism. The V0/V2/C1/V2+C1 design is a
 working candidate under reconsideration, not the compulsory outcome of this review.

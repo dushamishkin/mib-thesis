@@ -15,6 +15,58 @@ Before changing the central gap or excluding a close comparator, present the evi
 and rationale for discussion. Routine factual verification and drafting can continue.
 Do not infer absence of a method from an abstract or a short search result.
 
+## Broader mechanisms pass — 11 October 2026
+
+Author rejects selecting the proposed improvements yet and requests deeper mechanisms
+from outside business analytics. The operational explanation is in
+[problem-mechanisms.md](problem-mechanisms.md); do not turn these readings into chosen
+interventions. Six cross-domain sources were inspected in selected sections, not
+fully replicated or searched as a systematic review. New records remain outside the
+generated Zotero bibliography pending identifier reconciliation.
+
+- **Lost in the Middle**, [TACL 2024 paper](https://aclanthology.org/2024.tacl-1.9/),
+  controlled QA/key-value setup and position/context experiments. Relevant information's
+  position affects performance in tested models. Useful diagnostic of supplied versus
+  usable context: change position while preserving content. Not a neural causal proof,
+  handoff-compression study or measured limitation of our future model.
+- **Large Language Models Can Be Easily Distracted by Irrelevant Context**,
+  [ICML 2023 paper](https://proceedings.mlr.press/v202/shi23a.html), GSM-IC construction
+  and selected robustness experiments. Adds irrelevant text without changing the answer
+  and observes sensitivity. Useful harmless-distractor control; old models/math tasks
+  do not establish modern business-rule error rates or a universal treatment.
+- **Self-RAG**, [ICLR 2024 proceedings](https://proceedings.iclr.cc/paper_files/paper/2024/file/25f7be9694d7b32d5cc670927b8091e1-Paper-Conference.pdf),
+  Section 3/Table 1 and training/inference description. Separates retrieval need,
+  passage relevance, claim support and response utility using learned reflection tokens.
+  Useful vocabulary for diagnosing where evidence fails. Document support is not itself
+  a test of applicability to a particular business scope/date. Training and model
+  decoding are required by the actual method; it is not simply an API prompt template.
+- **Chain-of-Verification**, [ACL Findings 2024 paper](https://aclanthology.org/2024.findings-acl.212/),
+  Section 3 and joint/factored results. Draft-derived verification questions are answered
+  in contexts excluding the original draft in separated variants; improvements occur
+  on tested factual tasks. Useful precedent for checking input dependence and atomic
+  questions. No executable business tests/tool use were studied. Question generation
+  still sees the draft: hidden answer and complete requirement coverage are different
+  properties, with the latter a diagnostic concern we infer rather than a reported result.
+- **ReasoningBank v2**, [paper](https://arxiv.org/html/2509.25140v2), Section 3,
+  judge-noise analysis and Appendix E; latest arXiv history checked. Distils strategies
+  from success/failure trajectories, retrieves by embeddings and injects items into
+  instructions. Proxy success labels come from an LLM without gold at runtime.
+  Useful example of experience content rather than raw-history reuse. Authors report
+  robustness to simulated label noise in their tested range; systematic shared semantic
+  errors are not equivalent to those flips. Broader memory architectures are not fully
+  compared; web/SWE results do not establish an analytics-MAS failure or remedy.
+- **Debate or Vote**, [NeurIPS 2025 proceedings](https://proceedings.neurips.cc/paper_files/paper/2025/file/934252acd87f254d5d4672fbde283bd2-Paper-Conference.pdf),
+  Sections 3–5, answer extraction Appendix F and limitations H. Separates sampling/voting
+  gains from debate, and correct-to-wrong subversion from correction. Useful controls
+  and transition metrics. Martingale analysis assumes a particular homogeneous belief
+  update model; empirical protocol is mainly simultaneous talk, not every MAS topology.
+  Oracle locking uses correct-answer knowledge and is an explanatory upper bound,
+  never an admissible runtime component for our study.
+
+These papers supply distinct diagnoses and methods to examine, not proof that context
+ordering, reflection, memory or debate is the intervention to select. The practical
+question is which mechanism recurs in our baseline under a valid development protocol.
+
 ## Focused follow-up: evidence use and erroneous verification — 11 October 2026
 
 Author prioritises these two problems; checking cost remains a secondary criterion.
