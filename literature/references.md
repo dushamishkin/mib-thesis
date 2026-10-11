@@ -1,6 +1,6 @@
 # Reference index and metadata audit
 
-Updated 10 October 2026; bibliography reconciliation was on 23 September. All 29 indexed works have corresponding entries in
+Updated 11 October 2026; bibliography reconciliation was on 23 September. All 29 indexed works have corresponding entries in
 [references.bib](references.bib). The earlier primary-arXiv audit covered titles, authors,
 first arXiv year, identifiers and observed versions; it did not verify all final venues.
 All 29 project citation keys were preserved during the Zotero reconciliation.
@@ -42,6 +42,21 @@ explicitly unknown. Before the formal proposal, pin versions supporting substant
 and check final publication metadata where relevant.
 
 ## Priority follow-up
+
+11 October limitations pass: selected AgenticData v2 architecture, validation, memory
+and component-result passages and DataCross v1 construction, coordination and evaluation
+passages were inspected. Current arXiv histories still list v2/v1 respectively.
+Two additional system candidates were read in selected sections:
+[DS-STAR v4](https://arxiv.org/html/2509.21825v4) (architecture, experiments,
+limitations/future work, Appendices A/E/L) and
+[DataSeer, ACL 2026 proceedings](https://aclanthology.org/2026.findings-acl.787/)
+(Sections 3–4, Limitations, Appendices A.1–A.2/B.4.2).
+These two candidates have **not** been checked for existing Zotero duplicates or
+added to the collection/export; they are discovery/reading notes, not new indexed
+bibliography entries. Details, author-versus-reviewer evidence labels and reasons
+for use are in [reading-brief.md](reading-brief.md#analytics-system-limitations-pass--11-october-2026).
+No implementation audit, agent experiment replication or Zotero synchronization
+was performed in this pass. The proposal and its citation list remain unchanged.
 
 Author requests transparent key-source summaries and inclusion rationales, 10 October:
 see [reading-brief.md](reading-brief.md) for primary links, selected sections, uses,

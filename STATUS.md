@@ -12,6 +12,12 @@ Institutional dates remain in ROADMAP.md and requirements/README.md. No dispatch
 submission has occurred; the prior dispatch plan is subject to this author review.
 
 ## Completed
+- Prepared a selected-section limitations comparison of AgenticData, DS-STAR,
+  DataCrossAgent and DataSeer in literature/reading-brief.md on 11 October.
+  Distinguished explicit author limitations, reported boundaries, evaluation coverage
+  and untested reviewer hypotheses. Verified current arXiv histories and read DataSeer's
+  proceedings limitations page. DS-STAR/DataSeer remain discovery records outside the
+  Zotero export; no replication or newly approved research direction. Proposal unchanged.
 - Captured the author's banking-workplace motivation in proposal/research-design.md
   and reflected it in the Section 1 prose: schema/context access does not itself ensure
   correct business-semantic interpretation. Distinguished available/resolvable evidence
@@ -63,11 +69,11 @@ submission has occurred; the prior dispatch plan is subject to this author revie
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
 ## Next task — literature-grounded research agreement
-Unpack a small set of existing analytics MAS, starting with AgenticData: architecture,
-information flow, validation/feedback, reported component evidence and reproducibility.
-Present primary-source summaries and reasons for use transparently to the author.
-Map candidate failures using existing terminology, then choose one observable problem
-and a bounded architectural change together. The current V0/V2/C1/V2+C1 design is a
+Review the source-grounded limitations comparison in literature/reading-brief.md with
+the author. Choose which candidate deserves deeper architecture/code analysis:
+checking cost, erroneous acceptance, or evidence retrieval/transfer/reuse. Check the
+selected system's implementation availability and closest extensions before selecting
+a bounded improvement. The current V0/V2/C1/V2+C1 design is a
 working candidate under reconsideration, not the compulsory outcome of this review.
 Distinguish literature diagnosis from failures reproduced in our own system; no agent
 experiments have run. Define a worked task, baseline, change, resource control and

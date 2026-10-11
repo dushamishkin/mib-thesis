@@ -15,6 +15,147 @@ Before changing the central gap or excluding a close comparator, present the evi
 and rationale for discussion. Routine factual verification and drafting can continue.
 Do not infer absence of a method from an abstract or a short search result.
 
+## Analytics-system limitations pass — 11 October 2026
+
+Author requested limitations before selecting a research improvement. The proposal
+text and DOCX remain unchanged. This pass covers selected architecture, evaluation,
+appendix and limitations passages, not full-paper replication or a systematic review.
+AgenticData v2, DataCross v1 and DS-STAR v4 are the latest versions listed in the
+arXiv histories checked today. DataSeer uses the ACL 2026 proceedings PDF.
+DS-STAR and DataSeer are discovery candidates, not yet reconciled into Zotero or
+the generated bibliography. No implementation was executed or code release audited.
+
+Evidence labels below distinguish **author statement**, **reported result** and
+**reviewer inference**. An untested failure hypothesis is not an established limitation
+of performance. Evaluation coverage limits do not prove architectural incapability.
+
+### AgenticData: plan validation and feedback memory
+
+Primary source: [v2](https://arxiv.org/html/2508.05002v2), Sections 2, 5, 6 and 7.
+The pipeline profiles sources and relationships, generates semantic plans, validates
+them, routes error feedback through memory, and executes an optimised plan.
+
+- **Reported result, Section 7.3:** long-term memory has little effect on
+  Spider-2.0-Lite, which spans different databases. The authors attribute this to
+  difficulty sharing experience across databases. This is a concrete boundary on
+  memory transfer, not evidence that all memory is useless.
+- **Author statement, Section 6:** error/context volume, unproductive planning cycles
+  and routing feedback to the appropriate agent are challenges. Their memory design
+  addresses these; the passage is not a measured residual failure rate.
+- **Reviewer inference, Sections 5.1 and 6:** semantic detectors inspect a generated
+  plan using the question and relevant knowledge, and memory recycles detector feedback.
+  A missed interpretation error could therefore persist through correction. The paper
+  does not establish how often this happens; independent source-based diagnosis is needed.
+- **Evaluation coverage:** reviewed experiments compare components and benchmark
+  accuracy; they do not establish robustness to controlled contradictory rule documents
+  or the calibration of acceptance decisions. Separate computation and rule correctness
+  is a possible diagnostic addition, not a demonstrated literature-wide gap.
+
+**Why use it:** closest existing analytics architecture, and prior art for validation
+plus memory. First check which semantic mistakes survive its existing detectors rather
+than propose the generic addition of validation. No standalone limitations section was
+identified in the reviewed v2; the results above are section-specific boundaries.
+
+### DS-STAR: iterative planning, execution, verification and routing
+
+Primary source: [v4](https://arxiv.org/html/2509.21825v4), Sections 3–6,
+Appendices A, E and L. Analyzer descriptions feed planning and coding; a verifier
+judges the current plan, code and execution result; a router adds a step or backtracks.
+
+- **Author statement and result, Section 4.1:** retrieval remains a bottleneck.
+  KramaBench accuracy increases from 44.69% to 52.55% when relevant files are already
+  provided. This comparison supports a data-discovery boundary within this setting.
+- **Author statement, Appendix E:** increased context raises input-token use to
+  about 3.5 times ReAct. Cost analysis averages ten development tasks; its reported
+  dollar figures are historical observations, not current prices or our budget.
+- **Author statement, Section 6:** human domain-expert collaboration is future work;
+  the evaluated framework is fully automated. This is outside our initial no-human-study scope.
+- **Reviewer inference, Section 3.1 and Appendix L.4:** the verifier is exposed to
+  the candidate solution and emits a binary sufficiency decision. Its listed prompt
+  has no separate source-document input. Candidate influence and inadequate evidence
+  checking are testable risks, not demonstrated causes of incorrect answers. Code can
+  contain source access/results, so this does not mean the system never reads documents.
+- **Methodological caution:** Appendix A already varies verifier model and inputs;
+  merely using a cheap verifier or adding code/results to its prompt is prior art.
+  Section 4.2's no-verifier comparison also changes step-by-step planning to full-plan
+  generation; it does not isolate a pure verifier effect from all planning changes.
+
+**Why use it:** concrete checking/routing baseline and an existing methodology for
+component comparison. Its code-and-result-aware validation corrects the oversimplified
+claim that existing analytical systems check only whether code runs.
+
+### DataCrossAgent: source specialists and cross-source synthesis
+
+Primary source: [v1](https://arxiv.org/html/2601.21403v1), Sections 3.2–5.3
+and source-prioritisation/cross-pollination prompts. Specialists explore sources,
+a coordinator ranks them, and a cross-analysis agent executes joins and tests.
+
+- **Author-described evaluation boundary, Section 3.2:** task artifacts are
+  reverse-synthesised from verified target insights. This enables reference checking,
+  but is not a test on untouched enterprise archives with naturally conflicting rules.
+- **Author-described measurement, Sections 3.5 and 5.1.3:** assessment combines
+  numerical matching, embeddings and GPT-4o judgments. These report-level scores are
+  not the proportion of completely correct executable tasks.
+- **Reviewer inference, Section 4.3:** source priority partly depends on data richness,
+  keyword overlap and coordinator judgment. A short exception document may be crucial
+  without being rich or lexically prominent. This is a candidate test, not a reported failure.
+- **Evaluation coverage:** source interaction and execution are already implemented
+  and ablated. The inspected setup does not show that their advantage persists against
+  an equally resourced single-agent implementation. Direct multimodal-model baselines
+  and the iterative AgentPoirot comparator are not equivalent to that control.
+
+**Why use it:** concrete alternative division of work by source, with existing
+cross-pollination and numerical verification. No separate author limitations section
+was identified; the 'Limitations' text in the reporting prompt concerns generated reports.
+Multimodal extraction is outside our current scope; compare coordination rather than
+silently expanding the thesis to image parsing.
+
+### DataSeer: manager, planner/executor loop and multiple branches
+
+Primary sources: [ACL record](https://aclanthology.org/2026.findings-acl.787/)
+and [proceedings PDF](https://aclanthology.org/2026.findings-acl.787.pdf).
+Inspected Sections 3–4, Limitations (printed p. 16039; PDF p. 10), Appendices A.1–A.2
+and B.4.2. The manager maintains memory and edits prompts; planner and executor
+explore; multiple trajectories are merged. Default base model is DeepSeek-V3-250324,
+with additional GPT-4o experiments. This does not authorize our use of a paid model.
+
+- **Explicit author limitation:** performance inherits model hallucinations,
+  prompt sensitivity and difficulty with very long contexts.
+- **Explicit author limitation:** additional reasoning rounds/branches introduce
+  substantial token costs and latency. Adaptive computation or lightweight reasoning
+  distillation is suggested as future work.
+- **Reported result, Appendix B.4.2:** increasing branches from one to two to three
+  raises InsightEval summary G-Eval from 0.6544 to 0.6901 to 0.7008, with diminishing
+  gains. These are judge scores, not task-correctness rates or a measured optimal policy.
+- **Reviewer inference, Section 3.1.3:** the executor accepts discoveries using its
+  own confidence/novelty/diversity scores. Calibration of this self-assessment against
+  independently verified correctness is a candidate diagnostic question.
+- **Reviewer inference, Section 3.2:** the description permits later branches to use
+  earlier insights; agreement should not be treated as statistically independent
+  verification. Separate planner/executor instances alone do not establish independence.
+- **Evaluation boundary, Appendix A.1:** insight/summary evaluation uses GPT-4o
+  G-Eval. Claimed 'validated' insights are not thereby independently checked calculations.
+
+**Why use it:** an analytics MAS with explicit efficiency limitations and concrete
+memory/coordination prior art, from a Chinese research/industry context. Adaptive
+allocation is a grounded candidate, but broad novelty and implementation feasibility
+remain to be checked before choosing it.
+
+### What this pass permits us to say
+
+Existing systems already implement semantic validation, feedback memory, cross-source
+communication and iterative correction. 'Add a critic/shared memory' is insufficient
+as a contribution. Three candidate problems remain open for author discussion:
+
+| Candidate problem | Present evidence | Diagnostic step before selecting an improvement |
+|---|---|---|
+| Checking effort is expensive and not equally useful on every task | Explicit DataSeer limitation; DS-STAR token overhead | Compare saved work against lost correctness under fixed/adaptive effort and matched total caps |
+| Verification can accept an incorrect interpretation | Verifier/self-assessment architectures; failure rate and mechanism not established | Audit ordinary baseline attempts; distinguish rule errors, computation errors and final acceptance |
+| Useful context is not retrieved, transferred or reused appropriately | DS-STAR retrieval contrast; AgenticData transfer boundary; DataCross ranking risk | Locate the relevant evidence along retrieval, message/summary and executable-plan stages |
+
+These are alternative starting points, not three required thesis contributions.
+No topic, intervention, model/budget or experiment design was newly approved.
+
 ## Why Do Multi-Agent LLM Systems Fail
 
 [Cemri et al., arXiv:2503.13657v3](https://arxiv.org/html/2503.13657v3).
