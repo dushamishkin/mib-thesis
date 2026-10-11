@@ -12,6 +12,13 @@ Institutional dates remain in ROADMAP.md and requirements/README.md. No dispatch
 submission has occurred; the prior dispatch plan is subject to this author review.
 
 ## Completed
+- Recorded the author's DABstep selection with separate unmodified comparison and
+  diagnostic tracks in benchmark/README.md. Preserved two distinct problems and
+  evidence-based MAST mappings in literature/reading-brief.md. Inspected selected
+  AgentSpec, SQLDriller, MemTX, QueryProof and AgentDebug methods plus MemoryLake's
+  DABstep README. Stronger enforcement/repair and counterexample candidates are
+  unselected; close prior art and methodological limits are explicit. No paid runs,
+  implementation replication, benchmark submission or changes to proposal artifacts.
 - Deepened the two author-selected problems in literature/reading-brief.md: separated
   retrieval, handoff, application and experience transfer; inspected selected MAST,
   Silo-Bench, DS-STAR, AgenticData, AMA, verifier-study and TS-SQL passages. Recorded
@@ -76,9 +83,9 @@ submission has occurred; the prior dispatch plan is subject to this author revie
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
 ## Next task — literature-grounded research agreement
-Review the focused evidence-use/verification follow-up in literature/reading-brief.md
-with the author. Audit one analytics baseline's implementation and the closest SQL
-verification methods before agreeing a bounded source-to-rule-to-check extension.
+Review the author-corrected two-problem MAST mapping and stronger-method follow-up in
+literature/reading-brief.md. Audit a reproducible DABstep analytics baseline, counterexample
+verification and rule-enforcement implementations before agreeing a bounded adaptation.
 Diagnose natural errors separately from injected verifier stress cases; agree a worked
 task and what evidence would refute the proposed mechanism. The V0/V2/C1/V2+C1 design is a
 working candidate under reconsideration, not the compulsory outcome of this review.
@@ -97,8 +104,8 @@ AgenticData's Zotero title reconciliation remain pending, rather than blocking t
   and task/family-level analysis; proposed details are now in proposal/research-design.md.
 
 ## Evidence and blockers
-No harness, pilot agent runs, intervention findings or frozen test suite yet. Data-source
-recommendation is not final task admission: DABstep rule ambiguities, alternative-source
+No harness, pilot agent runs, intervention findings or frozen test suite yet. DABstep
+is author-selected but individual tasks are not admitted: rule ambiguities, alternative-source
 reuse/provenance and independent human gold review remain explicit gates in the audit.
 Scientific novelty is a candidate supported by a targeted review, not a global priority claim. Remote publication
 must be verified at handoff; local commits are not automatically visible to other sessions.

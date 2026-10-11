@@ -21,6 +21,99 @@ Author prioritises these two problems; checking cost remains a secondary criteri
 The following is selected-section reading, not replication or a systematic review.
 No change to the proposal, approved title or frozen experimental parameters is implied.
 
+### Author correction and stronger-method follow-up
+
+The author explicitly requires **two distinct problems within one study**, classified
+with MAST. The earlier shared specification and blinded review proposals were judged
+insufficiently compelling; they remain unselected comparison candidates, not the
+implementation recommendation. Do not merge information-use failures with checking
+failures or require the old factorial to survive unchanged.
+
+MAST mapping, based on v3 Appendix A and annotation methodology Section 3:
+
+| Problem | MAST label when supported by visible evidence | Required distinction |
+|---|---|---|
+| Evidence/experience underuse | FM-2.4 Information withholding | One agent possesses a relevant finding but fails to convey it |
+| Evidence/experience underuse | FM-2.5 Ignored other agent's input | A finding is conveyed but inadequately considered by its recipient |
+| Evidence/experience underuse | FM-1.4 Loss of conversation history | Actual history truncation/loss, not any unsuccessful memory retrieval; conversation reset is FM-2.1 |
+| Evidence/experience underuse | FM-2.6 Reasoning-action mismatch | A visible plan states a rule that the performed operation contradicts |
+| Erroneous business-interpretation checking | FM-3.3 Incorrect verification | A review inadequately validates/cross-checks the interpretation or decision |
+| Missing coverage in checking | FM-3.2 No or incomplete verification | A required semantic dimension is not checked; distinguish omission from incorrect judgement |
+
+These are operational mappings, not new MAST definitions. A wrong answer alone cannot
+establish any label. Retrieval failure and inappropriate cross-task experience transfer
+have no automatic one-to-one label here; record the observed mechanism separately
+rather than force it into FM-2.4 or FM-1.4. One trace may contain failures from both
+problems. Preserve separate counts and evidence spans; use a manually audited subset
+and report annotation agreement if independent annotation is available. MAST classifies
+observations; controlled comparisons, not labels, establish intervention effects.
+
+New selected-method readings, not replications or code-execution audits:
+
+- **AgentSpec v3**, [method](https://arxiv.org/html/2503.18666v3), Sections 3, 5.3,
+  6.3; latest arXiv history checked. Trigger/predicate/enforcement rules act at runtime,
+  rather than leaving compliance to instructions. Useful design precedent for enforcing
+  rule consumption at analytical checkpoints. Safety tasks do not establish analytics
+  gains; automatically generated rules have coverage/rigidity errors. Final ICSE 2026
+  metadata is also available in the author's proceedings PDF, DOI 10.1145/3744916.3764546.
+- **SQLDriller**, [SIGMOD 2025 paper](https://ipads.se.sjtu.edu.cn/zh/publications/SQLDriller.pdf),
+  Sections 3–5 and [repository README](https://github.com/SJTU-IPADS/SQLDriller).
+  Candidate queries are distinguished by small counterexample databases; SQL outputs
+  are compared with LLM interpretation of the natural-language request on those data.
+  Useful concrete checking mechanism beyond reviewing a plausible answer. Its NL
+  executor is fallible and ambiguity is excluded in the correctness definition.
+  Distinguish dataset repair involving original gold SQL from runtime candidate
+  optimisation. Python analytics would require a bounded adaptation, not automatic
+  reuse of formal SQL tooling. This supersedes the earlier abstract-only reading marker.
+- **MemTX v2**, [method](https://arxiv.org/html/2607.23929v2), Sections 3.4–3.6 and
+  selected failure discussion. Retraction invalidates recorded downstream dependencies.
+  Useful precedent for invalidating calculations after rule corrections. It does not
+  provide environment replay or recover undeclared provenance; we propose neither its
+  full transactional stack nor formal guarantees for analytics.
+- **QueryProof v1**, [preprint](https://arxiv.org/html/2608.09254v1), Sections 4 and 7;
+  arXiv history checked. Deterministic semantic-layer checks already gate analytical
+  answers. Important close prior art against claiming a novel rule gate. Checks remain
+  incomplete, and shared semantic-layer errors can escape both gates. Reported comparison
+  is confounded by scaffold/information differences, with disclosed test exposure;
+  its headline gain is not transferable evidence for our proposed MAS intervention.
+- **MemoryLake DABstep implementation**, [author repository](https://github.com/memorylake-ai/memorylake-eval-dabstep),
+  README architecture/trust sections only. Typed analytical intents, executable skills
+  and rival semantic candidates are already described on DABstep. This is an engineering
+  comparator, not a verified peer-reviewed result or audited implementation. Its reported
+  offline snapshot uses model-generated references, so do not compare that percentage
+  as an official benchmark score. Code, learning/evaluation isolation and dependencies
+  remain to audit before using it as a baseline or claiming a gap.
+- **AgentDebug v1**, [selected Section 3.2](https://arxiv.org/html/2509.25370v1):
+  targeted diagnosis and re-rollout are relevant repair precedents. The narrative
+  counterfactual-testing description differs from Algorithm 1's LLM-only critical-error
+  detection comment. This discrepancy and use of success evaluation require protocol
+  inspection before treating it as a gold-blind runtime repair method. Not a chosen
+  intervention and not a replacement for MAST annotation.
+
+Stronger bounded candidates, to compare with the previous simpler proposals:
+
+1. **Enforced evidence use and dependency repair:** agents supply source-linked,
+   versioned analytical requirements; the runtime requires observable checks tied to
+   those requirements before finalisation. Record which computations depend on which
+   rule. A correction invalidates dependent results and triggers bounded recomputation.
+   The concrete change is enforcement/invalidation, not merely another context table.
+   Check presence does not prove rule coverage or correctness; audit extraction and
+   test validity. Rules are agent-derived from permitted documents, not hidden gold.
+2. **Counterexample-based semantic verification:** a challenger constructs a bounded
+   alternative interpretation (e.g. amount vs count denominator) and a small fixture
+   on which its calculation differs from the analyst's. Execute both; judge applicability
+   from question and permitted documentation. Disagreement exposes consequences but
+   does not identify the correct interpretation by itself. Resolve from evidence or
+   record unresolved status. No evaluator reference enters generation or adjudication.
+
+Use separate ablations and a compute-matched alternative to distinguish these mechanisms
+from more retries, context volume or candidate sampling. They are more operationally
+specific, not demonstrated to be more effective. Admit them only if a small development
+diagnostic reproduces the corresponding problem and implementation costs are feasible.
+DABstep selection and official-versus-diagnostic evaluation protocol are canonical in
+../benchmark/README.md. Keep final task accuracy and the two distinct failure rates;
+retain cost/coverage and do not infer interaction from a combined win.
+
 ### Evidence ledger and closest methods
 
 - **MAST v3:** [paper](https://arxiv.org/html/2503.13657v3), taxonomy Appendix A,
@@ -137,9 +230,9 @@ failed checks, revisions and timeouts; cost is retained but not the main questio
 ### Reading and implementation follow-ups
 
 TS-SQL and When Does Verification Pay Off? remain discovery records pending Zotero
-identifier reconciliation/import and generated-export review. SQLDriller
-(DOI 10.1145/3725271) and G²SQL (DOI 10.1016/j.eswa.2026.131276) are close-method
-leads with metadata/abstract-level inspection only; full methods/code must be read
+identifier reconciliation/import and generated-export review. SQLDriller's reading
+scope is updated above. G²SQL (DOI 10.1016/j.eswa.2026.131276) remains a close-method
+lead with metadata/abstract-level inspection only; its full methods/code must be read
 before asserting absence of source-aware or independent verification. The provisional
 extension above is therefore not a completed novelty determination.
 

@@ -1,5 +1,14 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-11 — Author requires two separate problems, classified using MAST, within
+  one research task; rejects treating them as one problem and asks for stronger
+  literature-based mechanisms than shared specifications/blinded checking alone.
+  Author selects DABstep for benchmark comparison. Assistant records a protocol with
+  unmodified comparative evaluation plus separately labelled diagnostics and candidate
+  runtime evidence enforcement/dependency repair and counterexample verification.
+  These mechanisms remain proposals, not demonstrated improvements or frozen treatments.
+  Preserve proposal prose/DOCX; no paid run, new supervisor approval or submission.
+
 - 2026-10-11 — Author selects evidence/experience underuse and erroneous acceptance
   of business interpretations for deeper literature analysis. Defer verification cost
   as the main problem but retain it in evaluation. Assistant's focused reading supports

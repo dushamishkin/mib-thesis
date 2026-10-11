@@ -6,6 +6,13 @@ first arXiv year, identifiers and observed versions; it did not verify all final
 All 29 project citation keys were preserved during the Zotero reconciliation.
 
 ## Ownership and synchronization
+Further 11 October reading: AgentSpec arXiv:2503.18666v3 (runtime methods, generated-rule
+errors, limitations), SQLDriller DOI 10.1145/3725271 (Sections 3–5 and author README),
+QueryProof arXiv:2608.09254v1 (methods/limitations), AgentDebug arXiv:2509.25370v1
+(selected method/algorithm), and MemTX v2 dependency repair. New works remain discovery
+records outside the export pending Zotero identifier reconciliation; see the reading
+brief for scope and caveats. MemoryLake's DABstep README is an engineering lead only.
+
 Focused 11 October follow-up: selected MAST Appendix A/N examples, Silo-Bench v2
 Section 5, DS-STAR v4 methods/appendices, AgenticData v2 memory boundaries and AMA v4
 methods were inspected; see [reading brief](reading-brief.md) for claim-level scope.

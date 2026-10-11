@@ -149,7 +149,12 @@ Section 3; exact prompts, routes and allowances remain to be frozen before evalu
 
 ## Data and tasks
 
-Use public tables with documentation specifying business rules. The [candidate-data audit](../benchmark/README.md) records the current source recommendation, inspected releases, reuse conditions and unresolved gates. The audit recommendation does not freeze dataset selection or task specifications. Our altered tasks are a derivative suite, not official benchmark results.
+Use public tables with documentation specifying business rules. On 11 October 2026,
+the author selects DABstep for comparative task quality while research framing remains
+open. The [benchmark record](../benchmark/README.md) distinguishes unmodified official
+evaluation from separately reported mechanism diagnostics/derivatives, and records
+release/scoring and implementation gates. Task selection, campaign size and interventions
+are not frozen. Our altered tasks are a derivative suite, not official benchmark results.
 
 Start with 10–15 base pilot tasks. Keep tables unchanged across paired consistent/conflicting document variants. Vary one factor at a time: applicability dates, units, population definitions or exceptions. Include harmless/irrelevant document changes. Do not make the latest document invariably authoritative; source priority and scope must be evidenced. Unresolvable conflicts require ambiguity gold labels and separate coverage-aware scoring. Initial documents are readable text exports; OCR and slide interpretation are not core variables.
 

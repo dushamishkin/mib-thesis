@@ -1,9 +1,36 @@
 # Data and benchmark selection
 
-Audit date: 25 September 2026. Research recommendation, not a frozen experiment or
-supervisor-approved dataset choice. Read with the [approved design](../proposal/research-design.md).
+Audit date: 25 September 2026; author selection clarified 11 October.
+Read with the [working design](../proposal/research-design.md). No frozen experiment
+or new supervisor approval is implied.
 
-**Recommendation: use a carefully specified DABstep derivative for the core pilot.**
+**Author choice: DABstep is the main benchmark for comparative task quality.**
+This supersedes the recommendation to make a derivative the only core evaluation.
+Preserve two distinct tracks:
+
+- **Unmodified benchmark comparison:** pin the public release, keep original questions,
+  documents, guidelines and official scoring. Run the selected baseline and adaptations
+  with the same backbone, tool/source access and comparable resource caps. Published
+  scores provide context, not a causal baseline when model/setup differs. DS-STAR
+  evaluates DABstep already; implementation availability and reproducibility remain
+  to audit. A development/subset result must not be presented as the full official score.
+- **Mechanism diagnosis:** use visible traces on original tasks for MAST coding and,
+  where needed, clearly marked DABstep-derived controlled variants or candidate-error
+  stress tests. Altered rules require new audited references and separate reporting;
+  never include them in official DABstep accuracy. Do not select only favourable failures.
+
+The [current dataset card](https://huggingface.co/datasets/adyen/DABstep) and
+[leaderboard instructions](https://huggingface.co/spaces/adyen/DABstep/blob/main/dabstep_benchmark/content.py)
+were checked on 11 October. The latter says new leaderboard validation requests are
+closed, while unvalidated scoring remains open pending v2. Freeze the actual version
+and confirm scoring access before a campaign; no submission/access test was performed.
+The inspected release has hidden default answers and ten labelled development tasks
+(details below). Do not reconstruct official gold from submissions or use test answers
+to tune rules/memory. Official final-answer accuracy cannot by itself diagnose which
+of the two selected problems occurred; evaluator-side trace auditing is additional.
+Paying for the full campaign still requires agreed model/budget. No broad audit repeated.
+
+**Retained recommendation: a carefully specified derivative for mechanism diagnosis.**
 Its public synthetic payment tables, fee schedules and manuals offer the best balance
 of business relevance, executable checking, experimental control and preparation cost.
 AgenticDataBench finance is the strongest alternative. LongDA HERD is the preferred
