@@ -1,4 +1,33 @@
-# Proposal review and dispatch notes
+# Proposal review notes
+
+## Current text-first revision — 11 October 2026
+
+The active narrative is [proposal-draft.md](proposal-draft.md), rewritten after author
+agreement on checked experience reuse, source-grounded counterexample review and the
+FinHelm-engine path. It contains all six substantive fields and twelve numbered
+references. Section 1 has approximately 1,600 words excluding references, above the
+university's 1,000-word requirement. Review the full text before DOCX formatting.
+
+The [existing DOCX](thesis-proposal-draft.docx) is unchanged and contains the earlier
+interventions/title. It is not a formatted counterpart of this narrative and must not
+be dispatched as the revised proposal. No new render or visual QA is claimed.
+The earlier verification record below applies only to that older document.
+
+Primary paper/version records, DataPilot/NVIDIA technical articles and FinHelm's
+pinned evaluation log were checked on 11 October. Web access to the pinned GitHub log
+failed; a direct public raw-file retrieval succeeded and confirmed the reported
+negative development finding. Link/metadata checks are not full-paper reading or
+replication. Source cards retain selected-section scope; new cited records still
+need Zotero identifier reconciliation/import and reviewed automatic export before
+submission. No Zotero changes or generated-BibTeX edits occurred in this revision.
+
+Before submission: review the narrative with the author and supervisor, reconcile
+references, resolve the administrative fields below, then populate/render/check the
+current template and rewrite the unsent email to match. Exact model, caps, sample size,
+acceptable diagnostic trade-offs and budget remain development decisions, not omitted
+proposal sections. No experimental performance or renewed supervisor approval claimed.
+
+## Historical record — earlier DOCX, superseded scientific design
 
 Prepared 10 October 2026. This accompanies the complete English
 [DOCX draft](thesis-proposal-draft.docx) and its editable

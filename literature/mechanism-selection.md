@@ -1,10 +1,12 @@
 # Mechanisms and implementation recommendation for the revised proposal
 
-11 October 2026. Research recommendation for author discussion, not adopted treatments,
-an original-system replication or agent results. The author selects hierarchical MAS
+11 October 2026. The author subsequently adopted the recommended pair and implementation
+path for the proposal. This is not original-system replication or agent results.
+The author selects hierarchical MAS
 and DataPilot/DS-STAR as conceptual anchors. This document closes the bounded review,
-worked-example and implementation-path questions at design level. Proposal prose/DOCX
-and the generated bibliography remain unchanged. No model/API calls or installs ran.
+worked-example and implementation-path questions at design level. The initial review left proposal artefacts unchanged; a subsequent author-authorised
+narrative revision is now in proposal/proposal-draft.md. DOCX and generated bibliography
+remain unchanged. No model/API calls or installs ran.
 
 Read with the [problem map](problem-mechanisms.md), [system audit](dabstep-systems.md)
 and [current design](../proposal/research-design.md). Source-based limitations and our
@@ -278,11 +280,11 @@ Call it a DS-STAR/DataPilot-inspired hierarchical baseline, not their reproduced
 
 ## Evaluation, contribution and proposal readiness
 
-Proposed display names: **Baseline**, **Checked reuse**, **Counterexample review**,
-**Both**. Two binary factors, one fixed hierarchy. These are new candidates, not silent
-renamings of C1/V2: checked long-term reuse differs from the earlier task-local C1,
+Author-adopted display names: **Baseline**, **Checked reuse**, **Counterexample review**,
+**Both**. Two binary factors, one fixed hierarchy. This explicitly revises the earlier
+interventions rather than silently renaming C1/V2: checked long-term reuse differs from the earlier task-local C1,
 and counterexample review is not necessarily the former independent recomputation V2.
-Retain old IDs historically until an explicit design revision is agreed.
+Retain old IDs only historically; the author has agreed the explicit design revision.
 
 Strong single-agent controls should include ordinary self-review and, where feasible,
 the same two mechanisms in one context, with equivalent information and aggregate caps.
@@ -323,8 +325,8 @@ amortisation scenarios, not invented ROI. DABstep is one environment and cannot 
 deployment anywhere. A bounded public rule-shift diagnostic can test one portability
 failure without a new enterprise integration study.
 
-The full proposal can now describe concrete **proposed** methods, the worked example,
-controls and implementation/selection gates. Author agreement on this pair is still
-outstanding. Completed deployment, natural failure prevalence and experimental gains
-are not prerequisites for a proposal and must not be invented. No proposal prose was
-rewritten during this review.
+The author agrees this pair and requests a complete narrative before DOCX formatting.
+The proposal describes planned methods, the example, controls and development gates.
+Completed deployment, natural failure prevalence and experimental gains
+are not prerequisites for a proposal and must not be invented. No proposal prose was rewritten during the initial review; the subsequent full
+narrative revision follows author agreement.

@@ -17,10 +17,14 @@ use of evidence/experience and incorrect semantic verification. Study one reprod
 analytics MAS, select one literature-grounded mechanism per problem, and measure separate
 and joint effects. The author fixes a main-agent/subagent hierarchy as MAS and selects
 DataPilot and DS-STAR as the primary conceptual references. AgenticData remains prior
-art; the reproducible implementation is not selected. Include deployment/adaptation
+art; the author adopts the FinHelm-engine adaptation path, subject to offline gates.
+Include deployment/adaptation
 effort and cost-effectiveness without claiming universal portability or measured ROI.
-Current proposed title, RQs and hypotheses are in proposal/research-design.md; earlier
-shared-context/independent-check implementations remain candidates, not selected repairs.
+On 11 October the author adopts evidence-checked experience reuse and source-grounded
+counterexample review. Exact parameters still require development validation. Current
+title/RQs/hypotheses are in proposal/research-design.md. Draft narrative first; populate
+the DOCX only after text review. Historical shared-context/recomputation proposals
+are superseded.
 
 MAS remains the central object. Use a fixed hierarchy initially, with distinct child
 contexts, delegated reasoning/action and observable result transfer. Record actual
@@ -28,15 +32,15 @@ delegation; tool-only runs are not active multi-agent interactions. Keep a stron
 single-agent control. Public tables plus documentation define the task; tables alone
 do not determine semantic correctness.
 
-The original implementation candidate preserves these labels:
+The superseded implementation candidate used these labels:
 - V0: baseline MAS with ordinary execution but no additional verification/context intervention.
 - V2: independent executable verification.
 - C1: structured shared business context and explicit reconciliation.
 - V2+C1: both interventions.
 V1 (text-only critic) is an optional secondary comparator, subject to pilot budget. Do not silently rename V2 as V1.
-The four-combination comparison is agreed. Use these IDs only for their defined
-intervention families; a different selected mechanism requires an explicit design
-revision rather than silently assigning it an old ID.
+The adopted design uses Baseline, Checked reuse, Counterexample review and Both.
+This is an explicit revision, not reassignment of C1/V2. Historical labels retain
+their old meanings; do not use them for the new treatments.
 
 See proposal/research-design.md for interventions, controls and evaluation. Shared-context schema is populated by agents, never with hidden gold answers. Re-running identical code is not independent verification. MAST labels describe traces; causal conclusions require controlled comparisons.
 
@@ -95,4 +99,5 @@ without an agreed model/budget. Draft emails are not sent emails.
 ## Code review rules
 Flag evaluator leakage, unequal information/resource access, pseudoreplication across variants,
 post-hoc selection of favorable tasks, unverified citations and stale approval claims.
-Use the design's V0/V2/C1/V2+C1 labels. A combined win alone is not evidence of interaction.
+Use the current design's descriptive names; preserve old IDs in historical artifacts.
+A combined win alone is not evidence of interaction.

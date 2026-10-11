@@ -1,5 +1,15 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-11 — Author adopts the mechanism-selection packet and requests a full
+  English narrative before university-template formatting. Adopt checked experience
+  reuse, source-grounded counterexample review and the FinHelm-engine adaptation path,
+  subject to development gates; new descriptive conditions explicitly supersede the
+  historical C1/V2 candidates. Rewrite proposal/proposal-draft.md, preserve existing
+  DOCX until text review, and label its older review/email records accordingly.
+  No new supervisor approval, installed implementation, agent result, paid run or
+  Zotero sync is implied. Narrative includes six sections, full costs, strong controls
+  and separate native/diagnostic tracks.
+
 - 2026-10-11 — Author requests the bounded research in this fork via an explicit goal.
   Assistant completes a DataPilot/DS-STAR mechanism matrix and recommends checked
   experience reuse plus source-grounded counterexample review, a worked development

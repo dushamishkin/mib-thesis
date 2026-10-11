@@ -1,347 +1,250 @@
-# Coordinating Distributed Business Knowledge in Multi-Agent Analytics: A Controlled Study of Shared Memory and Conflict Resolution
+# Improving Evidence Use and Semantic Verification in Multi-Agent Business Analytics: A Failure-Guided Controlled Study
 
 Author: Mikhail Dushkin
+Student ID: 125120990077
+Programme: Master of International Business
+School: Antai College of Economics and Management, Shanghai Jiao Tong University
+Supervisor: Professor Liu Jialu (刘佳璐)
 
-This is the complete narrative source for the current institutional DOCX draft. Administrative fields and dispatch checks are recorded separately in [review notes](proposal-review-notes.md). Scientific authority remains [research-design.md](research-design.md); this is a proposed operational protocol for supervisor review, not a frozen implementation.
-
-# 1 Research frontier current status challenges and significance
-
-## Business analytics requires both calculation and interpretation
-
-My professional experience in banking analytics motivates this study:
-tables may have schemas and column descriptions while the knowledge needed to construct
-a business-correct query remains distributed across documentation. In this experience,
-additional context can still contain conflicting or unclear definitions, and even
-organised documentation may leave the appropriate relationships and filters uncertain.
-This motivates the research question; it is not a measured workplace result or evidence
-that additional context is generally ineffective. The
-proposed experiments use public sources rather than internal bank material.
-
-Business analytics often appears to be a calculation problem: select records, apply a
-formula and report a number. In practice, the calculation is governed by definitions
-distributed across tables and documents. A report may depend on which reporting period
-is applicable, whether a transaction is eligible, which exceptions take precedence,
-and whether a percentage is calculated from transaction counts or monetary amounts.
-Code can execute successfully while implementing a rule that does not apply to the
-requested report. Reliable analytical assistance therefore requires both computational
-correctness and an interpretation supported by the governing documentation.
-
-This distinction also concerns joins and aggregation grain. A technically valid join
-can count the same business entity several times, while a plausible filter can omit
-records that the intended definition includes. These are illustrative risks, not
-reported workplace cases. A further illustration from this experience concerns trade-finance
-limit utilisation: subtracting unused balances from total capacity requires a justified
-active-limit definition at the reporting date and a documented treatment of umbrella
-and company-level limits. Where records share underlying capacity, a simple row sum
-could count it more than once. The exact workplace rules and calculation are not
-established by this illustration. It motivates checking population and hierarchy
-semantics before execution; it is not an experiment result or a bank case study.
-The proposed procedures can organise and check available
-evidence; they cannot guarantee recovery of a governing rule absent from the sources.
-The core experiment therefore requires sufficient accessible evidence to determine
-the answer, including in its resolvable-conflict variants.
-
-Consider an illustrative fraud-rate report. One document defines the rate as the
-number of fraudulent transactions divided by the number of eligible transactions.
-Another defines a monetary exposure measure using transaction amounts. Both formulas
-can be implemented correctly and produce plausible percentages from the same table.
-The relevant reporting definition determines which answer is correct. Agreement between
-two calculations is insufficient if both use the wrong definition. This example is a
-motivation for the proposed experiment, rather than a failure observed in an existing
-agent run. The practical question is how checking effort should be allocated between
-recomputing a result and establishing the applicable business rule.
-
-Existing benchmarks already recognise the importance of documentary knowledge.
-DABstep supplies multi-step analytical tasks with payment-domain context and executable
-data access [1]. LongDA studies analytical tasks requiring extensive documentation [2].
-These precedents rule out a claim that combining tables and business documentation is
-itself new. They also provide a feasible foundation for a controlled study using public
-releases. The proposed project will build on the existing source audit rather than
-conduct another broad benchmark search.
-
-## Why study a team of agents?
-
-A multi-agent analytical system distributes work across communicating model-driven
-roles. Such a team could separate interpretation, calculation and checking, allowing
-different agents to examine different evidence or produce distinct implementations.
-However, role separation also creates opportunities for relevant evidence to be lost,
-misinterpreted or replaced by an incorrect shared assumption. Communication adds cost,
-and separate agents using the same model may make correlated errors. The existence of
-several roles therefore does not establish that a team is necessary or more reliable.
-
-The MAST study classifies multi-agent failures involving system design, inter-agent
-misalignment and task verification [3]. This supplies a useful descriptive vocabulary
-for examining visible failures, but its categories do not identify causal mechanisms
-in the proposed analytical setting. Silo-Bench likewise examines distributed
-coordination and describes failures of integration despite information transfer [4].
-Together, these studies motivate measuring whether agents use the evidence they receive,
-rather than treating communication as successful coordination by definition.
-
-The thesis will retain a fixed multi-agent team as its central object while including
-a strong single-agent control. The single agent must be able to inspect the same
-documents, execute calculations, revise its approach and check its own work within
-comparable resource ceilings. A weak one-shot response would not establish the value
-of delegation. If the single agent achieves comparable or better reliability at lower
-cost, that finding would identify a boundary on the practical value of the team in
-this setting. The project would still answer its comparative question, provided that
-the tasks, controls and uncertainty support the conclusion. It would not justify a
-general claim against multi-agent systems in other domains.
-
-## Computational verification and its limits
-
-Ordinary execution feedback tells an agent whether code runs and may reveal syntax,
-runtime or data-access errors. It does not establish that the requested quantity was
-computed. In this proposal, **independent executable verification** means that a checker
-constructs its interpretation and an executable calculation from the task and permitted
-sources before seeing the solver's numeric answer or code. The independently obtained
-results are compared afterwards, with bounded opportunities to resolve disagreements.
-Re-running the solver's unchanged code is not independent verification.
-
-This intervention is intended to reduce dependence on a single computational pathway.
-Its independence is procedural rather than a guarantee of semantic truth: the checker
-and solver can still choose the same inapplicable rule. Shared model limitations,
-ambiguous documentation and misleading source cues may cause agreement on a wrong
-answer. The study must consequently score rule applicability alongside numeric
-correctness and examine incorrect answers that survive checking.
-
-AgenticData is the closest identified analytical system comparison. It combines
-multi-agent analysis, plan validation and feedback memory, and reports component
-ablations [5]. Its validation discussion includes semantic, data and grammar checks;
-the evaluation also considers quality and resource costs. The proposed thesis cannot
-claim to invent the combination of analytical agents, validation and memory. Instead,
-it must specify how initially withheld independent recomputation differs from plan
-validation and evaluate that distinction under a controlled protocol. The selected
-sections inspected so far do not settle equivalence with the proposed experiment;
-an omitted feature in a summary is not evidence that the complete system lacks it.
-
-## Shared business context and conflict reconciliation
-
-**Shared business-context alignment** means that agents explicitly record and
-reconcile the specification governing the current task. The shared record identifies
-the metric, population, reporting period, units, exclusions and supporting sources.
-It starts empty and is populated by the agents from accessible evidence. Conflicting
-claims require an explicit applicability decision or an unresolved-ambiguity status.
-The researcher does not place the correct interpretation in this record. Otherwise,
-an apparent improvement could result from supplying the answer rather than improving
-coordination.
-
-Here, shared memory is limited to the current task. It is not a proposed universal
-memory architecture or a mechanism for learning from previous test answers. The
-intervention bundles structured recording and explicit reconciliation; its estimated
-effect will concern that bundle. Establishing the contribution of either component
-alone would require a separate ablation, which is outside the initial core comparison.
-
-Conflict-aware memory is established prior work. AMA's current inspected version
-includes a Judge that filters retrieved memory and detects conflicts, with refreshing
-and evaluation on conversational-memory benchmarks [6]. MemTX studies transactional
-belief admission and repair, using controlled evaluation and downstream mock refund
-episodes [7]. These sources are necessary to delimit the contribution: provenance,
-conflict handling, repair and harm-sensitive evaluation cannot be claimed as new
-primitives here. Their inspected settings and protocols differ from the proposed
-analytical reporting tasks, but a different application alone does not establish a
-scientific contribution. No formal guarantees from those systems are claimed for
-the proposed shared-context intervention.
+English narrative draft for author and supervisor review, 11 October 2026. The six sections follow the current university form. This is a text-first revision: the existing DOCX contains the earlier design and has not been updated. The revised direction and mechanisms are author-agreed, not newly supervisor-approved. No experimental agent results are claimed. Implementation parameters will be validated on development tasks and frozen before held-out evaluation.
 
-## Evaluation precedents and the proposed comparison
+# 1 Research frontier, current status, challenges and significance
 
-The public analytical benchmarks also constrain the motivation. LongDA notes limitations
-of fixed-year documentation and an emphasis on final numeric answers [2]. This supports
-examining documentary applicability as well as calculations, but it is a limitation of
-that benchmark, not proof of a literature-wide gap. LiveSQLBench's release documentation
-already describes business-rule drift [8]. Therefore, changing rules or including
-conflicting documentation is insufficient as a standalone novelty claim.
+## 1.1 Business-correct analytics requires applicable knowledge
 
-The proposed comparison keeps the underlying tables fixed and constructs matched
-document packages. One package provides consistent rules; the other introduces a
-conflicting but resolvable claim. The information needed to establish authority must
-be available to every condition. Harmless document changes will help distinguish the
-effect of conflict from changes in document length or presentation. Related variants
-will remain grouped for analysis instead of being counted as independent tasks.
+Business analytics requires more than locating a table and executing a formula. The meaning of an analytical request can depend on definitions dispersed across schemas, manuals and other documentation. Relevant distinctions include the eligible population, reporting period, units, missing values, exceptions and aggregation grain. A calculation can execute successfully and produce a plausible number while answering a different business question. Reliability therefore requires both correct computation and a justified interpretation of the rules governing the requested quantity.
 
-Four conditions separate ordinary team execution, independent calculation checking,
-shared rule reconciliation and their combination. Their internal identifiers remain
-V0, V2, C1 and V2+C1, respectively. Keeping the base model, team workflow and permitted
-sources constant allows controlled intervention contrasts. An additional compute
-control is needed because more checking also adds work. Common ceilings alone do not
-establish equal consumed resources; actual tokens, retries, latency and cost must be
-reported. A higher combined success rate alone cannot demonstrate complementarity:
-the joint effect must be compared with the separate effects on a prespecified scale.
+My professional experience in banking analytics motivates this distinction. Schemas and column descriptions provide structure, but do not necessarily explain which joins, filters and hierarchy relationships implement a business definition. For example, trade-finance limit utilisation requires an applicable definition of active limits and an appropriate treatment of umbrella arrangements. These examples illustrate the motivation; they are not measured workplace findings or established experimental rules. The research concerns data and business analytics generally and will use public data and documentation, without employer records or internal knowledge sources.
 
-## Significance and bounded contribution
+For a business adopting an analytical agent, reliability and deployment effort are connected. A system prepared for one organisation may depend on bespoke metric definitions, examples and helper functions. Moving it to another environment can require rebuilding or validating those assets. Conversely, a system that starts with only tables and documents may incur more reasoning and checking on every request. The practical objective is to understand this preparation-versus-runtime trade-off, not to promise universal deployment without adaptation. For a Master of International Business thesis, the relevant managerial questions concern knowledge reuse, implementation effort, reliability and cost-effectiveness.
 
-The candidate contribution is empirical knowledge about when the two checking mechanisms
-help, fail or become unnecessarily costly. Computational checking may catch implementation
-errors while accepting a mistaken rule. Shared reconciliation may prevent that mistake
-or propagate it across agents. Their combination may be complementary, redundant or
-harmful. These are questions to test, not findings already obtained. The principal
-outcomes will include correct completion, incorrect final acceptance, coverage and
-resource use, supported by auditable rule and calculation references.
+## 1.2 Existing analytics systems provide the starting point
 
-The targeted review makes an incremental contribution plausible but does not establish
-global novelty. A complete comparison with the closest protocols and implementations
-remains necessary before freezing the contribution statement. If equivalent prior
-evidence is identified, the project should be positioned transparently as a replication
-or justified extension, with the author and supervisor involved in any substantive
-change of scope. An exact combination of labels or a different dataset is not sufficient.
+DABstep provides a public basis for studying multi-step analysis that combines structured data with documentary context [1]. Its native scoring supports final-answer comparison, but cannot by itself explain whether a failure originated in source interpretation, experience reuse or review. This study will retain original benchmark evaluation while adding separately reported mechanism diagnostics. A new benchmark search is unnecessary: the project already has an audited source-selection record and a permanently development-only example.
 
-The central question is therefore: when do independent executable verification and
-shared business-context alignment improve multi-agent business analytics, separately
-and jointly, under consistent and conflicting document-defined rules? Addressing this
-question with strong controls and task-level uncertainty could provide practical
-guidance on analytical acceptance and checking effort. Positive, null and adverse
-results are all admissible. No model experiments or intervention results exist at
-this proposal stage.
+DataPilot is a primary conceptual reference [2]. Its technical description separates reusable assets from runtime execution, including versioned procedures, semantic definitions and executable components. A main agent can delegate competing hypotheses, and evaluation feedback supports asset promotion. This provides a precedent for reusing business knowledge rather than reasoning from scratch for every question. However, the public account does not completely specify a current-source applicability check for every retrieved procedure or the labelled split used for every update. Missing information is not evidence that such checking is absent. The thesis will study a testable reuse mechanism in its own adaptation, without claiming to repair a demonstrated defect in the original product.
 
+DS-STAR is the second conceptual reference [3]. It combines file analysis, planning, code generation, verification and refinement. Its component ablations support the importance of analysis and verification in the evaluated system. Nevertheless, overall ablations do not measure whether a reviewer wrongly accepts a particular business interpretation. The inspected review template assesses a candidate using the question, plan, code and output; it does not explicitly require a document-grounded counterexample stage. This observation motivates a comparative review protocol, not a claim that DS-STAR checks only syntax or that all its configurations lack semantic reasoning. Original-system reproduction is distinct from a transparent adaptation.
 
-Feasibility also depends on affordable executable workflows. Alibaba Cloud documents
-function calling and structured outputs for Qwen3.7-Flash [9], making a dated API version
-a candidate for development calibration. Model suitability must be demonstrated on
-development cases, and affordability will be measured across the whole workflow,
-including checking and corrections. Provider documentation establishes advertised
-capabilities rather than performance on the proposed tasks.
+Recent engineering results also challenge an automatic argument for large agent teams. NVIDIA describes a tool-calling runtime supported by separately prepared reusable functions and examples, with additional offline reflection [4]. This demonstrates why preparation must be part of the comparison. A prepared runtime and an agent encountering the corpus for the first time differ in more than agent count. Published leaderboard scores are contextual evidence, not controlled estimates of a multi-agent advantage. Beating the global leaderboard is not the scientific objective of this thesis.
 
-## References
+## 1.3 Why retain a multi-agent system?
 
-[1] Egg, Alex; Goyanes, Martin Iglesias; Kingma, Friso; Mora, Andreu; von Werra, Leandro; Wolf, Thomas. DABstep: Data Agent Benchmark for Multi-step Reasoning. arXiv:2506.23719v1, 2025. https://arxiv.org/abs/2506.23719v1.
+The central object will be a compact hierarchical multi-agent system: a main agent coordinates child agents with separate contexts and delegated reasoning and action. Children return observable findings and results to the coordinator. Calling a deterministic calculation tool alone does not create another agent. The architecture gives evidence handling, computation and review identifiable interfaces, making failures at those interfaces observable and permitting controlled changes. It does not establish that separate contexts are necessary or more accurate.
 
-[2] Li, Yiyang; Zhang, Zheyuan; Ma, Tianyi; Wang, Zehong; Murugesan, Keerthiram; Zhang, Chuxu; Ye, Yanfang. LongDA: Benchmarking LLM Agents for Long-Document Data Analysis. arXiv:2601.02598v2, 2026. https://arxiv.org/abs/2601.02598v2.
+Research on scaling agent systems finds collaboration benefits and overhead to be task-dependent [5]. The value of coordination cannot be assumed to grow with agent count. A strong-single-agent study further shows that one agent can simulate tested homogeneous workflows and obtain comparable performance with efficiency advantages [6]. These findings require a demanding control: the single agent must receive equivalent sources, reusable assets, tools and opportunities for self-review. Where the same mechanisms can operate in one context, their value must also be compared across architectures. Improvement over an unimproved single agent would not isolate the value of delegation.
 
-[3] Cemri, Mert; Pan, Melissa Z.; Yang, Shuyi; Agrawal, Lakshya A.; Chopra, Bhavya; Tiwari, Rishabh; Keutzer, Kurt; Parameswaran, Aditya; Klein, Dan; Ramchandran, Kannan; Zaharia, Matei; Gonzalez, Joseph E.; Stoica, Ion. Why Do Multi-Agent LLM Systems Fail?. arXiv:2503.13657v3, 2025. https://arxiv.org/abs/2503.13657v3.
+The justification for hierarchy is therefore conditional. Context separation may help manage competing evidence and expose assumptions to a distinct review procedure; it can also lose information, duplicate work and preserve correlated errors. The experiment will determine whether targeted improvements justify these costs. If a strong single agent performs equally well or better, that result will constrain the practical value of the hierarchy within the tested setting. Such a conclusion requires valid controls and adequate precision and would not establish that multi-agent systems are generally unnecessary.
 
-[4] Zhang, Yuzhe; Liu, Feiran; Shan, Yi; Huang, Xinyi; Yang, Xin; Zhu, Yueqi; Cheng, Xuxin; Liu, Cao; Zeng, Ke; Zhang, Terry Jingchen; Jiang, Wenyuan. Silo-Bench: A Scalable Environment for Evaluating Distributed Coordination in Multi-Agent LLM Systems. arXiv:2603.01045v2, 2026. https://arxiv.org/abs/2603.01045v2.
+## 1.4 Two distinct problems and their diagnostic basis
 
-[5] Sun, Ji; Li, Guoliang; Zhou, Peiyao; Ma, Yihui; Xu, Jingzhe; Li, Yuan. AgenticData: A Multi-Agent based Data Analytics System for Heterogeneous Data. arXiv:2508.05002v2, 2025. https://arxiv.org/abs/2508.05002v2. The version-specific title follows the v2 full text; the arXiv abstract record retains the earlier title.
+The first problem is inadequate use of available evidence and accumulated experience. The broader diagnostic map includes source access, retrieval, interpretation, transfer between agents and application in code. The selected intervention focuses on a narrower boundary: a retrieved procedure may be useful in its original setting but inappropriate under current documented rules. Similar questions do not necessarily share compatible populations, definitions or exceptions. A frozen bank makes this boundary assessable without introducing continuous test-time learning.
 
-[6] Huang, Weiquan; Wang, Zixuan; Lin, Hehai; Wang, Sudong; Xu, Bo; Li, Qian; Zhu, Beier; Yang, Linyi; Qin, Chengwei. AMA: Adaptive Memory via Multi-Agent Collaboration. arXiv:2601.20352v4, 2026. https://arxiv.org/abs/2601.20352v4.
+ReasoningBank provides an established precedent for retrieving distilled experience to inform later tasks [7]. Its web and software settings and changing memory differ from the proposed document-defined analytics study. This work will keep memory fixed during evaluation and test source-checked admission beyond ordinary metadata filters. It will not claim to invent experience reuse or a universal memory protocol. Useful procedures can also be excluded incorrectly, so retention matters alongside protection against inappropriate reuse.
 
-[7] Li, Xiaoyang; Wang, Yiqi; Lu, Haohui; Chen, Zhi; Li, Mo; Song, Pingan; Zheng, Mingkai; Cai, Taotao. MemTX: Transactional Belief Commit for Stateful Agent Memory. arXiv:2607.23929v2, 2026. https://arxiv.org/abs/2607.23929v2.
+The second problem is erroneous semantic verification. A reviewer may omit a material check, or attempt that check and reach the wrong judgement. Successful execution, plausible output and agreement between agents are insufficient evidence that the governing business definition was implemented. Review quality must therefore be measured on the same correct and incorrect candidates, independently of improvements in the solver producing them.
 
-[8] BIRD team. LiveSQLBench. Author repository README, sections News and Overview. https://github.com/bird-bench/livesqlbench. Accessed 10 October 2026.
+MAST supplies a descriptive taxonomy for multi-agent failures [8]. The study will use its insufficient-verification and incorrect-verification categories where visible traces support them. Information-transfer categories require evidence of an actual inter-agent handoff or disregard of received findings. Negative transfer from memory does not automatically map to a MAST label. An analytics-specific coding guide will record failure location and semantic dimension alongside applicable categories, retaining unknown and nonapplicable cases. Labels alone will not establish causal effects.
 
-[9] Alibaba Cloud. Qwen3.7-Flash model information. Model Studio documentation. https://help.aliyun.com/zh/model-studio/qwen3-7-flash. Accessed 10 October 2026.
+## 1.5 Verification precedents and contribution boundaries
 
-# 2 Research objectives main contents and key issues
+Counterexample-based checking is established prior work. SQLDriller distinguishes alternative SQL interpretations using small databases and execution consistency [9]. It is the principal methodological precedent for the proposed review. Its dataset-validation setting and fallible interpretation differ from a runtime reviewer grounded in business documents. The adaptation will challenge generated analytical code using source-supported alternatives, without evaluator reference queries or answers. It will not provide a formal correctness guarantee for arbitrary Python programs.
 
-## Objectives and research questions
+TS-SQL demonstrates that generated executable tests are an existing refinement method [10]. Test generation itself is therefore insufficient novelty. Expected behaviours can be wrong, and reference-dependent preparation must remain separate from admissible runtime checking. Our reviewer must derive expectations from the question and permitted sources; invalid or non-discriminating tests will be recorded as inconclusive rather than successful verification.
 
-The objective is to estimate how independent checking and explicit reconciliation of business context affect the reliability and resource requirements of a fixed multi-agent analytical workflow. Correctness means answering the intended business question using applicable rules, not merely producing executable code. The study will examine document consistency as a task condition and compare the team with a capable single-agent alternative.
+QueryProof studies rule-gated analytics and reliability-aware evaluation [11]. It already connects semantic rules, deterministic checks, coverage and cost per correct answer. Its disclosed scaffolding and comparison limits underline the importance of equal information and a strong control. This study differs by manipulating two agent-side mechanisms separately and jointly within one hierarchy, rather than supplying a researcher-populated semantic layer. That distinction motivates an incremental empirical contribution, but does not prove global scientific priority.
 
-RQ1 asks how consistent and conflicting-but-resolvable documentary rules affect correct completion and incorrect final answers in the team, with a strong single-agent comparison. RQ2 asks what separate effects the checking and context procedures have and whether those effects change under document conflict. RQ3 asks whether their combination provides additional reliability worth its resource requirements and what observable failures remain.
+Accessible implementations also provide negative evidence. FinHelm has delegation and optional verification infrastructure; its author reports a small development comparison where verification did not improve mean accuracy and increased resource use [12]. This is not independent replication or proof of general ineffectiveness. It nevertheless reinforces the need to test a specific checking procedure instead of treating an additional reviewer as an improvement by definition.
 
-The candidate expectations are that independent checking can detect calculation errors while leaving common interpretive errors unresolved; explicit rule reconciliation can be particularly useful under conflict; and combined checking can be complementary, redundant or harmful. These expectations will be prespecified after measurement validation and before the main evaluation. No positive interaction or team superiority is assumed. The experiment estimates effects of operational procedures: both can affect interpretation and computation, so their contrasts will not be described as pure measures of two isolated cognitive mechanisms.
+## 1.6 Research gap and significance
 
-## Main research contents
+The bounded question is whether source-checked reuse and source-grounded counterexample review reduce their targeted failures, separately and jointly, at acceptable cost in one hierarchical analytics system. The literature establishes the components and supplies contrasting evaluation precedents. The thesis seeks controlled evidence about their adaptation, interaction and limits; it does not claim their invention or that no identical combination exists elsewhere.
 
-The first work package is to construct and audit matched analytical tasks from public tables and documentary rules. Each task needs an explicit researcher-side reference for the eligible population, applicable definition, calculation and evidence. Consistent and conflicting variants will preserve the tables and governing answer while changing a documentary claim. Examples must involve consequential business semantics, such as eligibility, reporting windows or aggregation definitions, rather than only identifying the preferred filename.
+The practical significance is guidance on when reusable knowledge should be admitted, when a business interpretation warrants an executable challenge, and whether these procedures justify their preparation and runtime expense. Final accuracy, review errors, coverage and full costs must be assessed together. Public experiments can inform engineering choices, but cannot establish realised staff savings, commercial value or enterprise-wide return on investment without additional evidence.
 
-The second package implements the fixed workflow, four intervention conditions and controls, with isolated task state and recorded resource consumption. The third package evaluates correctness, coverage, errors and costs with paired comparisons and uncertainty that respects related tasks. The fourth examines a prespecified visible-trace subset to describe failures in evidence retrieval, rule application, communication and calculation, without inferring private reasoning.
+## References, in order of first appearance
 
-## Key issues to be resolved
+These version-specific references support the draft. Engineering descriptions are distinguished from papers. New records require reconciliation in Zotero; the generated bibliography has not been manually edited. Primary links and version metadata were checked on 11 October 2026; selected-section reading scope is documented in the project literature records.
 
-Three issues are central. First, procedural independence requires committing the checker's initial interpretation and calculation before revealing the solver's answer, code or shared record. Second, source authority and business meaning require enough accessible evidence for a defensible answer; researcher-only knowledge cannot compensate for missing agent-facing rules. Third, improvements must be distinguished from advantages caused by more resources or a weak single-agent implementation. The pilot will validate these properties and the scoring protocol before the study is expanded.
+[1] Egg, Alex, Martin Iglesias Goyanes, Friso Kingma, Andreu Mora, Leandro von Werra, and Thomas Wolf. 2025. “DABstep: Data Agent Benchmark for Multi-step Reasoning.” arXiv:2506.23719v1. [Paper](https://arxiv.org/abs/2506.23719v1).
 
-The initial scope excludes employer data, human-subject research, production deployment, broad topology search, persistent cross-task learning and multimodal parsing. Genuinely unresolvable questions would require separate clarification-aware references and are optional diagnostic work. They will not be silently mixed with the resolvable core tasks.
+[2] Gao, Zion. 2026. “Beyond Fine-tuning: Solving DABstep's Hard Mode with Versioned Assets.” OceanBase technical article, January 9, updated October 10. [Article](https://en.oceanbase.com/blog/24781555459).
 
-# 3 Research methods research scheme and feasibility analysis
+[3] Nam, Jaehyun, Jinsung Yoon, Jiefeng Chen, Raj Sinha, Jinwoo Shin, and Tomas Pfister. 2025, revised 2026. “DS-STAR: Data Science Agent for Solving Diverse Tasks across Heterogeneous Formats and Open-Ended Queries.” arXiv:2509.21825v4. [Paper](https://arxiv.org/html/2509.21825v4).
 
-## Experimental structure
+[4] Liu, Jiwei, Maximilian Jeblick, and Jack Yu. 2026. “Build an Agent That Thinks Like a Data Scientist: How We Hit #1 on DABStep with Reusable Tool Generation.” NVIDIA community technical article, March 13. [Article](https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place).
 
-A controlled experiment will cross two assigned procedures within a fixed analytical team: additional independent executable verification and a structured shared-context intervention. Each condition will be evaluated on matched consistent and resolvable-conflict document variants. Every system retains ordinary Python or SQL execution and receives equivalent task evidence. Table values and the applicable answer remain fixed within a document pair.
+[5] Kim, Yubin, Ken Gu, Chanwoo Park, Chunjong Park, Samuel Schmidgall, A. Ali Heydari, Yao Yan, Zhihan Zhang, Yuchen Zhuang, Yun Liu, Mark Malhotra, Paul Pu Liang, Hae Won Park, Yuzhe Yang, Xuhai Xu, Yilun Du, Shwetak Patel, Tim Althoff, Daniel McDuff, and Xin Liu. 2025, revised 2026. “Towards a Science of Scaling Agent Systems.” arXiv:2512.08296v3. [Paper](https://arxiv.org/html/2512.08296v3).
 
-| Condition | ID | Independent check | Structured shared reconciliation |
-|---|---|---|---|
-| Baseline team | V0 | Absent | Absent |
-| Independent calculation check | V2 | Present | Absent |
-| Shared rule reconciliation | C1 | Absent | Present |
-| Combined checks | V2+C1 | Present | Present |
+[6] Xu, Jiawei, Arief Koesdwiady, Sisong Bei, Yan Han, Baixiang Huang, Dakuo Wang, Yutong Chen, Zheshen Wang, Peihao Wang, Pan Li, and Ying Ding. 2026. “Rethinking the Value of Multi-Agent Workflow: A Strong Single Agent Baseline.” arXiv:2601.12307v1. [Paper](https://arxiv.org/html/2601.12307v1).
 
-Absent means that the additional prescribed procedure is not assigned; it does not prohibit ordinary document reading, discussion or self-checking. Natural checking in the baseline will be recorded rather than suppressed to create an artificial advantage. The optional text-only critic, V1, is secondary work and will not replace V2.
+[7] Ouyang, Siru, Jun Yan, I-Hung Hsu, Yanfei Chen, Ke Jiang, Zifeng Wang, Rujun Han, Long T. Le, Samira Daruki, Xiangru Tang, Vishy Tirumalashetty, George Lee, Mahsan Rofouei, Hangfei Lin, Jiawei Han, Chen-Yu Lee, and Tomas Pfister. 2025, revised 2026. “ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory.” arXiv:2509.25140v2. [Paper](https://arxiv.org/html/2509.25140v2).
 
-A proposed fixed workflow has a source analyst, a computational analyst, a reviewing agent and a coordinating agent. The source analyst identifies relevant passages; the computational analyst produces executable calculations; the reviewer performs ordinary review or the assigned independent procedure; and the coordinator resolves recorded disagreements and produces the final response. These are proposal specifications to validate in development, not a completed or supervisor-approved implementation. Roles and message routes will remain constant across the four core conditions once frozen. All agents use the same base model and permitted sources. The coordinator has no privileged reference access.
+[8] Cemri, Mert, Melissa Z. Pan, Shuyi Yang, Lakshya A. Agrawal, Bhavya Chopra, Rishabh Tiwari, Kurt Keutzer, Aditya Parameswaran, Dan Klein, Kannan Ramchandran, Matei Zaharia, Joseph E. Gonzalez, and Ion Stoica. 2025. “Why Do Multi-Agent LLM Systems Fail?” arXiv:2503.13657v3. [Paper](https://arxiv.org/html/2503.13657v3).
 
-## Task construction and business semantics
+[9] Yang, Yicun, Zhaoguo Wang, Yu Xia, Zhuoran Wei, Haoran Ding, Ruzica Piskac, Haibo Chen, and Jinyang Li. 2025. “Automated Validating and Fixing of Text-to-SQL Translation with Execution Consistency.” Proceedings of the ACM on Management of Data 3(3), Article 134, 28 pages. DOI: 10.1145/3725271. [Author-hosted paper](https://ipads.se.sjtu.edu.cn/zh/publications/SQLDriller.pdf).
 
-The existing source audit recommends a DABstep derivative for the core development tasks [1]. AgenticDataBench finance is an alternative if source suitability gates cannot be met, and LongDA HERD is a possible later transfer check [2]. This proposal does not repeat the completed broad benchmark screening. Final source admission requires checked reuse terms, clear documentary semantics and independently validated references.
+[10] Xu, Wenbo, Haifeng Zhu, Liang Yan, Chuanyi Liu, Peiyi Han, Shaoming Duan, and Jeff Z. Pan. 2025. “TS-SQL: Test-driven Self-refinement for Text-to-SQL.” Findings of the Association for Computational Linguistics: EMNLP 2025, 2864–2889. DOI: 10.18653/v1/2025.findings-emnlp.156. [Proceedings record](https://aclanthology.org/2025.findings-emnlp.156/).
 
-The current development specification proposes 12 base queries across six families: fee quotation, eligibility sets, domestic volume, fraud metrics, reporting windows and conditional quotations. Two document variants per base query produce 24 instances, with four additional harmless-change instances giving 28 pilot instances. These are related development cases, not 28 independent business environments or a held-out test set. Main-study scope requires a defensible set of independent cases/families and a family-level development/test separation.
+[11] Lee, Morris. 2026. “Business Truth, not SQL Accuracy: A Rule-Gated 7B Analytics Agent Outperforms a Direct-Prompted 32B Baseline.” arXiv:2608.09254v1. [Paper](https://arxiv.org/html/2608.09254v1).
 
-For each base task, the researcher will document a semantic specification covering the measure, eligible entities, reporting date or window, units, exclusions, relevant relationships and aggregation grain. Tasks involving hierarchy or joins require explicit evidence about whether records represent independent quantities or allocations of a shared quantity. The trade-finance utilisation illustration motivates these requirements, but no bank policy is inferred from it and no utilisation task is currently admitted. A suitable public or clearly labelled synthetic analogue would require a separate reference audit.
+[12] ZhouJiaJun2333. 2026. “FinHelm.” Software repository and evaluation log, revision 89e1546cab8fdfd9e996e8f6a6efeec933bc1be5. GitHub account attribution; no personal-name identity is inferred. [Repository](https://github.com/ZhouJiaJun2333/FinHelm/tree/89e1546cab8fdfd9e996e8f6a6efeec933bc1be5), [evaluation log](https://github.com/ZhouJiaJun2333/FinHelm/blob/89e1546cab8fdfd9e996e8f6a6efeec933bc1be5/docs/evaluation.md).
 
-The consistent and conflict variants will differ in one consequential claim, such as eligibility, a unit or an applicability window. The conflicting statement must be plausible yet resolvable using source authority, scope or validity evidence supplied equally to every system. Dates, document names and source order will be varied so no universal shortcut determines authority. Harmless changes will preserve business meaning and help assess presentation effects. Both rival interpretations must produce different outputs, unless a case is explicitly designated an invariance control. Admission and exclusions occur before treatment results are observed.
+# 2 Research objectives, contents and key issues
 
-## Intervention timing and correction
+## 2.1 Objective and research questions
 
-The shared-context procedure uses an initially empty task-local record. Agents populate metric definition, population, period, units, exclusions, relationships or aggregation grain where relevant, source passages and unresolved claims. Conflicting entries require an explicit evidence-based reconciliation or ambiguity status. The record will never be prefilled with the correct interpretation. In conditions without C1, ordinary messages remain available, but the prescribed common schema and reconciliation stage are absent.
+The objective is to evaluate whether evidence-checked experience reuse and source-grounded counterexample review improve the reliability and cost-effectiveness of a hierarchical multi-agent analytics system. The study will diagnose both failure groups, implement the selected mechanisms, and estimate separate and joint effects against ordinary review and strong single-agent alternatives.
 
-For V2, the reviewer first receives only the question and permitted source corpus in a separate context. It develops and executes its own solution and commits its initial interpretation, evidence and result to the run log. Until that commitment, it cannot inspect the solver's code, numeric answer, messages or C1 record. The same withholding rule applies in V2 and V2+C1. Afterwards, the coordinator compares the independent and team outputs and can expose the relevant evidence and code for a bounded correction stage. The proposed initial correction limit is one comparison-and-revision round; pilot evidence may change this limit before the protocol is frozen for the main study. All corrections count toward resource usage.
+**RQ1:** Which observable evidence-use and verification failures occur in the research baseline, and how do the selected literature mechanisms address or leave them open?
 
-This sequencing protects an initial independent attempt while allowing shared reconciliation to influence the team's solution and the later resolution of disagreements. Independence does not guarantee that interpretations are different or correct. The two procedures overlap in what they can improve, so the factorial estimates concern the assigned procedures and their interaction. Trace patterns will not be treated as proof of a uniquely identified internal mechanism.
+**RQ2:** Does checking retrieved procedures against current sources reduce inappropriate reuse without excluding useful experience, and how does this affect final quality and resource use?
 
-## Single-agent and resource controls
+**RQ3:** Does source-grounded counterexample review reduce omitted semantic checks and false acceptance of incorrect interpretations, without unacceptable false rejection, inconclusive checks or cost?
 
-The single-agent control will receive the same sources, executable tools and final-response requirements. Its workflow will explicitly include planning, rule specification, calculation and self-review; it will not be a weak one-shot prompt. It can revisit evidence and revise its solution within a comparable total resource ceiling. Because structured work may help regardless of delegation, this control must be given a comparably careful procedure. Comparing these chosen implementations can inform practical selection, but cannot by itself isolate every architectural difference between a team and one agent.
+**RQ4:** What are the separate and joint effects on quality and cost-effectiveness, and do they justify the hierarchy relative to similarly equipped single-agent controls? What boundaries appear under compatible knowledge, rule shifts and limited preparation?
 
-An additional-compute team control will extend ordinary review and revision while exposing the original solution, rather than requiring an initially blinded recomputation or a C1 record. Its extra turn and token allowances will be set before evaluation to approximate the checking workload within a common maximum budget. Exact allowances depend on measured development usage and will then be frozen. Equal ceilings will be reported alongside actual consumption. A quality/cost comparison will not be presented as pure mechanism identification, and realised tokens will not simply be statistically subtracted as though they were unaffected by the interventions.
+## 2.2 Working hypotheses and research contents
 
-With the four core conditions and these two controls, 28 pilot instances imply 168 runs per repetition. The number of repetitions is not yet selected. Any later stronger-model or additional single-agent ablation must run a prespecified comparison subset, not only favourable conditions. V1, transfer, topology variation and additional component ablations will be deferred if resources are limited.
+H1 predicts that checked reuse will reduce admission and downstream application of inapplicable experience while retaining useful applicable procedures. Practical value requires better final quality or a favourable quality/cost trade-off, rather than a high rejection rate alone.
 
-## Reference answers scoring and isolation
+H2 predicts that counterexample review will reduce false acceptance on common incorrect candidates. Acceptable false-rejection and coverage trade-offs will be specified before held-out evaluation. Rejecting nearly every candidate will not support a useful improvement.
 
-Each admitted task will have a manually audited applicable-rule specification and two independently constructed reference calculations where feasible, for example Python Decimal and SQL. Numerical agreement is necessary evidence about computation but does not establish rule validity. Rule applicability, authority, precision, expected status and support passages must be reviewed separately. Cases with unclear gold will be repaired or excluded with reasons before evaluated runs.
+H3 predicts that the combined system will reduce incorrect final answers relative to either individual mechanism. Positive interaction and lower cost are not assumed. The combined result may be complementary, redundant or harmful; compatible experience and already-correct candidates may make extra checks unnecessary.
 
-The runtime will expose only an allowlist of the current task's tables and documents. It will not mount the thesis repository, generator, scoring code, public solutions, gold, prior transcripts or other variants. Evaluated agents will have no external network access. Solver and checker receive identical source permissions and no evaluator-only tools. Memory and execution state will reset between variants and runs; a provider cache must not introduce answer reuse.
+Research contents comprise an evidence-linked literature comparison, a failure-coding guide, a reproducible implementation, a four-condition mechanism experiment, common-candidate review diagnostics and a business-oriented cost analysis. The initial study will use one fixed hierarchy and one affordable tool-capable model. It will not train a new model, search many topologies or build an enterprise knowledge platform. Campaign size and optional robustness checks depend on measurement validity and an agreed budget.
 
-All conditions return an answer, unit, status and concise evidence/rationale in the same format. End-to-end success requires a correct value or entity set, appropriate units, the applicable business rule and compatible evidence. Task-specific rounding, set matching and tolerances will be frozen in advance. Format compliance is scored separately. The primary error outcome is an incorrect answer released as final across all assigned attempts; an additional conditional error rate among answered attempts will be reported with coverage. This outcome does not imply a separate real-world approval gate.
+## 2.3 Key issues
 
-Secondary measures distinguish rule correctness, correct computation under the selected rule, citation support, unnecessary refusal, unresolved status, timeout, tokens, latency and monetary cost. This decomposition can distinguish a well-executed wrong interpretation from a calculation mistake. Scoring and adjudication rules will be tested on development outputs. Wherever manual judgement is required, output review will hide condition identifiers where practicable, and ambiguous judgements will be logged for review. No private chain of thought will be requested as ground truth.
+The main challenges are establishing applicability without hidden rules, generating valid discriminating fixtures, preserving strong controls, and distinguishing actual reviewer improvement from easier solver outputs. Preparation benefits must be separated from architectural effects, and statistical analysis must respect task dependence. These issues will be addressed before scaling, rather than resolved by assuming that memory or a reviewer is trustworthy.
 
-## Analysis and uncertainty
+# 3 Research methods, scheme and feasibility
 
-For each document setting, paired contrasts will estimate changes in success and final-error rates between procedures. The prespecified success interaction on the percentage-point scale is I = p(V2+C1) - p(V2) - p(C1) + p(V0). A combined condition outperforming both components does not by itself establish a positive interaction. The difference between intervention effects under consistent and conflicting documentation will address moderation by conflict.
+## 3.1 Fixed hierarchy and implementation
 
-Document variants and repeated runs will remain grouped by base task. Uncertainty estimation must also acknowledge related tasks within families; sensitivity summaries will report family-level variation, and a small family count will limit generalisation. Repetitions quantify stochastic variation on the sampled tasks rather than creating independent business cases. The development pilot is not a power justification. Main-study counts will follow measurement validity, observed variability, attainable precision and an agreed budget, rather than observed treatment wins.
+The baseline will use a main coordinator and three child roles: evidence/experience worker, computational analyst and reviewer. Each child will have a separate context and tool-using loop. Explicit routing will invoke the same roles in every multi-agent condition and record messages, tools, calculations and resource use. Exact prompts, limits and correction routes will be development-validated and frozen before testing. Routing will not depend on favourable held-out results.
 
-Positive, null and adverse effects will be reported with effect sizes and intervals. An interval too wide to distinguish useful benefit from harm will be described as inconclusive. Reliability will be considered alongside coverage and measured resources. MAST-informed labels [3] on a prespecified visible-trace subset will describe retrieval, applicability, communication and computational failures where the evidence supports the distinction. Relevant-passage diagnostics, if feasible, will supply identical passages to all compared systems. Such diagnostics remain separate from the main evaluation and cannot establish mediation from trace frequencies alone.
+The selected implementation path is adaptation of the pinned FinHelm delegation engine [12]. DataPilot and DS-STAR remain conceptual anchors, not systems whose scores this adaptation reproduces. Unrestricted memory, optional delegation and default verification behaviour will be replaced by research-specific access and routing. If the engine fails offline checks, a documented fallback will be assessed before the pilot; changing implementation requires a recorded protocol revision.
 
-## Feasibility and remaining gates
+The baseline already has ordinary execution, source access, scoped retrieval and candidate review. It can reject an inappropriate suggestion or detect a semantic mistake. No condition will be instructed to copy obsolete knowledge. All conditions share the same initial bank, metadata, retrieval rules, permitted documents and calculation interface. The interventions strengthen interfaces beyond this ordinary workflow.
 
-Preparatory work has pinned public source files and reproduced selected calculations using separate implementations. This establishes source and calculation feasibility, not agent performance or a fully admitted suite. A minimal harness, semantic audits, isolation checks and scorer validation remain necessary. No agent experiments have been run.
+## 3.2 Evidence-checked experience reuse
 
-One affordable tool-capable model will be used across all core conditions and controls. A dated Qwen3.7-Flash API model is the initial calibration candidate, subject to account access, tool competence and an agreed spending ceiling. Its provider/version, thinking mode and exact caps will be frozen before evaluation. A one-model study limits generalisation across models. Calibration will use development cases and selection criteria about usable task performance and cost, not preferred treatment effects. Paid calls require a local cumulative budget guard and explicit budget agreement; no paid campaign is authorised at this stage.
+A frozen bank will contain reusable procedures with identifiers, material applicability conditions, donor-source pointers and preparation provenance. It will be prepared only from permitted development material. Entries derived from documents without prior runs will be called prepared assets, not learned experience. Trajectory-derived entries require documented development runs; external gold may evaluate those runs, but hidden answers will not be inserted into runtime lessons or target prompts.
 
-The major feasibility costs include authoring semantic references and auditing outputs, not only API charges. If the proposed scope is excessive, models and task breadth will be reduced transparently while preserving the core comparisons and controls. Synthetic documentary modifications aid control but constrain claims about enterprise archives. The conclusions will concern the frozen tasks, procedures and model; bank deployment, analyst productivity and financial ROI require separate evidence.
+Ordinary retrieval will respect available scope/version metadata in every condition. After the same candidate items have been retrieved, the treatment adds a check against the current question, schema and documentation. For each material condition, the worker records supported, contradicted or unknown with source pointers. Only supported procedures reach the solver. Rejected and unknown items remain in the trace; their raw instructions must not bypass admission through shared prompts, an index or another tool. Ordinary document-based solving remains available when no procedure is admitted.
+
+Generic calculation procedures and domain-specific rules will initially be separate entries. This permits retention of a useful pattern while blocking an inapplicable rule. Memory will not change during held-out evaluation. Deterministic checks enforce identifiers, evidence fields and delivery, not semantic truth. The worker can misread sources or reject useful knowledge; evaluator auditing will measure these errors. This addresses admission at reuse, not every retrieval failure or an oracle-populated semantic layer.
+
+## 3.3 Source-grounded counterexample review
+
+The changed reviewer first receives the question and permitted documentation, before candidate answer/code. It records a bounded set of material semantic obligations and source support, without treating the evidence worker's approval as an oracle. It then inspects the candidate and identifies a plausible contrasting interpretation, such as different null eligibility, date endpoint, join grain or denominator.
+
+It constructs a small schema-valid fixture on which the candidate and source-derived alternative should differ. Expected behaviour is recorded from visible rules before execution. The unchanged candidate and alternative run on isolated copies through the same replay interface. A difference establishes different consequences, not which interpretation is correct; source evidence resolves that judgement. Agreement on a non-discriminating fixture provides no verification evidence.
+
+The development prototype will cap checking at two disputed obligations, one valid fixture per obligation and one regeneration attempt. Caps remain provisional until calibration, then fixed. Invalid fixtures, unsupported replay and unresolved meaning yield inconclusive status, not approval. One bounded correction and recheck will be available under the fixed resource policy. Failed attempts and skipped reviews will remain in the record and cost accounting.
+
+The initial source interpretation is separated from the candidate, but later fixture construction uses candidate code. The complete reviewer is not fully blinded or statistically independent. The treatment bundles source-first specification and discriminating execution; its effect concerns that bundle rather than pure test generation. Candidate logic will not be silently repaired before testing. State, caches and fixture data will be isolated, and fixture execution cannot access real source tables to bypass the test. Selected passing checks do not certify full correctness.
+
+## 3.4 Worked development example
+
+The public development walkthrough concerns a fee quotation and its guide. A material distinction is whether a null eligibility flag denotes an unrestricted case or an ineligible case. A synthetic true-only donor procedure can be valid under its stated policy while conflicting with the target guide. This planted mismatch is a diagnostic stress case, not a naturally observed agent failure or an addition to official benchmark runs.
+
+Checked reuse assesses the donor rule while retaining a compatible generic formula. If the solver nevertheless generates a true-only candidate, counterexample review can challenge it. For illustration, two otherwise matching rows have zero variable rate: one has a true flag and EUR 0.10 fixed amount; the other has a null flag and EUR 0.30. A true-only average returns EUR 0.10; including the unrestricted row returns EUR 0.20. Setting both flags to true gives EUR 0.20 under both interpretations, demonstrating why a non-discriminating test cannot establish correct null handling.
+
+These numbers are researcher-only explanatory references. An evaluated reviewer must generate and validate its own complete fixture without receiving our witness or expected outcome. Offline Decimal and SQLite calculations have checked the illustration and original development calculation. This establishes arithmetic feasibility, not agent performance or intervention effectiveness.
+
+## 3.5 Experimental conditions and controls
+
+The two binary factors produce four conditions in the same hierarchy:
+
+| Condition | Experience handling | Candidate review |
+|---|---|---|
+| Baseline | Ordinary scoped retrieval/source use | Ordinary candidate review |
+| Checked reuse | Added source-based admission check | Ordinary candidate review |
+| Counterexample review | Ordinary scoped retrieval/source use | Added source-first counterexample protocol |
+| Both | Added source-based admission check | Added source-first counterexample protocol |
+
+These names explicitly replace the previous proposed C1/V2 interventions for this revision. Checked long-term reuse is not the earlier task-local context record; counterexample review is not independent full recomputation. Old identifiers will not be reassigned to new mechanisms.
+
+At minimum, architectural controls will be a strong ordinary single agent and a single agent equipped with both procedures. They receive the same model, tools, source access and frozen bank, with planning, execution and self-review. The same ordered procedures will operate in one context where feasible, without researcher answers. If comparable implementation is impossible, the limitation will be explicit and no isolated architecture claim made. Intermediate single-agent conditions are optional, not required for the main multi-agent factorial.
+
+Aggregate caps include coordinator/child usage, tools, retries, fixtures and correction. Comparable ceilings do not imply equal consumption; actual cost and latency will be reported. Bounded matched-compute diagnostics may compare extra ordinary review or random tests against targeted procedures. The factorial estimates complete mechanism effects, including extra calls and changed delivered context. It does not identify gains solely from a cognitive process or context separation.
+
+## 3.6 Data, preparation and evaluation tracks
+
+DABstep is the primary comparative benchmark [1]. Original tasks, corpus, scorer and release will be pinned. Source modifications and planted bad lessons will not enter the native track. Prepared procedures come from documented development material, not held-out target solutions. Shared documentation across tasks is permitted but limits unseen-domain generalisation. Held-out scoring will not tune assets, prompts or caps.
+
+Scoring access must be confirmed before the campaign. Aggregate-only scores cannot support invented task-level paired intervals or failure rates. A clearly labelled local track with independently audited references will support task-level mechanism analysis. Official validation status and local scores remain distinct.
+
+A separate diagnostic track includes compatible/inapplicable experience, absent experience, applicability shifts, and common correct/incorrect review candidates. Native tasks and synthetic/document-conflict derivatives will be reported separately. Natural failure frequency cannot be inferred from planted errors. Genuinely ambiguous cases will not receive a numerical reference based on researcher-only conventions.
+
+QueryProof's WarehouseReliabilityBench [11] and the datasets in the existing AgenticData comparison audit remain secondary targets. WRB, DABench, Spider 2.0 Lite, Real-Bank and Wiki-derived tasks require exact-release, access, compatibility and scoring checks. Unavailable releases remain limitations; substitute datasets will not be described as replication. Core comparisons take priority over breadth.
+
+Cold-start and prepared access will be distinguished. The main reuse experiment requires a prepared bank, identical across systems. A bounded cold-start or public rule-shift diagnostic may assess an adaptation boundary after feasibility review, without adding a second mandatory factorial. One environment cannot establish universal portability.
+
+## 3.7 Outcomes and failure evidence
+
+Primary comparative outcomes are task correctness and incorrect answers delivered as final. Failures, timeouts and unanswered attempts remain in the assigned-task denominator. Coverage and accuracy conditional on a returned answer accompany them. Native scoring remains unchanged; local semantic references and tolerances will be audited before evaluation.
+
+Reuse diagnostics measure applicable-item retention, contradicted-item admission, unknown decisions and downstream application. Reviewer variants receive a fixed common pool of correct and incorrect candidates, independent of their own solvers. Measure false acceptance, false rejection, omitted obligations, inconclusive outcomes, valid discriminating fixtures, correction and introduction of new errors. This prevents improved solver output being mistaken for reviewer improvement.
+
+A bounded trace sample, including correct runs, will be coded using messages, retrieved entries, source pointers, code, tests and decisions. Omission differs from an attempted check judged incorrectly. MAST categories require observable evidence [8]; the guide will include examples, counterexamples and unknown cases. Repeatability and any independent annotation will be reported accurately. No unperformed inter-rater validation or hidden reasoning will be claimed.
+
+## 3.8 Analysis and cost-effectiveness
+
+All four conditions run on the same admitted tasks. Repetitions measure stochastic variation, but repeated runs and related variants are not independent samples. Paired contrasts will estimate separate/joint effects; uncertainty respects base-task clustering and related families. Where sufficient families exist, family-level sensitivity analysis will be reported. Precision and feasibility determine campaign size before held-out results are inspected.
+
+For success proportions on the same tasks, additive interaction is:
+
+`I = p(Both) - p(Checked reuse) - p(Counterexample review) + p(Baseline)`.
+
+A combined win over either individual condition does not establish positive interaction. Prespecified contrasts, denominators and primary outcomes will limit selective reporting. Wide uncertainty will not be interpreted as equivalence.
+
+Business analysis separates preparation/adaptation effort from runtime expense. Runtime includes model/tool cost, tokens, latency and failures. Preparation covers construction/checking of permitted assets. Setup hours distinguish reusable research infrastructure from environment-specific adaptation; hours are not converted into invented savings.
+
+For declared query volume N, monetary scenario total cost comprises paid preparation, documented adaptation/maintenance charges and cumulative runtime. Human setup/adaptation hours are reported separately; they enter a combined monetary scenario only under an explicitly stated valuation assumption. Cost per correct answer divides total cost by correct answers; it is undefined if none are correct. Quality and coverage accompany the ratio. Compare cost at comparable quality and quality under comparable budgets, with amortisation sensitivity across declared volumes. Human effort remains hours unless explicitly valued in a labelled scenario. Break-even scenarios are not observed ROI. Greater accuracy can still be uneconomical, and preparation may pay off only after substantial reuse.
+
+## 3.9 Feasibility and scope management
+
+Before paid pilots, fake providers and deterministic calculations will test context separation, message logging, admission blocking, replay, invalid fixtures and aggregate accounting. Tools must not access evaluator references, other-task outputs or uncontrolled memory. Defaults and Docker settings alone do not prove isolation. Replay must preserve candidate logic.
+
+One affordable tool-capable model will be selected after access/cost calibration; Qwen is a candidate consistent with the author's China-based study and budget concerns. No exact model/provider or spending ceiling is approved. Version, reasoning mode, prompts and caps will be frozen. A one-model study limits generalisation; replication is optional. Paid calls require an agreed total budget and cumulative guard.
+
+The study uses public sources, with no employer data, human-subject study or production deployment. Risks include wrong source interpretations, weak controls, invalid fixtures, insufficient natural reuse failures, scorer restrictions, task dependence and annotation effort. Development gates can narrow the study if needed. Substantive changes will be recorded before testing; favourable held-out treatment effects will not determine task selection.
 
 # 4 Novelties of the proposed topic
 
-The proposed contribution is controlled empirical evidence about when independent checking and shared rule reconciliation improve multi-agent business analytics, and when their additional cost or shared errors make them unattractive. The study will examine whether documentary conflict changes their effects and whether their combination provides more than the sum of component improvements on a prespecified outcome scale. The comparison addresses the application of available business knowledge to executable analytical decisions.
+The proposed contribution is an incremental controlled study of two specific mechanisms in hierarchical business analytics. It seeks evidence on whether checking retrieved procedures against current sources and challenging interpretations with discriminating fixtures improve reliability separately and jointly. Equal experience, documents and strong controls support comparisons without supplying gold rules or attributing unequal preparation to architecture.
 
-A second sought contribution is an auditable paired derivative task suite with references for business-rule applicability as well as calculations. Keeping tables and governing answers fixed across document variants supports interpretable comparisons. Trace and resource records will make limitations and failures inspectable. These are evaluation artefacts to construct and validate, not completed benchmark contributions.
+A second contribution sought is an auditable connection between targeted mechanisms, MAST-informed failure evidence and final quality. Common-candidate tests distinguish reviewer improvement from better solver output. Native benchmark comparisons and separate diagnostics expose limits of transferring planted-error conclusions to ordinary tasks.
 
-The practical contribution sought is guidance on allocating effort between interpretation, checking and coordination, with a strong single-agent alternative. Existing work already studies analytics validation and memory [5], conflict-aware memory [6,7], distributed coordination [4] and business-rule drift [8]. The project does not claim a first analytics MAS benchmark, a new general memory protocol or guaranteed team superiority. Its novelty depends on a sufficiently substantive question and comparison with the closest protocols, not a new combination of labels or another dataset. If equivalent evidence is found, the contribution statement will be revised transparently with the author and supervisor before the main study.
+The practical contribution sought is guidance on preparation, reuse and checking effort at explicit quality and cost levels, including comparison with strong single agents. No universal memory protocol, formal guarantee, first analytics MAS benchmark or guaranteed improvement is claimed. Memory, semantic gates and counterexamples are existing methods [2,7,9–11]. The contribution rests on the controlled question, adaptation, measurement and useful boundaries, not relabelling components. Closest-work equivalence remains subject to targeted checks; equivalent prior evidence will require revising the contribution statement.
 
 # 5 Research schedule and expected outcomes
 
-The immediate milestone is an English proposal reviewed by the supervisor before submission on 15 October 2026, followed by the proposal defense on 22 October. The intended dispatch date is 11 October, with feedback requested by 13 October and revisions on 14 October. Supervisor response time is not confirmed. The institutional schedule requires supervisor approval before upload and review before 20 October. Print delivery arrangements and the exact submission cutoff remain to be confirmed.
+The immediate objective is a supervisor-reviewed proposal for submission by 15 October 2026 and defense on 22 October. Next come author review of this narrative, revision, and only then insertion into the supplied template and visual inspection. Supervisor approval is required before submission; the institutional review cutoff before 20 October does not waive it. No response time or approval of this revision is assumed.
 
 | Period | Planned work | Expected output |
 |---|---|---|
-| 11 to 22 October 2026 | Supervisor review, proposal submission and defense | Approved proposal and defense feedback |
-| Late October 2026 | Semantic task audits, minimal harness and budget calibration | Admitted development cases and tested isolation |
-| November 2026 | Validate procedures, controls and scoring; expand tasks | Frozen evaluation suite and analysis plan |
-| December 2026 | Conduct feasible experiments and prepare midterm report | Run evidence and midterm submission by 20 December |
-| January 2027 | Analyse effects, uncertainty, costs and visible failures | Comparative findings and targeted robustness checks |
-| February to March 2027 | Write thesis, obtain feedback and revise | Full thesis and reproducibility package |
-| 7 to 14 April 2027 | Final thesis and plagiarism-check submission | Supervisor-approved submission |
-| Mid to late May 2027 | Final defense on the institutional date | Defense and final revisions |
+| 11–15 October 2026 | Review narrative, incorporate supervisor feedback, populate/check template and obtain approval before submission | Reviewed proposal and confirmed submission |
+| 16–22 October | Prepare defense explanation/slides; proposal defense | Defense feedback and agreed revisions |
+| Late October | Implement minimal hierarchy and offline access/replay/accounting checks; agree model and budget | Feasibility evidence and pilot-ready development package |
+| November | Diagnose traces, validate memory/fixtures, audit references, freeze controls and analysis | Frozen procedures and evaluation plan |
+| December | Run feasible experiments; midterm upload by 20 December | Run evidence and honest progress report |
+| January 2027 | Analyse quality, uncertainty, costs and failures; bounded justified follow-ups | Findings and boundary analysis |
+| February–March | Write/revise thesis and reproducibility materials | Supervisor-reviewed thesis draft |
+| 7–14 April | Final thesis/plagiarism-check submission after approval | Final submission and receipt |
+| Mid-to-late May | Final defense on institutionally confirmed date | Defense and revisions |
 
-Expected research outputs are audited public task packages and references, a reproducible fixed-condition harness, a prespecified evaluation protocol, trace/resource evidence and a thesis reporting comparative results. Recommendations will depend on measured reliability and costs. Null or adverse effects remain valid possible outcomes, but imprecise findings will be acknowledged as inconclusive. Exact task counts, repeat counts and any model replication will be set after pilot feasibility and budget agreement. Optional extensions will be deferred before weakening controls or selecting only favourable tasks.
+Expected outputs are a documented baseline, frozen source/experience manifests, prompts/routes, audited references, evaluation scripts, trace/cost evidence and a thesis reporting benefits, harms and limits. Positive findings are not promised. Null effects are useful only with valid measurement and informative uncertainty; underpowered findings remain inconclusive. Optional datasets, models and comparators will be deferred before weakening the core design.
 
 # 6 Prior experience and accomplished achievements
 
-My experience in banking analytics motivates attention to the distinction between documented data structure and business-correct analytical interpretation. The trade-finance utilisation example illustrates the need to define active limits and hierarchy treatment before computation. This experience is motivation rather than a measured workplace study; no internal bank tables, documents or messages will enter the experiments.
+My banking analytics experience motivates distinguishing data access from business-correct interpretation. It supplies no experimental data or measured productivity gains. The supervisor approved the earlier title, scope and roadmap according to my report of the discussion on 23 September 2026; this revision requires review and is not automatically covered by that approval.
 
-The revised title, scope and roadmap were approved by the supervisor according to my report of the discussion on 23 September 2026. The detailed implementation and hypotheses still require pilot validation. A research design, focused source-reading record and draft pilot specification have been prepared. Bibliographic records and selected primary-paper sections have been audited; metadata verification is not equivalent to a complete reading or replication of every paper.
+Preparatory work includes a public-source benchmark audit, focused literature cards, a two-problem map and a technical comparison of DataPilot and DS-STAR. The author has agreed the mechanisms and hierarchy. Selected FinHelm interfaces and an OpenDsStar fallback were inspected without installation or agent execution. Reading limits and outstanding bibliography reconciliation are recorded separately.
 
-A public-data feasibility audit screened 18 source families and inspected six leading releases. It pinned and checksummed 76 source files and reproduced selected DABstep, AgenticDataBench and LongDA HERD calculations using separate Python and SQL implementations against available public references. These are offline source and calculation checks, not intervention findings. A 12-base-query development specification exists, but the full suite has not passed semantic admission.
+The source audit pinned/checksummed files and reproduced selected calculations using separate implementations. The development fee example and discriminating/non-discriminating fixtures were checked with Decimal and SQLite. This supports source and arithmetic feasibility, not natural failure prevalence, generated-test validity or treatment effectiveness. The permanently development-only example will not count as held-out evidence.
 
-There is currently no completed experimental harness, no pilot agent run, no main-study result and no frozen test suite. The proposed intervention effects and practical recommendations remain questions to evaluate. This preparatory work supports a feasible next phase of reference auditing, controlled implementation and prespecified evaluation.
+There is no completed experimental harness, pilot agent result or frozen main-study suite. The next research work is implementation, access/measurement validation, budget agreement and protocol freeze. This proposal describes planned experiments and expected artefacts without inventing results or achievements.

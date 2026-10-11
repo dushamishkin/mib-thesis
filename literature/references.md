@@ -6,6 +6,13 @@ first arXiv year, identifiers and observed versions; it did not verify all final
 All 29 project citation keys were preserved during the Zotero reconciliation.
 
 ## Ownership and synchronization
+The revised proposal's twelve numbered references were checked against primary
+paper/version records and author descriptions on 11 October. FinHelm's pinned log
+was re-retrieved through its public raw file after browser failures. This verifies
+links/metadata and a reported negative finding, not full readings or reproduction.
+Discovery records cited in the narrative still need Zotero reconciliation before
+submission. No imports, library changes, automatic export or cloud sync occurred.
+
 Mechanism-selection follow-up on 11 October: When Continual Learning Moves to Memory
 (arXiv:2604.27003v1; history, Sections 2–3 and selected organisation findings), EARM
 (arXiv:2608.22767v1; history, Sections III–V/VIII), and MCMA (ACL Findings 2026,

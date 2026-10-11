@@ -6,11 +6,13 @@ A Controlled Study of Shared Memory and Conflict Resolution**
 Mikhail Dushkin · SJTU Antai MIB · Supervisor: Prof. Liu Jialu (刘佳璐)
 
 The title above was supervisor-approved according to the author's 23 September report.
-On 11 October the author approves a refined architecture: diagnose evidence/experience
-use and semantic-verification failures in one reproducible analytics MAS, select a
-repair per problem and test separate/joint effects. AgenticData is preferred subject
-to artifact access. Proposed revised title/RQs are in the research design; no renewed
-supervisor approval, selected repairs, pilot or empirical findings are claimed.
+On 11 October the author adopts a main-agent/subagent hierarchy, source-checked
+experience reuse and counterexample review, with a FinHelm-engine adaptation path.
+DataPilot/DS-STAR are conceptual anchors. Revised title and scientific specifications
+are in the research design; the [complete English narrative](proposal/proposal-draft.md)
+is ready for text review before university formatting. No renewed supervisor approval,
+installed implementation or agent findings are claimed. The existing DOCX contains
+the older design and is not the revised submission candidate.
 
 ## Start here
 1. [AGENTS.md](AGENTS.md): shared instructions for Codex, Claude Code and other assistants.

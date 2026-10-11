@@ -3,7 +3,8 @@
 The September title/scope approval is historical. On 11 October 2026 the author approves
 the failure-guided architecture below for the revised proposal. The author also accepts
 the title, objectives, RQs and working hypotheses in the subsequent discussion.
-Implementation/repairs and operational hypotheses remain to be selected/frozen. No renewed supervisor
+The author subsequently adopts the two mechanisms and FinHelm adaptation path below.
+Exact parameters and operational thresholds remain to be frozen. No renewed supervisor
 approval or experimental findings are claimed.
 
 ## Approved title
@@ -18,7 +19,7 @@ The approved title emphasizes coordination through shared context and conflict r
 Identify and address evidence/experience-use and semantic-verification failures within
 one reproducible analytics MAS. Diagnose broadly, select one literature-grounded repair
 per problem, and measure separate/joint effects, transfer and costs. Keep the strong
-single-agent control. Earlier C1/V2 implementations remain candidates, not selected repairs.
+single-agent control. Earlier C1/V2 implementations are superseded by the adopted pair.
 
 The original proposal already included V2, C1 and their combination. The revision removes broad priority claims and narrows the empirical question. See ../literature/positioning-note.md for the closest work.
 
@@ -28,17 +29,36 @@ The author approves the two-problem map and bounded design for the revised propo
 one baseline, literature-guided focus, separate/joint comparisons and common-candidate
 review diagnostics. The author now fixes main-agent/subagent MAS and prioritises
 DataPilot and DS-STAR as conceptual references. The revised working title is accepted;
-approval does not select an implementation, repair, model/budget or frozen protocol. Preserve
-the completed proposal prose and DOCX until the research specifications are agreed.
-Earlier operational details below remain candidates under reconsideration.
+approval is not model/budget permission or a protocol freeze. The author now authorises
+a complete text-first revision; do not populate the DOCX before narrative review.
+Earlier operational details at the end are historical, not the active protocol.
 
 The [11 October mechanism recommendation](../literature/mechanism-selection.md)
-compares DataPilot/DS-STAR, recommends evidence-checked experience reuse and
-source-grounded counterexample review, and specifies a FinHelm-based adaptation path.
-It is prepared for author discussion, not adopted repairs or reproduced results.
-The worked development example is in benchmark/pilot-spec.md. New descriptive
-conditions do not silently replace the historical C1/V2 IDs. Proposal prose/DOCX stay
-unchanged; this note supplies concrete proposed methods for the next revision.
+compares DataPilot/DS-STAR and specifies evidence-checked experience reuse,
+source-grounded counterexample review and a FinHelm-based adaptation path. The author
+adopts this packet as the plan; no deployment or gains are claimed. The development
+example is in benchmark/pilot-spec.md. The revised narrative is
+[proposal-draft.md](proposal-draft.md); the old DOCX remains unchanged.
+
+### Adopted mechanisms and operational revision
+
+Use the packet's source-based applicability admission at the memory-to-solver boundary
+and source-first, discriminating fixture review. The fixed hierarchy has a coordinator
+and evidence/experience, computation and review children. Adapt the pinned FinHelm
+engine, subject to offline isolation/replay/accounting acceptance gates. All MAS
+conditions retain ordinary source review, scoped retrieval and the same roles/routes.
+
+Current names are **Baseline**, **Checked reuse**, **Counterexample review** and
+**Both**. They explicitly supersede the earlier intervention candidate; do not map
+new mechanisms onto C1/V2. Maintain strong ordinary and both-mechanism single-agent
+controls under equivalent assets/tools and aggregate caps. The main factorial concerns
+MAS mechanism effects; architecture comparisons require comparable procedures.
+
+Use the packet's provisional reviewer caps, common-candidate pool, frozen development
+bank and separate native/diagnostic tracks. Exact prompts, acceptable retention/rejection
+trade-offs, model, task counts and total budget remain to validate/freeze before test.
+Older recomputation/shared-context sections below document continuity and are superseded
+where they conflict with this operational revision.
 
 **Proposed objective:** identify where existing analytics MAS fail to use applicable
 evidence/experience and where their reviewers fail to reject incorrect business
@@ -51,7 +71,8 @@ do not attempt to implement a repair for every mapped failure.
 Author-accepted working title for the next supervisor review: **Improving Evidence Use and Semantic
 Verification in Multi-Agent Business Analytics: A Failure-Guided Controlled Study.**
 Do not name AgenticData in the title until its use is feasible. Evidence use includes
-retrieval, interpretation, handoff and application; experience reuse remains a candidate.
+retrieval, interpretation, handoff and application; the selected intervention narrows
+to applicability of retrieved experience rather than repairing the whole map.
 Semantic verification checks whether interpretation and computation implement the
 question under applicable source-defined rules, beyond successful code execution.
 
@@ -68,9 +89,9 @@ Research objectives:
 
 - RQ1: which observable information-use and review failures recur in the
   chosen baseline, and which are addressed or left open by existing solutions?
-- RQ2: how does the selected evidence/experience repair affect targeted semantic
-  errors and end-to-end quality under comparable resources?
-- RQ3: how does the selected verification repair affect omission of required checks,
+- RQ2: does checking retrieved procedures against current sources reduce inappropriate
+  reuse while retaining useful experience, and improve quality/resource trade-offs?
+- RQ3: how does source-grounded counterexample review affect omission of required checks,
   false acceptance and false rejection on common candidates and end-to-end tasks?
 - RQ4: what changes when both repairs are enabled, including additive interaction,
   remaining failures, transfer and cost-effectiveness relative to the baseline and
@@ -143,7 +164,7 @@ topologies and distinct preparation/review stages; scores are not a controlled
 agent-count comparison. Distinct child contexts, delegated reasoning/action and
 observable message/result transfer define the hierarchy operationally. A deterministic
 tool or renamed single-context role is insufficient. MAST communication labels require
-actual interactions. Exact roles, activation policy and implementation remain to freeze;
+actual interactions. Roles and adaptation path are selected above; exact parameters remain to freeze;
 no broad topology search is added.
 
 DataPilot and DS-STAR are the primary conceptual references. Analyse their technical
@@ -153,17 +174,17 @@ unspecified details and our testable failure hypotheses. Missing detail is not e
 of a system failure. An adapted implementation is not a faithful reproduction or a
 controlled comparison with published scores. Implementation access remains necessary
 for our own observable traces and controlled experiments, not for source-based review.
-AgenticData remains related work. FinHelm/OpenDsStar remain implementation candidates,
-not additional primary systems to reproduce. The author also accepts using Scaling
+AgenticData remains related work. FinHelm is the adopted engine adaptation path;
+OpenDsStar is a fallback only. Neither is another primary system to reproduce. The author also accepts using Scaling
 Agent Systems and Strong Single Agent Baseline as design constraints; reading/version
 limits and links remain in the system audit.
 
-FinHelm merits baseline inspection: MIT source includes memory/subagents/checks;
+The adopted FinHelm engine has inspected MIT source for memory/subagents/checks;
 its author's small dev comparison reports no mean accuracy gain from added checking,
 with resource overhead. This is negative prior evidence, not our replication.
 NVIDIA's inspected demo has empty distilled inference assets, so public code alone
 does not confirm reproduction of its winning configuration. AgenticData remains an
-intellectual precedent but is no longer the only implementation candidate.
+intellectual precedent rather than the selected implementation.
 
 Equalize preparation and runtime access. Compare the hierarchy's four repair combinations
 against a strong single agent with the same model/tools/frozen assets and self-checking
@@ -205,8 +226,8 @@ repair target or an assumed directional hypothesis.
 
 #### Memory scope and reviewer measurement
 
-Experience reuse remains a candidate within problem 1. A bounded first study could
-adapt retrieval or applicability of an existing memory bank, rather than construct
+Experience applicability is selected within problem 1. The bounded study adapts
+admission from an existing memory bank, rather than constructing
 a universal memory system. Build experience only from permitted development material;
 freeze and reset the bank per evaluation run and declare memory/source access in every
 condition. Holding that bank fixed studies reuse, not online learning. Accumulating
@@ -318,7 +339,7 @@ Within-team intervention effects remain informative, but cannot justify recommen
 MAS over a better single-agent alternative. A null result requires adequate measurement
 and uncertainty reporting; a weak or underpowered design is not rescued by calling it null.
 
-## Plain-language definitions for the proposal and defense
+## Historical definitions — superseded intervention candidate
 
 **Independent calculation check (executable verification):** a separate checking attempt
 uses the question and source documents to construct and execute its own calculation,
@@ -335,7 +356,7 @@ available in every condition. Agreement on an incorrect rule remains an error.
 Define both terms before introducing abbreviations. Proposed reader-facing names below
 are aliases; canonical condition IDs and the optional V1 comparator remain unchanged.
 
-## Research questions and hypotheses
+## Historical research questions and hypotheses
 
 Earlier candidate wording, retained for continuity; the revised RQ1–RQ4 above governs
 current proposal planning. These are not additional research questions.
@@ -346,7 +367,7 @@ current proposal planning. These are not additional research questions.
 
 Candidate hypotheses, to be frozen before the main study: verification improves computational correctness but can leave shared semantic mistakes unresolved; context alignment helps more under conflicting rules; combining them may improve reliability, but positive interaction and cost-effectiveness are not assumed. Do not turn these expectations into findings before experiments.
 
-## Primary design
+## Historical primary design — superseded by adopted mechanisms
 
 Earlier implementation candidate. The four-combination logic is agreed above;
 the specific C1/V2 mechanisms below remain under reconsideration.
@@ -380,10 +401,10 @@ control explicitly plans, specifies rules, computes and self-reviews; extra-comp
 MAS extends ordinary exposed-solution review without the blinded attempt or C1 schema.
 These are proposed procedures for development validation, not frozen parameters or
 new supervisor approval. Their effects do not isolate pure cognitive mechanisms.
-The full supervisor-facing explanation is in [proposal-draft.md](proposal-draft.md),
-Section 3; exact prompts, routes and allowances remain to be frozen before evaluation.
+These earlier specifications do not describe the rewritten [proposal-draft.md](proposal-draft.md).
+Use the adopted operational revision above and the mechanism packet for current methods.
 
-## Data and tasks
+## Historical task-variant candidate
 
 Use public tables with documentation specifying business rules. On 11 October 2026,
 the author selects DABstep for comparative task quality while research framing remains
@@ -396,7 +417,7 @@ Start with 10–15 base pilot tasks. Keep tables unchanged across paired consist
 
 Compute reference answers independently and manually audit rule applicability and calculations. All systems see equivalent source information; none sees hidden evaluator labels. Split development/test by task family and prevent leakage through persistent memory. Synthetic alterations enable controlled inference but limit claims about naturally occurring enterprise archives.
 
-## Evaluation and analysis
+## Earlier evaluation specifications — retain only compatible principles
 
 Primary outcomes: end-to-end task correctness and incorrect answers accepted as final. Report failures/timeouts, coverage, unnecessary refusals, rule applicability, computational checks, citation support, tokens, latency and cost. Numeric tolerances and multi-value answer matching are specified per task before evaluation.
 

@@ -1,5 +1,9 @@
 # Supervisor email draft
 
+Superseded unsent draft: this message describes the earlier DOCX and must not be sent
+for the revised design. Rewrite it after narrative review and template verification.
+Current narrative: [proposal-draft.md](proposal-draft.md).
+
 Status: unsent; intended author dispatch on 11 October 2026. Attach the reviewed
 [proposal DOCX](thesis-proposal-draft.docx) after checking the
 [remaining fields](proposal-review-notes.md).

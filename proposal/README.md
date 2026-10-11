@@ -1,12 +1,19 @@
 # Proposal documents
 
+- [proposal-draft.md](proposal-draft.md): complete revised English narrative, 11 October;
+  author review precedes university-template formatting.
+- [thesis-proposal-draft.docx](thesis-proposal-draft.docx): unchanged earlier draft,
+  superseded scientific design; not the formatted counterpart of the revised text.
+- [proposal-review-notes.md](proposal-review-notes.md): current checks/open fields and
+  explicitly historical visual-QA record for the older DOCX.
+
 - [proposal-outline.md](proposal-outline.md): detailed English outline mapped to the current
   form, with a focused literature-review plan; discussion draft, not the full proposal.
-- [defense-brief.md](defense-brief.md): agreed research explanation and 10 October drafting handoff.
+- [defense-brief.md](defense-brief.md): current explanation and text-first drafting handoff.
 
 - [research-design.md](research-design.md): author-approved 11 October architecture,
-  proposed revised wording and historical supervisor-approved direction; implementation
-  and protocol remain to be selected/frozen.
+  adopted mechanisms/path and historical supervisor-approved direction; exact
+  implementation parameters and protocol thresholds remain to freeze.
 - [Current proposal form](../requirements/thesis-proposal-template.docx): supplied 10 October.
 - [Current requirements and defense template](../requirements/README.md).
 - [templates/proposal.docx](templates/proposal.docx): superseded earlier form, retained as received.
