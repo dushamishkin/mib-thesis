@@ -32,6 +32,14 @@ approval does not select an implementation, repair, model/budget or frozen proto
 the completed proposal prose and DOCX until the research specifications are agreed.
 Earlier operational details below remain candidates under reconsideration.
 
+The [11 October mechanism recommendation](../literature/mechanism-selection.md)
+compares DataPilot/DS-STAR, recommends evidence-checked experience reuse and
+source-grounded counterexample review, and specifies a FinHelm-based adaptation path.
+It is prepared for author discussion, not adopted repairs or reproduced results.
+The worked development example is in benchmark/pilot-spec.md. New descriptive
+conditions do not silently replace the historical C1/V2 IDs. Proposal prose/DOCX stay
+unchanged; this note supplies concrete proposed methods for the next revision.
+
 **Proposed objective:** identify where existing analytics MAS fail to use applicable
 evidence/experience and where their reviewers fail to reject incorrect business
 interpretations; select and evaluate one feasible mechanism in each problem group.

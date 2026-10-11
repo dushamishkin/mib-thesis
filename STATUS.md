@@ -16,6 +16,13 @@ Institutional dates remain in ROADMAP.md and requirements/README.md. No dispatch
 submission has occurred; the prior dispatch plan is subject to this author review.
 
 ## Completed
+- Completed the bounded mechanism-selection packet: DataPilot/DS-STAR matrix, three
+  new selected memory readings, two recommended repairs, explicit limits/controls,
+  pinned FinHelm/OpenDsStar interface inspection and a concrete implementation path.
+  The development example and distinguishing/no-null fixtures were checked with
+  Decimal and SQLite against manifest-pinned inputs. Details: literature/mechanism-selection.md
+  and benchmark/pilot-spec.md. Recommendations not adopted; no agent results,
+  installation, bibliography import or proposal prose/DOCX change.
 - Fixed the author-selected hierarchy and DataPilot/DS-STAR orientation. Recorded
   source-based diagnosis versus reproduced failures, the accepted strong-control
   literature, and business evaluation of preparation/adaptation/runtime costs at
@@ -120,11 +127,13 @@ submission has occurred; the prior dispatch plan is subject to this author revie
 
 ## Next task — literature-grounded research agreement
 The author approves the bounded architecture in proposal/research-design.md.
-First complete the DataPilot/DS-STAR mechanism matrix against the two-problem map from
-technical descriptions: observable operation, evidence supplied, oracle, reported
-limitations, unspecified details and testable residual-failure hypotheses. Select a
-feasible implementation afterwards; FinHelm/OpenDsStar are leads for offline feasibility,
-task/asset leakage, trace completeness and fairness, not conceptual replacements.
+Review the completed mechanism-selection packet with the author and adopt/revise the
+recommended pair and FinHelm-engine implementation path. The two repairs are proposed,
+not selected: checked experience reuse and source-grounded counterexample review.
+Then revise the canonical operational design/condition names and write the new proposal.
+Before a paid pilot, implement the packet's fake-provider/isolation/replay/accounting
+gates and confirm native scoring access, model and total budget. No full experiment
+is needed before proposal drafting. DataPilot/DS-STAR remain conceptual anchors.
 Title/RQs/working hypotheses are author-accepted; operational definitions follow
 selection. Main-agent/subagent hierarchy is author-selected; precise roles and activation
 policy remain open. Rebuilding all AgenticData is not the default fallback.

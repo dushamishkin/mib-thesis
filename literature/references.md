@@ -6,6 +6,15 @@ first arXiv year, identifiers and observed versions; it did not verify all final
 All 29 project citation keys were preserved during the Zotero reconciliation.
 
 ## Ownership and synchronization
+Mechanism-selection follow-up on 11 October: When Continual Learning Moves to Memory
+(arXiv:2604.27003v1; history, Sections 2–3 and selected organisation findings), EARM
+(arXiv:2608.22767v1; history, Sections III–V/VIII), and MCMA (ACL Findings 2026,
+DOI 10.18653/v1/2026.findings-acl.1535; authoritative PDF metadata, introduction and
+selected Sections 3.1–3.2 passages). These are discovery records outside the generated export, not full
+readings, replications or Zotero imports. Rechecked DS-STAR v4, ReasoningBank v2 and
+QueryProof v1 histories and selected methods; SQLDriller methods and TS-SQL proceedings
+metadata followed up. Links, uses and limits are in [mechanism-selection.md](mechanism-selection.md).
+
 Further 11 October discovery: Scaling Agent Systems arXiv:2512.08296v3 (latest history,
 definitions, selected results/limits) and Strong Single Agent Baseline arXiv:2601.12307v1
 (history, abstract, definitions, selected methods). Not full replications or Zotero

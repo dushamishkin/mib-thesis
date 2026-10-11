@@ -1,5 +1,14 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-11 — Author requests the bounded research in this fork via an explicit goal.
+  Assistant completes a DataPilot/DS-STAR mechanism matrix and recommends checked
+  experience reuse plus source-grounded counterexample review, a worked development
+  example and one FinHelm-engine adaptation path. These are reviewable recommendations,
+  not author-selected repairs, a new supervisor approval or empirical findings.
+  Evidence/alternatives and operational limits: literature/mechanism-selection.md;
+  example: benchmark/pilot-spec.md. Preserve proposal prose/DOCX and historical C1/V2
+  IDs; no paid run, implementation install or official score reproduction.
+
 - 2026-10-11 — Author fixes main-agent/subagent hierarchy as MAS and selects DataPilot
   and DS-STAR as primary conceptual references; source-based limitations analysis need
   not wait for original code. Distinguish descriptions/hypotheses from reproduced

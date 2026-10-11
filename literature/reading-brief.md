@@ -1,12 +1,17 @@
 # Key source reading brief
 
+The [mechanism-selection packet](mechanism-selection.md) now contains the bounded
+DataPilot/DS-STAR matrix, selected negative-transfer/retrieval readings, proposed
+repairs, implementation-code inspection and worked-example link. Recommendations
+remain unadopted. Its source cards govern this follow-up's reading scope.
+
 Current DABstep leaders, code inspection, hierarchy/MAST rationale and relevant
 negative evidence are in [dabstep-systems.md](dabstep-systems.md). This supersedes
 inferring architecture or reproduction from a submission name/score alone.
 
 ## Baseline artifact search — 11 October 2026
 
-Author prefers improving AgenticData within one system. Bounded implementation search,
+Historical search preceding the DataPilot/DS-STAR orientation. Bounded implementation search,
 not an absence proof or full reproducibility audit:
 
 - [AgenticData v2](https://arxiv.org/html/2508.05002v2) links the Real-Bank artifact in
@@ -22,8 +27,9 @@ not an absence proof or full reproducibility audit:
   search scoped to the linked `greatji` account failed with API 422; do not present
   it as an exhaustive search of that author's repositories. Similarly named unrelated
   tools and AgenticDataBench are not substitutes for this paper's implementation.
-- **Conclusion:** AgenticData remains the preferred intellectual/implementation target,
-  but accessible official code and reproducibility are unconfirmed, not proven absent.
+- **Conclusion at that search:** accessible official AgenticData code and reproducibility
+  are unconfirmed, not proven absent. Current conceptual anchors and implementation
+  recommendation are recorded above, rather than requiring this artifact.
   Need complete planner/profiler/validator/memory code or faithful specifications,
   prompts, configurations, dependencies, license and evaluator/data separation.
 - **Fallback lead:** [IBM OpenDsStar](https://github.com/IBM/OpenDsStar), an open

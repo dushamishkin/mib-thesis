@@ -148,3 +148,95 @@ an author audit of authority and calculations, applicable precision and status r
 and checked source/variant manifests. The runtime must demonstrably block gold and
 cross-task access. The current audit establishes source feasibility and one concrete
 prototype; it does not satisfy those full-suite acceptance criteria yet.
+
+## Candidate-mechanism walkthrough — 11 October 2026
+
+Researcher-only demonstration for the [mechanism recommendation](../literature/mechanism-selection.md),
+not a revised approved task set or experimental trace. The original development
+prototype above remains canonical. Earlier C1/V2 procedures are not silently renamed.
+
+### Task and visible information
+
+Use the EUR 10 GlobalCard credit quotation, pinned fees and guide above. The guide's
+fee-field definitions and notes supply rate units and null applicability. For the
+conflict diagnostic, the source register and worksheet above resolve documentary
+authority. This package is a labelled derivative; unmodified official comparison
+does not receive our added register/worksheet. Agent-facing references contain no
+reference number, matching-row count or researcher calculations.
+
+For an experience-transfer stress case, add two frozen, source-linked development
+entries to the same bank in every arm:
+
+- A generic scheduled-fee calculation procedure with fixed component and rate units,
+  applicable when current documentation confirms those conventions.
+- A synthetic legacy-system credit-eligibility procedure that uses true-only flags,
+  tied explicitly to a donor policy where null means ineligible. Its donor policy is
+  available with the entry and is clearly a research example, not an Adyen/bank rule.
+
+The second entry is correct in its stated donor scope but conflicts with the target
+guide. It contains no target answer. These researcher-constructed entries demonstrate
+a controlled transfer mechanism; they are not agent-learned memories or naturally
+observed failures. Main-study experience must instead have documented permitted
+development provenance. Do not seed the official benchmark with planted bad lessons
+and call the resulting error rate natural.
+
+### Visible workflow and separate effects
+
+The main coordinator dispatches evidence/experience, computation and review children
+with separate contexts. Baseline retrieval supplies the two items plus metadata; the
+evidence child and solver can already read the guide and reject an inapplicable item.
+No baseline is instructed to reuse the old rule or make the illustrative mistake.
+
+With checked reuse, the evidence child must record support for each material condition
+from the target sources before the runtime releases the procedure to the solver.
+The illustrative expected decision is to retain the generic formula and block the
+legacy eligibility instruction; this remains evaluator-only, not a filled agent schema.
+The solver then constructs its own calculation. Gate decisions can themselves be wrong.
+
+If a candidate nevertheless uses true-only eligibility, ordinary review might accept
+or reject it; there is no claimed measured false acceptance. Counterexample review
+first derives obligations from current sources, then inspects that candidate and
+constructs a competing true-or-null interpretation and distinguishing fixture.
+The same source access is provided in both review conditions.
+
+### Small witness and non-discriminating control
+
+This is a reduced researcher illustration, not an input supplied as a hidden runtime
+test. Both entries have `card_scheme=GlobalCard` and `rate=0`:
+
+| Row | is_credit | fixed_amount, EUR |
+|---|---|---:|
+| A | true | 0.10 |
+| B | null | 0.30 |
+
+The unchanged candidate's true-only filter returns 0.100000. Including the unrestricted
+row returns 0.200000. Executing two interpretations exposes a consequential distinction;
+the guide establishes which one applies. Numerical disagreement alone does not.
+The reviewer must generate its own witness/expected behaviour, validate the full
+schema and constraints, and run the actual unchanged candidate code on isolated inputs.
+Our four-field illustration must not be mistaken for a universally valid replay package.
+
+Set row B's flag to true for a non-discriminating control: both interpretations produce
+0.200000. Such agreement cannot certify correct handling of null. Invalid fixtures,
+unsupported replay and ambiguous expectations yield inconclusive checks, not approval.
+
+The combined condition may prevent the legacy transfer and catch a residual solver
+mistake. That is a hypothesised complementarity, not evidence of synergy. On a common
+candidate pool, review conditions receive the same correct/incorrect code; otherwise
+better solver output could masquerade as a better reviewer.
+
+### Offline checks completed and evidence boundary
+
+On 11 October, re-fetched only `fees.json`, `manual.md` and `tasks/dev.jsonl` at
+revision `7ea3b597f6e3093ee6463276a1d1de19ada58c67`. All three SHA-256 values matched
+[source-manifest.json](source-manifest.json). Recomputed the original development
+example independently using Python Decimal and SQLite: both gave 0.120132, matching
+the public development answer; true-only gave 0.117667 in both. The synthetic witness
+gave 0.200000/0.100000 and the no-null control gave 0.200000/0.200000 in both methods.
+This checks arithmetic and discrimination, not memory extraction, agent behaviour,
+reviewer accuracy or runtime leakage isolation. Task 1273 is permanently development.
+The earlier public reference evidence remains in [audit-evidence.json](audit-evidence.json).
+
+Task-visible evidence and candidate source code stay separate from these evaluator
+notes, donor-construction logic, reference calculations and outcome labels. No real
+bank data, model output, hidden test gold, paid run or benchmark submission was used.
