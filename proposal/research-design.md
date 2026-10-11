@@ -26,8 +26,9 @@ The original proposal already included V2, C1 and their combination. The revisio
 
 The author approves the two-problem map and bounded design for the revised proposal:
 one baseline, literature-guided focus, separate/joint comparisons and common-candidate
-review diagnostics. AgenticData is preferred subject to artifact/feasibility checks.
-Approval does not select a repair, new title, model/budget or frozen protocol. Preserve
+review diagnostics. The author now fixes main-agent/subagent MAS and prioritises
+DataPilot and DS-STAR as conceptual references. The revised working title is accepted;
+approval does not select an implementation, repair, model/budget or frozen protocol. Preserve
 the completed proposal prose and DOCX until the research specifications are agreed.
 Earlier operational details below remain candidates under reconsideration.
 
@@ -52,7 +53,8 @@ Research objectives:
 2. Compare existing methods against that map and select one feasible repair per group.
 3. Implement the selected repairs in one fixed baseline with transparent adaptations.
 4. Estimate separate/joint effects on targeted failures and native task quality.
-5. Establish remaining failures, transfer limits and resource trade-offs.
+5. Establish remaining failures, transfer limits, deployment/adaptation effort and
+   cost-effectiveness at explicit quality and coverage levels.
 
 ### Proposed research questions and hypotheses
 
@@ -62,8 +64,9 @@ Research objectives:
   errors and end-to-end quality under comparable resources?
 - RQ3: how does the selected verification repair affect omission of required checks,
   false acceptance and false rejection on common candidates and end-to-end tasks?
-- RQ4: what changes when both repairs are enabled, including additive
-  interaction, remaining failures, transfer and resource cost?
+- RQ4: what changes when both repairs are enabled, including additive interaction,
+  remaining failures, transfer and cost-effectiveness relative to the baseline and
+  strong single-agent control, accounting for preparation and runtime costs?
 
 Directional hypotheses are proposed, not established findings or frozen thresholds:
 
@@ -124,16 +127,28 @@ blinded check, runtime gate or counterexample method is selected by this archite
 
 ### Long-term memory and diagnostic separation
 
-#### Hierarchical MAS candidate and strong-control rationale
+#### Author-selected hierarchical MAS and strong-control rationale
 
-The author raises high current DABstep scores and asks whether a main-agent/subagent
-hierarchy should replace the earlier team candidate. The [system audit](../literature/dabstep-systems.md)
-finds mixed/unknown topologies and distinct preparation/review stages. Scores are not
-a controlled agent-count comparison. A compact hierarchy is recommended, not selected:
-distinct child contexts with delegated reasoning/action and message transfer can
-constitute MAS. A deterministic tool or a renamed single-context role is insufficient
-by itself. MAST includes hierarchy; communication labels require actual interactions.
-Log actual delegation/check activation and freeze policy; no topology search is added.
+On 11 October the author fixes a main-agent/subagent hierarchy as the study's MAS.
+The [system audit](../literature/dabstep-systems.md) records mixed/unknown leaderboard
+topologies and distinct preparation/review stages; scores are not a controlled
+agent-count comparison. Distinct child contexts, delegated reasoning/action and
+observable message/result transfer define the hierarchy operationally. A deterministic
+tool or renamed single-context role is insufficient. MAST communication labels require
+actual interactions. Exact roles, activation policy and implementation remain to freeze;
+no broad topology search is added.
+
+DataPilot and DS-STAR are the primary conceptual references. Analyse their technical
+descriptions through the two-problem map without waiting for official code. Separate
+explicitly reported failures, demonstrated evaluation limits, described mechanisms,
+unspecified details and our testable failure hypotheses. Missing detail is not evidence
+of a system failure. An adapted implementation is not a faithful reproduction or a
+controlled comparison with published scores. Implementation access remains necessary
+for our own observable traces and controlled experiments, not for source-based review.
+AgenticData remains related work. FinHelm/OpenDsStar remain implementation candidates,
+not additional primary systems to reproduce. The author also accepts using Scaling
+Agent Systems and Strong Single Agent Baseline as design constraints; reading/version
+limits and links remain in the system audit.
 
 FinHelm merits baseline inspection: MIT source includes memory/subagents/checks;
 its author's small dev comparison reports no mean accuracy gain from added checking,
@@ -148,6 +163,37 @@ allowance. Where feasible, simulate the same role procedure in one context. Do n
 attribute additional compute, curated rules or labelled preparation to communication.
 Report construction/reflection/maintenance cost and amortization separately. Conditional
 mechanism benefits, not a presumed global leaderboard victory, justify the study.
+
+#### Business relevance: deployability and cost-effectiveness
+
+The author targets an analytics system that can be adapted to new organisational
+data/document environments with limited bespoke engineering. This is a practical
+motivation relevant to MIB: adoption effort, organisational knowledge dependence,
+quality/resource trade-offs and reuse economics. "Deploy anywhere" is not a demonstrated
+capability, scientific novelty or a promised thesis deliverable. No commercial valuation,
+realised staff savings or workplace ROI is inferred from benchmark scores.
+
+Record task-independent components versus environment-specific rules, examples,
+functions and configuration. Separate cold-start access (tables/docs, no curated
+domain assets) from prepared access (frozen permitted development assets). Within each
+comparison all conditions receive equivalent assets; a prepared system cannot be
+credited with an agent-count benefit against an unprepared control. This distinction
+does not require a second full factorial or an enterprise deployment campaign. A bounded
+public transfer/cold-start diagnostic is optional after feasibility/budget review;
+one fixed corpus cannot establish general portability.
+
+Measure runtime tokens, model/tool cost, latency, failures and coverage, including failed
+attempts and retries. For query volume N, report scenario total cost as preparation plus
+documented adaptation/maintenance plus aggregate runtime cost; cost per correct answer
+divides that total by correct answers, and is undefined when none are correct. Report
+quality and coverage alongside this ratio, and compare cost at comparable quality or
+quality under comparable budgets. Avoid selecting an artificially cheap system that
+declines hard tasks. Log analyst/researcher setup effort prospectively, separating
+reusable research infrastructure from environment adaptation. Human effort without
+measured wages remains hours, not invented monetary savings. Amortisation and any
+break-even query volume are labelled sensitivity scenarios, not observed business ROI.
+Cost-effectiveness remains an evaluation dimension across the two problems, not a third
+repair target or an assumed directional hypothesis.
 
 #### Memory scope and reviewer measurement
 

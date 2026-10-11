@@ -15,11 +15,18 @@ proposal/research-design.md. Approval does not constitute evidence of novelty or
 The author-approved 11 October architecture diagnoses two separate problems: inadequate
 use of evidence/experience and incorrect semantic verification. Study one reproducible
 analytics MAS, select one literature-grounded mechanism per problem, and measure separate
-and joint effects. AgenticData is preferred subject to artifact/feasibility checks.
+and joint effects. The author fixes a main-agent/subagent hierarchy as MAS and selects
+DataPilot and DS-STAR as the primary conceptual references. AgenticData remains prior
+art; the reproducible implementation is not selected. Include deployment/adaptation
+effort and cost-effectiveness without claiming universal portability or measured ROI.
 Current proposed title, RQs and hypotheses are in proposal/research-design.md; earlier
 shared-context/independent-check implementations remain candidates, not selected repairs.
 
-MAS remains the central object. Use a fixed team initially. Keep a strong single-agent control. Public tables plus documentation define the task; tables alone do not determine semantic correctness.
+MAS remains the central object. Use a fixed hierarchy initially, with distinct child
+contexts, delegated reasoning/action and observable result transfer. Record actual
+delegation; tool-only runs are not active multi-agent interactions. Keep a strong
+single-agent control. Public tables plus documentation define the task; tables alone
+do not determine semantic correctness.
 
 The original implementation candidate preserves these labels:
 - V0: baseline MAS with ordinary execution but no additional verification/context intervention.

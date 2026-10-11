@@ -1,5 +1,15 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-11 — Author fixes main-agent/subagent hierarchy as MAS and selects DataPilot
+  and DS-STAR as primary conceptual references; source-based limitations analysis need
+  not wait for original code. Distinguish descriptions/hypotheses from reproduced
+  failures and adapted implementations from original score replication. Author accepts
+  scaling/strong-single-agent research as design constraints and adds deployability
+  and cost-effectiveness for MIB relevance. Record cold-start/prepared access, full
+  lifecycle cost and quality/coverage trade-offs in research-design.md. Universal
+  deployment, commercial value and ROI are motivations/scenarios, not established
+  findings. Implementation/repairs/model/budget remain unselected; proposal unchanged.
+
 - 2026-10-11 — Author accepts revised title/objectives/RQs/working hypotheses but
   requests a current DABstep leaders audit before baseline selection; considers
   main-agent/subagent MAS and revisiting MAS if evidence warrants. Audit finds six

@@ -7,19 +7,28 @@ Supervisor approved the revised title, scope and roadmap, as reported by the aut
 Phase: author approves the bounded failure-guided architecture on 11 October.
 Author also accepts revised title/objectives/RQs/working hypotheses. Preserve proposal
 text/DOCX until the baseline and concrete implementation are specified.
+Main-agent/subagent MAS is now selected; DataPilot and DS-STAR are the conceptual
+anchors. Deployment/adaptation effort and cost-effectiveness provide the MIB perspective;
+operational specifications are in proposal/research-design.md.
 The domain is data/business analytics generally; banking experience is an illustration.
 The September approval remains a historical record, not approval of a revised direction.
 Institutional dates remain in ROADMAP.md and requirements/README.md. No dispatch or
 submission has occurred; the prior dispatch plan is subject to this author review.
 
 ## Completed
+- Fixed the author-selected hierarchy and DataPilot/DS-STAR orientation. Recorded
+  source-based diagnosis versus reproduced failures, the accepted strong-control
+  literature, and business evaluation of preparation/adaptation/runtime costs at
+  explicit quality/coverage. No universal portability, ROI, implementation selection
+  or paid experiment claimed; proposal prose/DOCX unchanged.
 - Audited DABstep leaderboard metadata, six validated leaders above AgenticData and
   linked unvalidated alternatives. Read author descriptions and selected NVIDIA,
   FinHelm/FeeEngine code; no execution/score reproduction. Recorded mixed topologies,
   missing winning assets, preparation/test-information limits and reported negative
   verifier evidence in literature/dabstep-systems.md. Checked MAST hierarchy and
-  selected current scaling/strong-single-agent papers. Hierarchy/FinHelm are candidates,
-  not selected baseline/repairs. Proposal artifacts unchanged.
+  selected current scaling/strong-single-agent papers. Hierarchy subsequently selected;
+  FinHelm remains an implementation candidate, not selected baseline/repairs.
+  Proposal artifacts unchanged.
 - Fixed the author-approved architecture and conditional AgenticData preference.
   Proposed revised title/objectives/RQ1–RQ4/H1–H3 and reconciled AGENTS.md. Official
   code remains unconfirmed; anonymous artifact returns `not_connected`. OpenDsStar
@@ -111,12 +120,14 @@ submission has occurred; the prior dispatch plan is subject to this author revie
 
 ## Next task — literature-grounded research agreement
 The author approves the bounded architecture in proposal/research-design.md.
-Inspect FinHelm/OpenDsStar candidates for offline feasibility, task/asset leakage,
-trace completeness and fairness; AgenticData access remains unconfirmed. Use the
-system audit and source cards to complete the mechanism matrix and choose repairs.
+First complete the DataPilot/DS-STAR mechanism matrix against the two-problem map from
+technical descriptions: observable operation, evidence supplied, oracle, reported
+limitations, unspecified details and testable residual-failure hypotheses. Select a
+feasible implementation afterwards; FinHelm/OpenDsStar are leads for offline feasibility,
+task/asset leakage, trace completeness and fairness, not conceptual replacements.
 Title/RQs/working hypotheses are author-accepted; operational definitions follow
-selection. Compact hierarchy is recommended, not selected. Rebuilding all AgenticData
-is not the default fallback.
+selection. Main-agent/subagent hierarchy is author-selected; precise roles and activation
+policy remain open. Rebuilding all AgenticData is not the default fallback.
 Resolve exact-release/access/scoring gates for the expanded benchmark targets; do not
 substitute new Wikipedia/Real-Bank data and call it a paper replication.
 Diagnose natural errors separately from injected verifier stress cases; agree a worked
