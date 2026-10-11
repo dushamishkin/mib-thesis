@@ -1,6 +1,9 @@
 # Current research design
 
-Revised title, scope and roadmap approved by the supervisor, as reported by Mikhail Dushkin on 23 September 2026. Detailed hypotheses and implementation remain subject to pilot validation.
+The September title/scope approval is historical. On 11 October 2026 the author approves
+the failure-guided architecture below for the revised proposal. Revised title, RQs,
+hypotheses, implementation and repairs remain to be agreed/frozen. No renewed supervisor
+approval or experimental findings are claimed.
 
 ## Approved title
 
@@ -11,17 +14,21 @@ The approved title emphasizes coordination through shared context and conflict r
 
 ## Objective and continuity
 
-Estimate the separate and joint effects of independent executable verification and shared business-context alignment on the reliability and cost of multi-agent analytics. Retain MAS, business analytics, executable evaluation, MAST-informed diagnosis and the original intervention families. Refine task variation around rules in documentation rather than undertaking a general memory-architecture project.
+Identify and address evidence/experience-use and semantic-verification failures within
+one reproducible analytics MAS. Diagnose broadly, select one literature-grounded repair
+per problem, and measure separate/joint effects, transfer and costs. Keep the strong
+single-agent control. Earlier C1/V2 implementations remain candidates, not selected repairs.
 
 The original proposal already included V2, C1 and their combination. The revision removes broad priority claims and narrows the empirical question. See ../literature/positioning-note.md for the closest work.
 
-## Research architecture under author discussion — 11 October 2026
+## Author-approved research architecture — 11 October 2026
 
-The author accepts the detailed two-problem map and requests a bounded study grounded
-in existing solutions, with separate and combined intervention comparisons. This is
-acceptance of the diagnostic direction, not of a particular repair, new title or
-frozen protocol. The completed proposal prose and DOCX remain unchanged. Earlier
-operational specifications below remain candidates under reconsideration.
+The author approves the two-problem map and bounded design for the revised proposal:
+one baseline, literature-guided focus, separate/joint comparisons and common-candidate
+review diagnostics. AgenticData is preferred subject to artifact/feasibility checks.
+Approval does not select a repair, new title, model/budget or frozen protocol. Preserve
+the completed proposal prose and DOCX until the research specifications are agreed.
+Earlier operational details below remain candidates under reconsideration.
 
 **Proposed objective:** identify where existing analytics MAS fail to use applicable
 evidence/experience and where their reviewers fail to reject incorrect business
@@ -29,14 +36,49 @@ interpretations; select and evaluate one feasible mechanism in each problem grou
 Use the entire [problem map](../literature/problem-mechanisms.md) for diagnosis, but
 do not attempt to implement a repair for every mapped failure.
 
-### Proposed research questions
+### Proposed revised title and objectives
 
-- Diagnostic RQ: which observable information-use and review failures recur in the
+Working title for author/supervisor review: **Improving Evidence Use and Semantic
+Verification in Multi-Agent Business Analytics: A Failure-Guided Controlled Study.**
+Do not name AgenticData in the title until its use is feasible. Evidence use includes
+retrieval, interpretation, handoff and application; experience reuse remains a candidate.
+Semantic verification checks whether interpretation and computation implement the
+question under applicable source-defined rules, beyond successful code execution.
+
+Research objectives:
+
+1. Develop an observable, auditable MAST-informed diagnosis of the two failure groups.
+2. Compare existing methods against that map and select one feasible repair per group.
+3. Implement the selected repairs in one fixed baseline with transparent adaptations.
+4. Estimate separate/joint effects on targeted failures and native task quality.
+5. Establish remaining failures, transfer limits and resource trade-offs.
+
+### Proposed research questions and hypotheses
+
+- RQ1: which observable information-use and review failures recur in the
   chosen baseline, and which are addressed or left open by existing solutions?
-- Intervention RQ: how does each selected repair affect its targeted mechanism and
-  end-to-end quality relative to the same baseline under comparable resources?
-- Joint-effect RQ: what changes when both repairs are enabled, including additive
+- RQ2: how does the selected evidence/experience repair affect targeted semantic
+  errors and end-to-end quality under comparable resources?
+- RQ3: how does the selected verification repair affect omission of required checks,
+  false acceptance and false rejection on common candidates and end-to-end tasks?
+- RQ4: what changes when both repairs are enabled, including additive
   interaction, remaining failures, transfer and resource cost?
+
+Directional hypotheses are proposed, not established findings or frozen thresholds:
+
+- H1: the evidence/experience repair reduces its targeted interpretation or
+  implementation errors and improves native task quality relative to the baseline.
+- H2: the verification repair reduces acceptance of incorrect interpretations on
+  common candidates, without an unacceptable increase in rejection of correct ones.
+  Define the acceptable trade-off before held-out evaluation.
+- H3: the combined system reduces incorrect final answers relative to either repair,
+  reflecting their proposed complementarity. This is a testable expectation, not
+  an assumption or claim of positive interaction.
+
+RQ1 is descriptive and needs no forced directional hypothesis. Interaction sign,
+transfer and cost-effectiveness remain exploratory unless stronger pre-study evidence
+supports prespecified hypotheses. After mechanism selection, replace generic repair
+wording with exact operations, measurements and comparisons.
 
 These questions refine the earlier candidate questions; they do not predetermine
 that a problem will recur, a repair will help, or a team will beat a single agent.
@@ -213,6 +255,9 @@ are aliases; canonical condition IDs and the optional V1 comparator remain uncha
 
 ## Research questions and hypotheses
 
+Earlier candidate wording, retained for continuity; the revised RQ1–RQ4 above governs
+current proposal planning. These are not additional research questions.
+
 - RQ1: How do consistent versus conflicting-but-resolvable document-defined rules affect MAS correctness and false acceptance of wrong answers? A strong single-agent control contextualizes any coordination cost.
 - RQ2: What are the separate effects of executable verification and context alignment, and how do those effects vary with rule consistency?
 - RQ3: Does combining the interventions offer additional reliability worth its resource cost, and which observable failures remain?
@@ -220,6 +265,9 @@ are aliases; canonical condition IDs and the optional V1 comparator remain uncha
 Candidate hypotheses, to be frozen before the main study: verification improves computational correctness but can leave shared semantic mistakes unresolved; context alignment helps more under conflicting rules; combining them may improve reliability, but positive interaction and cost-effectiveness are not assumed. Do not turn these expectations into findings before experiments.
 
 ## Primary design
+
+Earlier implementation candidate. The four-combination logic is agreed above;
+the specific C1/V2 mechanisms below remain under reconsideration.
 
 Hold team roles, topology, base model and source corpus fixed. Cross verification absent/present with context alignment absent/present:
 

@@ -1,5 +1,46 @@
 # Key source reading brief
 
+## Baseline artifact search — 11 October 2026
+
+Author prefers improving AgenticData within one system. Bounded implementation search,
+not an absence proof or full reproducibility audit:
+
+- [AgenticData v2](https://arxiv.org/html/2508.05002v2) links the Real-Bank artifact in
+  reference 21 to https://anonymous.4open.science/r/AgenticData-696B. The web reader failed
+  to open it; a direct request returned `{"error":"not_connected"}`. Its contents,
+  source-code completeness and license could not be inspected. The link being a data
+  reference does not itself establish that full system code was released there.
+- Broad web searches for the title/arXiv ID/code and GitHub repository search for
+  AgenticData did not identify a confirmed author system implementation. A scoped
+  TsinghuaDatabaseGroup search returned AgenticDataBench, a separate benchmark.
+  Author [Ji Sun's homepage](https://sunji.greatji.com/) mentions the system and
+  leaderboard entries, without a system-code link in the inspected page. A GitHub
+  search scoped to the linked `greatji` account failed with API 422; do not present
+  it as an exhaustive search of that author's repositories. Similarly named unrelated
+  tools and AgenticDataBench are not substitutes for this paper's implementation.
+- **Conclusion:** AgenticData remains the preferred intellectual/implementation target,
+  but accessible official code and reproducibility are unconfirmed, not proven absent.
+  Need complete planner/profiler/validator/memory code or faithful specifications,
+  prompts, configurations, dependencies, license and evaluator/data separation.
+- **Fallback lead:** [IBM OpenDsStar](https://github.com/IBM/OpenDsStar), an open
+  implementation/adaptation of DS-STAR, explicitly changes execution to tool-centric
+  planning and supports incremental reuse. README declares Apache-2.0 and documents
+  provider configuration and benchmarks. [Agent documentation](https://github.com/IBM/OpenDsStar/blob/main/docs/DS_STAR_AGENT.md)
+  describes planner/coder/executor/debugger/verifier/router nodes; the inspected docs
+  expose relevant review and tool interfaces. These are documentation-level findings:
+  no clone, source-code audit, install or execution completed. Long-term learned memory
+  suitable for our study is not established; intermediate-result reuse is not the same.
+  It is not the official Google DS-STAR implementation or an AgenticData replication.
+- Prefer an accessible implementation meeting both problem-interface requirements
+  over reconstructing an entire unavailable heterogeneous-data system. A paper-guided
+  AgenticData reimplementation would require a fidelity/deviation table, public release,
+  offline tests and explicit limits; our comparisons would be within that implementation,
+  not a claimed improvement over the authors' original system or published scores.
+
+Next: resolve the artifact or inspect a fallback's actual interfaces, then choose a
+baseline. A minimal local/offline feasibility check precedes any budgeted agent pilot.
+Proposal planning can describe this gate without inventing a completed reproduction.
+
 Prepared 10 October 2026 for author review. This is a transparent, selected-section
 reading brief, not an exhaustive review or a completed novelty assessment. Metadata
 and reading/version status remain in [references.md](references.md); proposed research

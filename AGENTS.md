@@ -12,16 +12,24 @@ proposal/research-design.md. Approval does not constitute evidence of novelty or
 
 ## Core question
 
-When do independent executable verification and shared business-context alignment improve multi-agent business analytics, separately and jointly, under consistent and conflicting document-defined rules?
+The author-approved 11 October architecture diagnoses two separate problems: inadequate
+use of evidence/experience and incorrect semantic verification. Study one reproducible
+analytics MAS, select one literature-grounded mechanism per problem, and measure separate
+and joint effects. AgenticData is preferred subject to artifact/feasibility checks.
+Current proposed title, RQs and hypotheses are in proposal/research-design.md; earlier
+shared-context/independent-check implementations remain candidates, not selected repairs.
 
 MAS remains the central object. Use a fixed team initially. Keep a strong single-agent control. Public tables plus documentation define the task; tables alone do not determine semantic correctness.
 
-Primary factorial conditions preserve the original labels:
+The original implementation candidate preserves these labels:
 - V0: baseline MAS with ordinary execution but no additional verification/context intervention.
 - V2: independent executable verification.
 - C1: structured shared business context and explicit reconciliation.
 - V2+C1: both interventions.
 V1 (text-only critic) is an optional secondary comparator, subject to pilot budget. Do not silently rename V2 as V1.
+The four-combination comparison is agreed. Use these IDs only for their defined
+intervention families; a different selected mechanism requires an explicit design
+revision rather than silently assigning it an old ID.
 
 See proposal/research-design.md for interventions, controls and evaluation. Shared-context schema is populated by agents, never with hidden gold answers. Re-running identical code is not independent verification. MAST labels describe traces; causal conclusions require controlled comparisons.
 

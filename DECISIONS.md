@@ -1,5 +1,15 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-11 — Author approves the bounded failure-guided architecture as the basis
+  for the revised proposal and prefers AgenticData as the single experimental system,
+  conditional on accessible code/reproducibility. Targeted artifact search does not
+  confirm official code; the paper-linked artifact returns `not_connected`.
+  IBM OpenDsStar is a documented fallback lead, not a selected/executed baseline.
+  Proposed revised title, objectives, RQ1–RQ4 and H1–H3 are in the research design
+  for review. Approval is not supervisor approval, repair selection, budget permission
+  or protocol freeze. Resolve baseline feasibility and the bounded solutions comparison
+  before rewriting proposal artifacts; a full campaign is not needed before drafting.
+
 - 2026-10-11 — Author accepts the detailed two-problem diagnostic map, including
   semantic dimensions, experience reuse, reviewer check targets and the distinction
   between missing checks and wrong judgements. Requests comparison of existing

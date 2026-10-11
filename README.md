@@ -5,10 +5,12 @@ A Controlled Study of Shared Memory and Conflict Resolution**
 
 Mikhail Dushkin · SJTU Antai MIB · Supervisor: Prof. Liu Jialu (刘佳璐)
 
-The study tests when independent executable verification and shared business-context
-alignment improve multi-agent analytics using public tables and business-rule documents.
-The supervisor approved the revised title, scope and roadmap according to the author's
-23 September 2026 report. No pilot or empirical findings exist yet.
+The title above was supervisor-approved according to the author's 23 September report.
+On 11 October the author approves a refined architecture: diagnose evidence/experience
+use and semantic-verification failures in one reproducible analytics MAS, select a
+repair per problem and test separate/joint effects. AgenticData is preferred subject
+to artifact access. Proposed revised title/RQs are in the research design; no renewed
+supervisor approval, selected repairs, pilot or empirical findings are claimed.
 
 ## Start here
 1. [AGENTS.md](AGENTS.md): shared instructions for Codex, Claude Code and other assistants.

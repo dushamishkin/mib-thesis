@@ -4,8 +4,9 @@
   form, with a focused literature-review plan; discussion draft, not the full proposal.
 - [defense-brief.md](defense-brief.md): agreed research explanation and 10 October drafting handoff.
 
-- [research-design.md](research-design.md): current supervisor-approved direction; detailed
-  hypotheses and implementation will be finalized after the pilot.
+- [research-design.md](research-design.md): author-approved 11 October architecture,
+  proposed revised wording and historical supervisor-approved direction; implementation
+  and protocol remain to be selected/frozen.
 - [Current proposal form](../requirements/thesis-proposal-template.docx): supplied 10 October.
 - [Current requirements and defense template](../requirements/README.md).
 - [templates/proposal.docx](templates/proposal.docx): superseded earlier form, retained as received.

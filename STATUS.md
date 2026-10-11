@@ -4,14 +4,19 @@ Updated: 11 October 2026.
 ## Authority and phase
 Supervisor approved the revised title, scope and roadmap, as reported by the author on
 23 September. See [approval record](meetings/2026-09-23-supervisor-approval.md).
-Phase: research framing reopened by the author on 11 October. Preserve the completed
-proposal text and DOCX unchanged while agreeing the topic, questions and concrete study.
+Phase: author approves the bounded failure-guided architecture on 11 October.
+Preserve proposal text/DOCX while agreeing revised wording and concrete implementation.
 The domain is data/business analytics generally; banking experience is an illustration.
 The September approval remains a historical record, not approval of a revised direction.
 Institutional dates remain in ROADMAP.md and requirements/README.md. No dispatch or
 submission has occurred; the prior dispatch plan is subject to this author review.
 
 ## Completed
+- Fixed the author-approved architecture and conditional AgenticData preference.
+  Proposed revised title/objectives/RQ1–RQ4/H1–H3 and reconciled AGENTS.md. Official
+  code remains unconfirmed; anonymous artifact returns `not_connected`. OpenDsStar
+  README/architecture/agent docs inspected as fallback only, without code audit/run.
+  Search evidence/limits in literature/reading-brief.md. Proposal artifacts unchanged.
 - Recorded the author's acceptance of the detailed diagnostic map and request for
   a feasible focus with isolated/joint comparisons. Proposed a diagnosis-to-selection
   research architecture in proposal/research-design.md: one mechanism per problem,
@@ -96,10 +101,11 @@ submission has occurred; the prior dispatch plan is subject to this author revie
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
 ## Next task — literature-grounded research agreement
-The author accepts literature/problem-mechanisms.md as the diagnostic direction.
-Review the proposed bounded architecture in proposal/research-design.md. Build the
-existing-solutions mechanism matrix from the linked source cards, then inspect
-a reproducible analytics baseline's actual source/context/review/memory interfaces.
+The author approves the bounded architecture in proposal/research-design.md.
+Resolve AgenticData code/specification access or inspect a fallback's actual
+source/context/review/memory interfaces and offline feasibility. Build the bounded
+solutions matrix, select one repair per problem, and agree the proposed revised
+title/RQs/hypotheses. An entire AgenticData reconstruction is not the default fallback.
 Resolve exact-release/access/scoring gates for the expanded benchmark targets; do not
 substitute new Wikipedia/Real-Bank data and call it a paper replication.
 Diagnose natural errors separately from injected verifier stress cases; agree a worked
