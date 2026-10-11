@@ -1,13 +1,15 @@
 # Current status
-Updated: 10 October 2026.
+Updated: 11 October 2026.
 
 ## Authority and phase
 Supervisor approved the revised title, scope and roadmap, as reported by the author on
 23 September. See [approval record](meetings/2026-09-23-supervisor-approval.md).
-Phase: proposal preparation takes priority. Author confirms submission on 15 October 2026
-and wants one supervisor review beforehand. See ROADMAP.md for the proposed daily plan.
-Institutional notice and current forms saved in requirements/; see requirements/README.md.
-Supervisor approval is required before upload. Proposal defense is 22 October.
+Phase: research framing reopened by the author on 11 October. Preserve the completed
+proposal text and DOCX unchanged while agreeing the topic, questions and concrete study.
+The domain is data/business analytics generally; banking experience is an illustration.
+The September approval remains a historical record, not approval of a revised direction.
+Institutional dates remain in ROADMAP.md and requirements/README.md. No dispatch or
+submission has occurred; the prior dispatch plan is subject to this author review.
 
 ## Completed
 - Captured the author's banking-workplace motivation in proposal/research-design.md
@@ -60,17 +62,19 @@ Supervisor approval is required before upload. Proposal defense is 22 October.
 - Offline hygiene/link/BibTeX checks pass for 29 indexed records; original archived PDF
   parses as 8 pages and the DOCX containers are readable. Commit hook supplied.
 
-## Next task — author review and supervisor dispatch
-Review the complete draft, especially Sections 1, 3 and 4, for intended motivation,
-procedure and contribution. Confirm the remaining personal/admin fields using
-proposal/proposal-review-notes.md. Resolve AgenticData's version-specific title in
-Zotero, retaining the pinned key and reviewing its automatic export; direct references
-are checked, but no new export or cloud sync is claimed in this drafting task.
-Author dispatch target: 11 October evening; request comments by 13 October, revise
-and freeze on 14 October, obtain supervisor approval before submission on 15 October.
-Use the prepared unsent email; do not treat September title/scope approval as approval
-of this document. Confirm cutoff/timezone and physical delivery with Teaching Office.
-Pilot implementation resumes after submission; see ROADMAP.md and benchmark/pilot-spec.md.
+## Next task — literature-grounded research agreement
+Unpack a small set of existing analytics MAS, starting with AgenticData: architecture,
+information flow, validation/feedback, reported component evidence and reproducibility.
+Present primary-source summaries and reasons for use transparently to the author.
+Map candidate failures using existing terminology, then choose one observable problem
+and a bounded architectural change together. The current V0/V2/C1/V2+C1 design is a
+working candidate under reconsideration, not the compulsory outcome of this review.
+Distinguish literature diagnosis from failures reproduced in our own system; no agent
+experiments have run. Define a worked task, baseline, change, resource control and
+held-out evaluation before rewriting the proposal. Do not repeat the broad benchmark
+audit or launch paid runs. Preserve proposal/proposal-draft.md and the DOCX unchanged
+until the author agrees the revised research substance. Administrative fields and
+AgenticData's Zotero title reconciliation remain pending, rather than blocking this discussion.
 
 ## Before pilot runs
 - Complete remaining literature follow-ups in literature/references.md; AgenticData v2

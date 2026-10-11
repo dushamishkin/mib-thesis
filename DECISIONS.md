@@ -1,5 +1,14 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-11 — Author reopens the research framing and explicitly asks to preserve the
+  completed proposal document unchanged. Prioritise understanding existing analytics
+  MAS, diagnosing a concrete weakness and agreeing a bounded improvement/evaluation
+  before revising topic, questions or prose. Build on existing terminology and methods;
+  incremental contributions are acceptable. Data/business analytics is the general
+  domain; banking experience is illustrative. Existing intervention choices are under
+  reconsideration, not replaced or newly approved. No new supervisor approval, paid
+  experiment, dispatch or submission is implied.
+
 - 2026-10-10 — Author asks to continue proposal writing and supplies personal/programme
   details and supervisor email. Assemble the complete six-section English draft in
   the current institutional template, consolidate the standalone Section 1 draft,
