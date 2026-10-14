@@ -10,9 +10,10 @@ On 11 October the author adopts a main-agent/subagent hierarchy, source-checked
 experience reuse and counterexample review, with a FinHelm-engine adaptation path.
 DataPilot/DS-STAR are conceptual anchors. Revised title and scientific specifications
 are in the research design; the [complete English narrative](proposal/proposal-draft.md)
-is ready for text review before university formatting. No renewed supervisor approval,
-installed implementation or agent findings are claimed. The existing DOCX contains
-the older design and is not the revised submission candidate.
+was approved by the author for transfer to the university template on 14 October.
+The matching [Word draft](proposal/thesis-proposal-draft.docx) is visually checked;
+[review notes](proposal/proposal-review-notes.md) record open fields and checks.
+No renewed supervisor approval, installed implementation or agent findings are claimed.
 
 ## Start here
 1. [AGENTS.md](AGENTS.md): shared instructions for Codex, Claude Code and other assistants.

@@ -1,5 +1,11 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-14 — Author approves the reviewed narrative for transfer into the current
+  university Word template. Preserve the agreed scientific text and the author’s
+  removal of the Chapter 5 deadline introduction. Author confirms Academic Master
+  Student, Full-time and Self-proposed Project; venue remains unknown and blank.
+  This author approval does not constitute renewed supervisor approval or submission.
+
 - 2026-10-14 — Author clarifies that simpler language must retain substantive
   explanation and connected prose rather than reduce Chapter 4 to key points.
   Use consistent improvement names: evidence-checked experience reuse and

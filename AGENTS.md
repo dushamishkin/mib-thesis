@@ -22,9 +22,10 @@ Include deployment/adaptation
 effort and cost-effectiveness without claiming universal portability or measured ROI.
 On 11 October the author adopts evidence-checked experience reuse and source-grounded
 counterexample review. Exact parameters still require development validation. Current
-title/RQs/hypotheses are in proposal/research-design.md. Draft narrative first; populate
-the DOCX only after text review. Historical shared-context/recomputation proposals
-are superseded. Use the improvement names consistently: evidence-checked experience
+title/RQs/hypotheses are in proposal/research-design.md. The author completed text
+review and authorised university-template formatting on 14 October 2026. Keep the
+Markdown narrative and its DOCX counterpart consistent after subsequent edits.
+Historical shared-context/recomputation proposals are superseded. Use the improvement names consistently: evidence-checked experience
 reuse and source-grounded counterexample review. Do not introduce paraphrased names.
 Simplifying language does not mean cutting substance or converting prose into bullets;
 use connected paragraphs for the contribution discussion.

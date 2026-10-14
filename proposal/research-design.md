@@ -30,7 +30,8 @@ one baseline, literature-guided focus, separate/joint comparisons and common-can
 review diagnostics. The author now fixes main-agent/subagent MAS and prioritises
 DataPilot and DS-STAR as conceptual references. The revised working title is accepted;
 approval is not model/budget permission or a protocol freeze. The author now authorises
-a complete text-first revision; do not populate the DOCX before narrative review.
+a complete text-first revision. On 14 October the author completes narrative review
+and authorises transfer to the supplied university DOCX template.
 Earlier operational details at the end are historical, not the active protocol.
 
 The [11 October mechanism recommendation](../literature/mechanism-selection.md)
@@ -38,7 +39,9 @@ compares DataPilot/DS-STAR and specifies evidence-checked experience reuse,
 source-grounded counterexample review and a FinHelm-based adaptation path. The author
 adopts this packet as the plan; no deployment or gains are claimed. The development
 example is in benchmark/pilot-spec.md. The revised narrative is
-[proposal-draft.md](proposal-draft.md); the old DOCX remains unchanged.
+[proposal-draft.md](proposal-draft.md); the matching formatted draft is
+[thesis-proposal-draft.docx](thesis-proposal-draft.docx). Verification and open fields
+are recorded in [proposal-review-notes.md](proposal-review-notes.md).
 
 ### Adopted mechanisms and operational revision
 

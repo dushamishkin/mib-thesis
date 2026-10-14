@@ -1,168 +1,92 @@
-# Proposal review notes
+# Proposal review and document verification
 
-## Current text-first revision — 11 October 2026
+Updated 14 October 2026. The author completed narrative review and authorised transfer
+into the supplied university template. The [Word draft](thesis-proposal-draft.docx)
+now matches the six substantive sections of [proposal-draft.md](proposal-draft.md).
+It supersedes the 10 October DOCX; its earlier QA record remains in Git history.
+This is a review draft, not a signed, supervisor-approved or submitted document.
 
-The active narrative is [proposal-draft.md](proposal-draft.md), rewritten after author
-agreement on checked experience reuse, source-grounded counterexample review and the
-FinHelm-engine path. It contains all six substantive fields and thirteen numbered
-references after the 14 October Section 1 revision. Section 1 now has approximately 1,400 words excluding references, above the
-university's 1,000-word requirement. Review the full text before DOCX formatting. Section 1 now introduces evaluation,
-leaderboard-based source selection, explicit MAS hypotheses and MAST in that order;
-detailed experimental procedures remain in Section 3. Rankings were rechecked against
-the public app configuration on 14 October. A subsequent author-directed edit shortened
-1.3, defined MAS and added a possible MAST-refinement contribution. Chapter 2 now follows
-the required objectives/contents/key-issues structure without formal hypotheses; Section 4
-is aligned with the taxonomy objective. The author’s local sales example and deletion of process commentary are preserved.
+## Content and requirements
 
-The [existing DOCX](thesis-proposal-draft.docx) is unchanged and contains the earlier
-interventions/title. It is not a formatted counterpart of this narrative and must not
-be dispatched as the revised proposal. No new render or visual QA is claimed.
-The earlier verification record below applies only to that older document.
+The transfer preserves all agreed substantive paragraphs, subheadings, table cells,
+13 numbered references and their links. Markdown metadata and editorial process notes
+are excluded from the university form. Main headings use the template's original
+six bilingual labels; the actual methodology opens Section 3. Both improvement names
+remain consistent. No scientific rewriting or experimental results were added.
+The author's removal of the Chapter 5 deadline introduction is preserved.
 
-Primary paper/version records, DataPilot/NVIDIA technical articles and FinHelm's
-pinned evaluation log were checked on 11 October. Web access to the pinned GitHub log
-failed; a direct public raw-file retrieval succeeded and confirmed the reported
-negative development finding. Link/metadata checks are not full-paper reading or
-replication. Source cards retain selected-section scope; new cited records still
-need Zotero identifier reconciliation/import and reviewed automatic export before
-submission. No Zotero changes or generated-BibTeX edits occurred in this revision.
+Section 1 has approximately 1,300 English words excluding references, exceeding the
+form's 1,000-word minimum. References remain at the end of Section 1 in first-citation
+order. The native condition and schedule tables are editable; lists use Word numbering.
+English body text uses Times New Roman 12 pt and 1.25 spacing. The supplied form,
+rather than generic final-thesis formatting, governs the cover and bilingual elements.
+Institutional sources and deadlines: [requirements](../requirements/README.md).
 
-Before submission: review the narrative with the author and supervisor, reconcile
-references, resolve the administrative fields below, then populate/render/check the
-current template and rewrite the unsent email to match. Exact model, caps, sample size,
-acceptable diagnostic trade-offs and budget remain development decisions, not omitted
-proposal sections. No experimental performance or renewed supervisor approval claimed.
+## Personal and administrative fields
 
-## Chapter 3 presentation revision — 14 October
+The author confirmed Academic Master Student, Full-time and Self-proposed Project on
+14 October. These are populated, including the selected native project-source checkbox.
+Name, student ID, programme, school and supervisor follow the author/project record.
 
-Chapter 3 now starts with methodology: a controlled 2 × 2 factorial experiment,
-supported by trace-based failure analysis. It explains the system, mechanisms,
-comparisons, tasks, measurements and feasibility in approximately 980 words rather
-than 2,000. The [earlier detailed chapter](archive/chapter3-detailed-2026-10-14.md)
-is preserved verbatim below its archive preface, from commit 44a6630. It is a historical
-technical reference; the simpler chapter does not remove the adopted controls or gates.
-All other narrative sections and the DOCX are unchanged in this revision. No new
-source claims, reference imports, experiment runs or formatting checks are claimed.
-
-Chapter 4 was subsequently rewritten as connected prose after the author rejected
-an over-shortened list. It explains the empirical, classification and practical
-contributions in full, with simpler language. The narrative and current condition
-labels consistently use evidence-checked experience reuse and source-grounded
-counterexample review. Methods, scope, archived technical text and DOCX remain unchanged.
-
-Chapter 5 now separates the research schedule from expected outcomes. Table cells
-state concrete activities and what should be ready afterwards; November distinguishes
-implementation from development calibration. December's midterm report records actual
-progress, not an assumed completed campaign. Expected outcomes explain the working
-system, comparisons, error analysis and recommendations in prose. The author's removed
-11–15 October table row stays removed; deadline information remains in the introduction.
-Institutional dates, other chapters, archived technical text and DOCX are unchanged.
-
-Chapter 6 is now one paragraph describing the author's banking data/business-analysis
-experience and attempts to use agents for ad hoc work and complete projects. It links
-recurring context-use difficulties to the research motivation, without asserting current
-employment, completed agent deployments or measured workplace results. Preparatory
-research evidence remains in its project records rather than this brief personal account.
-
-## Historical record — earlier DOCX, superseded scientific design
-
-Prepared 10 October 2026. This accompanies the complete English
-[DOCX draft](thesis-proposal-draft.docx) and its editable
-[narrative source](proposal-draft.md). It is a review package, not a submitted or
-signed proposal. The earlier standalone literature draft has been consolidated
-into Section 1; ordinary revisions remain in Git.
-
-## What is ready
-
-All six substantive university fields contain English prose. Section 1 has about
-1,820 words excluding references, exceeding its 1,000-word English minimum.
-The draft includes the business-semantic motivation, accessible intervention
-definitions, four conditions, strong single-agent and additional-compute controls,
-task admission, scoring, isolation, interaction analysis, costs, limitations and
-schedule. No agent results, publications or treatment improvements are invented.
-
-The approved title and core design are retained. Four proposed roles, initially
-withheld independent checking, one comparison-and-revision round and the control
-procedures make the draft assessable; they require development validation and
-freeze before evaluation. They are not new supervisor-approved specifications.
-Scientific authority: [research design](research-design.md).
-
-## Unresolved personal and administrative fields
-
-| Field | Draft treatment | Required confirmation |
+| Field | Current treatment | Remaining action |
 |---|---|---|
-| Degree category | Explicit placeholder | Academic or Professional Master Student, with official wording |
-| Study mode | Explicit placeholder | Official Full-time/Part-time designation |
-| Defense venue | Explicit placeholder | Room, campus or online platform |
-| Source of Research Project | All seven options remain unchecked | Actual category; Self-proposed Project is a candidate, not an assumed fact |
-| Student signature | Blank | Author signs the approved version using the accepted procedure |
-| Signing date | Blank; automatic sample date removed | Actual date of signature |
-| Cover date convention | 22 October 2026 entered | Confirm that the field means proposal-defense date |
+| Defense venue | Blank; template's sample school removed | Enter the announced room or platform when known |
+| Student signature | Blank | Author signs the approved version |
+| Signing date | Blank; automatic DATE field removed | Enter actual signing date |
+| Cover proposal date | 22 October 2026 | Uses the scheduled proposal-defense date, distinct from signing date |
 
-The author supplied the name, student ID and major/programme wording in this
-conversation. These are populated in the form. Supervisor and school follow the
-project record; the email recipient follows the author's supplied address.
-The template's prefilled degree category and study mode were not copied as facts.
+Supervisor approval of this revised document remains outstanding. The September topic
+approval concerned the earlier direction. The [email](supervisor-email-draft.md) is an
+updated unsent draft. No email, signature or system upload has been performed.
 
-Confirm the submission cutoff/timezone, accepted file types, supervisor approval
-procedure, physical copies and delivery arrangements with the Teaching Office.
-Institutional requirements remain in [requirements](../requirements/README.md);
-the dispatch/revision schedule remains in [ROADMAP](../ROADMAP.md).
-Topic approval on 23 September does not establish approval of this document.
+## Visual and structural checks
 
-## Literature checks and remaining scholarly work
+The bundled document renderer produced **16 pages**: one cover, two unchanged
+institutional instruction pages and 13 numbered report pages. Every page of the final
+render was visually inspected. Chinese glyphs, English typography, cover title wrapping,
+numbered lists, table borders and repeated schedule headers, bibliography, page numbers
+and blank signature/date were checked. No clipping, overlap, broken row or empty overflow
+page was observed. Original instruction pagination is retained, including its short
+second page. The reference/final image comparison confirms both instruction pages
+unchanged. Layout may vary with the Word installation and font substitutions.
 
-The nine cited primary URLs were opened and checked on 10 October: seven
-version-pinned arXiv papers, the LiveSQLBench author repository and official Qwen
-documentation. Paper metadata was compared with the generated bibliography and
-primary records. References follow first appearance in Section 1. Release and
-provider documentation are identified as documentation, not peer-reviewed papers.
+The initial renderer lacked Chinese glyphs; QA was repeated with system Chinese fonts
+and explicit Songti/Heiti fallback. This changes the QA environment, not template fonts.
+The final package was not resaved by LibreOffice. PAGE fields are retained and
+`updateFields=true` requests refresh when opened in Word; no native Word refresh is claimed.
 
-The [reading brief](../literature/reading-brief.md) gives links, summaries, inspected
-sections, reasons for use and limits; the [positioning note](../literature/positioning-note.md)
-records the bounded comparison. This is selected-section review, not exhaustive
-full-paper reading or proof of global novelty. Before freezing the contribution,
-complete the closest-protocol/implementation comparison, especially AgenticData,
-and discuss any material equivalence with the author and supervisor.
+The original template is byte-identical. Both section geometries (A4, template margins)
+and all nine content controls are preserved. Control properties differ only in the
+author-confirmed Self-proposed checkbox state; existing dropdown values are confirmed.
+All original permission ranges, bookmarks, relationships, images, styles, headers and
+footers survive. Existing numbering definitions are unchanged; appended definitions
+provide independent lists with explicit restarts.
 
-AgenticData's v2 full-text title differs from its abstract record and current Zotero
-title. Reference [5] uses the checked v2 title and explicitly notes the discrepancy.
-The existing Zotero item was located (key KNEHWY38); local API and connector access
-were confirmed with Zotero 10.0.4. No library metadata was changed and no new
-automatic export or cloud synchronization is claimed. Reconcile the version-specific
-title in Zotero while retaining the pinned project key, then review the automatic
-export. LiveSQLBench and provider documentation currently have direct references
-with access dates; they have not been added as new Zotero records. The generated
-references.bib was not edited manually.
+Only four package parts changed: `word/document.xml`, `word/settings.xml`,
+`word/numbering.xml` and `word/_rels/document.xml.rels`. All other parts are byte-identical
+to the template. Added relationships are external bibliography hyperlinks. Layout edits
+shorten the empty cover spacer, permit expanding rows, prevent isolated lines/headings,
+keep references together and repeat table headers. The automatic sample signing date
+is deliberately removed. Structural, heading, field, image, style and control audits ran.
+Accessibility audit found no high-severity issues; two generic header warnings apply
+to the original identification/source form tables, which are not data tables. The two
+new comparison/schedule tables have native repeating header rows.
 
-## Document verification
+Verified DOCX SHA-256: `cf669d6b3504f342956c5517180e3398dc7d5a2f72c5009d962a9194785a5f4f`.
 
-The packaged renderer produced 18 pages: one cover, two preserved institutional
-instruction pages and 15 numbered report pages. Every final page image was visually
-inspected. Text, Chinese glyphs, borders, table pagination, references, page numbers
-and blank signature/date fields were checked; no blank overflow page, clipping or
-overlap remains in this render. The original six-page template was also rendered
-and inspected. Final pagination may vary with the reader's installed fonts.
+Narrative source SHA-256: `71bd001d3d5e47f9f6341b625b40af800ff24dfa77906c23d7093dbb3f459fad`.
 
-The original template remains byte-identical. Within the authored DOCX only
-word/document.xml and word/settings.xml changed; all other package parts, including
-styles, relationships, media, numbering and headers/footers, are byte-identical to
-the template. Both section geometries and all nine content controls are retained.
-Institutional labels, instructions and declaration are preserved. Layout adjustments
-shorten the empty cover spacer, prevent isolated paragraph lines, keep bibliography
-entries together, fit the condition table and align the blank signature/date row.
-The sample automatic signing-date field is intentionally removed.
+Unchanged template SHA-256: `07a5d42c83c3e0ffd61a800ffd38986a421172fe639ec0c540f3004d36e6b57c`.
 
-SHA-256 of the visually checked DOCX:
-`2874a6f4e5f93d27b7b44b66024917706df2b099395a796d304a4ebd183ecaef`.
+## Literature and next review
 
-SHA-256 of the retained template:
-`07a5d42c83c3e0ffd61a800ffd38986a421172fe639ec0c540f3004d36e6b57c`.
+This formatting task preserves the existing checked reference metadata and links;
+it does not claim a new literature search or full-paper audit. Primary/version checks
+and selected-reading limits remain in the [reading brief](../literature/reading-brief.md)
+and [literature index](../literature/references.md). New narrative records still require
+identifier reconciliation in Zotero and review of its generated export before submission.
+No Zotero record, generated BibTeX, export setting or cloud synchronization was changed.
 
-## Author review before dispatch
-
-Read Sections 1, 3 and 4 first: validate the motivation, proposed procedure and
-bounded contribution. Confirm remaining form fields, attach the checked DOCX and
-adapt the [email draft](supervisor-email-draft.md) before sending on 11 October.
-Ask for feedback by 13 October if feasible and approval before the 15 October
-submission. No email, signature, system upload or paid experiment has been performed.
+Next: review the formatted document with the supervisor, reconcile bibliography records,
+fill the venue when announced and sign only the approved version. Model, spending cap,
+sample size and evaluation freeze remain development decisions before paid experiments.

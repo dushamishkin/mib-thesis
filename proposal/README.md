@@ -1,18 +1,19 @@
 # Proposal documents
 
-- [proposal-draft.md](proposal-draft.md): complete revised English narrative, 11 October;
-  author review precedes university-template formatting.
-- [thesis-proposal-draft.docx](thesis-proposal-draft.docx): unchanged earlier draft,
-  superseded scientific design; not the formatted counterpart of the revised text.
-- [proposal-review-notes.md](proposal-review-notes.md): current checks/open fields and
-  explicitly historical visual-QA record for the older DOCX.
+- [proposal-draft.md](proposal-draft.md): complete English narrative, reviewed by the
+  author through 14 October; source for the current Word draft.
+- [thesis-proposal-draft.docx](thesis-proposal-draft.docx): current university-template
+  draft, 16 pages, all visually inspected on 14 October.
+- [proposal-review-notes.md](proposal-review-notes.md): current formatting verification,
+  source coverage, administrative fields and remaining scholarly checks.
+- [supervisor-email-draft.md](supervisor-email-draft.md): updated unsent review request.
 - [archive/chapter3-detailed-2026-10-14.md](archive/chapter3-detailed-2026-10-14.md):
   exact earlier Chapter 3 preserved at the author's request as a historical technical
   reference. Active proposal now starts with the controlled-experiment methodology.
 
 - [proposal-outline.md](proposal-outline.md): detailed English outline mapped to the current
   form, with a focused literature-review plan; discussion draft, not the full proposal.
-- [defense-brief.md](defense-brief.md): current explanation and text-first drafting handoff.
+- [defense-brief.md](defense-brief.md): current explanation and proposal handoff.
 
 - [research-design.md](research-design.md): author-approved 11 October architecture,
   adopted mechanisms/path and historical supervisor-approved direction; exact

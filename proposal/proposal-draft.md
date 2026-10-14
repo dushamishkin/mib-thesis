@@ -6,7 +6,7 @@ Programme: Master of International Business
 School: Antai College of Economics and Management, Shanghai Jiao Tong University
 Supervisor: Professor Liu Jialu (刘佳璐)
 
-English narrative draft for author and supervisor review; drafted 11 October and Section 1 revised 14 October 2026. The six sections follow the current university form. This is a text-first revision: the existing DOCX contains the earlier design and has not been updated. The revised direction and mechanisms are author-agreed, not newly supervisor-approved. No experimental agent results are claimed. Implementation parameters will be validated on development tasks and frozen before held-out evaluation.
+English narrative drafted 11 October and revised through author review on 14 October 2026. The six sections follow the current university form. On 14 October the author approved transfer of the reviewed text into the current DOCX template. The matching Word draft is thesis-proposal-draft.docx; formatting verification and open fields are recorded in proposal-review-notes.md. The revised direction and mechanisms are author-agreed, not newly supervisor-approved. No experimental agent results are claimed. Implementation parameters will be validated on development tasks and frozen before held-out evaluation.
 
 # 1 Research frontier, current status, challenges and significance
 
@@ -195,8 +195,6 @@ The practical contribution will be guidance on when the two improvements are wor
 # 5 Research schedule and expected outcomes
 
 ## 5.1 Research schedule
-
-Proposal submission is due on 15 October 2026, with supervisor approval required beforehand; the proposal defense is scheduled for 22 October. The research will then proceed from building and testing the system to running the experiment, analysing the results and completing the thesis.
 
 | Period | Planned work | Expected output |
 |---|---|---|

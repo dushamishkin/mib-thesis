@@ -1,6 +1,6 @@
 # Research explanation and drafting handoff
 
-Updated 11 October 2026 after author adoption of the mechanism packet. Scientific
+Updated 14 October 2026 after narrative review and template formatting. Scientific
 specifications: [research-design.md](research-design.md); active full narrative:
 [proposal-draft.md](proposal-draft.md). Institutional requirements remain in
 [requirements/README.md](../requirements/README.md).
@@ -44,11 +44,12 @@ experiments using public data; no improvement is assumed.
 
 ## Current workflow and next action
 
-The author requests a complete English text before university-template formatting.
-The six-section narrative is delivered. Review and revise it first; only afterwards
-populate requirements/thesis-proposal-template.docx and visually check every page.
-The existing DOCX and supervisor-email draft contain superseded scientific content.
-Do not dispatch them as the revised proposal. No email, signature or upload is authorised.
+The author completed narrative review and authorised template transfer on 14 October.
+The current DOCX matches the reviewed text and has been visually checked on all 16 pages.
+See proposal-review-notes.md for verification and open fields; the supervisor email
+has been updated as an unsent draft. Next: author/supervisor review of the formatted
+proposal and bibliographic reconciliation before submission. No email, signature or
+upload has been performed.
 
 A full experiment is unnecessary before proposal submission. Before any paid pilot,
 validate isolation, routing, replay and accounting; agree model and total budget.
