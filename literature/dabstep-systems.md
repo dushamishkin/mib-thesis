@@ -5,6 +5,15 @@ not reproduced scores, a systematic review or an allegation about entrants. Prop
 artifacts are unchanged. Source cards below distinguish public descriptions, inspected
 code and unresolved information. Generated bibliography was not edited or synced.
 
+## Targeted follow-up — 14 October 2026
+
+For the proposal's source-selection explanation, re-read the public Gradio configuration:
+28 validated entries; NVIDIA, DataPilot and DS-STAR remain first, second and fifth by
+hard accuracy at 89.95%, 87.57% and 45.24%. This is a check of ranking metadata, not a
+new implementation audit or score reproduction. Reopened their technical descriptions,
+MAST v3 and the two single/multi-agent comparison papers to support the simpler framing.
+Detailed 11 October reading/code limits below remain in force.
+
 ## Scope and leaderboard snapshot
 
 Read the public [leaderboard](https://huggingface.co/spaces/adyen/DABstep) through its

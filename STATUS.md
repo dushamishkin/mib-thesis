@@ -1,5 +1,5 @@
 # Current status
-Updated: 11 October 2026.
+Updated: 14 October 2026.
 
 ## Authority and phase
 The author adopts the revised title/objectives/RQs/working hypotheses, a main-agent/
@@ -14,11 +14,18 @@ not newly supervisor-approved. No dispatch, submission, install or agent experim
 has occurred. Institutional milestones remain in ROADMAP.md and requirements/README.md.
 
 ## Delivered work and evidence
+- Reworked Section 1 for a reader new to the subject: business meaning → evaluation
+  difficulty → leaderboard-grounded source selection → concrete hierarchy rationale
+  → MAST-led diagnosis → existing solutions and bounded significance. Preserved the
+  author's local average-sales example and removal of benchmark-search commentary.
+  Rechecked validated leaderboard: NVIDIA first, DataPilot second, DS-STAR fifth on
+  hard accuracy. Added leaderboard reference and renumbered citations throughout.
+  Sections 2–6 changed only in citation numbering. DOCX unchanged.
 - Complete revised six-section English narrative: proposal/proposal-draft.md. Section 1
   is approximately 1,600 words excluding references. Includes the two mechanisms,
   worked example, hierarchy/engine path, strong ordinary/both-mechanism single agents,
-  native versus diagnostic evaluation, interaction and lifecycle costs. Twelve primary
-  references checked for links/metadata, with selected-reading limits. DOCX unchanged.
+  native versus diagnostic evaluation, interaction and lifecycle costs. Thirteen numbered
+  references include the added leaderboard; primary checks retain selected-reading limits. DOCX unchanged.
 - Adopted mechanism/implementation specification: literature/mechanism-selection.md;
   canonical scientific design: proposal/research-design.md. Source comparisons and
   MAST coding boundaries: literature/reading-brief.md and problem-mechanisms.md.

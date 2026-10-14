@@ -4,9 +4,13 @@
 
 The active narrative is [proposal-draft.md](proposal-draft.md), rewritten after author
 agreement on checked experience reuse, source-grounded counterexample review and the
-FinHelm-engine path. It contains all six substantive fields and twelve numbered
-references. Section 1 has approximately 1,600 words excluding references, above the
-university's 1,000-word requirement. Review the full text before DOCX formatting.
+FinHelm-engine path. It contains all six substantive fields and thirteen numbered
+references after the 14 October Section 1 revision. Section 1 has approximately 1,600 words excluding references, above the
+university's 1,000-word requirement. Review the full text before DOCX formatting. Section 1 now introduces evaluation,
+leaderboard-based source selection, explicit MAS hypotheses and MAST in that order;
+detailed experimental procedures remain in Section 3. Rankings were rechecked against
+the public app configuration on 14 October; later sections changed only in citation
+numbers. The author’s local sales example and deletion of process commentary are preserved.
 
 The [existing DOCX](thesis-proposal-draft.docx) is unchanged and contains the earlier
 interventions/title. It is not a formatted counterpart of this narrative and must not

@@ -6,6 +6,13 @@ first arXiv year, identifiers and observed versions; it did not verify all final
 All 29 project citation keys were preserved during the Zotero reconciliation.
 
 ## Ownership and synchronization
+14 October editorial follow-up: the proposal adds a dated official DABstep leaderboard
+reference (thirteen numbered sources total) and renumbers citations in order of first
+appearance. Ranking metadata was read directly from the public app configuration;
+DataPilot/DS-STAR/NVIDIA descriptions, MAST v3 and the scaling/strong-single-agent papers
+were reopened. No new paper discovery, full-paper reading, bibliography export or Zotero
+change is claimed. Evidence and scope are in dabstep-systems.md.
+
 The revised proposal's twelve numbered references were checked against primary
 paper/version records and author descriptions on 11 October. FinHelm's pinned log
 was re-retrieved through its public raw file after browser failures. This verifies

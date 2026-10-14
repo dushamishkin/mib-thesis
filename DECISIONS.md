@@ -1,5 +1,14 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-14 — Author requests an accessible rewrite of proposal Section 1: move
+  deployment portability to practical significance, bridge business correctness to
+  evaluation, justify DataPilot/DS-STAR/NVIDIA selection with leaderboard standing,
+  explain concrete MAS context-boundary hypotheses and introduce MAST before failures.
+  Preserve the adopted mechanisms and strong single-agent test; this is an editorial
+  revision, not new scientific results or supervisor approval. Integrate the author's
+  pre-existing average-sales example and removed process commentary. Recheck ranking,
+  add a numbered leaderboard source and renumber later citations; leave DOCX unchanged.
+
 - 2026-10-11 — Author adopts the mechanism-selection packet and requests a full
   English narrative before university-template formatting. Adopt checked experience
   reuse, source-grounded counterexample review and the FinHelm-engine adaptation path,
