@@ -24,7 +24,10 @@ On 11 October the author adopts evidence-checked experience reuse and source-gro
 counterexample review. Exact parameters still require development validation. Current
 title/RQs/hypotheses are in proposal/research-design.md. Draft narrative first; populate
 the DOCX only after text review. Historical shared-context/recomputation proposals
-are superseded.
+are superseded. Use the improvement names consistently: evidence-checked experience
+reuse and source-grounded counterexample review. Do not introduce paraphrased names.
+Simplifying language does not mean cutting substance or converting prose into bullets;
+use connected paragraphs for the contribution discussion.
 
 MAS remains the central object. Use a fixed hierarchy initially, with distinct child
 contexts, delegated reasoning/action and observable result transfer. Record actual
@@ -38,7 +41,8 @@ The superseded implementation candidate used these labels:
 - C1: structured shared business context and explicit reconciliation.
 - V2+C1: both interventions.
 V1 (text-only critic) is an optional secondary comparator, subject to pilot budget. Do not silently rename V2 as V1.
-The adopted design uses Baseline, Checked reuse, Counterexample review and Both.
+The adopted display names are Baseline, Evidence-checked experience reuse,
+Source-grounded counterexample review and Both.
 This is an explicit revision, not reassignment of C1/V2. Historical labels retain
 their old meanings; do not use them for the new treatments.
 

@@ -62,7 +62,7 @@ Additional checking also needs an economic justification. FinHelm's author repor
 
 ## 1.6 Research contribution and practical significance
 
-This thesis will investigate source-checked experience reuse and semantic counterexample review separately and together in one hierarchical analytics system. It will connect changes in final-answer quality with evidence about inappropriate reuse, omitted checks and incorrect review decisions. Strong single-agent comparisons will test whether the hierarchy adds value beyond the procedures themselves.
+This thesis will investigate evidence-checked experience reuse and source-grounded counterexample review separately and together in one hierarchical analytics system. It will connect changes in final-answer quality with evidence about inappropriate reuse, omitted checks and incorrect review decisions. Strong single-agent comparisons will test whether the hierarchy adds value beyond the procedures themselves.
 
 The practical significance is guidance for choosing how much effort to invest in knowledge preparation, reuse and checking. Better handling of documented rules could make analytical systems more useful and reduce adaptation work, but deployment across arbitrary businesses is not an objective of this study. Accuracy, coverage, preparation effort and operating cost will be reported together. The research will not claim realised productivity savings or return on investment without workplace evidence.
 
@@ -112,7 +112,7 @@ The specific objectives are to:
 
 1. **Failure analysis and existing solutions.** Examine DataPilot, DS-STAR and relevant methods; diagnose baseline traces using a MAST-based coding guide.
 2. **System implementation.** Adapt the FinHelm engine into a fixed hierarchy and implement the two mechanisms with controlled source and memory access.
-3. **Comparative evaluation.** Run Baseline, Checked reuse, Counterexample review and Both on the same tasks, alongside strong single-agent controls. Use DABstep for native benchmark comparison and separate diagnostic cases to examine the mechanisms.
+3. **Comparative evaluation.** Compare the baseline, evidence-checked experience reuse, source-grounded counterexample review and both improvements on the same tasks, alongside strong single-agent controls. Use DABstep for native benchmark comparison and separate diagnostic cases to examine the mechanisms.
 4. **Error and business analysis.** Measure reuse decisions, reviewer acceptance and rejection, final correctness, coverage, preparation effort and runtime cost; identify when the mechanisms help, fail or add unnecessary expense.
 
 ## 2.3 Key issues to be solved
@@ -126,7 +126,7 @@ The specific objectives are to:
 
 ## 3.1 Controlled experimental design
 
-The study will use a **controlled experiment with a 2 × 2 factorial design**, supported by analysis of recorded agent actions and messages. Two mechanisms will be switched on or off: checking retrieved experience against current sources, and reviewing calculations through semantic counterexamples. The four combinations will show what each mechanism changes separately and what happens when they are used together.
+The study will use a **controlled experiment with a 2 × 2 factorial design**, supported by analysis of recorded agent actions and messages. The two improvements, evidence-checked experience reuse and source-grounded counterexample review, will each be switched on or off. The four combinations will show what each mechanism changes separately and what happens when they are used together.
 
 Each version will solve the same tasks using the same underlying model, documents, prepared knowledge and agent roles. Resource limits will be comparable, and actual consumption will be measured. This design tests changes to the analytical workflow rather than comparing unrelated systems with different preparation. Development tasks will be used to test the implementation and set limits; evaluation tasks will be kept separate and will not be used to tune the system.
 
@@ -134,7 +134,7 @@ Each version will solve the same tasks using the same underlying model, document
 
 A main agent will coordinate three subagents: an evidence worker, a computational analyst and a reviewer. The evidence worker examines documents and reusable procedures; the analyst performs the calculation; the reviewer assesses the proposed solution. The ordinary system can already consult sources, execute code and correct mistakes.
 
-The study adds two procedures:
+The study adds two improvements:
 
 - **Evidence-checked experience reuse.** Before a retrieved procedure reaches the analyst, the evidence worker checks whether its conditions match the current documents. Supported procedures are passed on; contradicted or unresolved procedures are withheld, while ordinary document-based analysis remains available. For example, a procedure for handling cancelled orders should be reused only when the current reporting rules support that treatment.
 - **Source-grounded counterexample review.** The reviewer first reads the question and documents without the proposed answer. After inspecting the solution, it constructs a small test case that distinguishes a disputed interpretation from a source-supported alternative. If two calculations treat cancelled orders differently, a test containing such an order can expose the difference. The documents determine the correct treatment. An invalid or inconclusive test is not counted as a successful check.
@@ -145,11 +145,11 @@ Reusable knowledge will be prepared from permitted development material and held
 
 The experiment will compare four versions of the same MAS:
 
-| Version | Checked experience reuse | Counterexample review |
+| Version | Evidence-checked experience reuse | Source-grounded counterexample review |
 |---|---|---|
 | Baseline | Off | Off |
-| Checked reuse | On | Off |
-| Counterexample review | Off | On |
+| Evidence-checked experience reuse | On | Off |
+| Source-grounded counterexample review | Off | On |
 | Both | On | On |
 
 “Off” retains ordinary source use and review; the baseline is not prevented from rejecting an unsuitable procedure or detecting a mistake. All four versions use the same starting knowledge and retrieval rules.
@@ -184,13 +184,13 @@ A development pilot will establish workable task numbers, repetition counts, che
 
 # 4 Novelties of the proposed topic
 
-The study aims to make three contributions:
+The main contribution will be evidence on how **evidence-checked experience reuse** and **source-grounded counterexample review** affect the reliability of multi-agent business analytics. The study will examine their separate and joint effects in the same system, using the same tasks and available knowledge. This will help establish which improvement addresses which errors, whether they complement each other, and where neither is sufficient.
 
-1. **Evidence on two proposed improvements.** Test whether checking retrieved procedures against current documents and testing disputed business interpretations on small datasets reduce errors, separately and together. Compare the results with ordinary review and strong single-agent controls.
-2. **A more useful classification of analytics failures.** Apply MAST to knowledge-use and review errors. Where its categories need more detail, propose subtypes with clear definitions and examples, and test whether they help classify errors consistently.
-3. **Practical guidance on quality and cost.** Identify when the added procedures improve answers enough to justify their preparation and operating costs, and when simpler approaches are preferable.
+Both improvements build on existing approaches to memory, business rules and executable testing [3,9,10–12]. The study will connect their effects to specific failures: applying experience that does not fit the current rules, overlooking a required check, or approving a wrong business interpretation. Assessing reviewers on the same candidate solutions will help distinguish better review from better answers produced by the analyst. This provides a more precise explanation of any change in final accuracy.
 
-The contribution is the evidence about these methods' benefits, costs and limits in business analytics. Memory reuse, rule checks and executable tests already exist [3,9,10–12]; the study does not claim to invent them.
+The study may also contribute to MAST by identifying recurring analytics failures that its current categories do not distinguish clearly. Where needed, it will propose refinements or subtypes with definitions and examples from recorded runs. Their value will depend on whether they make errors easier to classify consistently and help identify what needs to be improved.
+
+The practical contribution will be guidance on when the two improvements are worth using. Their effect on answer quality will be considered alongside preparation effort, operating cost and results from strong single-agent controls. This will help identify when additional checking is worthwhile, when the improvements work better together, and when a simpler approach provides a better balance of quality and cost.
 
 # 5 Research schedule and expected outcomes
 

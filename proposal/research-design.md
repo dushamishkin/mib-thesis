@@ -55,8 +55,9 @@ and evidence/experience, computation and review children. Adapt the pinned FinHe
 engine, subject to offline isolation/replay/accounting acceptance gates. All MAS
 conditions retain ordinary source review, scoped retrieval and the same roles/routes.
 
-Current names are **Baseline**, **Checked reuse**, **Counterexample review** and
-**Both**. They explicitly supersede the earlier intervention candidate; do not map
+Current display names are **Baseline**, **Evidence-checked experience reuse**,
+**Source-grounded counterexample review** and **Both**. The author requests these
+consistent names throughout the proposal; this standardises wording, not mechanisms. They explicitly supersede the earlier intervention candidate; do not map
 new mechanisms onto C1/V2. Maintain strong ordinary and both-mechanism single-agent
 controls under equivalent assets/tools and aggregate caps. The main factorial concerns
 MAS mechanism effects; architecture comparisons require comparable procedures.

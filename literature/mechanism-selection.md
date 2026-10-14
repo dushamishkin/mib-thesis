@@ -280,8 +280,8 @@ Call it a DS-STAR/DataPilot-inspired hierarchical baseline, not their reproduced
 
 ## Evaluation, contribution and proposal readiness
 
-Author-adopted display names: **Baseline**, **Checked reuse**, **Counterexample review**,
-**Both**. Two binary factors, one fixed hierarchy. This explicitly revises the earlier
+Current display names, standardised at author request on 14 October: **Baseline**,
+**Evidence-checked experience reuse**, **Source-grounded counterexample review**, **Both**. Two binary factors, one fixed hierarchy. This explicitly revises the earlier
 interventions rather than silently renaming C1/V2: checked long-term reuse differs from the earlier task-local C1,
 and counterexample review is not necessarily the former independent recomputation V2.
 Retain old IDs only historically; the author has agreed the explicit design revision.

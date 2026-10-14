@@ -1,5 +1,12 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-14 — Author clarifies that simpler language must retain substantive
+  explanation and connected prose rather than reduce Chapter 4 to key points.
+  Use consistent improvement names: evidence-checked experience reuse and
+  source-grounded counterexample review. Standardise current display labels and
+  narrative terminology without renaming the mechanisms or altering controls.
+  Preserve the exact historical Chapter 3 snapshot and leave DOCX unchanged.
+
 - 2026-10-14 — Author requests a methodology-first, simpler and shorter Chapter 3,
   preserving the detailed current chapter separately. Name the method a controlled
   2 × 2 factorial experiment supported by trace-based failure analysis; simplify the

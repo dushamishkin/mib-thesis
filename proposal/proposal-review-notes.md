@@ -44,9 +44,11 @@ technical reference; the simpler chapter does not remove the adopted controls or
 All other narrative sections and the DOCX are unchanged in this revision. No new
 source claims, reference imports, experiment runs or formatting checks are claimed.
 
-Chapter 4 was subsequently shortened into three plain-language contributions:
-mechanism evidence, useful classification refinements and quality/cost guidance.
-This changes presentation only; methods, scope and claims remain unchanged.
+Chapter 4 was subsequently rewritten as connected prose after the author rejected
+an over-shortened list. It explains the empirical, classification and practical
+contributions in full, with simpler language. The narrative and current condition
+labels consistently use evidence-checked experience reuse and source-grounded
+counterexample review. Methods, scope, archived technical text and DOCX remain unchanged.
 
 ## Historical record — earlier DOCX, superseded scientific design
 

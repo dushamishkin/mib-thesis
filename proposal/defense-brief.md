@@ -18,8 +18,8 @@ before admitting them to the solver, and challenge candidate interpretations wit
 source-grounded discriminating fixtures. Both are fallible. Shared scope/version
 filters, ordinary review and identical information remain in the baseline.
 
-Four descriptive conditions are Baseline, Checked reuse, Counterexample review and
-Both. They explicitly supersede the old C1/V2 candidate; old IDs retain historical
+Four descriptive conditions are Baseline, Evidence-checked experience reuse,
+Source-grounded counterexample review and Both. They explicitly supersede the old C1/V2 candidate; old IDs retain historical
 meanings. Strong single-agent controls include ordinary and both-mechanism procedures.
 Compare final task quality, reuse decisions, common-candidate review errors and costs.
 A combined win does not establish positive interaction. MAST describes observable
