@@ -283,6 +283,13 @@ a separate experiment or thesis chapter to every failure mechanism.
 
 ## Author's practical motivation — clarified 10 October 2026
 
+On 14 October the author adds professional experience as a data/business analyst in
+banking. As agentic systems developed, the team tried applying them from ad hoc analysis
+to complete analytical projects; context availability and use repeatedly limited
+reliability. This is the author's account of prior experience, not a claim about
+current employment or measured workplace outcomes. The proposal's Chapter 6 now states
+this motivation in one paragraph; research-preparation evidence remains in project records.
+
 The author reports encountering this problem in banking analytics work. Tables have
 schemas, team/product organisation and column descriptions, but this structural
 metadata does not reliably specify the business meaning required for a query.

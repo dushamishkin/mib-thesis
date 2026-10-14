@@ -58,6 +58,12 @@ system, comparisons, error analysis and recommendations in prose. The author's r
 11–15 October table row stays removed; deadline information remains in the introduction.
 Institutional dates, other chapters, archived technical text and DOCX are unchanged.
 
+Chapter 6 is now one paragraph describing the author's banking data/business-analysis
+experience and attempts to use agents for ad hoc work and complete projects. It links
+recurring context-use difficulties to the research motivation, without asserting current
+employment, completed agent deployments or measured workplace results. Preparatory
+research evidence remains in its project records rather than this brief personal account.
+
 ## Historical record — earlier DOCX, superseded scientific design
 
 Prepared 10 October 2026. This accompanies the complete English

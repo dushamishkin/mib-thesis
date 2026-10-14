@@ -221,10 +221,4 @@ The error analysis will provide examples of knowledge-use and review failures or
 
 # 6 Prior experience and accomplished achievements
 
-My banking analytics experience motivates distinguishing data access from business-correct interpretation. It supplies no experimental data or measured productivity gains. The supervisor approved the earlier title, scope and roadmap according to my report of the discussion on 23 September 2026; this revision requires review and is not automatically covered by that approval.
-
-Preparatory work includes a public-source benchmark audit, focused literature cards, a two-problem map and a technical comparison of DataPilot and DS-STAR. The author has agreed the mechanisms and hierarchy. Selected FinHelm interfaces and an OpenDsStar fallback were inspected without installation or agent execution. Reading limits and outstanding bibliography reconciliation are recorded separately.
-
-The source audit pinned/checksummed files and reproduced selected calculations using separate implementations. The development fee example and discriminating/non-discriminating fixtures were checked with Decimal and SQLite. This supports source and arithmetic feasibility, not natural failure prevalence, generated-test validity or treatment effectiveness. The permanently development-only example will not count as held-out evidence.
-
-There is no completed experimental harness, pilot agent result or frozen main-study suite. The next research work is implementation, access/measurement validation, budget agreement and protocol freeze. This proposal describes planned experiments and expected artefacts without inventing results or achievements.
+I have professional experience as a data and business analyst in the banking sector. As agentic systems became more capable, my team increasingly explored their use for analytical work, from ad hoc tasks to complete analytics projects. These attempts did not consistently produce reliable results. The main recurring obstacle was context: agents needed relevant business definitions and rules, but providing this information did not ensure that they interpreted and applied it correctly. This experience motivates my research into how multi-agent systems use business knowledge and verify analytical conclusions.

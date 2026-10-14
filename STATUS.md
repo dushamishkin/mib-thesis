@@ -14,6 +14,11 @@ not newly supervisor-approved. No dispatch, submission, install or agent experim
 has occurred. Institutional milestones remain in ROADMAP.md and requirements/README.md.
 
 ## Delivered work and evidence
+- Replaced Chapter 6 with one author-grounded paragraph: experience in banking data/
+  business analysis, attempts to use agents from ad hoc tasks to complete projects,
+  and context/use of business rules as a recurring obstacle. No current-employment
+  claim or invented project success. Earlier research-preparation evidence remains
+  in the source/audit records. DOCX unchanged.
 - Rewrote Chapter 5 with concrete work and reviewable output for each stage: baseline,
   both improvements, pilot, fixed evaluation, experiment, analysis and thesis completion.
   Expected outcomes are connected prose explaining the implementation, comparative
