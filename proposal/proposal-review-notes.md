@@ -1,5 +1,23 @@
 # Proposal review and document verification
 
+## Local Word display cleanup — 14 October
+
+The author closed Dushkin_Thesis_Proposal.docx and authorised removal of the grey
+editable-region brackets/shading. Removed all 54 w:permStart/w:permEnd elements
+from that external author copy. The only changed package part is document.xml;
+comparison after removing exactly those elements confirms identical remaining XML.
+All other parts, text, styles, numbering, hyperlinks and user edits are unchanged.
+The repository DOCX is not replaced or changed by this external-file repair.
+
+Before/after renders both have 16 pages. Every cleaned page was visually inspected;
+15 images are pixel-identical, and the last differs only in the Chinese date-label
+glyph rendering. Text extraction is identical. This is a bounded display cleanup,
+not a correction of the author copy’s pre-existing list numbering.
+
+Cleaned external author-copy SHA-256: `16d0ff5b3da728d93253848be5965eca42df45b0b42b1f83f1fcef7e886b7743`.
+
+Input SHA-256: `08903b28b7685fe7ae283cdc526b4064b0f0afb254a390af223cdceefad9150e`.
+
 ## SQLDriller link repair — 14 October
 
 Replaced the unavailable IPADS PDF URL with the working

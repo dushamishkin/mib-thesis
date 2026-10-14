@@ -1,7 +1,17 @@
 # Current status
 Updated: 14 October 2026.
 
-## Latest bounded correction
+## Latest local document cleanup
+At the author’s request, removed 54 permission-range boundary markers from the
+closed author copy Dushkin_Thesis_Proposal.docx. Only document.xml changed; all text
+and other XML/package parts were verified unchanged. All 16 rendered pages inspected;
+15 page images are identical, with only a small Chinese date-label glyph difference
+on the signature page. Pre-existing Word numbering issues were not changed.
+The cleaned author copy is external to the repository and is not committed. The
+repository DOCX and its existing local edits are untouched. Verification checksum and
+source scope: proposal/proposal-review-notes.md.
+
+## Previous link correction
 SQLDriller reference [10] now links to the verified coauthor-hosted PDF on
 haoran-ding.github.io/assets/pdf/sqldriller.pdf, in Markdown, reading cards and Word.
 The author saved/closed Word; only its hyperlink relationship was patched locally.
