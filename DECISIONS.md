@@ -1,5 +1,13 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-14 — Author requests a methodology-first, simpler and shorter Chapter 3,
+  preserving the detailed current chapter separately. Name the method a controlled
+  2 × 2 factorial experiment supported by trace-based failure analysis; simplify the
+  narrative without changing adopted mechanisms/controls. Preserve the exact earlier
+  chapter from 44a6630 in proposal/archive/chapter3-detailed-2026-10-14.md as a historical
+  technical snapshot, with canonical specifications linked rather than replaced.
+  No new experimental results, paid calls, source claims or DOCX work implied.
+
 - 2026-10-14 — Author requests shorter MAS rationale with the acronym defined first,
   a possible contribution to MAST where its categories do not capture analytics failures
   adequately, and a direct Chapter 2 following the form: objectives, main contents,

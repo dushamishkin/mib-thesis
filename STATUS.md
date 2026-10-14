@@ -14,6 +14,12 @@ not newly supervisor-approved. No dispatch, submission, install or agent experim
 has occurred. Institutional milestones remain in ROADMAP.md and requirements/README.md.
 
 ## Delivered work and evidence
+- Rewrote Chapter 3 to start with methodology: controlled 2 × 2 factorial experiment
+  plus trace-based failure analysis. Reduced about 2,000 words to 980 while retaining
+  both mechanisms, four MAS combinations, strong single-agent controls, native versus
+  diagnostic tasks and full cost/uncertainty principles. Earlier chapter preserved
+  verbatim in proposal/archive/chapter3-detailed-2026-10-14.md at the author's request.
+  Other narrative sections and DOCX unchanged; no protocol-scope change or experiments.
 - Shortened 1.3, defined MAS before use and replaced the selected taxonomy caveat with
   an explicit possible contribution: evidence-backed analytics refinements/subtypes,
   evaluated for coding consistency and diagnostic use. Rebuilt Chapter 2 as Research

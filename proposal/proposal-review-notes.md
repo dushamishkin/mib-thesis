@@ -33,6 +33,17 @@ current template and rewrite the unsent email to match. Exact model, caps, sampl
 acceptable diagnostic trade-offs and budget remain development decisions, not omitted
 proposal sections. No experimental performance or renewed supervisor approval claimed.
 
+## Chapter 3 presentation revision — 14 October
+
+Chapter 3 now starts with methodology: a controlled 2 × 2 factorial experiment,
+supported by trace-based failure analysis. It explains the system, mechanisms,
+comparisons, tasks, measurements and feasibility in approximately 980 words rather
+than 2,000. The [earlier detailed chapter](archive/chapter3-detailed-2026-10-14.md)
+is preserved verbatim below its archive preface, from commit 44a6630. It is a historical
+technical reference; the simpler chapter does not remove the adopted controls or gates.
+All other narrative sections and the DOCX are unchanged in this revision. No new
+source claims, reference imports, experiment runs or formatting checks are claimed.
+
 ## Historical record — earlier DOCX, superseded scientific design
 
 Prepared 10 October 2026. This accompanies the complete English

@@ -42,6 +42,13 @@ example is in benchmark/pilot-spec.md. The revised narrative is
 
 ### Adopted mechanisms and operational revision
 
+The research methodology is a controlled experiment with a 2 × 2 factorial design,
+supported by trace-based failure analysis. On 14 October the author requests a simpler
+methodology-first Chapter 3; this presentation revision retains the adopted experiment.
+Its earlier detailed text is preserved as a historical reference in
+[the Chapter 3 snapshot](archive/chapter3-detailed-2026-10-14.md), not another active
+protocol. Current mechanism details remain in the linked mechanism packet and design.
+
 Use the packet's source-based applicability admission at the memory-to-solver boundary
 and source-first, discriminating fixture review. The fixed hierarchy has a coordinator
 and evidence/experience, computation and review children. Adapt the pinned FinHelm

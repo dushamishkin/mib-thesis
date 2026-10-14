@@ -6,6 +6,9 @@
   superseded scientific design; not the formatted counterpart of the revised text.
 - [proposal-review-notes.md](proposal-review-notes.md): current checks/open fields and
   explicitly historical visual-QA record for the older DOCX.
+- [archive/chapter3-detailed-2026-10-14.md](archive/chapter3-detailed-2026-10-14.md):
+  exact earlier Chapter 3 preserved at the author's request as a historical technical
+  reference. Active proposal now starts with the controlled-experiment methodology.
 
 - [proposal-outline.md](proposal-outline.md): detailed English outline mapped to the current
   form, with a focused literature-review plan; discussion draft, not the full proposal.
