@@ -78,14 +78,21 @@ question under applicable source-defined rules, beyond successful code execution
 
 Research objectives:
 
-1. Develop an observable, auditable MAST-informed diagnosis of the two failure groups.
+1. Develop an observable, auditable MAST-informed diagnosis of the two failure groups;
+   propose analytics-specific refinements/subtypes if recurring errors are insufficiently
+   distinguished, and assess coding consistency and diagnostic usefulness.
 2. Compare existing methods against that map and select one feasible repair per group.
 3. Implement the selected repairs in one fixed baseline with transparent adaptations.
 4. Estimate separate/joint effects on targeted failures and native task quality.
 5. Establish remaining failures, transfer limits, deployment/adaptation effort and
    cost-effectiveness at explicit quality and coverage levels.
 
-### Proposed research questions and hypotheses
+### Internal research questions and working expectations
+
+On 14 October the author requests that the proposal follow the form's objectives,
+main contents and key issues, without a formal hypotheses section. The questions and
+expectations below remain internal design aids, not required proposal fields or
+prerequisites for a positive result. Chapter 2 of the narrative follows that structure.
 
 - RQ1: which observable information-use and review failures recur in the
   chosen baseline, and which are addressed or left open by existing solutions?

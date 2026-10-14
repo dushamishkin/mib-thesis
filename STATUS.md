@@ -14,15 +14,21 @@ not newly supervisor-approved. No dispatch, submission, install or agent experim
 has occurred. Institutional milestones remain in ROADMAP.md and requirements/README.md.
 
 ## Delivered work and evidence
+- Shortened 1.3, defined MAS before use and replaced the selected taxonomy caveat with
+  an explicit possible contribution: evidence-backed analytics refinements/subtypes,
+  evaluated for coding consistency and diagnostic use. Rebuilt Chapter 2 as Research
+  objectives, Main contents and Key issues to be solved; removed formal RQ/H1–H3 blocks
+  there. Aligned the contribution statement and internal design. Preserved existing
+  author edits, including bold mechanism names and reduced disclaimers. DOCX unchanged.
 - Reworked Section 1 for a reader new to the subject: business meaning → evaluation
   difficulty → leaderboard-grounded source selection → concrete hierarchy rationale
   → MAST-led diagnosis → existing solutions and bounded significance. Preserved the
   author's local average-sales example and removal of benchmark-search commentary.
   Rechecked validated leaderboard: NVIDIA first, DataPilot second, DS-STAR fifth on
   hard accuracy. Added leaderboard reference and renumbered citations throughout.
-  Sections 2–6 changed only in citation numbering. DOCX unchanged.
+  At that earlier pass, Sections 2–6 changed only in citation numbering. DOCX unchanged.
 - Complete revised six-section English narrative: proposal/proposal-draft.md. Section 1
-  is approximately 1,600 words excluding references. Includes the two mechanisms,
+  is approximately 1,400 words excluding references. Includes the two mechanisms,
   worked example, hierarchy/engine path, strong ordinary/both-mechanism single agents,
   native versus diagnostic evaluation, interaction and lifecycle costs. Thirteen numbered
   references include the added leaderboard; primary checks retain selected-reading limits. DOCX unchanged.

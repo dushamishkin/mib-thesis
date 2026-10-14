@@ -1,5 +1,13 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-14 — Author requests shorter MAS rationale with the acronym defined first,
+  a possible contribution to MAST where its categories do not capture analytics failures
+  adequately, and a direct Chapter 2 following the form: objectives, main contents,
+  key issues. Remove formal hypotheses and RQ blocks from that chapter; internal
+  research questions/expectations remain design aids. Taxonomy refinement is conditional
+  on recurring trace evidence, definitions and useful/repeatable coding, not a promised
+  new universal taxonomy. Preserve author edits and leave DOCX unchanged.
+
 - 2026-10-14 — Author requests an accessible rewrite of proposal Section 1: move
   deployment portability to practical significance, bridge business correctness to
   evaluation, justify DataPilot/DS-STAR/NVIDIA selection with leaderboard standing,
