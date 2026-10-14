@@ -14,6 +14,12 @@ not newly supervisor-approved. No dispatch, submission, install or agent experim
 has occurred. Institutional milestones remain in ROADMAP.md and requirements/README.md.
 
 ## Delivered work and evidence
+- Rewrote Chapter 5 with concrete work and reviewable output for each stage: baseline,
+  both improvements, pilot, fixed evaluation, experiment, analysis and thesis completion.
+  Expected outcomes are connected prose explaining the implementation, comparative
+  findings, error examples and practical guidance. Preserved the author's removal of
+  the 11–15 October table row and removed its empty placeholder. Institutional dates
+  unchanged; midterm reports only work completed by submission. Other chapters/DOCX unchanged.
 - Rewrote Chapter 4 as connected prose with full explanation of mechanism evidence,
   possible MAST refinements and practical value; the author rejected the earlier
   over-shortened list. Standardised the two improvement names throughout the narrative

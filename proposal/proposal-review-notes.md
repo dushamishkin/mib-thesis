@@ -50,6 +50,14 @@ contributions in full, with simpler language. The narrative and current conditio
 labels consistently use evidence-checked experience reuse and source-grounded
 counterexample review. Methods, scope, archived technical text and DOCX remain unchanged.
 
+Chapter 5 now separates the research schedule from expected outcomes. Table cells
+state concrete activities and what should be ready afterwards; November distinguishes
+implementation from development calibration. December's midterm report records actual
+progress, not an assumed completed campaign. Expected outcomes explain the working
+system, comparisons, error analysis and recommendations in prose. The author's removed
+11–15 October table row stays removed; deadline information remains in the introduction.
+Institutional dates, other chapters, archived technical text and DOCX are unchanged.
+
 ## Historical record — earlier DOCX, superseded scientific design
 
 Prepared 10 October 2026. This accompanies the complete English

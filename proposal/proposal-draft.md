@@ -194,21 +194,30 @@ The practical contribution will be guidance on when the two improvements are wor
 
 # 5 Research schedule and expected outcomes
 
-The immediate objective is a supervisor-reviewed proposal for submission by 15 October 2026 and defense on 22 October. Next come author review of this narrative, revision, and only then insertion into the supplied template and visual inspection. Supervisor approval is required before submission; the institutional review cutoff before 20 October does not waive it. No response time or approval of this revision is assumed.
+## 5.1 Research schedule
+
+Proposal submission is due on 15 October 2026, with supervisor approval required beforehand; the proposal defense is scheduled for 22 October. The research will then proceed from building and testing the system to running the experiment, analysing the results and completing the thesis.
 
 | Period | Planned work | Expected output |
 |---|---|---|
-| 11–15 October 2026 | Review narrative, incorporate supervisor feedback, populate/check template and obtain approval before submission | Reviewed proposal and confirmed submission |
-| 16–22 October | Prepare defense explanation/slides; proposal defense | Defense feedback and agreed revisions |
-| Late October | Implement minimal hierarchy and offline access/replay/accounting checks; agree model and budget | Feasibility evidence and pilot-ready development package |
-| November | Diagnose traces, validate memory/fixtures, audit references, freeze controls and analysis | Frozen procedures and evaluation plan |
-| December | Run feasible experiments; midterm upload by 20 December | Run evidence and honest progress report |
-| January 2027 | Analyse quality, uncertainty, costs and failures; bounded justified follow-ups | Findings and boundary analysis |
-| February–March | Write/revise thesis and reproducibility materials | Supervisor-reviewed thesis draft |
-| 7–14 April | Final thesis/plagiarism-check submission after approval | Final submission and receipt |
-| Mid-to-late May | Final defense on institutionally confirmed date | Defense and revisions |
+| 16–22 October 2026 | Prepare slides explaining the research problem, the two improvements and the experiment. Present the proposal and record the feedback. | Defense slides and a clear list of revisions following the defense. |
+| Late October | Build the main agent and three subagents. Check that they can read the permitted sources, perform calculations and record their actions and costs. Select an affordable model and agree the spending limit. | A working baseline system, basic implementation checks and an agreed pilot budget. |
+| Early November | Implement evidence-checked experience reuse and source-grounded counterexample review. Prepare reusable procedures from development material and check the tasks and reference answers. | Both improvements implemented, a documented knowledge bank and checked development tasks. |
+| Late November | Run a small pilot to check that the procedures, generated tests and scoring work as intended. Fix implementation problems, then set the evaluation tasks, repeat counts and resource limits before the main experiment. | A tested experimental setup and a written plan specifying exactly what will be compared and measured. |
+| December | Run the four MAS versions and the single-agent controls on the same evaluation tasks. Save answers, review decisions, failures, time and cost. Submit the midterm report by 20 December, describing the work completed by that date. | Experiment records and the midterm report, including any work still outstanding. |
+| January 2027 | Compare answer quality and cost across versions. Examine which errors remain, whether the improvements help separately or together, and how the hierarchy compares with the single-agent controls. Conduct limited follow-up checks where needed to explain the findings. | Comparison tables, an analysis of errors and costs, and conclusions supported by the results and their uncertainty. |
+| February | Write the full thesis, explaining the literature, system, experiment, findings and limitations. | A complete thesis draft for supervisor review. |
+| March | Revise the thesis after feedback. Organise the code, task versions and instructions needed to repeat the experiment. | A revised thesis and an accompanying set of research materials. |
+| 7–14 April | Complete the required checks and submit the supervisor-approved thesis and plagiarism-check confirmation files. | Final submission and confirmation of receipt. |
+| Mid-to-late May | Prepare the final presentation and defend the thesis on the confirmed institutional date. | Thesis defense and any required final revisions. |
 
-Expected outputs are a documented baseline, frozen source/experience manifests, prompts/routes, audited references, evaluation scripts, trace/cost evidence and a thesis reporting benefits, harms and limits. Positive findings are not promised. Null effects are useful only with valid measurement and informative uncertainty; underpowered findings remain inconclusive. Optional datasets, models and comparators will be deferred before weakening the core design.
+## 5.2 Expected outcomes
+
+The study is expected to produce a working research implementation of the hierarchical MAS with evidence-checked experience reuse and source-grounded counterexample review. The implementation will be accompanied by the code, agent instructions, task versions and experiment settings needed to repeat the comparisons.
+
+The main research outcome will be a comparison showing how each improvement, and their combination, affects correct answers, wrong business interpretations, completion time and cost. Results from the single-agent controls will show whether the hierarchy offers an advantage over a simpler system with comparable capabilities. The findings may show benefits, no clear difference or additional errors and expense; the conclusions will reflect the measured results.
+
+The error analysis will provide examples of knowledge-use and review failures organised using MAST, with proposed refinements where existing categories are insufficient. Together with the quality and cost comparisons, this should support practical recommendations about when to use evidence-checked experience reuse, source-grounded counterexample review or both. The final thesis will explain these recommendations, the evidence behind them and the limits of applying them beyond the tested tasks.
 
 # 6 Prior experience and accomplished achievements
 
