@@ -159,7 +159,7 @@ New selected-method readings, not replications or code-execution audits:
   rule consumption at analytical checkpoints. Safety tasks do not establish analytics
   gains; automatically generated rules have coverage/rigidity errors. Final ICSE 2026
   metadata is also available in the author's proceedings PDF, DOI 10.1145/3744916.3764546.
-- **SQLDriller**, [SIGMOD 2025 paper](https://ipads.se.sjtu.edu.cn/zh/publications/SQLDriller.pdf),
+- **SQLDriller**, [SIGMOD 2025 paper](https://haoran-ding.github.io/assets/pdf/sqldriller.pdf),
   Sections 3–5 and [repository README](https://github.com/SJTU-IPADS/SQLDriller).
   Candidate queries are distinguished by small counterexample databases; SQL outputs
   are compared with LLM interpretation of the natural-language request on those data.

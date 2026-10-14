@@ -65,7 +65,7 @@ checks syntax or that our method is absent from every possible DS-STAR configura
 
 ### Semantic checks: nearest prior art
 
-- [SQLDriller](https://ipads.se.sjtu.edu.cn/zh/publications/SQLDriller.pdf), Sections
+- [SQLDriller](https://haoran-ding.github.io/assets/pdf/sqldriller.pdf), Sections
   3–5 and author repository: separates rival SQLs with small counterexample databases,
   comparing execution with an LLM's interpretation of the question. This is the main
   methodological precedent for our second candidate, not an invented testing technique.

@@ -1,5 +1,30 @@
 # Proposal review and document verification
 
+## SQLDriller link repair — 14 October
+
+Replaced the unavailable IPADS PDF URL with the working
+[coauthor-hosted PDF](https://haoran-ding.github.io/assets/pdf/sqldriller.pdf), reached
+from [Haoran Ding’s publications](https://haoran-ding.github.io/). PDF title, author list,
+28-page extent and DOI 10.1145/3725271 match reference [10]. This verifies the replacement
+link and identity, not a new full-paper reading. Markdown source and both active reading
+cards use the same URL. Generated BibTeX was not edited.
+
+The author saved and closed Word before the local edit. Only one hyperlink target in
+word/_rels/document.xml.rels changed; every other local package part is byte-identical
+to the saved author version. All 16 local rendered pages were inspected; pre-existing
+Word list numbering continues across some sections and is outside this link-only edit.
+The author’s local cover/reference/schedule and Word formatting changes are preserved
+and remain uncommitted; the publication includes only the hyperlink correction against
+the previously committed DOCX. Local Word content consequently differs from Markdown.
+
+Published link-only DOCX SHA-256: `92bd1c96fc98ac45d2ce374641fc50c20bf5117a78d63f0cb4de107f4bc5a4f3`.
+
+Local author-edited DOCX after link repair SHA-256: `08903b28b7685fe7ae283cdc526b4064b0f0afb254a390af223cdceefad9150e`.
+
+Current Markdown SHA-256: `0f05d983831ffc07e6227aeff25e8a6f2b132525bd1b9267cff55f829ad35ec0`.
+
+## Prior formatting verification — before the author’s subsequent Word edits
+
 Updated 14 October 2026. The author completed narrative review and authorised transfer
 into the supplied university template. The [Word draft](thesis-proposal-draft.docx)
 now matches the six substantive sections of [proposal-draft.md](proposal-draft.md).

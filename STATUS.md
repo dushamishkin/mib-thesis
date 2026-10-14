@@ -1,6 +1,17 @@
 # Current status
 Updated: 14 October 2026.
 
+## Latest bounded correction
+SQLDriller reference [10] now links to the verified coauthor-hosted PDF on
+haoran-ding.github.io/assets/pdf/sqldriller.pdf, in Markdown, reading cards and Word.
+The author saved/closed Word; only its hyperlink relationship was patched locally.
+All other author Word edits remain intact and uncommitted, including cover, reference,
+schedule and formatting changes. The published DOCX carries only the link correction
+against the previous commit. Do not overwrite the local author version from Git or
+regenerate it from Markdown. Review notes distinguish both hashes and prior QA scope.
+Local render still has 16 pages; Word list numbering crosses some sections, predating
+this link repair. No new scientific claims, Zotero edits or experiment calls.
+
 ## Authority and phase
 The author completed review of the revised six-section English narrative and authorised
 transfer into the current university Word template. Current scientific specifications:

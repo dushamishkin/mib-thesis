@@ -88,7 +88,7 @@ These version-specific references support the draft. Engineering descriptions ar
 
 [9] Ouyang, Siru, Jun Yan, I-Hung Hsu, Yanfei Chen, Ke Jiang, Zifeng Wang, Rujun Han, Long T. Le, Samira Daruki, Xiangru Tang, Vishy Tirumalashetty, George Lee, Mahsan Rofouei, Hangfei Lin, Jiawei Han, Chen-Yu Lee, and Tomas Pfister. 2025, revised 2026. “ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory.” arXiv:2509.25140v2. [Paper](https://arxiv.org/html/2509.25140v2).
 
-[10] Yang, Yicun, Zhaoguo Wang, Yu Xia, Zhuoran Wei, Haoran Ding, Ruzica Piskac, Haibo Chen, and Jinyang Li. 2025. “Automated Validating and Fixing of Text-to-SQL Translation with Execution Consistency.” Proceedings of the ACM on Management of Data 3(3), Article 134, 28 pages. DOI: 10.1145/3725271. [Author-hosted paper](https://ipads.se.sjtu.edu.cn/zh/publications/SQLDriller.pdf).
+[10] Yang, Yicun, Zhaoguo Wang, Yu Xia, Zhuoran Wei, Haoran Ding, Ruzica Piskac, Haibo Chen, and Jinyang Li. 2025. “Automated Validating and Fixing of Text-to-SQL Translation with Execution Consistency.” Proceedings of the ACM on Management of Data 3(3), Article 134, 28 pages. DOI: 10.1145/3725271. [Author-hosted paper](https://haoran-ding.github.io/assets/pdf/sqldriller.pdf).
 
 [11] Xu, Wenbo, Haifeng Zhu, Liang Yan, Chuanyi Liu, Peiyi Han, Shaoming Duan, and Jeff Z. Pan. 2025. “TS-SQL: Test-driven Self-refinement for Text-to-SQL.” Findings of the Association for Computational Linguistics: EMNLP 2025, 2864–2889. DOI: 10.18653/v1/2025.findings-emnlp.156. [Proceedings record](https://aclanthology.org/2025.findings-emnlp.156/).
 
