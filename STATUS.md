@@ -14,6 +14,10 @@ not newly supervisor-approved. No dispatch, submission, install or agent experim
 has occurred. Institutional milestones remain in ROADMAP.md and requirements/README.md.
 
 ## Delivered work and evidence
+- Simplified Chapter 4 into three direct contributions: evidence on the two mechanisms,
+  useful MAST refinements where needed, and quality/cost guidance. Removed repeated
+  methodological caveats while preserving existing-method attribution and conditional
+  claims. Other narrative chapters and DOCX unchanged in this edit.
 - Rewrote Chapter 3 to start with methodology: controlled 2 × 2 factorial experiment
   plus trace-based failure analysis. Reduced about 2,000 words to 980 while retaining
   both mechanisms, four MAS combinations, strong single-agent controls, native versus

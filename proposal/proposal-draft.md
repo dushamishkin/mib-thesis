@@ -184,11 +184,13 @@ A development pilot will establish workable task numbers, repetition counts, che
 
 # 4 Novelties of the proposed topic
 
-The proposed contribution is an incremental controlled study of two specific mechanisms in hierarchical business analytics. It seeks evidence on whether checking retrieved procedures against current sources and challenging interpretations with discriminating fixtures improve reliability separately and jointly. Equal experience, documents and strong controls support comparisons without supplying gold rules or attributing unequal preparation to architecture.
+The study aims to make three contributions:
 
-A second contribution sought is an analytics-specific refinement of MAST where recurring failures are insufficiently distinguished by existing categories. Proposed subtypes will have definitions and trace examples, and will be assessed for coding consistency and diagnostic usefulness. This classification will connect targeted mechanisms, failure evidence and final quality. Common-candidate tests distinguish reviewer improvement from better solver output. Native benchmark comparisons and separate diagnostics expose limits of transferring planted-error conclusions to ordinary tasks.
+1. **Evidence on two proposed improvements.** Test whether checking retrieved procedures against current documents and testing disputed business interpretations on small datasets reduce errors, separately and together. Compare the results with ordinary review and strong single-agent controls.
+2. **A more useful classification of analytics failures.** Apply MAST to knowledge-use and review errors. Where its categories need more detail, propose subtypes with clear definitions and examples, and test whether they help classify errors consistently.
+3. **Practical guidance on quality and cost.** Identify when the added procedures improve answers enough to justify their preparation and operating costs, and when simpler approaches are preferable.
 
-The practical contribution sought is guidance on preparation, reuse and checking effort at explicit quality and cost levels, including comparison with strong single agents. No universal memory protocol, formal guarantee, first analytics MAS benchmark or guaranteed improvement is claimed. Memory, semantic gates and counterexamples are existing methods [3,9,10–12]. The contribution rests on the controlled question, adaptation, measurement and useful boundaries, not relabelling components. Closest-work equivalence remains subject to targeted checks; equivalent prior evidence will require revising the contribution statement.
+The contribution is the evidence about these methods' benefits, costs and limits in business analytics. Memory reuse, rule checks and executable tests already exist [3,9,10–12]; the study does not claim to invent them.
 
 # 5 Research schedule and expected outcomes
 

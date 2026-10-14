@@ -44,6 +44,10 @@ technical reference; the simpler chapter does not remove the adopted controls or
 All other narrative sections and the DOCX are unchanged in this revision. No new
 source claims, reference imports, experiment runs or formatting checks are claimed.
 
+Chapter 4 was subsequently shortened into three plain-language contributions:
+mechanism evidence, useful classification refinements and quality/cost guidance.
+This changes presentation only; methods, scope and claims remain unchanged.
+
 ## Historical record — earlier DOCX, superseded scientific design
 
 Prepared 10 October 2026. This accompanies the complete English
