@@ -1,5 +1,15 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-23 — Author requests expanded visual Background explaining company tables,
+  structured/unstructured business context and concrete failure events before taxonomy.
+  Expand DABstep/MAST explanations, introduce FinHelm and testing/rule-gate precedents
+  in Literature Review before Methods, selectively emphasise the RQ and add a downward
+  comparison arrow beside the experiment table. Give cost-effectiveness a separate
+  business-focused slide, balance scientific contribution with practical use, and
+  list challenges without a two-column table. Remove all backup slides and replace
+  long speech/Q&A with short cues. A connected HTML knowledge brief follows only
+  after presentation review. This is a presentation revision, not a protocol change.
+
 - 2026-10-23 — Author approves presentation production from the revised outline,
   requesting that Background name only the concrete problems and mechanisms, with
   MAST introduced in Literature Review. Introduce DABstep there before the existing

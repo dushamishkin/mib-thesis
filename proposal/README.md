@@ -1,10 +1,10 @@
 # Proposal documents
 
-- [Defense package](defense/README.md): English PPTX, visual PDF fallback, timed speech
-  and likely committee questions, prepared 23 October.
+- [Defense package](defense/README.md): English PPTX, visual PDF fallback and short presenter cues
+  without backup slides or Q&A, prepared 23 October.
 
-- [defense-outline.md](defense-outline.md): proposed 13-slide, ten-minute defense
-  narrative and backup questions, based on the completed author proposal and supplied tips.
+- [defense-outline.md](defense-outline.md): current 16-slide, ten-minute defense
+  narrative and visual explanation plan, based on the completed author proposal and supplied tips.
 
 - [proposal-draft.md](proposal-draft.md): complete English narrative, reviewed by the
   author through 14 October; source for the current Word draft.

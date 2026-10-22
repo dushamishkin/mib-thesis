@@ -1,41 +1,40 @@
 # Current status
 Updated: 23 October 2026.
 
-## Defense package delivered
-The author approves slide production with MAST deferred to Literature Review and
-DABstep introduced before existing systems. The university-template section order
-and two mechanism names remain fixed. Personal defense date: 23 October.
-
-[Defense package](proposal/defense/README.md) contains the editable English PPTX
-(13 main slides and five hidden backups), a faithful 13-page visual fallback PDF,
-and the 1,076-word speech with 17 likely committee questions. Slide allocations total
-9:30 but have not been rehearsed by the author. [Outline](proposal/defense-outline.md)
-reflects the final narrative. Scientific design and proposal DOCX remain unchanged.
+## Defense presentation revised
+The author requests clearer organisational context, visual examples, literature
+introductions before methods, stronger business relevance and no backup slides.
+The [defense package](proposal/defense/README.md) now contains a 16-slide editable
+English PPTX, a matching 16-page PDF and short presenter cues without Q&A. The
+[outline](proposal/defense-outline.md) reflects the revised sequence. Planned slide
+allocations total 9:30; actual delivery still requires rehearsal. Personal defense
+date: 23 October. Scientific design and proposal DOCX remain unchanged by this task.
 
 ## Checks and boundaries
-All 18 slides rendered from final PPTX and individually visually inspected. Native
-text/tables/diagrams, notes, links, source template styling, table spacing and connector
-directions checked. Package/geometry/font/import checks pass; remaining heuristic
-warnings and the limits of native PowerPoint inspection are recorded in the package
-README. PDF page pixels, order and dimensions match the reviewed main slides exactly.
-The supplied template remains byte-identical to its original. No new literature audit,
-agent experiments, results, model/budget decision, Zotero change or sync claim.
+All 16 final exported slides were rendered and individually visually inspected.
+Package, layout, font and import checks passed; heuristic warnings and native
+PowerPoint review limits are recorded in the package README. PDF dimensions, order
+and embedded pixels match the reviewed slide images. The university template remains
+unchanged. This revision includes bounded DABstep/MAST explanatory-source checks,
+not a new leaderboard audit or full-paper review. No experiments or results, model/
+budget decision, Zotero edit or sync claim.
 
-The modified proposal/thesis-proposal-draft.docx and supplied untracked templates/tips
-remain untouched. Preserve unrelated Office lock files. Current author Word revisions
-must not be overwritten from Markdown or Git. Prior document QA is in
+The author-modified proposal/thesis-proposal-draft.docx and supplied untracked source
+files remain untouched. Preserve unrelated Office lock files if present. Do not
+regenerate the author's Word changes from Markdown or Git. Prior document QA is in
 proposal/proposal-review-notes.md. Citation reconciliation with Zotero remains an
 outstanding scholarly check. No submission, new supervisor approval, email dispatch
 or defense outcome is inferred.
 
-Starting branch codex/proposal-draft, commit a93e7b2ccae5ce23ac00c0ec614f6d4fd4c89666.
+Starting branch codex/proposal-draft, commit a16e3f479f91235b69abefb4a68826269f1d37ef.
 Repository and whitespace checks and publication state are verified at handoff.
 
 ## Next action
-Author reviews and rehearses the deck in the presenting application with the timed
-script, then practises answers about MAS value, novelty, test validity and costs.
-Capture actual committee questions, answers and required revisions after the defense.
-Do not start paid research runs without the agreed model and budget.
+Author reviews the revised slides and rehearses in the presenting application. Once
+the presentation is settled, prepare the requested HTML knowledge brief in connected
+explanations, without Q&A. The HTML brief has not been created in this revision.
+Capture actual committee feedback after the defense. Do not start paid research runs
+without an agreed model and budget.
 
 ## Research gates after defense
 Current science: proposal/research-design.md and literature/mechanism-selection.md.
