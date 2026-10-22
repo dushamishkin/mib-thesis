@@ -1,5 +1,14 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-23 — Author requests closer adherence to the defense-template section order.
+  Background first establishes business calculation correctness, briefly introduces
+  the two MAST-informed problems and names the mechanisms, then derives the research
+  question. Literature Review revisits the failures and analyses existing systems
+  through MAST. Research Plan & Method explains the hierarchy and mechanisms before
+  the controlled experiment. Keep expected results/innovation, challenges/limitations
+  and progress as explicit later sections. This changes presentation order, not the
+  scientific protocol. The 13-slide allocation and timing are assistant recommendations.
+
 - 2026-10-23 — At the start of defense preparation on 22 October, the author reports
   the proposal ready and the defense tomorrow (23 October), and requests an outline
   before slide production. Newly supplied professor tips list a 23 October session

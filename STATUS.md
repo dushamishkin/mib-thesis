@@ -7,11 +7,15 @@ an outline rather than a slide deck. Personal defense date: 23 October, based on
 author's report during preparation and the subsequently supplied professor tips.
 The original cohort notice gave 22 October; its source is preserved.
 
-[Defense outline](proposal/defense-outline.md) proposes 12 main slides and 9:30 speech
-within the professors' ten-minute limit, plus five backup topics. It covers the supplied
-starter's topics, uses one illustrative business-rule example, preserves the two
-mechanism names and keeps separate/joint MAS effects and strong single-agent controls.
-This is an assistant recommendation awaiting author review. No PPTX has been created.
+[Defense outline](proposal/defense-outline.md) now follows the author's requested
+university-template sequence. Background introduces business calculation correctness,
+the two MAST-informed failures and the two mechanisms briefly, followed by Research
+Question, a fuller Literature Review through MAST, Research Plan & Method, Expected
+Results/Innovation, Challenges/Limitations and Expected Research Progress.
+The revised recommendation has 13 main slides and 9:30 speech, plus five backup topics.
+Methods explain the hierarchy and mechanisms before the controlled experiment.
+The scientific design is unchanged. Exact slide copy/timing remain recommendations;
+no PPTX has been created. Local author documents and Office lock files remain untouched.
 
 ## Sources and checks
 Read the current author Word proposal in full, research design, mechanism packet,
@@ -27,13 +31,13 @@ current full text identity. Earlier document verification and hyperlink/marker-c
 scope are recorded in proposal/proposal-review-notes.md. No new DOCX visual QA claimed.
 
 Repository/whitespace checks and publication are verified at handoff. Starting branch:
-codex/proposal-draft; starting commit: 0985ec3985ffc966a15d71af8d3a7f3e929be0a8.
+codex/proposal-draft; starting commit: e5d81b935719751fe2fbe2678373d720719385a4.
 No new literature search, Zotero changes, paid calls, implementation or results.
 Earlier citation reconciliation with Zotero remains an outstanding scholarly check;
 no bibliography synchronization or submission verification is implied.
 
 ## Next action
-Review the defense outline with the author, then produce an English deck using the
+Confirm the revised slide-level outline, then produce an English deck using the
 supplied university template. Render and visually check it, prepare the timed speech
 and likely committee questions, and rehearse within ten minutes. No slide-count cap
 is imposed by the five-slide starter. Do not infer document submission or renewed

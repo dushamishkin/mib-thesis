@@ -2,10 +2,11 @@
 
 Prepared 23 October 2026. Discussion outline; no slide deck or experimental results yet.
 Author reports that the proposal is ready and requests the outline before slide production.
+Revised to follow the author's requested narrative and template section order on 23 October.
 
 ## Format and sources
 
-Plan: **12 main slides, 9 minutes 30 seconds of speech**, leaving 30 seconds within
+Plan: **13 main slides, 9 minutes 30 seconds of speech**, leaving 30 seconds within
 professors' ten-minute limit. Backup slides support questions and are outside the speech.
 The supplied five-slide [university starter](../requirements/proposal-defense-template.pptx)
 provides the visual template and required topics, rather than a five-slide maximum.
@@ -28,22 +29,39 @@ for this outline; no new performance, novelty or current leaderboard claims are 
 The deck should use short citations tied to the proposal bibliography, with full links
 in a backup references slide. Leaderboard figures, if added, must retain their audit date.
 
-## Narrative
+## Template sections and narrative order
 
-An executable calculation can answer the wrong business question. Existing systems
-combine prepared knowledge, computation and review, but their aggregate scores cannot
-isolate the value of each procedure. We study two distinct failures and test two
-specific changes within one reproducible hierarchy. Controlled comparisons establish
-whether either change helps, whether both help together, and whether the benefit
-justifies the effort compared with strong single-agent alternatives.
+The author requests the university template's section order explicitly. Use these
+section labels in the deck, without spending time on separate divider slides:
 
-Use one hypothetical sales example throughout. It is an explanation, not a benchmark
-result or a claim about the frequency of these errors. Do not start with a contents slide:
-the first substantive slide should make the problem understandable.
+| Template section | Main slides | Speech time |
+|---|---|---|
+| Background | 2–3 | 1:30 |
+| Research Question | 4 | 0:35 |
+| Literature Review | 5–6 | 1:30 |
+| Research Plan & Method | 7–10 | 3:20 |
+| Expected Results & Innovation Points | 11 | 0:45 |
+| Research Questions, Challenges & Limitations | 12 | 0:35 |
+| Expected Research Progress | 13 | 1:00 |
+
+The title slide adds 0:15. Total: **9:30**. Template labels use corrected English
+where needed while preserving their coverage and sequence. Open with business
+calculation correctness, then briefly introduce the two failure problems and name
+the proposed mechanisms. Derive the research question from this chain. Only then
+review existing systems through the failure framework and explain the methods in detail.
+
+Early introduction and later analysis serve different purposes. Slide 3 supplies
+intuition only. Slides 5–6 establish the literature basis and evidence boundaries.
+Slides 7–10 specify the planned architecture and experimental operations.
+Use one hypothetical sales example throughout. It is explanatory, not a benchmark
+result or a claim about error frequency. Begin substantive content after the title
+without an extra contents or divider slide.
 
 ## Main slides
 
 ### 1. Title — 0:15
+
+Template section: **Title**.
 
 **Improving Evidence Use and Semantic Verification in Multi-Agent Business Analytics:
 A Failure-Guided Controlled Study**
@@ -56,7 +74,9 @@ reliably, and whether additional checks are worth their cost.”
 
 Visual: university title layout. Preserve the full title; do not read it aloud word for word.
 
-### 2. The calculation runs. But does it answer the business question? — 0:55
+### 2. Business Calculation Correctness — 0:50
+
+Template section: **Background**.
 
 Show the question: “What is the average completed sales value per purchasing customer?”
 The source document defines the denominator as customers with at least one completed
@@ -76,58 +96,95 @@ Visual: three-row table, a short source excerpt, and the two calculations. Mark
 “Illustrative example — not an experimental result.” Explain population and denominator
 in ordinary language; do not introduce the whole failure taxonomy here.
 
-### 3. Existing systems provide the starting point — 0:45
+### 3. Two failure problems and the proposed improvements — 0:40
 
-Use three short rows:
+Template section: **Background**.
 
-- **DataPilot:** prepares reusable, versioned analytical assets and procedures.
-- **DS-STAR:** organises planning, computation and iterative review.
-- **NVIDIA's DABstep system:** demonstrates the strength of a prepared single agent at inference.
+Introduce MAST as the **Multi-Agent System Failure Taxonomy**, a framework for
+locating failures in an agent workflow. Introduce MAS as **multi-agent system**
+before using the abbreviation in the research question.
 
-They are relevant high-performing DABstep references in the project's dated audit.
-Their scores involve different models, tools and preparation; they do not show that
-more agents cause better results. ReasoningBank and SQLDriller provide the more
-specific memory and counterexample-testing precedents used later.
+Use two short rows, with no detailed codes or implementation steps yet:
 
-Visual: system / relevant mechanism / implication for our study. Keep rankings and
-long bibliographic details in backup. Do not claim a demonstrated defect in an
-unreproduced system from its technical description alone.
+| Problem | Proposed improvement to test |
+|---|---|
+| Available experience is applied under the wrong business conditions | Evidence-checked experience reuse |
+| Review approves an incorrect business interpretation | Source-grounded counterexample review |
 
-### 4. Two failure problems, not one — 0:45
+Explain each mechanism in one sentence. The first checks whether a retrieved
+procedure applies to the current question and sources. The second tests an interpretation
+using a small example whose expected behaviour follows the documents.
+In the sales example, the first targets reuse of the all-orders procedure and the
+second challenges approval of its answer. These are separate problems that can occur
+in the same trajectory. Their detailed MAST mapping comes in the literature review.
 
-Introduce **MAST: Multi-Agent System Failure Taxonomy**, covering system design,
-inter-agent misalignment and task verification. Then show the two study targets:
+Visual: the two rows with one sentence of explanation each. Transition: “These two
+failure points lead to the research question.” Do not present either remedy as effective yet.
 
-1. **Inappropriate use of evidence or experience.** An available rule can be lost,
-   ignored or applied outside its valid scope. The intervention focuses on the last:
-   admitting a retrieved procedure that contradicts the current definition.
-2. **Incorrect semantic verification.** A reviewer may omit a necessary business-rule
-   check or consider that rule and still approve the wrong interpretation.
+### 4. Research Question — 0:35
 
-In the sales example, reusing an all-orders procedure is the first problem; approving
-its answer after checking only arithmetic is the second. Incomplete and incorrect
-verification correspond to candidate MAST FM-3.2 and FM-3.3 labels. Experience misuse
-is not automatically an inter-agent failure; labels require observable traces.
+Template section: **Research Question**.
 
-Visual: two separate failure points along evidence → calculation → review. The wider
-problem map guides diagnosis; we do not promise to repair every failure.
+Main question: **How do evidence-checked experience reuse and source-grounded
+counterexample review, separately and together, affect the reliability and
+cost-effectiveness of a hierarchical MAS for business analytics?**
 
-### 5. Research objective and key questions — 0:40
+Spoken supporting questions preserve the current internal RQs: which failures recur
+in the baseline, how each mechanism changes its targeted failures and final-answer
+quality, and whether any joint gains justify the cost compared with strong single agents.
 
-Objective: **improve the reliability and cost-effectiveness of hierarchical multi-agent
-business analytics through two targeted, literature-grounded mechanisms.**
+Visual: main question in full, with a short objective underneath: establish which
+changes help, under which conditions, and at what cost. No formal hypotheses block.
+Transition: “To design that comparison, I first examined how existing systems handle
+knowledge reuse and review.”
 
-Present three accessible questions, grouping the internal RQs without changing them:
+### 5. Existing Analytics Systems — 0:45
 
-- Which evidence-use and review failures occur in the chosen baseline?
-- What are the separate and joint effects of the two improvements on these failures
-  and final-answer quality?
-- Do any gains justify additional cost, including comparison with strong single agents?
+Template section: **Literature Review**.
 
-Visual: three questions, no formal hypotheses block. Explain that a negative result
-is informative: extra memory checks, review or delegation may not be worthwhile.
+Compare DataPilot, DS-STAR and NVIDIA's DABstep system as high-performing references
+in the project's dated leaderboard audit. Explain why each is relevant to this study:
 
-### 6. One reproducible hierarchy, with a reason for each role — 0:40
+| Reference | Documented mechanism | Relevance to this study |
+|---|---|---|
+| DataPilot | Scoped, versioned analytical assets and reusable procedures | Starting point for experience applicability |
+| DS-STAR | Planning, computation, sufficiency review and refinement | Starting point for ordinary review |
+| NVIDIA | Prepared tools and examples with a single agent at inference | Strong alternative to runtime delegation |
+
+Use their technical accounts as design evidence. Their leaderboard scores involve
+different models, preparation and tools and do not isolate mechanism effects. Keep
+numbers and dated ranking details in backup. No claim of current rank is necessary.
+
+Visual: the three-row comparison. Transition: “MAST helps make the remaining failure
+questions more precise.”
+
+### 6. Literature Review through MAST — 0:45
+
+Template section: **Literature Review**.
+
+Now deepen the framework introduced in Background. MAST distinguishes system design,
+inter-agent misalignment and task verification. Review existing mechanisms through
+the two problem groups, keeping documented operations separate from our hypotheses:
+
+| Problem | Literature starting point | What our study will investigate |
+|---|---|---|
+| Experience applicability | DataPilot scopes/version-controls assets. ReasoningBank retrieves past experience. | Does an explicit current-source check reduce inappropriate reuse while retaining useful experience? |
+| Review coverage and judgement | DS-STAR reviews sufficiency. SQLDriller and TS-SQL use executable tests. QueryProof uses business-rule gates. | Does source-grounded counterexample review improve omission and false-acceptance outcomes? |
+
+Explain that omitted checks and wrong judgements on attempted checks are distinct,
+with candidate MAST FM-3.2 and FM-3.3 labels. Missing transfer or ignored received
+evidence can map to FM-2.4 or FM-2.5 when traces establish those events. Misapplication
+of experience has no automatic inter-agent code. Domain-specific refinements require
+recurring observable evidence.
+
+Present these as gaps to test within our reproducible adaptation. A missing detail
+in a paper does not demonstrate that its system fails. Executable testing and selective
+reuse already exist. The contribution concerns their specified adaptation and controlled
+effects in document-grounded analytics. Detail on codes and source versions stays in backup.
+
+### 7. Hierarchical Multi-Agent System — 0:35
+
+Template section: **Research Plan & Method**.
 
 Define **MAS: multi-agent system**. A main agent delegates to subagents with separate
 working contexts: an evidence worker, a computational analyst and a reviewer.
@@ -142,7 +199,9 @@ Implementation adapts one public engine, FinHelm, subject to development checks;
 it does not claim reproduction of DataPilot or DS-STAR leaderboard scores.
 All MAS conditions retain the same roles and ordinary source use and review.
 
-### 7. Evidence-checked experience reuse — 0:50
+### 8. Evidence-checked experience reuse — 0:45
+
+Template section: **Research Plan & Method**.
 
 A previous analytical procedure is useful only when its conditions still apply.
 The evidence worker retrieves a procedure and checks its assumptions against current
@@ -157,7 +216,9 @@ Visual: retrieved procedure → current-source applicability check → admit / w
 Use ReasoningBank and DataPilot as precedents, not as evidence that this exact
 intervention is novel. Mention the trade-off: rejecting useful experience can also harm quality.
 
-### 8. Source-grounded counterexample review — 1:00
+### 9. Source-grounded counterexample review — 0:50
+
+Template section: **Research Plan & Method**.
 
 The reviewer first reads the question and sources, then sees the candidate solution.
 It constructs a small executable example on which competing interpretations disagree,
@@ -173,10 +234,13 @@ without hidden gold. An invalid or inconclusive test is not a successful verific
 SQLDriller and TS-SQL motivate testing; QueryProof makes clear that rule gates already exist.
 The test generator and its judgement can still be wrong.
 
-### 9. How we isolate the effects — 1:05
+### 10. Controlled Experiment and Evaluation — 1:10
+
+Template section: **Research Plan & Method**.
 
 Name the methodology: **controlled 2 × 2 factorial experiment, supported by trace-based
-failure analysis**. Explain factorial simply: switch each improvement on and off.
+failure analysis**. Explain simply: switch each improvement on and off while keeping
+the hierarchy and ordinary source use and review in place.
 
 | Condition | Evidence-checked experience reuse | Source-grounded counterexample review |
 |---|---|---|
@@ -185,60 +249,82 @@ failure analysis**. Explain factorial simply: switch each improvement on and off
 | Source-grounded counterexample review | Off | On |
 | Both | On | On |
 
-The same tasks, model, source access, initial assets and aggregate resource caps make
-comparisons interpretable. Add strong single-agent controls with ordinary procedures
-and with both improvements, so architecture is not confused with better instructions.
+Use the same tasks, model, initial assets, tools/source access and aggregate resource
+caps. Include ordinary and both-mechanism single-agent controls to distinguish procedure
+effects from architecture effects. Compare separate and joint effects. A combined win
+alone is insufficient evidence of positive interaction.
 
-Visual: four-condition matrix plus single-agent comparison underneath. Separate,
-joint and interaction effects are different quantities; “Both wins” alone does not
-establish positive interaction. Statistical detail belongs in backup.
+Original DABstep tasks/native scoring measure end-to-end quality. Separate diagnostic
+cases measure inappropriate reuse. A common pool of correct and incorrect candidate
+solutions isolates reviewer false acceptance and false rejection from solver improvement.
+Report final correctness with answer coverage and failures, plus runtime spending,
+latency and preparation/adaptation effort. Secondary benchmark use remains gated by
+release/access and compatibility checks.
 
-### 10. What we will measure — 1:05
+Research sequence: diagnose the baseline, implement the mechanisms, pilot and freeze
+the protocol, run held-out comparisons, then analyse failures and costs. The final
+progress slide gives the calendar. Model/budget and sample sizes remain pilot decisions.
 
-Show two evaluation tracks:
+Visual: four-condition matrix with brief evaluation labels below. Full resource,
+leakage and statistical controls go in backup. Preserve readable text and avoid a
+dense methods slide containing every metric or parameter.
 
-- **End-to-end:** original DABstep tasks and native scoring for final-answer quality;
-  separate diagnostic cases expose rule changes and inappropriate experience reuse.
-- **Review-only:** give different reviewers the **same correct and incorrect candidate
-  solutions**, measuring whether checking improves independently of the solver.
+### 11. Expected Results and Innovation Points — 0:45
 
-Measure three groups: final correctness and answer coverage; inappropriate reuse and
-review false acceptance / false rejection; runtime cost, latency and preparation/adaptation
-hours. Report timeouts and failures. Compare cost per correct answer and quality under
-comparable budgets; do not treat lower answer coverage as improved reliability.
+Template section: **Expected Results & Innovation Points**.
 
-Visual: two lanes feeding a compact quality / failure / cost scorecard. DABstep is
-primary. Secondary benchmark use requires release and compatibility checks; do not
-promise every dataset or merge diagnostic results into the official benchmark score.
+Expected outputs are an auditable diagnosis of the two failure groups, a reproducible
+implementation, and evidence about separate/joint effects on final quality and targeted
+errors. The study will also show the cost and preparation effort associated with each
+condition. Recurring trace evidence may justify analytics-specific MAST refinements.
 
-### 11. Expected contribution and remaining risks — 0:45
+The scientific contribution is a failure-guided adaptation and controlled evaluation
+of existing mechanisms. It does not depend on claiming the invention of memory or
+executable checks. Practical significance is guidance on when investment in knowledge
+preparation, reuse and review is worthwhile for analytical teams.
 
-Expected outputs are an auditable diagnosis, a reproducible implementation and controlled
-evidence about which improvements help, when they fail, and what they cost. Recurring
-trace evidence may support analytics-specific refinements to MAST.
+Visual: concise output statements and the comparison that supports each one. Use
+“expected outputs”, not fabricated accuracy improvements. An unchanged or worse outcome
+can still establish when the added mechanism is unsuitable. Limitations come next.
 
-The contribution is a bounded adaptation and evaluation of existing ideas, not the
-invention of memory, executable checks or a universally superior MAS. Business relevance
-is guidance on investment in preparation, reuse and checking, rather than measured ROI.
+### 12. Research Questions, Challenges and Limitations — 0:35
 
-Visual: expected outputs beside two central risks: shared misinterpretation of sources
-and insufficient benefit for the extra cost. Broader deployment and transfer remain
-empirical limits. No experimental improvement has been demonstrated yet.
+Template section: **Research Questions, Challenges & Limitations**.
 
-### 12. Current progress and research plan — 0:45
+Focus on unresolved questions and feasibility rather than repeating the central RQ.
+A reviewer may generate an invalid test or share the analyst's wrong interpretation.
+The baseline may show too few relevant failures, and useful checks may add more cost
+than benefit. A fixed hierarchy and public benchmarks limit conclusions about other
+organisations, models and workflows.
+
+Explain the corresponding safeguards briefly: validate test expectations and case
+validity, check target-failure prevalence during development, report null/negative
+findings and total costs, and keep conclusions within the tested setting. Private
+bank data and production deployment are outside scope.
+
+Visual: three concise challenge/response rows. The explanation must make clear that
+separate agent contexts do not guarantee independent or correct judgement.
+
+### 13. Expected Research Progress — 1:00
+
+Template section: **Expected Research Progress**.
 
 **Prepared:** literature synthesis, two-problem diagnosis, mechanism selection,
-controlled-study design, public-source/task audit and proposal. These are preparation
-outputs, not implemented agent performance results.
+controlled-study design, public-source/task audit and proposal. Preparation outputs
+are distinct from future implementation and agent performance results.
 
-**Planned:** late October — minimal harness and budget agreement; November — implement
-and validate mechanisms, pilot, freeze protocol; December — main comparisons and midterm
-report; January — failure and cost analysis; February–April — thesis writing, revision
-and submission; May — final defense.
+| Period | Planned work | Reviewable output |
+|---|---|---|
+| Late October | Minimal harness, isolation/accounting checks and model/budget agreement | Feasible baseline and agreed pilot limits |
+| November | Implement mechanisms, validate diagnostics, pilot and freeze protocol | Frozen comparison and analysis plan |
+| December | Main comparisons and midterm report | Task-level results with costs and failures |
+| January | Failure coding, uncertainty and cost analysis | Findings and scoped practical recommendations |
+| February–April | Thesis writing, review, revision and submission | Complete thesis and reproducibility materials |
+| May | Final defense | Research presentation and defense |
 
-Visual: preparation/planned-work boundary and a compact timeline. End with the central
-question: “Which checks improve business correctness enough to justify their cost?”
-Do not spend a separate slide saying only “Thank you”.
+Visual: short timeline, with a clear boundary between completed preparation and
+planned work. Close by returning to the objective: establish which mechanisms
+improve business correctness enough to justify their cost. No separate thank-you slide.
 
 ## Backup slides for questions
 

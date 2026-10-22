@@ -1,6 +1,6 @@
 # Proposal documents
 
-- [defense-outline.md](defense-outline.md): proposed 12-slide, ten-minute defense
+- [defense-outline.md](defense-outline.md): proposed 13-slide, ten-minute defense
   narrative and backup questions, based on the completed author proposal and supplied tips.
 
 - [proposal-draft.md](proposal-draft.md): complete English narrative, reviewed by the
