@@ -1,5 +1,14 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-23 — At the start of defense preparation on 22 October, the author reports
+  the proposal ready and the defense tomorrow (23 October), and requests an outline
+  before slide production. Newly supplied professor tips list a 23 October session
+  and cap the presentation at ten minutes. Use that duration and personal date for
+  preparation; retain the earlier cohort notice as a historical source. The 12-slide
+  outline is an assistant recommendation awaiting author review, not an approved deck.
+  Preserve local author DOCX edits and the supplied source files. No submission,
+  renewed supervisor approval, experimental results or deck completion is inferred.
+
 - 2026-10-14 — Author approves the reviewed narrative for transfer into the current
   university Word template. Preserve the agreed scientific text and the author’s
   removal of the Chapter 5 deadline introduction. Author confirms Academic Master

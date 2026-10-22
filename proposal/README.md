@@ -1,5 +1,8 @@
 # Proposal documents
 
+- [defense-outline.md](defense-outline.md): proposed 12-slide, ten-minute defense
+  narrative and backup questions, based on the completed author proposal and supplied tips.
+
 - [proposal-draft.md](proposal-draft.md): complete English narrative, reviewed by the
   author through 14 October; source for the current Word draft.
 - [thesis-proposal-draft.docx](thesis-proposal-draft.docx): current university-template

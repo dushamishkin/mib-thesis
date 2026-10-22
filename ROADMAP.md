@@ -1,6 +1,11 @@
 # Roadmap — September 2026 to May 2027
 
-Updated 10 October 2026. The author confirms proposal submission on **15 October 2026**,
+Updated 23 October 2026. Personal defense date updated to **23 October 2026**,
+based on the author's report during defense preparation and the later professor tips.
+The earlier 22 October cohort date remains preserved in the original requirements.
+The historical preparation plan below does not certify completion or submission.
+
+As recorded on 10 October, the proposal submission deadline was **15 October 2026**,
 superseding the earlier end-October assumption. The author needs one supervisor review
 before submission. The schedule below is a proposed execution plan; supervisor response
 time is not confirmed. Institutional dates and requirements: [requirements](requirements/README.md).
@@ -12,8 +17,8 @@ time is not confirmed. Institutional dates and requirements: [requirements](requ
 | 12–13 October | Allow supervisor review; independently check citations, consistency and formatting | Requested feedback by 13 October; corrected submission candidate |
 | 14 October | Incorporate received feedback, resolve remaining issues and freeze files | Final checked document/PDF; obtain supervisor approval before submission |
 | 15 October | Submission deadline; verify receipt before the official cutoff | Supervisor-approved submission and confirmation retained |
-| 16–22 October | Prepare defense slides using the supplied template; supervisor review before 20 October; proposal defense on 22 October | Defense and feedback record |
-| 23–31 October | Construct and audit pilot tasks, then implement minimal harness; calibrate only with agreed model/budget | Verified pilot inputs and feasibility plan; experimental results remain future work |
+| 16–23 October | Prepare and rehearse defense slides using the supplied template; personal proposal defense on 23 October | Defense and feedback record |
+| 24–31 October | Construct and audit pilot tasks, then implement minimal harness; calibrate only with agreed model/budget | Verified pilot inputs and feasibility plan; experimental results remain future work |
 | November | Expand and audit task suite; complete controls and diagnostic checks; separate development/test cases | Frozen test suite and prespecified analysis plan |
 | December | Pilot/main experiments as feasible; methods writing; midterm report submission 14–20 December | Honest progress report; no in-person midterm defense |
 | January 2027 | Validate failure annotation; run only targeted robustness checks; finalize statistics | Tables, figures, documented null/positive findings and draft practitioner guidance |

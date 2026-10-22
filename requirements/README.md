@@ -62,7 +62,14 @@ Source: proposal form, Instructions and report fields.
 Slide 2 of the defense template suggests background, research question, literature,
 research plan/method, expected results/innovation, challenges/limitations and progress.
 Its sample name/date are placeholders; five supplied slides are not a stated slide limit.
-No presentation duration is specified in these files.
+The original files do not specify presentation duration. Subsequently supplied
+professor tips (`25 MIB Thesis defense tips(1).pdf`, in proposal/templates) specify
+**at most ten minutes**, approximately twenty minutes including questions, and
+a written record of committee comments and answers afterwards. Both pages were
+visually inspected during defense preparation. The tips list 22 and 23 October
+sessions; the author reports **23 October** as the personal defense date, superseding
+the earlier cohort date for personal preparation. Meeting access details are omitted
+from project records; the supplied local source is preserved unchanged.
 
 ## Final thesis formatting
 
@@ -95,5 +102,5 @@ in-person midterm defense. Confirm any remaining print requirement with Teaching
 ## Open administrative details
 
 Exact submission cutoff/timezone, file formats accepted by the system, signatures,
-physical copies/delivery, defense duration and personal/program fields remain to be
+personal session/delivery details and any remaining administrative fields remain to be
 confirmed. None prevents drafting. No approval, signature, upload or email is claimed.
