@@ -1,47 +1,41 @@
 # Current status
 Updated: 23 October 2026.
 
-## Active task and delivered outline
-The author reports the proposal ready and requests defense preparation, starting with
-an outline rather than a slide deck. Personal defense date: 23 October, based on the
-author's report during preparation and the subsequently supplied professor tips.
-The original cohort notice gave 22 October; its source is preserved.
+## Defense package delivered
+The author approves slide production with MAST deferred to Literature Review and
+DABstep introduced before existing systems. The university-template section order
+and two mechanism names remain fixed. Personal defense date: 23 October.
 
-[Defense outline](proposal/defense-outline.md) now follows the author's requested
-university-template sequence. Background introduces business calculation correctness,
-the two MAST-informed failures and the two mechanisms briefly, followed by Research
-Question, a fuller Literature Review through MAST, Research Plan & Method, Expected
-Results/Innovation, Challenges/Limitations and Expected Research Progress.
-The revised recommendation has 13 main slides and 9:30 speech, plus five backup topics.
-Methods explain the hierarchy and mechanisms before the controlled experiment.
-The scientific design is unchanged. Exact slide copy/timing remain recommendations;
-no PPTX has been created. Local author documents and Office lock files remain untouched.
+[Defense package](proposal/defense/README.md) contains the editable English PPTX
+(13 main slides and five hidden backups), a faithful 13-page visual fallback PDF,
+and the 1,076-word speech with 17 likely committee questions. Slide allocations total
+9:30 but have not been rehearsed by the author. [Outline](proposal/defense-outline.md)
+reflects the final narrative. Scientific design and proposal DOCX remain unchanged.
 
-## Sources and checks
-Read the current author Word proposal in full, research design, mechanism packet,
-project requirements and supplied presentation materials. Both pages of the new tips
-were rendered and visually inspected. The newly supplied PPTX is byte-identical to
-requirements/proposal-defense-template.pptx. The tips specify the duration, question
-period and post-defense comment record. Their meeting access details are not copied.
-Local supplied source files remain unchanged and untracked.
+## Checks and boundaries
+All 18 slides rendered from final PPTX and individually visually inspected. Native
+text/tables/diagrams, notes, links, source template styling, table spacing and connector
+directions checked. Package/geometry/font/import checks pass; remaining heuristic
+warnings and the limits of native PowerPoint inspection are recorded in the package
+README. PDF page pixels, order and dimensions match the reviewed main slides exactly.
+The supplied template remains byte-identical to its original. No new literature audit,
+agent experiments, results, model/budget decision, Zotero change or sync claim.
 
-The author's modified proposal/thesis-proposal-draft.docx remains untouched and
-uncommitted. It contains author revisions; do not regenerate it from Markdown or claim
-current full text identity. Earlier document verification and hyperlink/marker-cleanup
-scope are recorded in proposal/proposal-review-notes.md. No new DOCX visual QA claimed.
+The modified proposal/thesis-proposal-draft.docx and supplied untracked templates/tips
+remain untouched. Preserve unrelated Office lock files. Current author Word revisions
+must not be overwritten from Markdown or Git. Prior document QA is in
+proposal/proposal-review-notes.md. Citation reconciliation with Zotero remains an
+outstanding scholarly check. No submission, new supervisor approval, email dispatch
+or defense outcome is inferred.
 
-Repository/whitespace checks and publication are verified at handoff. Starting branch:
-codex/proposal-draft; starting commit: e5d81b935719751fe2fbe2678373d720719385a4.
-No new literature search, Zotero changes, paid calls, implementation or results.
-Earlier citation reconciliation with Zotero remains an outstanding scholarly check;
-no bibliography synchronization or submission verification is implied.
+Starting branch codex/proposal-draft, commit a93e7b2ccae5ce23ac00c0ec614f6d4fd4c89666.
+Repository and whitespace checks and publication state are verified at handoff.
 
 ## Next action
-Confirm the revised slide-level outline, then produce an English deck using the
-supplied university template. Render and visually check it, prepare the timed speech
-and likely committee questions, and rehearse within ten minutes. No slide-count cap
-is imposed by the five-slide starter. Do not infer document submission or renewed
-supervisor approval from the author's report that the proposal is ready.
+Author reviews and rehearses the deck in the presenting application with the timed
+script, then practises answers about MAS value, novelty, test validity and costs.
+Capture actual committee questions, answers and required revisions after the defense.
+Do not start paid research runs without the agreed model and budget.
 
 ## Research gates after defense
 Current science: proposal/research-design.md and literature/mechanism-selection.md.

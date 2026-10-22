@@ -1,8 +1,11 @@
 # Proposal defense — presentation outline
 
-Prepared 23 October 2026. Discussion outline; no slide deck or experimental results yet.
+Prepared 23 October 2026. Production outline for the [defense package](defense/README.md).
+No experimental results are available.
 Author reports that the proposal is ready and requests the outline before slide production.
-Revised to follow the author's requested narrative and template section order on 23 October.
+Author approves slide production on 23 October, with MAST deferred until Literature
+Review and DABstep introduced before the system comparison. The main speech has 13
+slides. Five additional slides support questions and are hidden during the slide show.
 
 ## Format and sources
 
@@ -47,11 +50,13 @@ section labels in the deck, without spending time on separate divider slides:
 The title slide adds 0:15. Total: **9:30**. Template labels use corrected English
 where needed while preserving their coverage and sequence. Open with business
 calculation correctness, then briefly introduce the two failure problems and name
-the proposed mechanisms. Derive the research question from this chain. Only then
+the proposed mechanisms, without introducing MAST in Background. Derive the research
+question from this chain. Only then
 review existing systems through the failure framework and explain the methods in detail.
 
 Early introduction and later analysis serve different purposes. Slide 3 supplies
-intuition only. Slides 5–6 establish the literature basis and evidence boundaries.
+intuition only. Slides 5–6 introduce DABstep and establish the literature basis, MAST
+and evidence boundaries.
 Slides 7–10 specify the planned architecture and experimental operations.
 Use one hypothetical sales example throughout. It is explanatory, not a benchmark
 result or a claim about error frequency. Begin substantive content after the title
@@ -100,9 +105,8 @@ in ordinary language; do not introduce the whole failure taxonomy here.
 
 Template section: **Background**.
 
-Introduce MAST as the **Multi-Agent System Failure Taxonomy**, a framework for
-locating failures in an agent workflow. Introduce MAS as **multi-agent system**
-before using the abbreviation in the research question.
+Describe the two concrete problems and the two proposed mechanisms only. Do not
+name or explain MAST here. Use “multi-agent system” in full in the research question.
 
 Use two short rows, with no detailed codes or implementation steps yet:
 
@@ -116,7 +120,8 @@ procedure applies to the current question and sources. The second tests an inter
 using a small example whose expected behaviour follows the documents.
 In the sales example, the first targets reuse of the all-orders procedure and the
 second challenges approval of its answer. These are separate problems that can occur
-in the same trajectory. Their detailed MAST mapping comes in the literature review.
+in the same trajectory. Their theoretical framing and MAST mapping come in the
+literature review.
 
 Visual: the two rows with one sentence of explanation each. Transition: “These two
 failure points lead to the research question.” Do not present either remedy as effective yet.
@@ -127,7 +132,7 @@ Template section: **Research Question**.
 
 Main question: **How do evidence-checked experience reuse and source-grounded
 counterexample review, separately and together, affect the reliability and
-cost-effectiveness of a hierarchical MAS for business analytics?**
+cost-effectiveness of a hierarchical multi-agent system for business analytics?**
 
 Spoken supporting questions preserve the current internal RQs: which failures recur
 in the baseline, how each mechanism changes its targeted failures and final-answer
@@ -138,11 +143,15 @@ changes help, under which conditions, and at what cost. No formal hypotheses blo
 Transition: “To design that comparison, I first examined how existing systems handle
 knowledge reuse and review.”
 
-### 5. Existing Analytics Systems — 0:45
+### 5. DABstep and Existing Analytics Systems — 0:45
 
 Template section: **Literature Review**.
 
-Compare DataPilot, DS-STAR and NVIDIA's DABstep system as high-performing references
+First introduce **DABstep**, a benchmark of multi-step data analysis using tables
+and supporting documents. Its business-rule interpretation requirements motivate
+its use as the primary end-to-end quality benchmark. Explain that the three systems
+share this evaluation setting; this does not mean all were built exclusively for it.
+Then compare DataPilot, DS-STAR and NVIDIA's DABstep system as high-performing references
 in the project's dated leaderboard audit. Explain why each is relevant to this study:
 
 | Reference | Documented mechanism | Relevance to this study |
@@ -162,7 +171,8 @@ questions more precise.”
 
 Template section: **Literature Review**.
 
-Now deepen the framework introduced in Background. MAST distinguishes system design,
+Introduce **MAST: Multi-Agent System Failure Taxonomy** here for the first time.
+It distinguishes system design,
 inter-agent misalignment and task verification. Review existing mechanisms through
 the two problem groups, keeping documented operations separate from our hypotheses:
 

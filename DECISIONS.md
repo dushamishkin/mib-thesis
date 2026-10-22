@@ -1,5 +1,12 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-23 — Author approves presentation production from the revised outline,
+  requesting that Background name only the concrete problems and mechanisms, with
+  MAST introduced in Literature Review. Introduce DABstep there before the existing
+  system comparison because it is their shared evaluation setting and our primary
+  benchmark. Preserve the adopted study, hierarchy, mechanism names and controls.
+  English slides, timed speech and defense preparation follow this narrative.
+
 - 2026-10-23 — Author requests closer adherence to the defense-template section order.
   Background first establishes business calculation correctness, briefly introduces
   the two MAST-informed problems and names the mechanisms, then derives the research
