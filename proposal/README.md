@@ -1,6 +1,6 @@
 # Proposal documents
 
-- [Defense package](defense/README.md): English PPTX, visual PDF fallback and short presenter cues
+- [Defense package](defense/README.md): English PPTX, native PowerPoint PDF and full presenter script
   without backup slides or Q&A, prepared 23 October.
 
 - [defense-outline.md](defense-outline.md): current 16-slide, ten-minute defense

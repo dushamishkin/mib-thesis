@@ -1,50 +1,46 @@
 # Proposal defense package
 
-Revised 23 October 2026 after author review of the first deck.
+Revised 23 October 2026 after author review of the presentation.
 
 - [Editable presentation](Mikhail_Dushkin_Proposal_Defense.pptx): 16 main slides,
-  no hidden or backup slides. Short presenter cues and sources are in speaker notes.
-- [Visual fallback PDF](Mikhail_Dushkin_Proposal_Defense.pdf): all 16 slides, using
-  reviewed images to preserve template typography across machines. PDF text is not
-  searchable; editable text, tables and diagrams remain in the PPTX.
-- [Presenter cues](defense-preparation.md): brief English prompts and allocations
-  totalling 9:30, not a verbatim script or measured rehearsal. No Q&A section.
+  no hidden or backup slides. Full English narration is embedded in presenter notes.
+- [Presentation PDF](Mikhail_Dushkin_Proposal_Defense.pdf): all 16 slides, exported
+  locally through PowerPoint's printing renderer. Contains searchable text.
+- [Presenter script](defense-preparation.md): derived from the embedded narration,
+  1,139 words with planned allocations totalling 9:30. Actual timing requires rehearsal.
+  No Q&A section. Source links are separated from spoken text in the notes.
 - [Production outline](../defense-outline.md): template mapping and content rationale.
 
-The revised Background moves from company tables and structured/unstructured context
-through an illustrative sales calculation to two distinct failures. Literature Review
-introduces DABstep, MAST, FinHelm and testing/rule-gate precedents before Methods.
-Cost-effectiveness has its own business-focused slide. Contribution and practical use
-share a slide, challenges are a single list, and all backups have been removed.
-The separate HTML knowledge brief is the next artifact after presentation review.
+Literature Review now starts with MAST, linking the practical failures to theory,
+then introduces DABstep and existing systems. The content slides use smaller section
+labels, consistent titles/body sizes, less bold, clearer spacing and editable diagrams.
+The separate HTML knowledge brief remains the next artifact after presentation review.
 
 ## Source and verification scope
 
-Uses the supplied university deck's original master/layout structure, cover image,
-logos, red/grey palette and Microsoft YaHei typography. Source template unchanged.
-The mechanism names, factorial conditions and single-agent controls follow the current
-research design. No new result, model choice or paid budget is implied.
+Retains the supplied university master/layout, cover, logos, palette and Microsoft
+YaHei font family. The source template is unchanged. Typography and content placement
+were revised at the author's request. Five native tables and editable diagrams remain.
+The research design, mechanism names and comparison controls are unchanged.
 
-All 16 slides were rendered from the final exported PPTX and individually inspected
-at 1600 × 900. Checked text fit, table spacing, connector direction, source labels,
-visibility and template match. Six native tables and editable diagrams remain.
-Package integrity, geometry, typography and import checks passed. Automated heuristics
-flagged possible table expansion on slides 7, 8 and 16; the final rendered slides show
-no corresponding overlap. The final revision has not received a complete native
-PowerPoint slide-show inspection. Check target-application rendering during rehearsal.
+The exact exported PPTX passed package, geometry, font and first-party import checks.
+One table-expansion heuristic warning remains on slide 16; PowerPoint's native output
+shows no corresponding overlap. The working copy was opened in native PowerPoint,
+with the MAST slide and restored full notes inspected there. All 16 pages of its native
+PDF export were rendered at 1600 × 900 and individually visually inspected for text
+fit, spacing, table layout, connector direction, sources and template match. Native
+rendering rather than a substituted-font office conversion supplies the delivered PDF.
+A complete live slide-show rehearsal has not been performed.
 
-The PDF avoids font substitutions observed in headless Office conversion. Each of its
-16 pages has the correct order and dimensions, and embedded pixels match the reviewed
-slide image exactly. Sample PDF pages were also rendered and visually inspected.
-It is a visual presentation fallback rather than a searchable text export.
-
-DABstep's dataset/scoring description and MAST's abstract were rechecked on 23 October.
-Other claims use the dated project literature audit; this is not a fresh leaderboard
-ranking or full-paper review. Relevant sources are clickable on slides and in notes.
-The author-modified DOCX and newly supplied source files were preserved. No submission,
-email dispatch or defense outcome is claimed.
+All 16 notes parts contain the full intended narration, checked against the script.
+Slide visibility and the MAST → DABstep → systems order were checked in the final file.
+PDF page count, dimensions and searchable text were checked. Source claims retain the
+existing dated literature checks; this revision adds no fresh ranking or full-paper
+review. No experiments, performance findings, model/budget choice or Zotero sync claimed.
+Author DOCX changes and supplied source files were preserved. No email, submission,
+new supervisor approval or defense outcome is inferred.
 
 ## Deliverable checksums
 
-- `Mikhail_Dushkin_Proposal_Defense.pptx`: `0b475fde7a9577838233a2053cb40c8c755430d109673b2a917645fd1dd75d15`
-- `Mikhail_Dushkin_Proposal_Defense.pdf`: `a12eca271f806982700620c331d477193075258a85be1573cee40ac01bfb6b22`
+- `Mikhail_Dushkin_Proposal_Defense.pptx`: `debfbc0bd3265efd30dfb83f5bafc445023ab10ed57ea76c694ef0b8816452d1`
+- `Mikhail_Dushkin_Proposal_Defense.pdf`: `0e3fecbae4464575cb05bfebc7c2658124039bc670058cf1a250752eb3f92a15`

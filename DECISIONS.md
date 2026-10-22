@@ -1,5 +1,12 @@
 # Decisions log (append-only, newest first)
 
+- 2026-10-23 — Author requests MAST first in Literature Review, followed by DABstep
+  and existing systems, to connect the practical problems and RQ to prior theory.
+  Author rejects the current visual organisation and requests clearer typography,
+  spacing and less bold. Restore full presenter notes for reading aloud; this
+  supersedes the earlier short-cue interpretation, while no Q&A or backups return.
+  Author confirms the presentation is closed before replacement. Study design is unchanged.
+
 - 2026-10-23 — Author requests expanded visual Background explaining company tables,
   structured/unstructured business context and concrete failure events before taxonomy.
   Expand DABstep/MAST explanations, introduce FinHelm and testing/rule-gate precedents

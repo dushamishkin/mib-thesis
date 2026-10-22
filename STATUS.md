@@ -2,39 +2,35 @@
 Updated: 23 October 2026.
 
 ## Defense presentation revised
-The author requests clearer organisational context, visual examples, literature
-introductions before methods, stronger business relevance and no backup slides.
-The [defense package](proposal/defense/README.md) now contains a 16-slide editable
-English PPTX, a matching 16-page PDF and short presenter cues without Q&A. The
-[outline](proposal/defense-outline.md) reflects the revised sequence. Planned slide
-allocations total 9:30; actual delivery still requires rehearsal. Personal defense
-date: 23 October. Scientific design and proposal DOCX remain unchanged by this task.
+The [defense package](proposal/defense/README.md) contains 16 English slides, a native
+PowerPoint PDF and the restored full presenter script (1,139 words; planned 9:30).
+Literature Review starts with MAST, then DABstep and existing systems. Content slides
+have a consistent type hierarchy and less bold. No backups or Q&A. The
+[outline](proposal/defense-outline.md) follows the revised order. Personal defense
+date: 23 October. Scientific design and author DOCX remain unchanged by this task.
 
 ## Checks and boundaries
-All 16 final exported slides were rendered and individually visually inspected.
-Package, layout, font and import checks passed; heuristic warnings and native
-PowerPoint review limits are recorded in the package README. PDF dimensions, order
-and embedded pixels match the reviewed slide images. The university template remains
-unchanged. This revision includes bounded DABstep/MAST explanatory-source checks,
-not a new leaderboard audit or full-paper review. No experiments or results, model/
-budget decision, Zotero edit or sync claim.
+Package, layout, font and import checks passed. The revised deck was opened in native
+PowerPoint and full notes were observed there. All 16 native PDF pages were rendered
+and individually visually inspected; notes text, visibility and slide order were also
+checked in the PPTX. Remaining heuristic and rehearsal limits are in the package README.
+Source template unchanged. No new literature review, results, experiments, model/budget
+choice or Zotero edit/sync claim. This is a presentation revision only.
 
 The author-modified proposal/thesis-proposal-draft.docx and supplied untracked source
 files remain untouched. Preserve unrelated Office lock files if present. Do not
-regenerate the author's Word changes from Markdown or Git. Prior document QA is in
-proposal/proposal-review-notes.md. Citation reconciliation with Zotero remains an
-outstanding scholarly check. No submission, new supervisor approval, email dispatch
-or defense outcome is inferred.
+regenerate the author's Word changes from Markdown or Git. Citation reconciliation
+with Zotero remains an outstanding scholarly check. No submission, renewed supervisor
+approval, email dispatch or defense outcome is inferred.
 
-Starting branch codex/proposal-draft, commit a16e3f479f91235b69abefb4a68826269f1d37ef.
+Starting branch codex/proposal-draft, commit 015051b65f395d8d352184298a540d7a3cf15df3.
 Repository and whitespace checks and publication state are verified at handoff.
 
 ## Next action
-Author reviews the revised slides and rehearses in the presenting application. Once
-the presentation is settled, prepare the requested HTML knowledge brief in connected
-explanations, without Q&A. The HTML brief has not been created in this revision.
-Capture actual committee feedback after the defense. Do not start paid research runs
-without an agreed model and budget.
+Author rehearses aloud with the slides and full presenter notes in the presenting
+application. After presentation review, prepare the requested HTML knowledge brief
+as connected explanations, without Q&A. That brief is not yet created. Record actual
+committee feedback after the defense. No paid runs without an agreed model and budget.
 
 ## Research gates after defense
 Current science: proposal/research-design.md and literature/mechanism-selection.md.

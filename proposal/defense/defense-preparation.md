@@ -1,89 +1,73 @@
-# Proposal defense: presenter cues
+# Proposal defense: presenter script
 
-Updated 23 October 2026. Short cues exported from the 16-slide deck. They replace the earlier full speech and Q&A. There are no backup slides. The author requests a separate HTML knowledge brief after the presentation is settled; that brief is not created here.
+Updated 23 October 2026. Derived from the full English notes embedded in the 16-slide deck. This replaces the short cues; it contains no Q&A. Source links are in the relevant slide notes.
 
-The time allocation totals 9:30. These are prompts for explanation, not a verbatim script or a measured rehearsal.
+Planned allocation: 9:30. The script has 1139 words; actual duration requires rehearsal.
 
 ## Slide 1. Title (0:00–0:10)
 
-- Introduce the study: reliable business analytics and the value of extra checking.
+Good morning. My research examines how analytical agents use business knowledge, and whether additional checks improve reliability enough to justify their cost.
 
 ## Slide 2. Company data and business context (0:10–0:45)
 
-- Tables describe records. Business context explains how those records count toward a business measure.
-- Context may be structured or scattered across documents. The study uses public documents, not live corporate integrations.
+Imagine a company asking an agent for its May sales. The company has tables containing orders, amounts, dates and statuses. It also has business context: some is structured, such as metric definitions and data dictionaries; some is scattered across documents, emails and analyst notes. The agent must connect these sources before calculating. Our research studies this problem with public tables and documentation. Let me show why the context changes the answer.
 
-## Slide 3. Business calculation correctness (0:45–1:25)
+## Slide 3. Business rules change the calculation (0:45–1:25)
 
-- Explain the rule first. All three orders were placed in May, but one was cancelled and one completed in June.
-- The May figure is 100 under this company definition. Status and the meaning of the date column determine the result.
+This company counts completed orders in the month of completion. All three orders were placed in May and sum to 230. Excluding the cancelled order gives 150. However, the last order completed in June, so only 100 belongs to May under the documented rule. All three programs could run successfully. Choosing the right status filter and the right date column requires business knowledge. These numbers are an illustration, not an experimental result.
 
-## Slide 4. Two failures in context (1:25–2:00)
+## Slide 4. Two ways the wrong answer survives (1:25–2:00)
 
-- Failure one is inappropriate experience reuse. Failure two is approval of a wrong business interpretation.
-- Name the two mechanisms briefly. Their detailed operations follow after the literature review.
+Two separate failures can preserve that wrong answer. First, the analyst retrieves an old procedure and applies it although the current rules differ. Evidence-checked experience reuse would check that applicability before reuse. Second, the reviewer may confirm that the code runs and the sum is correct, while overlooking the business definition. Source-grounded counterexample review would challenge the interpretation with a small test. Whether these changes help is the question we will study.
 
-## Slide 5. Research question (2:00–2:25)
+## Slide 5. Reliability and cost-effectiveness (2:00–2:25)
 
-- Stress reliability, cost-effectiveness and separate/joint effects.
-- The study tests both mechanisms and whether the hierarchy adds value beyond equivalent single-agent procedures.
+The main question is how these two mechanisms, separately and together, affect reliability and cost-effectiveness in a hierarchical multi-agent system. We will measure both the targeted failures and final-answer quality. Strong single-agent controls will test whether the hierarchy adds value beyond the procedures themselves. To make the two failure problems precise, I first turn to MAST.
 
-## Slide 6. DABstep (2:25–3:05)
+## Slide 6. MAST: a framework for describing failures (2:25–3:05)
 
-- Explain the benchmark as a common exam for analytical agents, with automatically scored final answers.
-- It tests calculations that depend on documentation. Current validation is closed, so scorer access must be confirmed before our campaign.
+MAST is a taxonomy developed from observed multi-agent failures. It groups fourteen failure modes into system design, inter-agent misalignment and task verification. This gives our practical problems a research vocabulary. A finding not passed on and received evidence ignored have distinct codes. Misapplied experience has no automatic inter-agent label. For review, MAST distinguishes a missing required check from an incorrect judgement on a check that was attempted. We will code observable traces; the experiment, rather than a taxonomy label, tests the repair.
 
-## Slide 7. System references and FinHelm (3:05–3:40)
+## Slide 7. DABstep: a common test for analytical agents (3:05–3:45)
 
-- DataPilot, DS-STAR and NVIDIA motivate the comparison. Published scores differ in preparation and resources.
-- FinHelm supplies the public engine to adapt. Its hierarchy and verification still require development validation.
+DABstep provides a common test for data-analysis agents, with public materials and a leaderboard hosted on Hugging Face. Agents work through payment tables and documentation to answer multi-step questions, such as finding applicable fee rules and calculating merchant fees. The evaluation split contains 450 questions. Final answers are scored for accuracy, allowing systems to be compared. We will use native task scoring for final quality and separate diagnostics for our two mechanisms. Scorer access must be confirmed before the campaign.
 
-## Slide 8. MAST and prior approaches (3:40–4:20)
+## Slide 8. Existing systems and mechanisms (3:45–4:20)
 
-- MAST is a literature-based vocabulary for where workflows fail. Explain missing checks versus wrong review judgements.
-- SQLDriller and TS-SQL motivate executable tests. QueryProof already uses business-rule gates. Our contribution is their adaptation and controlled evaluation.
+The leading DABstep systems provide different starting points. DataPilot prepares scoped analytical assets and procedures. DS-STAR combines planning, computation and review. NVIDIA shows how effective a prepared single agent can be. Their published scores use different models and resources, so they do not isolate architecture effects. We plan to adapt the public FinHelm engine. SQLDriller and TS-SQL motivate executable tests, while QueryProof already uses business-rule gates. Our contribution concerns a specific adaptation and controlled evaluation, not inventing testing or memory.
 
-## Slide 9. Hierarchical multi-agent system (4:20–4:50)
+## Slide 9. A fixed hierarchy adapted from FinHelm (4:20–4:50)
 
-- A main agent delegates to child agents with distinct contexts. Tool calls alone do not establish multi-agent interaction.
-- We test these context boundaries rather than assume they are better than a single agent.
+Our multi-agent system has a main coordinator and three subagents: an evidence worker, a computational analyst and a reviewer. They have separate working contexts and transfer observable results. The same roles remain in all four multi-agent conditions. FinHelm provides the engine to adapt, subject to development checks. The hierarchy offers explicit boundaries for experience admission and source-first review; its advantage over one agent remains an empirical question.
 
 ## Slide 10. Evidence-checked experience reuse (4:50–5:25)
 
-- Walk through retrieval, source check and admission. The example procedure conflicts with the current date rule.
-- The baseline already has ordinary retrieval and source access. Blocking useful experience is a possible cost.
+The first mechanism checks a retrieved procedure before it enters the analyst’s context. The evidence worker compares its applicability conditions with current documents. Supported experience is admitted; conflicting or unresolved experience is withheld. In the example, an order-date procedure conflicts with the completion-date rule, so analysis continues from current sources instead. We must measure both fewer inappropriate reuses and retention of useful experience. Rejecting everything would not demonstrate success.
 
 ## Slide 11. Source-grounded counterexample review (5:25–6:05)
 
-- Use one cross-month order to distinguish the two date interpretations. The documented rule supplies the expectation.
-- The reviewer generates tests without evaluator answers. Invalid tests and wrong expectations remain possible.
+The reviewer first reads the question and sources, then examines the candidate solution. It creates a small case that separates plausible interpretations. Consider one order placed in May but completed in June. An order-date calculation includes fifty in May; the documented completion-date rule requires zero. The reviewer executes the candidate on this case and judges its behaviour. The documents supply the expectation, not a hidden evaluator answer. Test validity and expected answers can still be wrong, so those also require evaluation.
 
-## Slide 12. Controlled experiment (6:05–7:00)
+## Slide 12. Controlled experiment and evaluation (6:05–7:00)
 
-- Name the methodology: controlled 2 × 2 factorial experiment with trace analysis. The arrow indicates the comparison from baseline through individual conditions to Both.
-- These are experimental conditions, not stages that guarantee increasing accuracy. Equalise information and resources and retain strong single-agent controls.
-- Reviewers assess identical correct and incorrect candidates. Report correctness with coverage, false acceptance and false rejection. A combined win does not by itself establish interaction.
+The methodology is a controlled two-by-two factorial experiment with trace-based failure analysis. We compare the baseline, each mechanism separately, and both together. The arrow shows the comparison order, not guaranteed improvement. Tasks, model, source access, initial assets and aggregate resource caps remain comparable. Ordinary and both-mechanism single-agent controls separate procedure effects from architecture effects. DABstep measures final answers. Reviewers also receive the same correct and incorrect candidate solutions, so better solving cannot be mistaken for better checking. We will report false acceptance, false rejection, coverage, failures and uncertainty. A combined win alone does not establish interaction.
 
 ## Slide 13. Research contribution and practical use (7:00–7:35)
 
-- The contribution is a careful adaptation and controlled evidence, not invention of memory or testing.
-- The practical purpose is a better system-design decision for an analytical team, including when simpler is sufficient.
+The research contribution is a reproducible diagnosis and controlled evidence about the two mechanisms, including cases where they fail to help. Recurring trace evidence may justify refinements to MAST. The practical output is guidance for analytics teams: which checks to enable, when preparing knowledge is worthwhile, and when a simpler single agent is sufficient. These are expected outputs. No accuracy improvement has yet been demonstrated.
 
-## Slide 14. Cost-effectiveness and business relevance (7:35–8:25)
+## Slide 14. Cost-effectiveness and business decisions (7:35–8:25)
 
-- Separate operating spending from preparation hours. Count failed runs and report cost per correct answer alongside coverage.
-- Compare equal-budget quality and comparable-quality cost. Amortisation requires explicit query volume and hourly-rate assumptions. These are evaluation outputs, not demonstrated ROI or productivity savings.
+This is also a business decision about investment in analytical automation. We separate operating spending from preparation and adaptation effort. Operating measures include model and tool cost, latency, failed runs and retries. Cost per correct answer is reported alongside coverage. Preparation includes the hours needed to organise knowledge and memory, and adapt the system to a task setting. We will compare quality at the same budget and cost at comparable quality. Amortising preparation over future queries requires explicit assumptions. Benchmark findings can guide design choices, but they cannot establish realised workplace productivity savings or return on investment.
 
-## Slide 15. Challenges and limitations (8:25–8:50)
+## Slide 15. What may limit the benefits? (8:25–8:50)
 
-- Explain correlated errors, fallible tests and the quality–cost trade-off.
-- Use development validation, honest negative findings and bounded conclusions. Public data only.
+The reviewer may share the analyst’s mistaken assumptions, or generate an invalid test. Filtering can also discard useful experience and add excessive cost. Too few relevant baseline failures would limit the study’s conclusions. Development validation and honest negative findings are therefore essential. One public benchmark and hierarchy cannot establish universal business deployment.
 
-## Slide 16. Research progress (8:50–9:30)
+## Slide 16. Prepared work and next steps (8:50–9:30)
 
-- Implementation and experimental findings remain future work. The schedule moves from validation to frozen comparisons, analysis and writing.
-- Preserve the core comparisons before optional transfer datasets. Close with practical guidance on reliable and affordable analytics.
+The proposal, literature synthesis, problem map and research design are prepared. Implementation and experiments remain future work. Late October covers the minimal harness and model and budget agreement. November covers implementation, validation, the pilot and protocol freeze. Main comparisons follow in December, with failure and cost analysis in January. February through April covers writing and submission, followed by the final defense in May. The study will establish which checks are worth using in business analytics. Thank you.
 
 ## Next preparation step
 
-Review the visuals, rehearse aloud with the slides and a timer, then prepare the agreed HTML brief as connected explanations rather than Q&A. Source URLs are in slide notes and clickable citation labels.
+Rehearse aloud with the slides and presenter notes. After presentation review, prepare the requested HTML knowledge brief as connected explanations, without Q&A.
