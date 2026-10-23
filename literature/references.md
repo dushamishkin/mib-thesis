@@ -6,6 +6,13 @@ first arXiv year, identifiers and observed versions; it did not verify all final
 All 29 project citation keys were preserved during the Zotero reconciliation.
 
 ## Ownership and synchronization
+23 October defense-brief follow-up: reopened MAST v3, DS-STAR v4, ReasoningBank v2,
+TS-SQL proceedings, QueryProof v1, DataPilot/NVIDIA author pages and DABstep dataset/
+scoring instructions for bounded explanatory checks. Direct access confirmed the
+author-hosted SQLDriller PDF and pinned FinHelm evaluation log after web-reader failures.
+No new full-paper reading, leaderboard rank audit, replication or Zotero change.
+The brief synthesises the existing mechanism packet rather than extending its claims.
+
 14 October editorial follow-up: the proposal adds a dated official DABstep leaderboard
 reference (thirteen numbered sources total) and renumbers citations in order of first
 appearance. Ranking metadata was read directly from the public app configuration;

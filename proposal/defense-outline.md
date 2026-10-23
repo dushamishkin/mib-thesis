@@ -184,5 +184,6 @@ Detailed reading scope and mechanism evidence remain in the
 The author rejects Q&A preparation as the main reading format. The
 [presenter script](defense/defense-preparation.md) contains the full English narration
 exported from slide notes.
-After the presentation is settled, prepare a separate HTML knowledge brief in connected
-explanations. Do not create that later artifact during this presentation revision.
+The [HTML knowledge brief](defense/defense-brief.html) is now delivered as connected
+explanations, with a separate tab containing the exact full speech from saved PowerPoint
+notes. It is a fixed preparation snapshot, not an automatically synchronised presentation.

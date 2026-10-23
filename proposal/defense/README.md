@@ -9,12 +9,19 @@ Revised 23 October 2026 after author review of the presentation.
 - [Presenter script](defense-preparation.md): derived from the embedded narration,
   1,139 words with planned allocations totalling 9:30. Actual timing requires rehearsal.
   No Q&A section. Source links are separated from spoken text in the notes.
+- [Defense knowledge brief](defense-brief.html): standalone offline HTML with a Russian
+  explanatory brief and a separate tab containing the exact full English speech
+  extracted from the saved PowerPoint. No Q&A.
 - [Production outline](../defense-outline.md): template mapping and content rationale.
 
 Literature Review now starts with MAST, linking the practical failures to theory,
 then introduces DABstep and existing systems. The content slides use smaller section
 labels, consistent titles/body sizes, less bold, clearer spacing and editable diagrams.
-The separate HTML knowledge brief remains the next artifact after presentation review.
+The HTML brief is now delivered. It covers rationale, failure classification, mechanisms,
+source summaries, benchmark access, controls, metrics, uncertainty, costs and limits.
+Browser checks covered tab/keyboard navigation, anchors, responsive widths 320–1440 px
+and exact equality of all 16 speech texts with the extracted PowerPoint notes. No
+external assets or network requests are needed to read the brief; sources open as links.
 
 ## Source and verification scope
 
@@ -40,7 +47,15 @@ review. No experiments, performance findings, model/budget choice or Zotero sync
 Author DOCX changes and supplied source files were preserved. No email, submission,
 new supervisor approval or defense outcome is inferred.
 
-## Deliverable checksums
+## Provenance and delivery checksums
+
+The slide/PDF production checks above describe the preceding task. The author has
+since modified the local PPTX; this HTML task preserves those changes and the modified
+DOCX. Speech was extracted from saved PPTX SHA-256
+`97a65f940151f6ddd7f46b3c05e6e551811ea277110c0533c5bd7a250c5f1380`;
+all speech text is unchanged from the preceding committed deck. The HTML captures a
+fixed snapshot and does not auto-update when the presentation changes. Checksums below
+identify the preceding presentation/PDF delivery, not the subsequent author-edited PPTX.
 
 - `Mikhail_Dushkin_Proposal_Defense.pptx`: `debfbc0bd3265efd30dfb83f5bafc445023ab10ed57ea76c694ef0b8816452d1`
 - `Mikhail_Dushkin_Proposal_Defense.pdf`: `0e3fecbae4464575cb05bfebc7c2658124039bc670058cf1a250752eb3f92a15`

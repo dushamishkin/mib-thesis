@@ -1,5 +1,8 @@
 # Proposal documents
 
+- [Defense brief](defense/defense-brief.html): offline preparation brief without Q&A,
+  with a separate full-speech tab copied from saved PowerPoint notes.
+
 - [Defense package](defense/README.md): English PPTX, native PowerPoint PDF and full presenter script
   without backup slides or Q&A, prepared 23 October.
 

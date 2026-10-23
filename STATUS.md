@@ -1,36 +1,40 @@
 # Current status
 Updated: 23 October 2026.
 
-## Defense presentation revised
-The [defense package](proposal/defense/README.md) contains 16 English slides, a native
-PowerPoint PDF and the restored full presenter script (1,139 words; planned 9:30).
-Literature Review starts with MAST, then DABstep and existing systems. Content slides
-have a consistent type hierarchy and less bold. No backups or Q&A. The
-[outline](proposal/defense-outline.md) follows the revised order. Personal defense
-date: 23 October. Scientific design and author DOCX remain unchanged by this task.
+## Defense knowledge brief delivered
+The [HTML brief](proposal/defense/defense-brief.html) contains connected Russian
+explanations of the study, with English terminology and a separate full-presentation
+speech tab. It covers the two problems and MAST, mechanisms, literature summaries and
+limits, DABstep/access, controls, metrics, interaction, uncertainty, business costs,
+novelty, implementation gates and plan. No Q&A. All 16 English speech texts (1,139 words)
+were extracted from saved PowerPoint notes and checked for exact equality in the HTML.
+The HTML works offline and is a fixed snapshot, not an automatic notes sync.
+
+The [defense package](proposal/defense/README.md) retains the 16-slide deck and native
+PDF from the prior task; planned speech allocation is 9:30, not a measured rehearsal.
+Personal defense date: 23 October. Scientific design is unchanged.
 
 ## Checks and boundaries
-Package, layout, font and import checks passed. The revised deck was opened in native
-PowerPoint and full notes were observed there. All 16 native PDF pages were rendered
-and individually visually inspected; notes text, visibility and slide order were also
-checked in the PPTX. Remaining heuristic and rehearsal limits are in the package README.
-Source template unchanged. No new literature review, results, experiments, model/budget
-choice or Zotero edit/sync claim. This is a presentation revision only.
+Browser checks passed for tabs, keyboard navigation, anchors, console errors, script
+identity and no horizontal page overflow at 320, 390, 768 and 1440 px. Desktop/mobile
+views were visually inspected. Bounded source-access checks are recorded in
+literature/references.md; no expanded full-paper review, current-rank audit, experiments,
+model/budget choice or Zotero change/sync claim. Repository and whitespace checks are
+verified at handoff.
 
-The author-modified proposal/thesis-proposal-draft.docx and supplied untracked source
-files remain untouched. Preserve unrelated Office lock files if present. Do not
-regenerate the author's Word changes from Markdown or Git. Citation reconciliation
-with Zotero remains an outstanding scholarly check. No submission, renewed supervisor
-approval, email dispatch or defense outcome is inferred.
+The author has local modifications to the PowerPoint and proposal DOCX; both remain
+untouched by this task, as do supplied untracked source files and any Office lock files.
+Do not regenerate either document from Markdown/Git. HTML speech matches the saved
+local PPTX at extraction; its 16 speech texts also match the preceding committed deck.
+Citation reconciliation with Zotero remains outstanding. No submission, renewed
+supervisor approval, email dispatch or defense outcome is inferred.
 
-Starting branch codex/proposal-draft, commit 015051b65f395d8d352184298a540d7a3cf15df3.
-Repository and whitespace checks and publication state are verified at handoff.
+Starting branch codex/proposal-draft, commit 67b4390308de444350e6a82ee3993a0105cf183e.
 
 ## Next action
-Author rehearses aloud with the slides and full presenter notes in the presenting
-application. After presentation review, prepare the requested HTML knowledge brief
-as connected explanations, without Q&A. That brief is not yet created. Record actual
-committee feedback after the defense. No paid runs without an agreed model and budget.
+Author reads the brief and rehearses with the presentation or backup speech tab.
+Capture committee feedback after the defense and incorporate approved research changes.
+Do not start paid runs without an agreed model and budget.
 
 ## Research gates after defense
 Current science: proposal/research-design.md and literature/mechanism-selection.md.
